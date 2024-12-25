@@ -57,17 +57,20 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#111111] text-gray-100">
-      <div className="container mx-auto px-4">
-        <div className="pt-16 pb-8">
-          <h1 className="text-4xl font-bold text-center mb-2">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="pt-12 md:pt-16 pb-6 md:pb-8">
+          <h1 className="text-2xl md:text-4xl font-bold text-center mb-3">
             UFC Fighter Rankings
           </h1>
-          <p className="text-gray-500 text-center mb-8">
-            Historical rankings based on fight performance
-          </p>
+          <div className="text-gray-500 text-center text-xs md:text-base mb-6">
+            <p>
+              join &quot;ufc rax group&quot; on real to give feedback - made by
+              @yangsl
+            </p>
+          </div>
 
-          <div className="flex justify-center mb-8">
-            <nav className="flex relative rounded-lg bg-[#2a2a2a] p-1 w-[400px]">
+          <div className="flex justify-center mb-6">
+            <nav className="flex relative rounded-lg bg-[#2a2a2a] p-1 w-full max-w-[400px]">
               <div
                 className="absolute transition-all duration-200 ease-in-out bg-[#404040] rounded-md"
                 style={{
@@ -116,25 +119,25 @@ export default function Home() {
           </div>
 
           {viewType === "rankings" && (
-            <div className="mb-8">
+            <div className="mb-6">
               <SearchBar onSearch={setSearchQuery} />
             </div>
           )}
         </div>
 
         {viewType === "rankings" ? (
-          <div className="bg-[#1a1a1a] rounded-lg shadow">
-            <div className="overflow-y-auto max-h-[calc(100vh-250px)]">
-              <table className="min-w-full lg:w-3/4 table-fixed">
+          <div className="bg-[#1a1a1a] rounded-lg shadow overflow-x-auto">
+            <div className="overflow-y-auto max-h-[calc(100vh-180px)]">
+              <table className="w-full">
                 <thead className="bg-[#111111] sticky top-0">
                   <tr>
-                    <th className="w-20 px-6 py-4 text-left text-sm font-bold text-gray-500 tracking-wider">
+                    <th className="w-12 md:w-20 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
                       Rank
                     </th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-gray-500 tracking-wider">
+                    <th className="px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
                       Fighter
                     </th>
-                    <th className="w-72 px-6 py-4 text-left text-sm font-bold text-gray-500 tracking-wider">
+                    <th className="w-24 md:w-72 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
                       Rax / Year
                     </th>
                   </tr>
@@ -148,25 +151,25 @@ export default function Home() {
 
                     return (
                       <tr key={fighter.name} className="hover:bg-[#222222]">
-                        <td className="w-20 px-6 py-5 whitespace-nowrap">
-                          <span className="text-xl font-bold text-gray-400">
+                        <td className="w-12 md:w-20 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
+                          <span className="text-sm md:text-xl font-bold text-gray-400">
                             {rankMap.get(fighter.name)}
                           </span>
                         </td>
-                        <td className="px-6 py-5 whitespace-nowrap text-xl text-gray-100">
+                        <td className="px-2 md:px-6 py-2 md:py-4 whitespace-nowrap text-sm md:text-xl text-gray-100">
                           <div className="flex items-center gap-2">
                             <span className="font-bold">{fighter.name}</span>
                             {fighter.active && (
-                              <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
+                              <span className="px-1.5 py-0.5 text-[10px] md:text-xs bg-green-900/30 text-green-400 rounded-full">
                                 Active
                               </span>
                             )}
                           </div>
                         </td>
-                        <td className="w-72 px-6 py-5 whitespace-nowrap">
-                          <div className="flex items-center gap-4">
+                        <td className="w-24 md:w-72 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
+                          <div className="flex items-center gap-1.5 md:gap-4">
                             <span
-                              className={`text-xl font-bold ${multiplierColor}`}
+                              className={`text-sm md:text-xl font-bold ${multiplierColor}`}
                             >
                               {Math.round(fighter.value * multiplier)}
                             </span>
@@ -178,7 +181,7 @@ export default function Home() {
                                   Number(e.target.value)
                                 )
                               }
-                              className="bg-[#2a2a2a] text-gray-300 rounded px-2 py-1 text-sm border border-gray-700 focus:outline-none focus:border-blue-500"
+                              className="bg-[#2a2a2a] text-gray-300 rounded px-1.5 py-0.5 text-[10px] md:text-sm border border-gray-700"
                             >
                               {multipliers.map((m) => (
                                 <option key={m.value} value={m.value}>
@@ -188,7 +191,7 @@ export default function Home() {
                             </select>
                             <button
                               onClick={() => setSelectedFighterModal(fighter)}
-                              className="text-gray-500 hover:text-gray-300 text-base font-medium"
+                              className="text-gray-500 hover:text-gray-300 text-[10px] md:text-sm font-medium hidden md:block"
                             >
                               Detail View
                             </button>
@@ -202,7 +205,7 @@ export default function Home() {
             </div>
           </div>
         ) : viewType === "compare" ? (
-          <div className="bg-[#1a1a1a] rounded-lg shadow p-6">
+          <div className="bg-transparent rounded-lg shadow">
             <FighterComparison
               fighters={sortedFighters}
               selectedFighter1={selectedFighter1}
@@ -214,7 +217,7 @@ export default function Home() {
             />
           </div>
         ) : (
-          <div className="bg-[#1a1a1a] rounded-lg shadow p-6">
+          <div className="bg-[#1a1a1a] rounded-lg shadow p-4 md:p-6">
             <Recommendations
               fighters={sortedFighters}
               multiplierMap={multiplierMap}

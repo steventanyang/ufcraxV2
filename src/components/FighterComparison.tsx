@@ -100,7 +100,7 @@ export default function FighterComparison({
     );
 
     return (
-      <div className="p-8">
+      <div className="p-4 md:p-8">
         <div className="relative mb-8">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
@@ -117,17 +117,19 @@ export default function FighterComparison({
           </div>
           <input
             type="text"
+            id={`fighter-search-${side}`}
+            name={`fighter-search-${side}`}
             placeholder="Search fighters..."
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
-            className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none"
+            className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none text-sm"
           />
           {searchValue && (
             <div className="absolute z-10 w-full mt-1 bg-[#2a2a2a] border border-gray-700 rounded-lg max-h-48 overflow-auto">
               {filteredFighters.map((f) => (
                 <button
                   key={f.name}
-                  className="w-full px-4 py-2 text-left hover:bg-[#333333] text-gray-100"
+                  className="w-full px-4 py-2 text-left hover:bg-[#333333] text-gray-100 text-sm"
                   onClick={() => {
                     if (side === "left") {
                       onSelectFighter1(f);
@@ -146,18 +148,18 @@ export default function FighterComparison({
 
         {fighter && (
           <>
-            <div className="mb-8">
+            <div className="mb-6">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-2xl font-bold">{fighter.name}</h3>
+                <h3 className="text-xl font-bold">{fighter.name}</h3>
                 {fighter.active && (
                   <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
                     Active
                   </span>
                 )}
               </div>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
                 <span
-                  className={`text-3xl font-bold ${
+                  className={`text-2xl font-bold ${
                     multipliers.find(
                       (m) => m.value === (multiplierMap[fighter.name] || 1.2)
                     )?.color || "text-blue-400"
@@ -183,7 +185,7 @@ export default function FighterComparison({
               </div>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-3">
               {getAdjustedMonthlyScores(
                 fighter,
                 multiplierMap[fighter.name] || 1.2
@@ -200,9 +202,7 @@ export default function FighterComparison({
                       key={mv.month}
                       className="flex justify-between items-center text-sm"
                     >
-                      <span className="text-gray-400 font-medium">
-                        {mv.month}
-                      </span>
+                      <span className="text-gray-400">{mv.month}</span>
                       <span className={`font-bold ${multiplierColor}`}>
                         {Math.round(mv.value)}
                       </span>
@@ -217,11 +217,11 @@ export default function FighterComparison({
   };
 
   return (
-    <div className="grid grid-cols-2 gap-8">
-      <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+      <div className="bg-[#1a1a1a] rounded-lg">
         {renderFighterStats(selectedFighter1, "left", search1, setSearch1)}
       </div>
-      <div>
+      <div className="bg-[#1a1a1a] rounded-lg">
         {renderFighterStats(selectedFighter2, "right", search2, setSearch2)}
       </div>
     </div>
