@@ -496,6 +496,26 @@ function TotalBreakdownModal({
   );
 }
 
+function OwnedPassesIndicator({ passes }: { passes: number }) {
+  const getOwnedPassesColor = (passes: number) => {
+    if (passes >= 1500) return "bg-red-700"; // Extreme ownership
+    if (passes >= 1000) return "bg-red-600"; // Very extreme ownership
+    if (passes >= 700) return "bg-red-500"; // Very high ownership
+    if (passes >= 500) return "bg-red-400"; // High ownership
+    if (passes >= 300) return "bg-yellow-400"; // Moderate-high ownership
+    if (passes >= 100) return "bg-yellow-300"; // Moderate ownership
+    if (passes >= 50) return "bg-lime-400"; // Low ownership
+    if (passes >= 10) return "bg-green-400"; // Very low ownership
+    return "bg-green-500"; // Minimal ownership
+  };
+
+  return (
+    <div
+      className={`w-2.5 h-2.5 rounded-full ${getOwnedPassesColor(passes)}`}
+    ></div>
+  );
+}
+
 export default function Recommendations({
   fighters,
   multiplierMap,
@@ -622,6 +642,7 @@ export default function Recommendations({
                 className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#2a2a2a] rounded-lg space-y-2 sm:space-y-0"
               >
                 <div className="flex items-center gap-2">
+                  <OwnedPassesIndicator passes={fighter.ownedPasses} />
                   <span className="font-medium">{fighter.name}</span>
                   {fighter.active && (
                     <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
@@ -734,6 +755,7 @@ export default function Recommendations({
                 className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#222222] rounded-lg space-y-2 sm:space-y-0"
               >
                 <div className="flex items-center gap-2">
+                  <OwnedPassesIndicator passes={fighter.ownedPasses} />
                   <span className="font-medium">{fighter.name}</span>
                   {fighter.active && (
                     <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">

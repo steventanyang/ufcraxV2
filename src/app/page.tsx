@@ -59,13 +59,15 @@ export default function Home() {
   };
 
   const getOwnedPassesColor = (passes: number) => {
-    if (passes >= 800) return "text-pink-400";
-    if (passes >= 600) return "text-yellow-400";
-    if (passes >= 400) return "text-purple-400";
-    if (passes >= 300) return "text-red-400";
-    if (passes >= 200) return "text-orange-400";
-    if (passes >= 100) return "text-green-400";
-    return "text-blue-400";
+    if (passes >= 1500) return "text-red-700"; // Extreme ownership
+    if (passes >= 1000) return "text-red-600"; // Very extreme ownership
+    if (passes >= 700) return "text-red-500"; // Very high ownership
+    if (passes >= 500) return "text-red-400"; // High ownership
+    if (passes >= 300) return "text-yellow-400"; // Moderate-high ownership
+    if (passes >= 100) return "text-yellow-300"; // Moderate ownership
+    if (passes >= 50) return "text-lime-400"; // Low ownership
+    if (passes >= 10) return "text-green-400"; // Very low ownership
+    return "text-green-500"; // Minimal ownership
   };
 
   return (
@@ -95,8 +97,7 @@ export default function Home() {
           </h1>
           <div className="text-gray-500 text-center text-xs md:text-base mb-6">
             <p>
-              join &quot;ufc rax group&quot; on real to give feedback - made by
-              @yangsl
+              join &quot;UFC Rax group&quot; for feedback / bug reports - made by @yangsl
             </p>
           </div>
 
