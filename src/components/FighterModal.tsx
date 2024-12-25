@@ -1,4 +1,5 @@
 import { Fighter } from "@/types/fighters";
+import { calculateDailyAdjustedValue } from "@/app/page";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -69,7 +70,8 @@ export default function FighterModal({
               <h2 className="text-xl font-bold">{fighter.name}</h2>
               <div className="flex items-center gap-4 mt-1">
                 <span className={`text-2xl font-bold ${multiplierColor}`}>
-                  {Math.round(fighter.value * multiplier)} RAX
+                  {Math.round(calculateDailyAdjustedValue(fighter, multiplier))}{" "}
+                  RAX
                 </span>
                 <select
                   value={multiplier}

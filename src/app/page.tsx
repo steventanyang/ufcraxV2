@@ -20,7 +20,7 @@ const multipliers = [
   { value: 6.0, color: "text-pink-400" },
 ];
 
-function calculateDailyAdjustedValue(
+export function calculateDailyAdjustedValue(
   fighter: Fighter,
   multiplier: number = 1.2
 ) {
