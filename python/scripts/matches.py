@@ -8,7 +8,7 @@ from collections import defaultdict
 # TODO: make this more efficient + cleaner
 
 # fights = pd.read_csv('ufc_fight_stat_data.csv')
-fights = pd.read_csv('../results/test.csv')
+fights = pd.read_csv('../results/all_fights.csv')
 fighters = pd.read_csv('../data/fighters.csv')
 result = {}
 lerror = []
@@ -17,7 +17,6 @@ id = 0
 
 # fights = fights.drop_duplicates(subset='fight_id', keep='first')
 # edge cases -> fighter has two fights on same day
-
 
 print(f"Loaded {len(fights)} fights from CSV")
 if len(fights) == 0:
@@ -206,7 +205,8 @@ def job(row_data):
                     "No Contest": 0,
                     "Losses": 0,
                     "StrikeBonus": 0,
-                    "5roundBonus": 0
+                    "5roundBonus": 0,
+                    "fight_history": []
                 }
 
                 if m == "KO/TKO":
@@ -256,7 +256,8 @@ def job(row_data):
                     "No Contest": 0,
                     "Losses": 0,
                     "StrikeBonus": 0,
-                    "5roundBonus": 0
+                    "5roundBonus": 0,
+                    "fight_history": []
                 }
 
                 if m != "No Contest" :
@@ -300,7 +301,8 @@ def job(row_data):
                     "No Contest": 0,
                     "Losses": 0,
                     "StrikeBonus": 0,
-                    "5roundBonus": 0
+                    "5roundBonus": 0,
+                    "fight_history": []
                 }
 
                 if m == "Decision - Unanimous":
@@ -344,7 +346,8 @@ def job(row_data):
                     "No Contest": 0,
                     "Losses": 0,
                     "StrikeBonus": 0,
-                    "5roundBonus": 0
+                    "5roundBonus": 0,
+                    "fight_history": []
                 }
 
                 if m == "Decision - Unanimous":
@@ -360,6 +363,67 @@ def job(row_data):
                 if bottom == striker :
                     result[bottom]["StrikeBonus"] += strike_diff
                 print("new")
+
+        # Add to fight history
+        if winner in result:
+            points = 0
+            if m == "KO/TKO":
+                points = 100
+                result[winner]["KO/TKO"] += points
+            elif m == "Submission":
+                points = 90
+                result[winner]["Submission"] += points
+            elif m == "Decision - Unanimous":
+                points = 80
+                result[winner]["Unanimous Decision"] += points
+            elif m == "Decision - Majority":
+                points = 75
+                result[winner]["Majority Decision"] += points
+            elif m == "Decision - Split":
+                points = 70
+                result[winner]["Split Decision"] += points
+            elif m == "No Contest":
+                points = 10
+                result[winner]["No Contest"] += points
+
+            # Add strike bonus
+            strike_bonus = strike_diff if winner == striker else 0
+            result[winner]["StrikeBonus"] += strike_bonus
+            
+            # Add 5 round bonus
+            round_bonus = 25 if final == '5' else 0
+            result[winner]["5roundBonus"] += round_bonus
+
+            # Store the fight details with date
+            result[winner]["fight_history"].append({
+                "date": formatted_date,
+                "opponent": loser,
+                "method": m,
+                "method_points": points,
+                "strike_bonus": strike_bonus,
+                "round_bonus": round_bonus,
+                "total_points": points + strike_bonus + round_bonus
+            })
+
+        if loser in result:
+            points = -10 if m != "No Contest" else 0
+            result[loser]["Losses"] += abs(points)
+            
+            strike_bonus = strike_diff if loser == striker else 0
+            result[loser]["StrikeBonus"] += strike_bonus
+            
+            round_bonus = 25 if final == '5' else 0
+            result[loser]["5roundBonus"] += round_bonus
+
+            result[loser]["fight_history"].append({
+                "date": formatted_date,
+                "opponent": winner,
+                "method": m,
+                "method_points": points,
+                "strike_bonus": strike_bonus,
+                "round_bonus": round_bonus,
+                "total_points": points + strike_bonus + round_bonus
+            })
 
     except requests.RequestException as e:
         print(f"Request error for {url}: {str(e)}")
@@ -381,9 +445,8 @@ with ThreadPoolExecutor(max_workers=2) as executor:
 print("Processing complete!")
 
 final_list = []
-for f , v in result.items() :
-    # print(v["Losses"])
-    final_list.append({        
+for f, v in result.items():
+    fighter_data = {
         "name": v["name"],
         "KO/TKO": v["KO/TKO"],
         "Submission": v["Submission"],
@@ -393,11 +456,32 @@ for f , v in result.items() :
         "No Contest": v["No Contest"],
         "Losses": v["Losses"],
         "StrikeBonus": v["StrikeBonus"],
-        "5roundBonus": v["5roundBonus"]
-    })
+        "5roundBonus": v["5roundBonus"],
+        "fight_history": v["fight_history"]
+    }
+    final_list.append(fighter_data)
 
+# Save to CSV with fight history
 df = pd.DataFrame(final_list)
-df.to_csv(f'new_final.csv', index=False)
+# Save the main stats
+df.drop('fight_history', axis=1).to_csv('results/new_final.csv', index=False)
+# Save the detailed fight history to a separate CSV
+fight_history_rows = []
+for fighter in final_list:
+    for fight in fighter['fight_history']:
+        fight_row = {
+            'fighter_name': fighter['name'],
+            'date': fight['date'],
+            'opponent': fight['opponent'],
+            'method': fight['method'],
+            'method_points': fight['method_points'],
+            'strike_bonus': fight['strike_bonus'],
+            'round_bonus': fight['round_bonus'],
+            'total_points': fight['total_points']
+        }
+        fight_history_rows.append(fight_row)
+
+pd.DataFrame(fight_history_rows).to_csv('results/fight_history.csv', index=False)
 
 #errors
 print("WL ERROR: " + str(len(wlerror)))
