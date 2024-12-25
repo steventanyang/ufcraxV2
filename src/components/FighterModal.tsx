@@ -3,10 +3,10 @@ import { Fighter } from "@/types/fighters";
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
   { value: 1.4, color: "text-green-400" },
-  { value: 1.6, color: "text-yellow-400" },
-  { value: 2.0, color: "text-orange-400" },
-  { value: 2.5, color: "text-red-400" },
-  { value: 4.0, color: "text-purple-400" },
+  { value: 1.6, color: "text-orange-400" },
+  { value: 2.0, color: "text-red-400" },
+  { value: 2.5, color: "text-purple-400" },
+  { value: 4.0, color: "text-yellow-400" },
   { value: 6.0, color: "text-pink-400" },
 ];
 

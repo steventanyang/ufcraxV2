@@ -12,10 +12,10 @@ import FighterModal from "@/components/FighterModal";
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
   { value: 1.4, color: "text-green-400" },
-  { value: 1.6, color: "text-yellow-400" },
-  { value: 2.0, color: "text-orange-400" },
-  { value: 2.5, color: "text-red-400" },
-  { value: 4.0, color: "text-purple-400" },
+  { value: 1.6, color: "text-orange-400" },
+  { value: 2.0, color: "text-red-400" },
+  { value: 2.5, color: "text-purple-400" },
+  { value: 4.0, color: "text-yellow-400" },
   { value: 6.0, color: "text-pink-400" },
 ];
 
@@ -53,6 +53,16 @@ export default function Home() {
       ...prev,
       [fighterName]: multiplier,
     }));
+  };
+
+  const getOwnedPassesColor = (passes: number) => {
+    if (passes >= 800) return "text-pink-400";
+    if (passes >= 600) return "text-yellow-400";
+    if (passes >= 400) return "text-purple-400";
+    if (passes >= 300) return "text-red-400";
+    if (passes >= 200) return "text-orange-400";
+    if (passes >= 100) return "text-green-400";
+    return "text-blue-400";
   };
 
   return (
@@ -93,7 +103,7 @@ export default function Home() {
                     : "text-gray-400 hover:text-gray-200"
                 }`}
               >
-                <span className="px-3">rankings</span>
+                <span className="px-3">Rankings</span>
               </button>
               <button
                 onClick={() => setViewType("compare")}
@@ -103,7 +113,7 @@ export default function Home() {
                     : "text-gray-400 hover:text-gray-200"
                 }`}
               >
-                <span className="px-3">compare</span>
+                <span className="px-3">Compare</span>
               </button>
               <button
                 onClick={() => setViewType("recommendations")}
@@ -113,7 +123,7 @@ export default function Home() {
                     : "text-gray-400 hover:text-gray-200"
                 }`}
               >
-                <span className="px-3">who to buy</span>
+                <span className="px-3">Who to Buy</span>
               </button>
             </nav>
           </div>
@@ -139,6 +149,9 @@ export default function Home() {
                     </th>
                     <th className="w-24 md:w-72 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
                       Rax / Year
+                    </th>
+                    <th className="w-24 md:w-32 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
+                      Owned Passes
                     </th>
                   </tr>
                 </thead>
@@ -195,6 +208,17 @@ export default function Home() {
                             >
                               Detail View
                             </button>
+                          </div>
+                        </td>
+                        <td className="w-24 md:w-32 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
+                          <div className="flex items-center gap-1.5 md:gap-4">
+                            <span
+                              className={`text-sm md:text-xl font-bold ${getOwnedPassesColor(
+                                fighter.ownedPasses
+                              )}`}
+                            >
+                              {fighter.ownedPasses}
+                            </span>
                           </div>
                         </td>
                       </tr>

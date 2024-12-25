@@ -20,6 +20,13 @@ export function processFighterData(
   const valueContent = readFileSync(valueFilePath, "utf-8");
   const historyContent = readFileSync(historyFilePath, "utf-8");
 
+  // Read the owned passes data
+  const ownedPassesContent = readFileSync(
+    "./public/data/fighters_values.json",
+    "utf-8"
+  );
+  const ownedPassesData = JSON.parse(ownedPassesContent);
+
   const valueData = parse(valueContent, {
     columns: true,
     skip_empty_lines: true,
@@ -41,7 +48,8 @@ export function processFighterData(
       name: row.name,
       value: parseInt(row.Value),
       scores: [],
-      active: false, // Will be updated when processing fight history
+      active: false,
+      ownedPasses: parseInt(ownedPassesData[row.name] || "0"),
     });
   });
 

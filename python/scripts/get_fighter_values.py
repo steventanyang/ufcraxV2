@@ -7,6 +7,7 @@ from tqdm import tqdm
 
 # gets card purchases for each fighter
 # last ran dec 25 2024
+# use mobile instead of desktop
 
 async def get_fighters_page(session, before):
     url = f'https://web.realsports.io/userpassshop/ufc/season/2023/entity/team/section/hotseason?before={before}'
@@ -27,12 +28,12 @@ async def get_fighters_page(session, before):
         'real-version': '21',
         'referer': 'https://www.realsports.io/',
         'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36'
     }
 
     ssl_context = ssl.create_default_context()
@@ -87,8 +88,8 @@ async def process_batch(session, start_before, batch_size=5):
     return combined_dict, should_continue
 
 async def main():
-    start_before = 20
-    max_before = 2300
+    start_before = 0
+    max_before = 1500
     batch_size = 5  # Number of concurrent requests
     all_fighters = {}
     
@@ -109,7 +110,7 @@ async def main():
                 await asyncio.sleep(0.5)  # Small delay between batches
     
     # Save fighters dictionary to JSON file
-    with open(f'../results/fighters_values.json', 'w') as f:
+    with open(f'../../public/data/fighters_values.json', 'w') as f:
         json.dump(all_fighters, f, indent=4, sort_keys=True)
     
     print(f"\nComplete! Saved {len(all_fighters)} fighters to 'fighters_values.json'")

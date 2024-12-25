@@ -9,10 +9,10 @@ type RecommendationsProps = {
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
   { value: 1.4, color: "text-green-400" },
-  { value: 1.6, color: "text-yellow-400" },
-  { value: 2.0, color: "text-orange-400" },
-  { value: 2.5, color: "text-red-400" },
-  { value: 4.0, color: "text-purple-400" },
+  { value: 1.6, color: "text-orange-400" },
+  { value: 2.0, color: "text-red-400" },
+  { value: 2.5, color: "text-purple-400" },
+  { value: 4.0, color: "text-yellow-400" },
   { value: 6.0, color: "text-pink-400" },
 ];
 
@@ -76,7 +76,7 @@ function calculateClaimConflicts(
   claimsByDate.forEach((claims, date) => {
     if (claims.length > 2) {
       const sortedClaims = claims.sort((a, b) => b.value - a.value);
-      const topTwoClaims = sortedClaims.slice(0, 2);
+      //   const topTwoClaims = sortedClaims.slice(0, 2);
       const lostClaims = sortedClaims.slice(2);
 
       conflicts.push({
@@ -207,27 +207,83 @@ function InfoModal({ onClose }: InfoModalProps) {
         </div>
         <div className="space-y-4 text-sm text-gray-300">
           <p>
-            Recommendations are calculated based on the base RAX value (1.2x
-            multiplier) of fighters not currently in your selection.
-          </p>
-          <p>
-            The system shows the top 5 fighters with the highest potential RAX
-            earnings, considering:
+            Recommendations are calculated using a value score that considers
+            multiple factors:
           </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li>Historical fight performance</li>
-            <li>Base multiplier (1.2x)</li>
-            <li>Available claim dates</li>
+            <li>Base RAX value (higher is better)</li>
+            <li>Number of owners (fewer owners = higher score)</li>
+            <li>Active status (20% bonus for active fighters)</li>
+            <li>
+              Ownership penalty is squared to heavily favor less-owned fighters
+            </li>
           </ul>
+          <div className="bg-[#2a2a2a] rounded-lg p-4 font-mono text-sm">
+            <pre className="whitespace-pre-wrap">
+              <code>
+                {`valueScore = (RAX / log₁₀(owners)²) × {
+  active ? 1.2 : 1
+}`}
+              </code>
+            </pre>
+          </div>
           <p>
-            Adding recommended fighters with higher multipliers can
-            significantly increase your total RAX earnings.
+            This scoring system helps identify undervalued fighters with high
+            RAX potential and low ownership, giving preference to active
+            fighters.
           </p>
         </div>
       </div>
     </div>
   );
 }
+
+const calculateValueScore = (fighter: Fighter, multiplier: number = 1.2) => {
+  const raxScore = fighter.value * multiplier;
+  const ownershipPenalty = Math.log10(fighter.ownedPasses + 1);
+
+  // More aggressive ownership penalty + active bonus
+  const valueScore =
+    (raxScore / Math.pow(ownershipPenalty, 2)) * (fighter.active ? 1.2 : 1);
+
+  return {
+    fighter,
+    valueScore: Math.round(valueScore),
+    raxPerYear: raxScore,
+    ownedPasses: fighter.ownedPasses,
+    multiplier,
+  };
+};
+
+const getTopRecommendations = (
+  fighters: Fighter[],
+  multiplierMap: Record<string, number>
+) => {
+  const scoredFighters = fighters.map((fighter) =>
+    calculateValueScore(fighter, multiplierMap[fighter.name] || 1.2)
+  );
+
+  // Sort by value score descending
+  return scoredFighters
+    .sort((a, b) => b.valueScore - a.valueScore)
+    .slice(0, 20); // Top 20 recommendations
+};
+
+const RefreshIcon = () => (
+  <svg
+    className="w-4 h-4"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+    />
+  </svg>
+);
 
 export default function Recommendations({
   fighters,
@@ -240,19 +296,24 @@ export default function Recommendations({
   const [searchQuery, setSearchQuery] = useState("");
   const [showConflicts, setShowConflicts] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
+  const [excludedFighters, setExcludedFighters] = useState<string[]>([]);
 
   const conflicts = calculateClaimConflicts(selectedFighters, multiplierMap);
 
-  // Calculate recommended fighters (fighters with highest RAX not in selected)
+  // Calculate recommended fighters with exclusions
   const recommendedFighters = fighters
-    .filter((f) => !selectedFighters.some((sf) => sf.name === f.name))
+    .filter(
+      (f) =>
+        !selectedFighters.some((sf) => sf.name === f.name) &&
+        !excludedFighters.includes(f.name)
+    )
     .map((fighter) => ({
       ...fighter,
       adjustedValue: calculateAdjustedValue(fighter, 1.2, conflicts)
         .adjustedValue,
     }))
     .sort((a, b) => b.adjustedValue - a.adjustedValue)
-    .slice(0, 5); // Show top 5 recommendations
+    .slice(0, 5);
 
   const filteredFighters = fighters.filter(
     (f) =>
@@ -278,6 +339,15 @@ export default function Recommendations({
 
   const handleRemoveFighter = (fighterName: string) => {
     setSelectedFighters(selectedFighters.filter((f) => f.name !== fighterName));
+  };
+
+  const handleRefreshRecommendation = (fighterName: string) => {
+    setExcludedFighters([...excludedFighters, fighterName]);
+  };
+
+  const handleRefreshAll = () => {
+    const currentRecommended = recommendedFighters.map((f) => f.name);
+    setExcludedFighters([...excludedFighters, ...currentRecommended]);
   };
 
   return (
@@ -403,25 +473,34 @@ export default function Recommendations({
         </div>
 
         <div className="bg-[#2a2a2a] rounded-lg p-6">
-          <div className="flex items-center gap-2 mb-4">
-            <h3 className="text-xl font-bold">Recommended Fighters</h3>
-            <button
-              onClick={() => setShowInfo(true)}
-              className="text-gray-400 hover:text-gray-300"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <h3 className="text-xl font-bold">Recommended Fighters</h3>
+              <button
+                onClick={() => setShowInfo(true)}
+                className="text-gray-400 hover:text-gray-300"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <button
+              onClick={handleRefreshAll}
+              className="text-gray-400 hover:text-gray-300 flex items-center gap-1 text-sm"
+            >
+              <RefreshIcon />
+              <span>Refresh All</span>
             </button>
           </div>
           <div className="space-y-3">
@@ -439,9 +518,21 @@ export default function Recommendations({
                   )}
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="font-bold text-blue-400">
-                    {Math.round(fighter.adjustedValue)}
-                  </span>
+                  <div className="text-right">
+                    <span className="font-bold text-blue-400">
+                      {Math.round(fighter.adjustedValue)}
+                    </span>
+                    <span className="text-sm text-gray-400 ml-2">
+                      Score: {calculateValueScore(fighter).valueScore}
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => handleRefreshRecommendation(fighter.name)}
+                    className="text-gray-400 hover:text-gray-300 p-1"
+                    title="Refresh recommendation"
+                  >
+                    <RefreshIcon />
+                  </button>
                   <button
                     onClick={() => handleAddFighter(fighter)}
                     className="text-gray-100 hover:text-gray-300 text-sm"

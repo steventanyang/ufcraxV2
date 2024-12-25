@@ -1,13 +1,14 @@
-export interface FightScore {
-  date: string;
-  value: number;
-}
-
 export interface Fighter {
   name: string;
   value: number;
-  scores: FightScore[];
+  scores: Score[];
   active: boolean;
+  ownedPasses: number;
+}
+
+export interface Score {
+  date: string;
+  value: number;
 }
 
 export interface FighterData {
