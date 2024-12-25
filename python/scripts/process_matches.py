@@ -8,7 +8,7 @@ from collections import defaultdict
 # TODO: make this more efficient + cleaner
 
 # fights = pd.read_csv('ufc_fight_stat_data.csv')
-fights = pd.read_csv('../results/all_fights.csv')
+fights = pd.read_csv('../results/test.csv')
 fighters = pd.read_csv('../data/fighters.csv')
 result = {}
 lerror = []
@@ -369,30 +369,16 @@ def job(row_data):
             points = 0
             if m == "KO/TKO":
                 points = 100
-                result[winner]["KO/TKO"] += points
             elif m == "Submission":
                 points = 90
-                result[winner]["Submission"] += points
             elif m == "Decision - Unanimous":
                 points = 80
-                result[winner]["Unanimous Decision"] += points
             elif m == "Decision - Majority":
                 points = 75
-                result[winner]["Majority Decision"] += points
             elif m == "Decision - Split":
                 points = 70
-                result[winner]["Split Decision"] += points
             elif m == "No Contest":
                 points = 10
-                result[winner]["No Contest"] += points
-
-            # Add strike bonus
-            strike_bonus = strike_diff if winner == striker else 0
-            result[winner]["StrikeBonus"] += strike_bonus
-            
-            # Add 5 round bonus
-            round_bonus = 25 if final == '5' else 0
-            result[winner]["5roundBonus"] += round_bonus
 
             # Store the fight details with date
             result[winner]["fight_history"].append({
@@ -400,9 +386,9 @@ def job(row_data):
                 "opponent": loser,
                 "method": m,
                 "method_points": points,
-                "strike_bonus": strike_bonus,
-                "round_bonus": round_bonus,
-                "total_points": points + strike_bonus + round_bonus
+                "strike_bonus": strike_diff if winner == striker else 0,
+                "round_bonus": 25 if final == '5' else 0,
+                "total_points": points + (strike_diff if winner == striker else 0) + (25 if final == '5' else 0)
             })
 
         if loser in result:
@@ -464,7 +450,7 @@ for f, v in result.items():
 # Save to CSV with fight history
 df = pd.DataFrame(final_list)
 # Save the main stats
-df.drop('fight_history', axis=1).to_csv('results/new_final.csv', index=False)
+df.drop('fight_history', axis=1).to_csv('../results/new_final.csv', index=False)
 # Save the detailed fight history to a separate CSV
 fight_history_rows = []
 for fighter in final_list:
@@ -481,7 +467,7 @@ for fighter in final_list:
         }
         fight_history_rows.append(fight_row)
 
-pd.DataFrame(fight_history_rows).to_csv('results/fight_history.csv', index=False)
+pd.DataFrame(fight_history_rows).to_csv('../results/fight_history.csv', index=False)
 
 #errors
 print("WL ERROR: " + str(len(wlerror)))
