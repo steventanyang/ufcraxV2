@@ -255,19 +255,19 @@ const calculateValueScore = (fighter: Fighter, multiplier: number = 1.2) => {
   };
 };
 
-const getTopRecommendations = (
-  fighters: Fighter[],
-  multiplierMap: Record<string, number>
-) => {
-  const scoredFighters = fighters.map((fighter) =>
-    calculateValueScore(fighter, multiplierMap[fighter.name] || 1.2)
-  );
+// const getTopRecommendations = (
+//   fighters: Fighter[],
+//   multiplierMap: Record<string, number>
+// ) => {
+//   const scoredFighters = fighters.map((fighter) =>
+//     calculateValueScore(fighter, multiplierMap[fighter.name] || 1.2)
+//   );
 
-  // Sort by value score descending
-  return scoredFighters
-    .sort((a, b) => b.valueScore - a.valueScore)
-    .slice(0, 20); // Top 20 recommendations
-};
+//   // Sort by value score descending
+//   return scoredFighters
+//     .sort((a, b) => b.valueScore - a.valueScore)
+//     .slice(0, 20); // Top 20 recommendations
+// };
 
 const RefreshIcon = () => (
   <svg
