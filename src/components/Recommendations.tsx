@@ -295,6 +295,15 @@ type MonthlyBreakdown = {
   };
 };
 
+type MonthSummary = {
+  month: string; // MM format
+  total: number;
+  fighters: {
+    name: string;
+    totalValue: number;
+  }[];
+};
+
 type TotalBreakdownModalProps = {
   selectedFighters: Fighter[];
   multiplierMap: Record<string, number>;
@@ -308,7 +317,9 @@ function TotalBreakdownModal({
   conflicts,
   onClose,
 }: TotalBreakdownModalProps) {
-  // Calculate monthly breakdown
+  const [showDetailedView, setShowDetailedView] = useState(false);
+
+  // Calculate monthly summary
   const monthlyBreakdown = selectedFighters.reduce<MonthlyBreakdown>(
     (acc, fighter) => {
       fighter.scores.forEach((score) => {
@@ -318,22 +329,17 @@ function TotalBreakdownModal({
 
         // Check if this day has a conflict
         const conflict = conflicts.find((c) => c.date === monthDay);
-
-        // Skip if this fighter's claim is lost due to conflict
-        if (conflict) {
-          const fighterIndex = conflict.fighters.findIndex(
-            (f) => f.name === fighter.name
-          );
-          if (fighterIndex >= 2) {
-            return; // Skip this claim as it's lost due to conflict
-          }
+        if (
+          conflict &&
+          conflict.fighters.findIndex((f) => f.name === fighter.name) >= 2
+        ) {
+          return; // Skip conflicted claims
         }
 
         if (!acc[monthDay]) {
           acc[monthDay] = { total: 0, fighters: [] };
         }
 
-        // Only add if fighter isn't already counted for this day
         if (!acc[monthDay].fighters.some((f) => f.name === fighter.name)) {
           acc[monthDay].fighters.push({
             name: fighter.name,
@@ -347,14 +353,44 @@ function TotalBreakdownModal({
     {}
   );
 
-  // Sort months chronologically
-  const sortedMonths = Object.entries(monthlyBreakdown).sort((a, b) => {
-    const [monthA] = a;
-    const [monthB] = b;
-    return monthA.localeCompare(monthB);
-  });
+  // Calculate month summaries
+  const monthSummaries = Object.entries(monthlyBreakdown)
+    .reduce<MonthSummary[]>((acc, [date, data]) => {
+      const month = date.split("-")[0];
+      const monthIndex = acc.findIndex((summary) => summary.month === month);
 
-  // Calculate grand total to match the main view's calculation
+      if (monthIndex === -1) {
+        // Create new month summary
+        acc.push({
+          month,
+          total: data.total,
+          fighters: data.fighters.map((f) => ({
+            name: f.name,
+            totalValue: f.value,
+          })),
+        });
+      } else {
+        // Update existing month summary
+        acc[monthIndex].total += data.total;
+        data.fighters.forEach((fighter) => {
+          const existingFighter = acc[monthIndex].fighters.find(
+            (f) => f.name === fighter.name
+          );
+          if (existingFighter) {
+            existingFighter.totalValue += fighter.value;
+          } else {
+            acc[monthIndex].fighters.push({
+              name: fighter.name,
+              totalValue: fighter.value,
+            });
+          }
+        });
+      }
+      return acc;
+    }, [])
+    .sort((a, b) => a.month.localeCompare(b.month));
+
+  // Calculate grand total
   const grandTotal = selectedFighters.reduce((sum, fighter) => {
     const { adjustedValue } = calculateAdjustedValue(
       fighter,
@@ -364,11 +400,16 @@ function TotalBreakdownModal({
     return sum + Math.round(adjustedValue);
   }, 0);
 
+  const getMonthName = (month: string) => {
+    const date = new Date(2024, parseInt(month) - 1, 1);
+    return date.toLocaleString("default", { month: "long" });
+  };
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
       <div className="bg-[#1a1a1a] rounded-lg p-6 max-w-lg w-full mx-4 max-h-[80vh] overflow-y-auto relative">
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-xl font-bold">Monthly Breakdown</h3>
+          <h3 className="text-xl font-bold text-white">Monthly Breakdown</h3>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-300 text-2xl absolute top-4 right-4"
@@ -384,51 +425,71 @@ function TotalBreakdownModal({
           </div>
         </div>
 
+        <div className="flex justify-end mb-4">
+          <button
+            onClick={() => setShowDetailedView(!showDetailedView)}
+            className="text-sm text-blue-400 hover:text-blue-300"
+          >
+            {showDetailedView ? "View Monthly Summary" : "View Daily Breakdown"}
+          </button>
+        </div>
+
         <div className="space-y-4">
-          {sortedMonths.map(([month, data]) => {
-            const conflict = conflicts.find((c) => c.date === month);
-
-            return (
-              <div key={month} className="bg-[#2a2a2a] rounded-lg p-4">
-                <div className="flex justify-between items-center mb-2">
-                  <span className="text-gray-400">{month}</span>
-                  <span className="font-bold text-white">
-                    {Math.round(data.total)}
-                  </span>
-                </div>
-                <div className="space-y-1">
-                  {data.fighters.map((fighter) => {
-                    const isConflicted =
-                      (conflict?.fighters?.findIndex(
-                        (f) => f.name === fighter.name
-                      ) ?? -1) >= 2;
-
-                    return (
-                      <div
-                        key={fighter.name}
-                        className="flex justify-between text-sm"
-                      >
-                        <span
-                          className={
-                            isConflicted ? "text-red-400" : "text-gray-400"
-                          }
+          {showDetailedView
+            ? // Detailed daily view
+              Object.entries(monthlyBreakdown)
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(([date, data]) => (
+                  <div key={date} className="bg-[#2a2a2a] rounded-lg p-4">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="text-gray-400">{date}</span>
+                      <span className="font-bold text-white">
+                        {Math.round(data.total)}
+                      </span>
+                    </div>
+                    <div className="space-y-1">
+                      {data.fighters.map((fighter) => (
+                        <div
+                          key={fighter.name}
+                          className="flex justify-between text-sm"
                         >
-                          {fighter.name}
-                        </span>
-                        <span
-                          className={
-                            isConflicted ? "text-red-400" : "text-blue-400"
-                          }
+                          <span className="text-gray-400">{fighter.name}</span>
+                          <span className="text-white">
+                            {Math.round(fighter.value)}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))
+            : // Monthly summary view
+              monthSummaries.map((month) => (
+                <div key={month.month} className="bg-[#2a2a2a] rounded-lg p-4">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-gray-400">
+                      {getMonthName(month.month)}
+                    </span>
+                    <span className="font-bold text-white">
+                      {Math.round(month.total)}
+                    </span>
+                  </div>
+                  <div className="space-y-1">
+                    {month.fighters
+                      .sort((a, b) => b.totalValue - a.totalValue)
+                      .map((fighter) => (
+                        <div
+                          key={fighter.name}
+                          className="flex justify-between text-sm"
                         >
-                          {Math.round(fighter.value)}
-                        </span>
-                      </div>
-                    );
-                  })}
+                          <span className="text-gray-400">{fighter.name}</span>
+                          <span className="text-white">
+                            {Math.round(fighter.totalValue)}
+                          </span>
+                        </div>
+                      ))}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              ))}
         </div>
       </div>
     </div>
@@ -620,14 +681,12 @@ export default function Recommendations({
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 text-gray-400 mb-2">
               <span>Total RAX / Year</span>
-              {selectedFighters.length === 10 && (
-                <button
-                  onClick={() => setShowTotalBreakdown(true)}
-                  className="text-sm text-blue-400 hover:text-blue-300"
-                >
-                  Detail View
-                </button>
-              )}
+              <button
+                onClick={() => setShowTotalBreakdown(true)}
+                className="text-sm text-blue-400 hover:text-blue-300"
+              >
+                Detail View
+              </button>
             </div>
             <div className="text-3xl md:text-4xl font-bold text-white">
               {totalRax}
@@ -684,7 +743,7 @@ export default function Recommendations({
                 </div>
                 <div className="flex items-center justify-between sm:justify-end gap-4">
                   <div className="text-right">
-                    <span className="font-bold text-blue-400">
+                    <span className="font-bold text-white">
                       {Math.round(fighter.adjustedValue)}
                     </span>
                     <span className="text-sm text-gray-400 ml-2">
