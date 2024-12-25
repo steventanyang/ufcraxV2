@@ -1,0 +1,168 @@
+{
+    "pass": {
+        "entityType": "team",
+        "entityId": 439,
+        "sport": "ufc",
+        "backgroundFlairSource": null,
+        "backgroundSource": "assets/cards/bg/o1.png",
+        "label": "Georges St-Pierre",
+        "entity": {
+            "id": 439,
+            "sport": "ufc",
+            "key": "GS",
+            "name": "Georges St-Pierre",
+            "displayName": "Georges St-Pierre",
+            "avatar": "9d922886870cc5910281dbb36b179ebc",
+            "overallRank": null,
+            "primaryColorReal": null,
+            "secondaryColorReal": null
+        },
+        "infoDetail": "WW",
+        "detail": "All-time UFC Fighter Card",
+        "cost": 800,
+        "seasonDisplay": "All-time",
+        "sportLabel": "UFC",
+        "entityLabel": "Fighter",
+        "boostInfo": {
+            "level": 3,
+            "rarityLabel": "Rare",
+            "rarityColor": "#E66200",
+            "multiplier": "1.6x",
+            "isCardBoosted": false,
+            "progress": 18.799999999999997,
+            "required": 100,
+            "progressDisplay": "18.8/100",
+            "progressQualifier": "to Epic",
+            "percentage": "18.8"
+        },
+        "season": 2023,
+        "id": 1181706,
+        "userId": "jvbbjXpv",
+        "serialNumber": 206,
+        "isPrivate": false,
+        "emojiId": null,
+        "nickname": null,
+        "entityAvatar": null,
+        "userAvatar": null,
+        "isActive": true,
+        "expirationDate": null,
+        "updatedAt": null,
+        "createdAt": "2024-03-10T16:59:44.865Z",
+        "commentAvatarEnabled": true,
+        "isRefunded": false,
+        "refundedAt": null,
+        "earned": 2424,
+        "boostValue": "98.8",
+        "boosterCardId": null,
+        "boosterCardInfo": null,
+        "isTradeLocked": false,
+        "untouchable": false,
+        "designInfo": null,
+        "count": 621,
+        "dayLabel": "03-10-24",
+        "user": {
+            "id": "jvbbjXpv",
+            "avatarKey": "5",
+            "isShadowBanned": false,
+            "userName": "yangsl",
+            "flairId": "bbd964312e4454806e74e83f237f0bcf",
+            "isVerified": false,
+            "supporterTier": null,
+            "realProTier": 1,
+            "isRealPro": true,
+            "emblemIds": [
+                "rp"
+            ]
+        },
+        "tier": 6,
+        "earnedDisplay": "2424"
+    },
+    "info": {
+        "entityType": "team",
+        "entityId": "439",
+        "sport": "ufc",
+        "backgroundFlairSource": null,
+        "backgroundSource": "assets/cards/bg/bw1.png",
+        "label": "Georges St-Pierre",
+        "entity": {
+            "id": 439,
+            "sport": "ufc",
+            "key": "GS",
+            "name": "Georges St-Pierre",
+            "displayName": "Georges St-Pierre",
+            "avatar": "9d922886870cc5910281dbb36b179ebc",
+            "overallRank": null,
+            "primaryColorReal": null,
+            "secondaryColorReal": null
+        },
+        "infoDetail": "WW",
+        "detail": "All-time UFC Fighter Card",
+        "cost": 800,
+        "seasonDisplay": "All-time",
+        "sportLabel": "UFC",
+        "entityLabel": "Fighter",
+        "boostInfo": {
+            "level": 0,
+            "rarityLabel": "General",
+            "rarityColor": "#C0C0C0",
+            "multiplier": "1x",
+            "isCardBoosted": false,
+            "progress": 0,
+            "required": 10,
+            "progressDisplay": "0/10",
+            "progressQualifier": "to Common",
+            "percentage": "0.0"
+        },
+        "season": 2023,
+        "upsellPass": null,
+        "purchaseDisabledMessage": null,
+        "callToActionSubtext": "All purchases are non-refundable",
+        "count": 621,
+        "upsellInfo": {
+            "upsellButtonText": "Get Card",
+            "upsellButtonSecondaryText": "Tier 7",
+            "helpUrlType": "teamCards",
+            "header": "All-time Card Features",
+            "mintWarning": null,
+            "upsells": [
+                {
+                    "emojiId": "0bdca9a388a25a4b76e9666ca94f51eb",
+                    "text": "Earn Rax",
+                    "description": "Chance to earn Rax every fight"
+                },
+                {
+                    "emojiId": "34e267d6c12c32b3387bc8ff10efa412",
+                    "text": "Level up fighter",
+                    "description": "Collect play cards for this fighter to level up and boost Rax earnings"
+                },
+                {
+                    "emojiId": "e85c9df62fca182f14498dc2e9d1355d",
+                    "text": "Custom fighter avatar",
+                    "description": "Shows as the avatar on all fighter content"
+                },
+                {
+                    "emojiId": "b873472e5deb45902d4fb94abe1eb146",
+                    "text": "Custom fighter nickname",
+                    "description": "Shows as the name on all fighter content"
+                },
+                {
+                    "emojiId": "5b65c641634fc12b279d67fe2676b680",
+                    "text": "Comment flair",
+                    "description": "Flex your card on all fighter comments"
+                },
+                {
+                    "emojiId": "4d65d5effa8555c2e9dad91f5219d08e",
+                    "text": "Custom comment avatar",
+                    "description": "Shows for all your comments on fighter content"
+                }
+            ]
+        },
+        "availableSeasons": [
+            {
+                "id": 2023,
+                "label": "All-time"
+            }
+        ],
+        "activeSeason": 2023
+    }
+}
