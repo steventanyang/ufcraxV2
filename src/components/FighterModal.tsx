@@ -1,5 +1,5 @@
 import { Fighter } from "@/types/fighters";
-import { calculateDailyAdjustedValue } from "@/app/page";
+import { calculateDailyAdjustedValue } from "@/utils/calculations";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
