@@ -25,7 +25,7 @@ type ClaimConflict = {
   lostValue: number;
 };
 
-function getMonthDay(date: string): string {
+export function getMonthDay(date: string): string {
   const d = new Date(date);
   return `${(d.getMonth() + 1).toString().padStart(2, "0")}-${d
     .getDate()
@@ -285,6 +285,156 @@ const RefreshIcon = () => (
   </svg>
 );
 
+type MonthlyBreakdown = {
+  [key: string]: {
+    total: number;
+    fighters: {
+      name: string;
+      value: number;
+    }[];
+  };
+};
+
+type TotalBreakdownModalProps = {
+  selectedFighters: Fighter[];
+  multiplierMap: Record<string, number>;
+  conflicts: ClaimConflict[];
+  onClose: () => void;
+};
+
+function TotalBreakdownModal({
+  selectedFighters,
+  multiplierMap,
+  conflicts,
+  onClose,
+}: TotalBreakdownModalProps) {
+  // Calculate monthly breakdown
+  const monthlyBreakdown = selectedFighters.reduce<MonthlyBreakdown>(
+    (acc, fighter) => {
+      fighter.scores.forEach((score) => {
+        const monthDay = getMonthDay(score.date);
+        const multiplier = multiplierMap[fighter.name] || 1.2;
+        const dailyValue = score.value * multiplier;
+
+        // Check if this day has a conflict
+        const conflict = conflicts.find((c) => c.date === monthDay);
+
+        // Skip if this fighter's claim is lost due to conflict
+        if (conflict) {
+          const fighterIndex = conflict.fighters.findIndex(
+            (f) => f.name === fighter.name
+          );
+          if (fighterIndex >= 2) {
+            return; // Skip this claim as it's lost due to conflict
+          }
+        }
+
+        if (!acc[monthDay]) {
+          acc[monthDay] = { total: 0, fighters: [] };
+        }
+
+        // Only add if fighter isn't already counted for this day
+        if (!acc[monthDay].fighters.some((f) => f.name === fighter.name)) {
+          acc[monthDay].fighters.push({
+            name: fighter.name,
+            value: dailyValue,
+          });
+          acc[monthDay].total += dailyValue;
+        }
+      });
+      return acc;
+    },
+    {}
+  );
+
+  // Sort months chronologically
+  const sortedMonths = Object.entries(monthlyBreakdown).sort((a, b) => {
+    const [monthA] = a;
+    const [monthB] = b;
+    return monthA.localeCompare(monthB);
+  });
+
+  // Calculate grand total to match the main view's calculation
+  const grandTotal = selectedFighters.reduce((sum, fighter) => {
+    const { adjustedValue } = calculateAdjustedValue(
+      fighter,
+      multiplierMap[fighter.name] || 1.2,
+      conflicts
+    );
+    return sum + Math.round(adjustedValue);
+  }, 0);
+
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#1a1a1a] rounded-lg p-6 max-w-lg w-full mx-4 max-h-[80vh] overflow-y-auto relative">
+        <div className="flex justify-between items-center mb-4">
+          <h3 className="text-xl font-bold">Monthly Breakdown</h3>
+          <button
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-300 text-2xl absolute top-4 right-4"
+          >
+            ×
+          </button>
+        </div>
+
+        <div className="mb-6 p-4 bg-[#2a2a2a] rounded-lg text-center">
+          <div className="text-gray-400 mb-1">Total RAX / Year</div>
+          <div className="text-3xl font-bold text-white">
+            {Math.round(grandTotal)}
+          </div>
+        </div>
+
+        <div className="space-y-4">
+          {sortedMonths.map(([month, data]) => {
+            const conflict = conflicts.find((c) => c.date === month);
+
+            return (
+              <div key={month} className="bg-[#2a2a2a] rounded-lg p-4">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-gray-400">{month}</span>
+                  <span className="font-bold text-white">
+                    {Math.round(data.total)}
+                  </span>
+                </div>
+                <div className="space-y-1">
+                  {data.fighters.map((fighter) => {
+                    const isConflicted =
+                      (conflict?.fighters?.findIndex(
+                        (f) => f.name === fighter.name
+                      ) ?? -1) >= 2;
+
+                    return (
+                      <div
+                        key={fighter.name}
+                        className="flex justify-between text-sm"
+                      >
+                        <span
+                          className={
+                            isConflicted ? "text-red-400" : "text-gray-400"
+                          }
+                        >
+                          {fighter.name}
+                        </span>
+                        <span
+                          className={
+                            isConflicted ? "text-red-400" : "text-blue-400"
+                          }
+                        >
+                          {Math.round(fighter.value)}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Recommendations({
   fighters,
   multiplierMap,
@@ -297,6 +447,7 @@ export default function Recommendations({
   const [showConflicts, setShowConflicts] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
   const [excludedFighters, setExcludedFighters] = useState<string[]>([]);
+  const [showTotalBreakdown, setShowTotalBreakdown] = useState(false);
 
   const conflicts = calculateClaimConflicts(selectedFighters, multiplierMap);
 
@@ -467,7 +618,17 @@ export default function Recommendations({
       <div className="order-1 md:order-2">
         <div className="mb-4 md:mb-8 p-4 md:p-6 bg-[#2a2a2a] rounded-lg">
           <div className="text-center">
-            <div className="text-gray-400 mb-2">Total RAX / Year</div>
+            <div className="flex items-center justify-center gap-2 text-gray-400 mb-2">
+              <span>Total RAX / Year</span>
+              {selectedFighters.length === 10 && (
+                <button
+                  onClick={() => setShowTotalBreakdown(true)}
+                  className="text-sm text-blue-400 hover:text-blue-300"
+                >
+                  Detail View
+                </button>
+              )}
+            </div>
             <div className="text-3xl md:text-4xl font-bold text-white">
               {totalRax}
             </div>
@@ -561,6 +722,15 @@ export default function Recommendations({
       )}
 
       {showInfo && <InfoModal onClose={() => setShowInfo(false)} />}
+
+      {showTotalBreakdown && (
+        <TotalBreakdownModal
+          selectedFighters={selectedFighters}
+          multiplierMap={multiplierMap}
+          conflicts={conflicts}
+          onClose={() => setShowTotalBreakdown(false)}
+        />
+      )}
     </div>
   );
 }

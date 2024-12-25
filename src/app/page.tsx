@@ -8,6 +8,7 @@ import FighterComparison from "@/components/FighterComparison";
 import Recommendations from "@/components/Recommendations";
 import { Fighter } from "@/types/fighters";
 import FighterModal from "@/components/FighterModal";
+import { getMonthDay } from "@/components/Recommendations";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -18,6 +19,30 @@ const multipliers = [
   { value: 4.0, color: "text-yellow-400" },
   { value: 6.0, color: "text-pink-400" },
 ];
+
+function calculateDailyAdjustedValue(
+  fighter: Fighter,
+  multiplier: number = 1.2
+) {
+  // Group scores by month-day to only take highest value per day
+  const scoresByDay = new Map<string, number>();
+
+  fighter.scores.forEach((score) => {
+    const monthDay = getMonthDay(score.date);
+    const scoreValue = score.value * multiplier;
+
+    // Only keep the highest value for each day
+    if (!scoresByDay.has(monthDay) || scoreValue > scoresByDay.get(monthDay)!) {
+      scoresByDay.set(monthDay, scoreValue);
+    }
+  });
+
+  // Sum up the highest score from each day
+  return Array.from(scoresByDay.values()).reduce(
+    (sum, value) => sum + value,
+    0
+  );
+}
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -34,10 +59,12 @@ export default function Home() {
   const [selectedFighterModal, setSelectedFighterModal] =
     useState<Fighter | null>(null);
 
-  // First sort fighters by value to establish consistent ranks
-  const sortedFighters = [...fighterData.fighters].sort(
-    (a, b) => b.value - a.value
-  );
+  // First sort fighters by adjusted value to establish consistent ranks
+  const sortedFighters = [...fighterData.fighters].sort((a, b) => {
+    const aValue = calculateDailyAdjustedValue(a);
+    const bValue = calculateDailyAdjustedValue(b);
+    return bValue - aValue;
+  });
 
   // Create a map of fighter name to rank
   const rankMap = new Map(
@@ -180,6 +207,11 @@ export default function Home() {
                       multipliers.find((m) => m.value === multiplier)?.color ||
                       "text-blue-400";
 
+                    const adjustedValue = calculateDailyAdjustedValue(
+                      fighter,
+                      multiplier
+                    );
+
                     return (
                       <tr key={fighter.name} className="hover:bg-[#222222]">
                         <td className="w-12 md:w-20 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
@@ -202,7 +234,7 @@ export default function Home() {
                             <span
                               className={`text-sm md:text-xl font-bold ${multiplierColor}`}
                             >
-                              {Math.round(fighter.value * multiplier)}
+                              {Math.round(adjustedValue)}
                             </span>
                             <select
                               value={multiplier}

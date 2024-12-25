@@ -1,8 +1,20 @@
+import React, { useCallback } from "react";
+import { debounce } from "lodash";
+
 export default function SearchBar({
   onSearch,
 }: {
   onSearch: (query: string) => void;
 }) {
+  const debouncedSearch = useCallback(
+    (value: string) => {
+      debounce((searchValue: string) => {
+        onSearch(searchValue);
+      }, 300)(value);
+    },
+    [onSearch]
+  );
+
   return (
     <div className="relative">
       <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -23,7 +35,7 @@ export default function SearchBar({
         id="main-search"
         name="main-search"
         placeholder="Search fighters..."
-        onChange={(e) => onSearch(e.target.value)}
+        onChange={(e) => debouncedSearch(e.target.value)}
         className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none"
       />
     </div>
