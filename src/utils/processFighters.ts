@@ -1,0 +1,68 @@
+import { parse } from "csv-parse/sync";
+import { readFileSync } from "fs";
+import { Fighter, FighterData } from "../types/fighters";
+
+interface ValueCSV {
+  name: string;
+  Value: string;
+  // ... other fields available but not needed for this use case
+}
+
+interface FightHistoryCSV {
+  fighter_name: string;
+  date: string;
+  total_points: string;
+}
+
+export function processFighterData(
+  valueFilePath: string,
+  historyFilePath: string
+): FighterData {
+  // Read and parse CSV files
+  const valueContent = readFileSync(valueFilePath, "utf-8");
+  const historyContent = readFileSync(historyFilePath, "utf-8");
+
+  const valueData = parse(valueContent, {
+    columns: true,
+    skip_empty_lines: true,
+  }) as ValueCSV[];
+
+  const historyData = parse(historyContent, {
+    columns: true,
+    skip_empty_lines: true,
+  }) as FightHistoryCSV[];
+
+  // Create fighters map
+  const fightersMap = new Map<string, Fighter>();
+
+  // Process value data first
+  valueData.forEach((row) => {
+    fightersMap.set(row.name, {
+      name: row.name,
+      value: parseInt(row.Value),
+      scores: [],
+    });
+  });
+
+  // Add fight history
+  historyData.forEach((row) => {
+    const fighter = fightersMap.get(row.fighter_name);
+    if (fighter) {
+      fighter.scores.push({
+        date: row.date,
+        value: parseInt(row.total_points),
+      });
+    }
+  });
+
+  // Sort scores by date for each fighter
+  fightersMap.forEach((fighter) => {
+    fighter.scores.sort(
+      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+    );
+  });
+
+  return {
+    fighters: Array.from(fightersMap.values()),
+  };
+}
