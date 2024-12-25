@@ -351,10 +351,10 @@ export default function Recommendations({
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
       {/* Left side - Search and Selected Fighters */}
-      <div>
-        <div className="relative mb-6">
+      <div className="order-2 md:order-1">
+        <div className="relative mb-4 md:mb-6">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
               className="h-5 w-5 text-gray-400"
@@ -407,7 +407,7 @@ export default function Recommendations({
             return (
               <div
                 key={fighter.name}
-                className="flex items-center justify-between p-3 bg-[#2a2a2a] rounded-lg"
+                className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#2a2a2a] rounded-lg space-y-2 sm:space-y-0"
               >
                 <div className="flex items-center gap-2">
                   <span className="font-medium">{fighter.name}</span>
@@ -417,7 +417,7 @@ export default function Recommendations({
                     </span>
                   )}
                 </div>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center justify-between sm:justify-end gap-4">
                   <div className="flex items-center gap-2">
                     {lostValue > 0 && (
                       <span className="text-sm text-red-400">
@@ -464,24 +464,28 @@ export default function Recommendations({
       </div>
 
       {/* Right side - Total and Recommendations */}
-      <div>
-        <div className="mb-8 p-6 bg-[#2a2a2a] rounded-lg">
+      <div className="order-1 md:order-2">
+        <div className="mb-4 md:mb-8 p-4 md:p-6 bg-[#2a2a2a] rounded-lg">
           <div className="text-center">
             <div className="text-gray-400 mb-2">Total RAX / Year</div>
-            <div className="text-4xl font-bold text-white">{totalRax}</div>
+            <div className="text-3xl md:text-4xl font-bold text-white">
+              {totalRax}
+            </div>
           </div>
         </div>
 
-        <div className="bg-[#2a2a2a] rounded-lg p-6">
+        <div className="bg-[#2a2a2a] rounded-lg p-4 md:p-6">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <h3 className="text-xl font-bold">Recommended Fighters</h3>
+              <h3 className="text-lg md:text-xl font-bold">
+                Recommended Fighters
+              </h3>
               <button
                 onClick={() => setShowInfo(true)}
                 className="text-gray-400 hover:text-gray-300"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-4 h-4 md:w-5 md:h-5"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -500,14 +504,14 @@ export default function Recommendations({
               className="text-gray-400 hover:text-gray-300 flex items-center gap-1 text-sm"
             >
               <RefreshIcon />
-              <span>Refresh All</span>
+              <span className="hidden sm:inline">Refresh All</span>
             </button>
           </div>
           <div className="space-y-3">
             {recommendedFighters.map((fighter) => (
               <div
                 key={fighter.name}
-                className="flex items-center justify-between p-3 bg-[#222222] rounded-lg"
+                className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#222222] rounded-lg space-y-2 sm:space-y-0"
               >
                 <div className="flex items-center gap-2">
                   <span className="font-medium">{fighter.name}</span>
@@ -517,7 +521,7 @@ export default function Recommendations({
                     </span>
                   )}
                 </div>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center justify-between sm:justify-end gap-4">
                   <div className="text-right">
                     <span className="font-bold text-blue-400">
                       {Math.round(fighter.adjustedValue)}
@@ -526,20 +530,22 @@ export default function Recommendations({
                       Score: {calculateValueScore(fighter).valueScore}
                     </span>
                   </div>
-                  <button
-                    onClick={() => handleRefreshRecommendation(fighter.name)}
-                    className="text-gray-400 hover:text-gray-300 p-1"
-                    title="Refresh recommendation"
-                  >
-                    <RefreshIcon />
-                  </button>
-                  <button
-                    onClick={() => handleAddFighter(fighter)}
-                    className="text-gray-100 hover:text-gray-300 text-sm"
-                    disabled={selectedFighters.length >= 10}
-                  >
-                    Add
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => handleRefreshRecommendation(fighter.name)}
+                      className="text-gray-400 hover:text-gray-300 p-1"
+                      title="Refresh recommendation"
+                    >
+                      <RefreshIcon />
+                    </button>
+                    <button
+                      onClick={() => handleAddFighter(fighter)}
+                      className="text-gray-100 hover:text-gray-300 text-sm"
+                      disabled={selectedFighters.length >= 10}
+                    >
+                      Add
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
