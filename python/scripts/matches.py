@@ -2,28 +2,64 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
+from collections import defaultdict
 
 # TODO: make this more efficient + cleaner
 
 # fights = pd.read_csv('ufc_fight_stat_data.csv')
 fights = pd.read_csv('../results/test.csv')
-fighters = pd.read_csv('../data/all_fighters.csv')
+fighters = pd.read_csv('../data/fighters.csv')
 result = {}
 lerror = []
 wlerror = []
 id = 0
 
 # fights = fights.drop_duplicates(subset='fight_id', keep='first')
+# edge cases -> fighter has two fights on same day
+
+
+print(f"Loaded {len(fights)} fights from CSV")
+if len(fights) == 0:
+    print("Warning: No fights loaded from CSV file")
+    exit()
 
 def job(row_data):
     index, row = row_data
     url = row['fight_url']
+    print(f"\nProcessing fight {index}: {url}")
 
-    print(url)
-    try :
-        page = requests.get(url)
+    try:
+        page = requests.get(url, timeout=10)
+        if page.status_code != 200:
+            print(f"Error: HTTP {page.status_code} for {url}")
+            lerror.append(url)
+            return
         soup = BeautifulSoup(page.content, 'html.parser')
 
+
+        event_rax = defaultdict(int) # stores date -> rax for each fighter
+
+        # get event date
+        # _____________________
+        event_link = soup.find('h2', class_='b-content__title').find('a')
+        if event_link:
+            new_url = event_link['href']
+            print("Following link to:", new_url)
+            new_page = requests.get(new_url, timeout=10)
+            new_soup = BeautifulSoup(new_page.content, 'html.parser')
+    
+            # Find the date in the list box
+            date_item = new_soup.find('li', class_='b-list__box-list-item')
+            if date_item:
+                raw_date = date_item.text.strip().replace('Date:', '').strip()
+                formatted_date = datetime.strptime(raw_date, '%B %d, %Y').strftime('%Y-%m-%d')
+                print("Event date:", formatted_date)
+            else:
+                print("ERROR: Date not found")
+        else:
+            print("ERROR: Link not found")
+    
         try :
             # strikes
             strike_diff = 0
@@ -123,14 +159,10 @@ def job(row_data):
 
         # print("more strikes: " + striker)
         # print("strik_diff: " + str(strike_diff))
-
         # print("rounds: " + final)
-
         # print("method: " + m)
-
         # print("winner: " + winner)
         # print("loser: " + loser)
-
         # KO/TKO , Submission , Decision - Unanimous , Decision - Majority , Decision - Split , No Contest 
 
         if nocontest == True :
@@ -329,15 +361,24 @@ def job(row_data):
                     result[bottom]["StrikeBonus"] += strike_diff
                 print("new")
 
-    except : 
-        print("error")
+    except requests.RequestException as e:
+        print(f"Request error for {url}: {str(e)}")
+        lerror.append(url)
+    except Exception as e:
+        print(f"Unexpected error for {url}: {str(e)}")
         lerror.append(url)
         
     # print(result[winner])
     # print(result[loser])
 
-with ThreadPoolExecutor(max_workers=5) as executor:
-    executor.map(job, fights.iterrows())
+print("Starting processing...")
+with ThreadPoolExecutor(max_workers=2) as executor:
+    try:
+        list(executor.map(job, fights.iterrows()))
+    except Exception as e:
+        print(f"Error in thread execution: {str(e)}")
+
+print("Processing complete!")
 
 final_list = []
 for f , v in result.items() :
