@@ -88,7 +88,7 @@ export default function Home() {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="pt-12 md:pt-16 pb-6 md:pb-8">
           <h1 className="text-2xl md:text-4xl font-bold text-center mb-3">
-            UFC Fighter Rankings
+            UFC Rax V2
           </h1>
           <div className="text-gray-500 text-center text-xs md:text-base mb-6">
             <p>
