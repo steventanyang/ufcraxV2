@@ -50,7 +50,9 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
                     Added fighter comparison tool to analyze two fighters side
                     by side
                   </li>
-                  <li>Introduced "Who to Buy" recommendations feature</li>
+                  <li>
+                    Introduced &quot;Who to Buy&quot; recommendations feature
+                  </li>
                   <li>Added detailed fighter statistics modal view</li>
                   <li>Integrated active fighter indicators</li>
                   <li>
