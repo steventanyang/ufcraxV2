@@ -5,7 +5,6 @@ import { Fighter, FighterData } from "../types/fighters";
 interface ValueCSV {
   name: string;
   Value: string;
-  // ... other fields available but not needed for this use case
 }
 
 interface FightHistoryCSV {
@@ -18,7 +17,6 @@ export function processFighterData(
   valueFilePath: string,
   historyFilePath: string
 ): FighterData {
-  // Read and parse CSV files
   const valueContent = readFileSync(valueFilePath, "utf-8");
   const historyContent = readFileSync(historyFilePath, "utf-8");
 
@@ -34,6 +32,8 @@ export function processFighterData(
 
   // Create fighters map
   const fightersMap = new Map<string, Fighter>();
+  const twoYearsAgo = new Date();
+  twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
 
   // Process value data first
   valueData.forEach((row) => {
@@ -41,17 +41,24 @@ export function processFighterData(
       name: row.name,
       value: parseInt(row.Value),
       scores: [],
+      active: false, // Will be updated when processing fight history
     });
   });
 
-  // Add fight history
+  // Add fight history and check active status
   historyData.forEach((row) => {
     const fighter = fightersMap.get(row.fighter_name);
     if (fighter) {
+      const fightDate = new Date(row.date);
       fighter.scores.push({
         date: row.date,
         value: parseInt(row.total_points),
       });
+
+      // Update active status if fight is within last 2 years
+      if (fightDate > twoYearsAgo) {
+        fighter.active = true;
+      }
     }
   });
 

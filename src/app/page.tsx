@@ -1,101 +1,129 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import SearchBar from "@/components/SearchBar";
+import fighterData from "../../public/data/processed_fighters.json";
+
+const multipliers = [
+  { value: 1.2, color: "text-blue-400" },
+  { value: 1.4, color: "text-green-400" },
+  { value: 1.6, color: "text-yellow-400" },
+  { value: 2.0, color: "text-orange-400" },
+  { value: 2.5, color: "text-red-400" },
+  { value: 4.0, color: "text-purple-400" },
+  { value: 6.0, color: "text-pink-400" },
+];
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const [searchQuery, setSearchQuery] = useState("");
+  const [multiplierMap, setMultiplierMap] = useState<Record<string, number>>(
+    {}
+  );
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  // First sort fighters by value to establish consistent ranks
+  const sortedFighters = [...fighterData.fighters].sort(
+    (a, b) => b.value - a.value
+  );
+
+  // Create a map of fighter name to rank
+  const rankMap = new Map(
+    sortedFighters.map((fighter, index) => [fighter.name, index + 1])
+  );
+
+  const filteredFighters = sortedFighters.filter((fighter) =>
+    fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handleMultiplierChange = (fighterName: string, multiplier: number) => {
+    setMultiplierMap((prev) => ({
+      ...prev,
+      [fighterName]: multiplier,
+    }));
+  };
+
+  return (
+    <main className="min-h-screen bg-[#111111] text-gray-100">
+      <div className="container mx-auto px-4">
+        <div className="pt-16 pb-8">
+          <h1 className="text-4xl font-bold text-center mb-2">
+            UFC Fighter Rankings
+          </h1>
+          <p className="text-gray-500 text-center mb-8">
+            Historical rankings based on fight performance
+          </p>
+          <SearchBar onSearch={setSearchQuery} />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="bg-[#1a1a1a] rounded-lg shadow">
+          <div className="overflow-y-auto max-h-[calc(100vh-250px)]">
+            <table className="min-w-full table-fixed">
+              <thead className="bg-[#111111] sticky top-0">
+                <tr>
+                  <th className="w-24 px-6 py-4 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                    RANK
+                  </th>
+                  <th className="w-1/2 px-6 py-4 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                    FIGHTER
+                  </th>
+                  <th className="w-1/3 px-6 py-4 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                    VALUE
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800">
+                {filteredFighters.map((fighter) => {
+                  const multiplier = multiplierMap[fighter.name] || 1.2;
+                  const multiplierColor =
+                    multipliers.find((m) => m.value === multiplier)?.color ||
+                    "text-blue-400";
+
+                  return (
+                    <tr key={fighter.name} className="hover:bg-[#222222]">
+                      <td className="w-24 px-6 py-5 whitespace-nowrap text-xl text-gray-400">
+                        {rankMap.get(fighter.name)}
+                      </td>
+                      <td className="w-1/2 px-6 py-5 whitespace-nowrap text-xl text-gray-100">
+                        <div className="flex items-center gap-2">
+                          <span className="font-bold">{fighter.name}</span>
+                          {fighter.active && (
+                            <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
+                              Active
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="w-1/3 px-6 py-5 whitespace-nowrap">
+                        <div className="flex items-center gap-4">
+                          <span
+                            className={`text-xl font-bold ${multiplierColor}`}
+                          >
+                            {Math.round(fighter.value * multiplier)}
+                          </span>
+                          <select
+                            value={multiplier}
+                            onChange={(e) =>
+                              handleMultiplierChange(
+                                fighter.name,
+                                Number(e.target.value)
+                              )
+                            }
+                            className="bg-[#2a2a2a] text-gray-300 rounded px-2 py-1 text-sm border border-gray-700 focus:outline-none focus:border-blue-500"
+                          >
+                            {multipliers.map((m) => (
+                              <option key={m.value} value={m.value}>
+                                {m.value}x
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }

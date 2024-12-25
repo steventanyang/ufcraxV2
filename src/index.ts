@@ -1,6 +1,9 @@
 import { processFighterData } from './utils/processFighters';
 import { writeFileSync } from 'fs';
 
+
+// npx ts-node src/index.ts
+
 const valueFilePath = './data/final_values.csv';
 const historyFilePath = './data/fights.csv';
 
@@ -9,7 +12,7 @@ try {
     
     // Write to JSON file
     writeFileSync(
-        './data/processed_fighters.json',
+        './public/data/processed_fighters.json',
         JSON.stringify(fighterData, null, 2)
     );
 
