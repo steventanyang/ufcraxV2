@@ -109,7 +109,7 @@ async def main():
                 await asyncio.sleep(0.5)  # Small delay between batches
     
     # Save fighters dictionary to JSON file
-    with open('fighters_values.json', 'w') as f:
+    with open(f'../results/fighters_values.json', 'w') as f:
         json.dump(all_fighters, f, indent=4, sort_keys=True)
     
     print(f"\nComplete! Saved {len(all_fighters)} fighters to 'fighters_values.json'")
