@@ -1,5 +1,5 @@
 import { Fighter } from "@/types/fighters";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { useDebounce } from "@/hooks/useDebounce";
 
 const multipliers = [
