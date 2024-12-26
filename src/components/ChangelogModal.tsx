@@ -38,28 +38,32 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
               <div className="space-y-3 text-gray-300">
                 <p className="font-medium text-green-400">Initial Release</p>
                 <ul className="list-disc list-inside space-y-2 text-sm">
-                  <li>Launched UFC Rax V2 with completely redesigned UI/UX</li>
+                  <li>Launched UFC Rax V2 with new UI/UX</li>
                   <li>
-                    Added fighter rankings based on daily-adjusted Rax values
+                    Adjusted fighter rankings based on new adjusted Rax values
                   </li>
                   <li>
-                    Implemented multiplier system (1.2x - 6.0x) for value
-                    calculations
+                    Same multiplier system (1.2x - 6.0x) for value calculations
+                    as before
                   </li>
                   <li>
-                    Added fighter comparison tool to analyze two fighters side
-                    by side
+                    Detailed view for monthly rax breakdowns, active tag, and
+                    owned passes column updated daily
                   </li>
                   <li>
-                    Introduced &quot;Who to Buy&quot; recommendations feature
+                    Updated fighter comparison tool to show monthly rax
+                    breakdowns
                   </li>
-                  <li>Added detailed fighter statistics modal view</li>
-                  <li>Integrated active fighter indicators</li>
                   <li>
-                    Added owned passes tracking with color-coded indicators
+                    &quot;Who to Buy&quot; recommendations feature
+                    with new &quot;value score&quot; based on owners + active
+                    status
                   </li>
-                  <li>Implemented responsive design for mobile and desktop</li>
-                  <li>Added search functionality for quick fighter lookup</li>
+                  <li>10 fighter detail view accounting for OTD rax claim overlaps</li>
+                  <li>
+                    Added owned passes tracking with color-coded indicators on recommendations
+                  </li>
+                  <li>Mobile performance improvements</li>
                 </ul>
               </div>
             </div>
