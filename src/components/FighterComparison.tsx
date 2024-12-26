@@ -1,5 +1,6 @@
 import { Fighter } from "@/types/fighters";
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
+import { useDebounce } from "@/hooks/useDebounce";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -88,6 +89,27 @@ export default function FighterComparison({
 }: FighterComparisonProps) {
   const [search1, setSearch1] = useState("");
   const [search2, setSearch2] = useState("");
+  const debouncedSearch1 = useDebounce(search1, 300);
+  const debouncedSearch2 = useDebounce(search2, 300);
+
+  // Memoize filtered results
+  const filteredFighters1 = useMemo(() => {
+    if (!debouncedSearch1) return [];
+    return fighters
+      .filter((fighter) =>
+        fighter.name.toLowerCase().includes(debouncedSearch1.toLowerCase())
+      )
+      .slice(0, 20); // Limit to 20 results
+  }, [debouncedSearch1, fighters]);
+
+  const filteredFighters2 = useMemo(() => {
+    if (!debouncedSearch2) return [];
+    return fighters
+      .filter((fighter) =>
+        fighter.name.toLowerCase().includes(debouncedSearch2.toLowerCase())
+      )
+      .slice(0, 20); // Limit to 20 results
+  }, [debouncedSearch2, fighters]);
 
   const renderFighterStats = (
     fighter: Fighter | null,
@@ -95,13 +117,12 @@ export default function FighterComparison({
     searchValue: string,
     setSearchValue: (value: string) => void
   ) => {
-    const filteredFighters = fighters.filter((f) =>
-      f.name.toLowerCase().includes(searchValue.toLowerCase())
-    );
+    const filteredFighters =
+      side === "left" ? filteredFighters1 : filteredFighters2;
 
     return (
-      <div className="p-4 md:p-8">
-        <div className="relative mb-8">
+      <div className="p-4">
+        <div className="relative mb-4">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
               className="h-5 w-5 text-gray-400"
@@ -124,7 +145,7 @@ export default function FighterComparison({
             onChange={(e) => setSearchValue(e.target.value)}
             className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none text-sm"
           />
-          {searchValue && (
+          {searchValue && filteredFighters.length > 0 && (
             <div className="absolute z-10 w-full mt-1 bg-[#2a2a2a] border border-gray-700 rounded-lg max-h-48 overflow-auto">
               {filteredFighters.map((f) => (
                 <button
@@ -148,7 +169,7 @@ export default function FighterComparison({
 
         {fighter && (
           <>
-            <div className="mb-6">
+            <div className="mb-4">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-xl font-bold">{fighter.name}</h3>
                 {fighter.active && (
@@ -217,7 +238,7 @@ export default function FighterComparison({
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="bg-[#1a1a1a] rounded-lg">
         {renderFighterStats(selectedFighter1, "left", search1, setSearch1)}
       </div>

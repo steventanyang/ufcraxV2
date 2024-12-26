@@ -1129,7 +1129,7 @@
           "value": 0
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 244
     },
     {
@@ -4513,7 +4513,7 @@
           "value": 106
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 103
     },
     {
@@ -5221,7 +5221,7 @@
           "value": 206
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 66
     },
     {
@@ -6581,7 +6581,7 @@
           "value": 0
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 61
     },
     {
@@ -6781,7 +6781,7 @@
       "ownedPasses": 509
     },
     {
-      "name": "King Green",
+      "name": "Bobby Green",
       "value": 2120,
       "scores": [
         {
@@ -6890,7 +6890,7 @@
         }
       ],
       "active": true,
-      "ownedPasses": 0
+      "ownedPasses": 88
     },
     {
       "name": "BJ Penn",
@@ -7645,7 +7645,7 @@
           "value": 103
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 48
     },
     {
@@ -8533,7 +8533,7 @@
           "value": 25
         }
       ],
-      "active": true,
+      "active": false,
       "ownedPasses": 63
     },
     {

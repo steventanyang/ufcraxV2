@@ -13,6 +13,20 @@ interface FightHistoryCSV {
   total_points: string;
 }
 
+interface ActiveOverride {
+  name: string;
+  active: boolean;
+}
+
+const activeOverrides: ActiveOverride[] = [
+  { name: "Mauricio Rua", active: false },
+  { name: "Amanda Nunes", active: false },
+  { name: "Robbie Lawler", active: false },
+  { name: "Ovince Saint Preux", active: false },
+  { name: "Matt Brown", active: false },
+  { name: "Stipe Miocic", active: false },
+];
+
 export function processFighterData(
   valueFilePath: string,
   historyFilePath: string
@@ -75,6 +89,13 @@ export function processFighterData(
     fighter.scores.sort(
       (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     );
+  });
+
+  activeOverrides.forEach((override) => {
+    const fighter = fightersMap.get(override.name);
+    if (fighter) {
+      fighter.active = override.active;
+    }
   });
 
   return {

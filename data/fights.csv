@@ -1,6 +1,6 @@
 fighter_name,date,opponent,method,method_points,strike_bonus,round_bonus,total_points
 Tony Ferguson,2015-02-28,Gleison Tibau,Submission,90,9,0,99
-Tony Ferguson,2023-07-29,King Green,Submission,0,0,0,0
+Tony Ferguson,2023-07-29,Bobby Green,Submission,0,0,0,0
 Tony Ferguson,2020-05-09,Justin Gaethje,KO/TKO,0,0,25,25
 Tony Ferguson,2021-05-15,Beneil Dariush,Decision - Unanimous,0,0,0,0
 Tony Ferguson,2011-06-04,Ramsey Nijem,KO/TKO,100,9,0,109
@@ -724,7 +724,7 @@ Clay Guida,2011-06-04,Anthony Pettis,Decision - Unanimous,80,5,0,85
 Clay Guida,2019-08-03,Jim Miller,Submission,0,0,0,0
 Clay Guida,2018-06-09,Charles Oliveira,Submission,0,0,0,0
 Clay Guida,2016-06-04,Brian Ortega,KO/TKO,0,0,0,0
-Clay Guida,2020-06-20,King Green,Decision - Unanimous,0,0,0,0
+Clay Guida,2020-06-20,Bobby Green,Decision - Unanimous,0,0,0,0
 Clay Guida,2008-09-17,Mac Danzig,Decision - Unanimous,80,7,0,87
 Clay Guida,2023-04-15,Rafa Garcia,Decision - Unanimous,0,0,0,0
 Clay Guida,2015-11-07,Thiago Tavares,Submission,0,1,0,1
@@ -2924,7 +2924,7 @@ Jalin Turner,2018-10-06,Vicente Luque,KO/TKO,0,0,0,0
 Jalin Turner,2019-04-13,Matt Frevola,Decision - Unanimous,0,4,0,4
 Jalin Turner,2024-04-13,Renato Moicano,KO/TKO,0,0,0,0
 Jalin Turner,2019-02-09,Callan Potter,KO/TKO,100,6,0,106
-Jalin Turner,2023-12-02,King Green,KO/TKO,100,18,0,118
+Jalin Turner,2023-12-02,Bobby Green,KO/TKO,100,18,0,118
 Jalin Turner,2020-02-22,Josh Culibao,KO/TKO,100,43,0,143
 Jamie Mullarkey,2022-03-05,Jalin Turner,KO/TKO,0,0,0,0
 Jamie Mullarkey,2021-10-02,Devonte Smith,KO/TKO,100,26,0,126
@@ -3997,13 +3997,13 @@ Josh Thomson,2010-12-31,Tatsuya Kawajiri,Decision - Unanimous,0,0,0,0
 Josh Thomson,2012-05-19,Gilbert Melendez,Decision - Split,0,0,25,25
 Josh Thomson,2003-09-26,Gerald Strebendt,KO/TKO,100,11,0,111
 Josh Thomson,2009-12-19,Gilbert Melendez,Decision - Unanimous,0,0,25,25
-Josh Thomson,2014-07-26,King Green,Decision - Split,0,0,0,0
+Josh Thomson,2014-07-26,Bobby Green,Decision - Split,0,0,0,0
 Josh Thomson,2006-12-08,Nam Phan,Decision - Unanimous,80,66,0,146
 Josh Thomson,2008-09-20,Ashe Bowman,KO/TKO,100,3,0,103
 Josh Thomson,2006-10-07,Duane Ludwig,Submission,90,19,0,109
 Pat Healy,2010-06-26,Josh Thomson,Submission,0,0,0,0
 Pat Healy,2014-04-19,Jorge Masvidal,Decision - Unanimous,0,0,0,0
-Pat Healy,2013-12-14,King Green,Decision - Unanimous,0,0,0,0
+Pat Healy,2013-12-14,Bobby Green,Decision - Unanimous,0,0,0,0
 Pat Healy,2010-05-21,Bryan Travers,Decision - Unanimous,80,24,0,104
 Pat Healy,2011-08-12,Eric Wisely,Decision - Unanimous,80,9,0,89
 Pat Healy,2006-03-17,Tiki Ghosn,TKO - Doctor's Stoppage,0,0,0,0
@@ -4627,7 +4627,7 @@ Edson Barboza,2014-04-19,Donald Cerrone,Submission,0,17,0,17
 Edson Barboza,2013-01-19,Lucas Martins,KO/TKO,100,14,0,114
 Edson Barboza,2011-03-19,Anthony Njokuani,Decision - Unanimous,80,0,0,80
 Edson Barboza,2019-09-07,Paul Felder,Decision - Split,0,4,0,4
-Edson Barboza,2014-11-22,King Green,Decision - Unanimous,80,4,0,84
+Edson Barboza,2014-11-22,Bobby Green,Decision - Unanimous,80,4,0,84
 Edson Barboza,2024-05-18,Lerone Murphy,Decision - Unanimous,0,0,25,25
 Edson Barboza,2012-01-14,Terry Etim,KO/TKO,100,21,0,121
 Edson Barboza,2013-07-06,Rafaello Oliveira,KO/TKO,100,30,0,130
@@ -5350,7 +5350,7 @@ Stephanie Egger,2023-12-09,Luana Santos,Decision - Unanimous,0,0,0,0
 Dustin Poirier,2015-06-06,Yancy Medeiros,KO/TKO,100,21,0,121
 Dustin Poirier,2020-06-27,Dan Hooker,Decision - Unanimous,80,0,25,105
 Dustin Poirier,2012-12-15,Jonathan Brookins,Submission,90,9,0,99
-Dustin Poirier,2016-06-04,King Green,KO/TKO,100,20,0,120
+Dustin Poirier,2016-06-04,Bobby Green,KO/TKO,100,20,0,120
 Dustin Poirier,2011-11-12,Pablo Garza,Submission,90,3,0,93
 Dustin Poirier,2023-07-29,Justin Gaethje,KO/TKO,0,0,25,25
 Dustin Poirier,2018-04-14,Justin Gaethje,KO/TKO,100,59,25,184
@@ -7024,32 +7024,32 @@ Michelle Waterson-Gomez,2020-09-12,Angela Hill,Decision - Split,70,0,25,95
 Satoshi Honma,2000-04-14,Ron Waterman,Decision - Unanimous,0,0,0,0
 Satoshi Honma,1998-10-11,Yuhi Sano,KO/TKO,100,53,0,153
 Satoshi Honma,1999-04-29,Francisco Bueno,KO/TKO,0,0,0,0
-King Green,2013-12-14,Pat Healy,Decision - Unanimous,80,21,0,101
-King Green,2017-04-15,Rashid Magomedov,Decision - Split,0,0,0,0
-King Green,2023-07-29,Tony Ferguson,Submission,90,83,0,173
-King Green,2024-04-13,Jim Miller,Decision - Unanimous,80,129,0,209
-King Green,2016-06-04,Dustin Poirier,KO/TKO,0,0,0,0
-King Green,2020-06-20,Clay Guida,Decision - Unanimous,80,62,0,142
-King Green,2021-11-06,Al Iaquinta,KO/TKO,100,18,0,118
-King Green,2013-02-02,Jacob Volkmann,Submission,90,48,0,138
-King Green,2022-12-17,Drew Dober,KO/TKO,0,39,0,39
-King Green,2018-12-15,Drakkar Klose,Decision - Unanimous,0,34,0,34
-King Green,2021-08-07,Rafael Fiziev,Decision - Unanimous,0,39,0,39
-King Green,2020-10-31,Thiago Moises,Decision - Unanimous,0,43,0,43
-King Green,2012-08-18,Matt Ricehouse,Decision - Unanimous,80,29,0,109
-King Green,2009-01-24,Dan Lauzon,Submission,0,19,0,19
-King Green,2024-07-27,Paddy Pimblett,Submission,0,7,0,7
-King Green,2022-02-12,Nasrat Haqparast,Decision - Unanimous,80,112,0,192
-King Green,2014-11-22,Edson Barboza,Decision - Unanimous,0,0,0,0
-King Green,2022-02-26,Islam Makhachev,KO/TKO,0,0,25,25
-King Green,2013-11-06,James Krause,KO/TKO,100,0,0,100
-King Green,2014-07-26,Josh Thomson,Decision - Split,70,14,0,84
-King Green,2019-11-16,Francisco Trinaldo,Decision - Unanimous,0,19,0,19
-King Green,2023-10-07,Grant Dawson,KO/TKO,100,7,25,132
-King Green,2020-08-01,Lando Vannata,Decision - Unanimous,80,61,0,141
-King Green,2020-09-12,Alan Patrick,Decision - Unanimous,80,42,0,122
-King Green,2018-01-27,Erik Koch,Decision - Unanimous,80,54,0,134
-King Green,2023-12-02,Jalin Turner,KO/TKO,0,0,0,0
+Bobby Green,2013-12-14,Pat Healy,Decision - Unanimous,80,21,0,101
+Bobby Green,2017-04-15,Rashid Magomedov,Decision - Split,0,0,0,0
+Bobby Green,2023-07-29,Tony Ferguson,Submission,90,83,0,173
+Bobby Green,2024-04-13,Jim Miller,Decision - Unanimous,80,129,0,209
+Bobby Green,2016-06-04,Dustin Poirier,KO/TKO,0,0,0,0
+Bobby Green,2020-06-20,Clay Guida,Decision - Unanimous,80,62,0,142
+Bobby Green,2021-11-06,Al Iaquinta,KO/TKO,100,18,0,118
+Bobby Green,2013-02-02,Jacob Volkmann,Submission,90,48,0,138
+Bobby Green,2022-12-17,Drew Dober,KO/TKO,0,39,0,39
+Bobby Green,2018-12-15,Drakkar Klose,Decision - Unanimous,0,34,0,34
+Bobby Green,2021-08-07,Rafael Fiziev,Decision - Unanimous,0,39,0,39
+Bobby Green,2020-10-31,Thiago Moises,Decision - Unanimous,0,43,0,43
+Bobby Green,2012-08-18,Matt Ricehouse,Decision - Unanimous,80,29,0,109
+Bobby Green,2009-01-24,Dan Lauzon,Submission,0,19,0,19
+Bobby Green,2024-07-27,Paddy Pimblett,Submission,0,7,0,7
+Bobby Green,2022-02-12,Nasrat Haqparast,Decision - Unanimous,80,112,0,192
+Bobby Green,2014-11-22,Edson Barboza,Decision - Unanimous,0,0,0,0
+Bobby Green,2022-02-26,Islam Makhachev,KO/TKO,0,0,25,25
+Bobby Green,2013-11-06,James Krause,KO/TKO,100,0,0,100
+Bobby Green,2014-07-26,Josh Thomson,Decision - Split,70,14,0,84
+Bobby Green,2019-11-16,Francisco Trinaldo,Decision - Unanimous,0,19,0,19
+Bobby Green,2023-10-07,Grant Dawson,KO/TKO,100,7,25,132
+Bobby Green,2020-08-01,Lando Vannata,Decision - Unanimous,80,61,0,141
+Bobby Green,2020-09-12,Alan Patrick,Decision - Unanimous,80,42,0,122
+Bobby Green,2018-01-27,Erik Koch,Decision - Unanimous,80,54,0,134
+Bobby Green,2023-12-02,Jalin Turner,KO/TKO,0,0,0,0
 Demetrious Johnson,2017-04-15,Wilson Reis,Submission,90,92,25,207
 Demetrious Johnson,2018-08-04,Henry Cejudo,Decision - Split,0,30,25,55
 Demetrious Johnson,2013-07-27,John Moraga,Submission,90,35,25,150
@@ -7229,7 +7229,7 @@ James Krause,2013-06-15,Sam Stout,Submission,90,23,0,113
 James Krause,2018-08-25,Warlley Alves,KO/TKO,100,31,0,131
 James Krause,2020-10-17,Claudio Silva,Decision - Unanimous,80,30,0,110
 James Krause,2018-01-14,Alex White,Decision - Unanimous,80,0,0,80
-James Krause,2013-11-06,King Green,KO/TKO,0,2,0,2
+James Krause,2013-11-06,Bobby Green,KO/TKO,0,2,0,2
 James Krause,2014-05-24,Jamie Varner,KO/TKO,100,15,0,115
 James Krause,2020-02-08,Trevin Giles,Decision - Split,0,0,0,0
 James McSweeney,2009-12-05,Darrill Schoonover,KO/TKO,100,42,0,142
@@ -7993,7 +7993,7 @@ Francisco Trinaldo,2020-07-25,Jai Herbert,KO/TKO,100,9,0,109
 Francisco Trinaldo,2012-10-13,Gleison Tibau,Decision - Unanimous,0,9,0,9
 Francisco Trinaldo,2021-06-05,Muslim Salikhov,Decision - Unanimous,0,0,0,0
 Francisco Trinaldo,2015-03-21,Akbarh Arreola,Decision - Unanimous,80,5,0,85
-Francisco Trinaldo,2019-11-16,King Green,Decision - Unanimous,80,0,0,80
+Francisco Trinaldo,2019-11-16,Bobby Green,Decision - Unanimous,80,0,0,80
 Francisco Trinaldo,2014-05-24,Michael Chiesa,Decision - Unanimous,0,0,0,0
 CJ Keith,2013-01-19,Francisco Trinaldo,Submission,0,0,0,0
 CJ Keith,2012-06-22,Ramsey Nijem,KO/TKO,0,0,0,0
@@ -8129,7 +8129,7 @@ Ricardo Ramos,2022-06-18,Danny Chavez,KO/TKO,100,1,0,101
 Ricardo Ramos,2019-11-16,Eduardo Garagorri,Submission,90,4,0,94
 Jim Miller,2020-02-15,Scott Holtzman,Decision - Unanimous,0,0,0,0
 Jim Miller,2018-12-15,Charles Oliveira,Submission,0,1,0,1
-Jim Miller,2024-04-13,King Green,Decision - Unanimous,0,0,0,0
+Jim Miller,2024-04-13,Bobby Green,Decision - Unanimous,0,0,0,0
 Jim Miller,2016-11-12,Thiago Alves,Decision - Unanimous,80,0,0,80
 Jim Miller,2019-08-03,Clay Guida,Submission,90,0,0,90
 Jim Miller,2018-09-08,Alex White,Submission,90,10,0,100
@@ -8642,7 +8642,7 @@ Rashad Coulter,2017-05-13,Chase Sherman,KO/TKO,0,0,0,0
 Rashad Coulter,2017-11-18,Tai Tuivasa,KO/TKO,0,0,0,0
 Rashad Coulter,2018-11-24,Hu Yaozong,Decision - Unanimous,80,6,0,86
 Rashad Coulter,2018-06-09,Chris de la Rocha,KO/TKO,0,0,0,0
-Rashid Magomedov,2017-04-15,King Green,Decision - Split,70,0,0,70
+Rashid Magomedov,2017-04-15,Bobby Green,Decision - Split,70,0,0,70
 Rashid Magomedov,2015-11-07,Gilbert Burns,Decision - Unanimous,80,52,0,132
 Rashid Magomedov,2014-02-01,Anthony Rocco Martin,Decision - Unanimous,80,28,0,108
 Rashid Magomedov,2014-12-20,Elias Silverio,KO/TKO,100,35,0,135
@@ -8753,7 +8753,7 @@ Cortney Casey,2017-12-02,Felice Herrig,Decision - Split,0,15,0,15
 Cortney Casey,2015-11-28,Seo Hee Ham,Decision - Unanimous,0,7,0,7
 Drew Dober,2018-01-27,Frank Camacho,Decision - Unanimous,80,39,0,119
 Drew Dober,2014-12-13,Jamie Varner,Submission,90,1,0,91
-Drew Dober,2022-12-17,King Green,KO/TKO,100,0,0,100
+Drew Dober,2022-12-17,Bobby Green,KO/TKO,100,0,0,100
 Drew Dober,2021-03-06,Islam Makhachev,Submission,0,0,0,0
 Drew Dober,2019-03-09,Beneil Dariush,Submission,0,0,0,0
 Drew Dober,2016-01-02,Scott Holtzman,Decision - Unanimous,80,0,0,80
@@ -11074,7 +11074,7 @@ Grant Dawson,2022-04-30,Jared Gordon,Submission,90,0,0,90
 Grant Dawson,2023-07-01,Damir Ismagulov,Decision - Unanimous,80,17,0,97
 Grant Dawson,2019-05-18,Michael Trizano,Submission,90,7,0,97
 Grant Dawson,2017-08-15,Adrian Diaz,Submission,90,21,0,111
-Grant Dawson,2023-10-07,King Green,KO/TKO,0,0,25,25
+Grant Dawson,2023-10-07,Bobby Green,KO/TKO,0,0,25,25
 Grant Dawson,2022-11-05,Mark Madsen,Submission,90,18,0,108
 Darrick Minner,2020-02-29,Grant Dawson,Submission,0,0,0,0
 Darrick Minner,2019-08-06,Herbert Burns,Submission,0,12,0,12
@@ -11482,7 +11482,7 @@ Khabib Nurmagomedov,2020-10-24,Justin Gaethje,Submission,90,0,25,115
 Khabib Nurmagomedov,2018-10-06,Conor McGregor,Submission,90,19,25,134
 Khabib Nurmagomedov,2019-09-07,Dustin Poirier,Submission,90,10,25,125
 Al Iaquinta,2018-04-07,Khabib Nurmagomedov,Decision - Unanimous,0,0,25,25
-Al Iaquinta,2021-11-06,King Green,KO/TKO,0,0,0,0
+Al Iaquinta,2021-11-06,Bobby Green,KO/TKO,0,0,0,0
 Al Iaquinta,2015-01-31,Joe Lauzon,KO/TKO,100,27,0,127
 Al Iaquinta,2018-12-15,Kevin Lee,Decision - Unanimous,80,9,25,114
 Al Iaquinta,2014-02-01,Kevin Lee,Decision - Unanimous,80,10,0,90
@@ -11519,7 +11519,7 @@ Lando Vannata,2016-07-13,Tony Ferguson,Submission,0,0,0,0
 Lando Vannata,2017-03-04,David Teymur,Decision - Unanimous,0,0,0,0
 Lando Vannata,2018-07-07,Drakkar Klose,Decision - Unanimous,0,0,0,0
 Lando Vannata,2022-04-23,Charles Jourdain,Submission,0,4,0,4
-Lando Vannata,2020-08-01,King Green,Decision - Unanimous,0,0,0,0
+Lando Vannata,2020-08-01,Bobby Green,Decision - Unanimous,0,0,0,0
 Lando Vannata,2016-12-10,John Makdessi,KO/TKO,100,0,0,100
 Danillo Villefort,2009-08-08,Jesse Lennox,TKO - Doctor's Stoppage,0,6,0,6
 Danillo Villefort,2009-01-25,Mike Campbell,KO/TKO,100,2,0,102
@@ -12472,7 +12472,7 @@ Leandro Silva,2015-11-21,Efrain Escudero,Decision - Unanimous,80,11,0,91
 Leandro Silva,2016-06-18,Jason Saggo,Decision - Split,0,0,0,0
 Leandro Silva,2014-11-08,Charlie Brenneman,Submission,90,0,0,90
 Jacob Volkmann,2011-01-01,Antonio McKee,Decision - Split,70,0,0,70
-Jacob Volkmann,2013-02-02,King Green,Submission,0,0,0,0
+Jacob Volkmann,2013-02-02,Bobby Green,Submission,0,0,0,0
 Jacob Volkmann,2010-03-31,Ronys Torres,Decision - Split,70,4,0,74
 Jacob Volkmann,2012-10-05,Shane Roller,Submission,90,8,0,98
 Jacob Volkmann,2010-01-02,Martin Kampmann,Submission,0,0,0,0
@@ -12893,7 +12893,7 @@ Rafael Fiziev,2020-12-12,Renato Moicano,KO/TKO,100,6,0,106
 Rafael Fiziev,2022-07-09,Rafael Dos Anjos,KO/TKO,100,10,25,135
 Rafael Fiziev,2021-12-04,Brad Riddell,KO/TKO,100,7,0,107
 Rafael Fiziev,2023-03-18,Justin Gaethje,Decision - Majority,0,0,0,0
-Rafael Fiziev,2021-08-07,King Green,Decision - Unanimous,80,0,0,80
+Rafael Fiziev,2021-08-07,Bobby Green,Decision - Unanimous,80,0,0,80
 Rafael Fiziev,2019-04-20,Magomed Mustafaev,KO/TKO,0,0,0,0
 Rafael Fiziev,2023-09-23,Mateusz Gamrot,KO/TKO,0,2,25,27
 Rafael Fiziev,2019-10-26,Alex White,Decision - Unanimous,80,11,0,91
@@ -13001,7 +13001,7 @@ Islam Makhachev,2015-10-03,Adriano Martins,KO/TKO,0,1,0,1
 Islam Makhachev,2021-10-30,Dan Hooker,Submission,90,0,0,90
 Islam Makhachev,2022-10-22,Charles Oliveira,Submission,90,11,25,126
 Islam Makhachev,2015-05-23,Leo Kuntz,Submission,90,25,0,115
-Islam Makhachev,2022-02-26,King Green,KO/TKO,100,5,25,130
+Islam Makhachev,2022-02-26,Bobby Green,KO/TKO,100,5,25,130
 Islam Makhachev,2023-02-11,Alexander Volkanovski,Decision - Unanimous,80,0,25,105
 Islam Makhachev,2024-06-01,Dustin Poirier,Submission,90,14,25,129
 Islam Makhachev,2016-09-17,Chris Wade,Decision - Unanimous,80,7,0,87
@@ -14032,7 +14032,7 @@ Thiago Moises,2018-08-12,Gleidson Cutis,KO/TKO,100,23,0,123
 Thiago Moises,2023-01-21,Melquizael Costa,Submission,90,0,0,90
 Thiago Moises,2020-05-13,Michael Johnson,Submission,90,0,0,90
 Thiago Moises,2021-07-17,Islam Makhachev,Submission,0,0,25,25
-Thiago Moises,2020-10-31,King Green,Decision - Unanimous,80,0,0,80
+Thiago Moises,2020-10-31,Bobby Green,Decision - Unanimous,80,0,0,80
 Thiago Moises,2024-03-16,Mitch Ramirez,KO/TKO,100,9,0,109
 Thiago Moises,2021-02-27,Alexander Hernandez,Decision - Unanimous,80,3,0,83
 Thiago Moises,2024-06-08,Ludovit Klein,Decision - Unanimous,0,0,0,0
@@ -14592,7 +14592,7 @@ Erik Koch,2014-05-10,Daron Cruickshank,KO/TKO,0,0,0,0
 Erik Koch,2009-12-19,Jameel Massouh,Decision - Unanimous,80,23,0,103
 Erik Koch,2011-03-19,Raphael Assuncao,KO/TKO,100,0,0,100
 Erik Koch,2010-03-06,Chad Mendes,Decision - Unanimous,0,0,0,0
-Erik Koch,2018-01-27,King Green,Decision - Unanimous,0,0,0,0
+Erik Koch,2018-01-27,Bobby Green,Decision - Unanimous,0,0,0,0
 Chan Sung Jung,2022-04-09,Alexander Volkanovski,KO/TKO,0,0,25,25
 Chan Sung Jung,2011-03-26,Leonard Garcia,Submission,90,15,0,105
 Chan Sung Jung,2010-04-24,Leonard Garcia,Decision - Split,0,25,0,25
@@ -14679,7 +14679,7 @@ Nasrat Haqparast,2020-01-18,Drew Dober,KO/TKO,0,0,0,0
 Nasrat Haqparast,2017-10-21,Marcin Held,Decision - Unanimous,0,8,0,8
 Nasrat Haqparast,2018-07-22,Marc Diakiese,Decision - Unanimous,80,43,0,123
 Nasrat Haqparast,2018-10-27,Thibault Gouti,Decision - Unanimous,80,46,0,126
-Nasrat Haqparast,2022-02-12,King Green,Decision - Unanimous,0,0,0,0
+Nasrat Haqparast,2022-02-12,Bobby Green,Decision - Unanimous,0,0,0,0
 Nasrat Haqparast,2020-08-08,Alexander Munoz,Decision - Unanimous,80,67,0,147
 Tagir Ulanbekov,2020-10-10,Bruno Silva,Decision - Unanimous,80,0,0,80
 Tagir Ulanbekov,2022-03-05,Tim Elliott,Decision - Unanimous,0,11,0,11
@@ -15815,7 +15815,7 @@ Mike Rodriguez,2017-08-08,Jamelle Jones,KO/TKO,100,3,0,103
 Mike Rodriguez,2018-12-15,Adam Milstead,KO/TKO,100,25,0,125
 Drakkar Klose,2023-12-02,Joe Solecki,KO/TKO,100,1,0,101
 Drakkar Klose,2017-01-15,Devin Powell,Decision - Unanimous,80,46,0,126
-Drakkar Klose,2018-12-15,King Green,Decision - Unanimous,80,0,0,80
+Drakkar Klose,2018-12-15,Bobby Green,Decision - Unanimous,80,0,0,80
 Drakkar Klose,2024-12-14,Joel Alvarez,KO/TKO,0,0,0,0
 Drakkar Klose,2020-03-07,Beneil Dariush,KO/TKO,0,3,0,3
 Drakkar Klose,2022-04-16,Brandon Jenkins,KO/TKO,100,58,0,158
@@ -16497,7 +16497,7 @@ Alan Patrick,2013-10-09,Garett Whiteley,KO/TKO,100,9,0,109
 Alan Patrick,2018-02-03,Damir Hadzovic,Decision - Unanimous,80,8,0,88
 Alan Patrick,2016-09-24,Stevie Ray,Decision - Unanimous,80,5,0,85
 Alan Patrick,2015-06-20,Mairbek Taisumov,KO/TKO,0,0,0,0
-Alan Patrick,2020-09-12,King Green,Decision - Unanimous,0,0,0,0
+Alan Patrick,2020-09-12,Bobby Green,Decision - Unanimous,0,0,0,0
 Chris Fishgold,2019-02-23,Daniel Teymur,Submission,90,0,0,90
 Chris Fishgold,2018-10-27,Calvin Kattar,KO/TKO,0,0,0,0
 Chris Fishgold,2020-07-15,Jared Gordon,Decision - Unanimous,0,0,0,0
@@ -17535,7 +17535,7 @@ Josh Samman,2015-12-19,Tamdan McCrory,Submission,0,0,0,0
 Josh Samman,2013-04-13,Kevin Casey,KO/TKO,100,22,0,122
 Josh Samman,2016-07-13,Tim Boetsch,KO/TKO,0,0,0,0
 Matt Ricehouse,2011-06-24,Ryan Couture,Decision - Unanimous,80,0,0,80
-Matt Ricehouse,2012-08-18,King Green,Decision - Unanimous,0,0,0,0
+Matt Ricehouse,2012-08-18,Bobby Green,Decision - Unanimous,0,0,0,0
 Shimon Smotritsky,2021-10-05,Mike Malott,Submission,0,0,0,0
 Shimon Smotritsky,2022-08-02,Billy Ray Goff,KO/TKO,0,0,0,0
 Andrews Nakahara,2009-04-05,Shungo Oyama,KO/TKO,100,12,0,112
@@ -17999,7 +17999,7 @@ Fabiano Iha,2000-09-22,Laverne Clark,Submission,90,0,0,90
 Paddy Pimblett,2023-12-16,Tony Ferguson,Decision - Unanimous,80,44,0,124
 Paddy Pimblett,2021-09-04,Luigi Vendramini,KO/TKO,100,22,0,122
 Paddy Pimblett,2022-07-23,Jordan Leavitt,Submission,90,1,0,91
-Paddy Pimblett,2024-07-27,King Green,Submission,90,0,0,90
+Paddy Pimblett,2024-07-27,Bobby Green,Submission,90,0,0,90
 Paddy Pimblett,2022-12-10,Jared Gordon,Decision - Unanimous,80,3,0,83
 Paddy Pimblett,2022-03-19,Kazula Vargas,Submission,90,0,0,90
 Gerard Gordeau,1993-11-12,Kevin Rosier,KO/TKO,100,11,0,111
@@ -18620,7 +18620,7 @@ Jonavin Webb,2015-05-09,Kyle Noke,Decision - Split,0,0,0,0
 Tae Hyun Lee,2008-06-15,Alistair Overeem,KO/TKO,0,0,0,0
 Tae Hyun Lee,2006-09-10,Ricardo Morais,KO/TKO,0,0,0,0
 Dan Lauzon,2006-10-14,Spencer Fisher,KO/TKO,0,0,0,0
-Dan Lauzon,2009-01-24,King Green,Submission,90,0,0,90
+Dan Lauzon,2009-01-24,Bobby Green,Submission,90,0,0,90
 Dan Lauzon,2010-01-02,Cole Miller,Submission,0,0,0,0
 Dan Lauzon,2010-05-29,Efrain Escudero,Decision - Unanimous,0,0,0,0
 Dequan Townsend,2020-02-15,Devin Clark,Decision - Unanimous,0,0,0,0
