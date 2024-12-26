@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import SearchBar from "@/components/SearchBar";
 import fighterData from "../../public/data/processed_fighters.json";
 import { ViewType } from "@/types/app";
@@ -36,22 +36,66 @@ export default function Home() {
   const [selectedFighterModal, setSelectedFighterModal] =
     useState<Fighter | null>(null);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
+  const [visibleFighters, setVisibleFighters] = useState<Fighter[]>([]);
+  const [page, setPage] = useState(1);
+  const loadingRef = useRef(null);
+  const FIGHTERS_PER_PAGE = 50;
+  const [rankMap, setRankMap] = useState<Map<string, number>>(new Map());
+  const [sortedFighters, setSortedFighters] = useState<Fighter[]>([]);
 
-  // First sort fighters by adjusted value to establish consistent ranks
-  const sortedFighters = [...fighterData.fighters].sort((a, b) => {
-    const aValue = calculateDailyAdjustedValue(a);
-    const bValue = calculateDailyAdjustedValue(b);
-    return bValue - aValue;
-  });
+  const loadMoreFighters = useCallback(() => {
+    const filtered = sortedFighters.filter((fighter) =>
+      fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
-  // Create a map of fighter name to rank
-  const rankMap = new Map(
-    sortedFighters.map((fighter, index) => [fighter.name, index + 1])
-  );
+    const nextFighters = filtered.slice(
+      page * FIGHTERS_PER_PAGE,
+      (page + 1) * FIGHTERS_PER_PAGE
+    );
 
-  const filteredFighters = sortedFighters.filter((fighter) =>
-    fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+    if (nextFighters.length > 0) {
+      setVisibleFighters((prev) => [...prev, ...nextFighters]);
+      setPage((prev) => prev + 1);
+    }
+  }, [searchQuery, page, sortedFighters, FIGHTERS_PER_PAGE]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          loadMoreFighters();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (loadingRef.current) {
+      observer.observe(loadingRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [loadMoreFighters]);
+
+  useEffect(() => {
+    const sorted = [...fighterData.fighters].sort((a, b) => {
+      const aValue = calculateDailyAdjustedValue(a);
+      const bValue = calculateDailyAdjustedValue(b);
+      return bValue - aValue;
+    });
+
+    setSortedFighters(sorted);
+
+    const ranks = new Map(
+      sorted.map((fighter, index) => [fighter.name, index + 1])
+    );
+    setRankMap(ranks);
+
+    const filtered = sorted.filter((fighter) =>
+      fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setVisibleFighters(filtered.slice(0, FIGHTERS_PER_PAGE));
+    setPage(1);
+  }, [searchQuery]);
 
   const handleMultiplierChange = (fighterName: string, multiplier: number) => {
     setMultiplierMap((prev) => ({
@@ -189,7 +233,7 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
-                  {filteredFighters.map((fighter) => {
+                  {visibleFighters.map((fighter) => {
                     const multiplier = multiplierMap[fighter.name] || 1.2;
                     const multiplierColor =
                       multipliers.find((m) => m.value === multiplier)?.color ||
@@ -264,6 +308,14 @@ export default function Home() {
                   })}
                 </tbody>
               </table>
+              <div
+                ref={loadingRef}
+                className="h-10 flex items-center justify-center"
+              >
+                {visibleFighters.length > 0 && (
+                  <div className="text-gray-500 text-sm">Loading more...</div>
+                )}
+              </div>
             </div>
           </div>
         ) : viewType === "compare" ? (
