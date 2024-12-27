@@ -21,6 +21,7 @@ type FighterComparisonProps = {
   onSelectFighter2: (fighter: Fighter) => void;
   multiplierMap: Record<string, number>;
   onMultiplierChange: (fighterName: string, multiplier: number) => void;
+  onShowDetail: (fighter: Fighter) => void;
 };
 
 function getMonthDay(date: string): string {
@@ -87,6 +88,7 @@ export default function FighterComparison({
   onSelectFighter2,
   multiplierMap,
   onMultiplierChange,
+  onShowDetail,
 }: FighterComparisonProps) {
   const [search1, setSearch1] = useState("");
   const [search2, setSearch2] = useState("");
@@ -207,6 +209,25 @@ export default function FighterComparison({
                     </option>
                   ))}
                 </select>
+                <button
+                  onClick={() => onShowDetail(fighter)}
+                  className="text-gray-400 hover:text-gray-300 font-medium flex items-center gap-1.5"
+                >
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                  <span className="md:inline text-sm">Detail View</span>
+                </button>
               </div>
             </div>
 
@@ -242,13 +263,20 @@ export default function FighterComparison({
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="bg-[#1a1a1a] rounded-lg">
-        {renderFighterStats(selectedFighter1, "left", search1, setSearch1)}
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="bg-[#1a1a1a] rounded-lg">
+          {renderFighterStats(selectedFighter1, "left", search1, setSearch1)}
+        </div>
+        <div className="bg-[#1a1a1a] rounded-lg">
+          {renderFighterStats(selectedFighter2, "right", search2, setSearch2)}
+        </div>
       </div>
-      <div className="bg-[#1a1a1a] rounded-lg">
-        {renderFighterStats(selectedFighter2, "right", search2, setSearch2)}
+
+      <div className="mt-4 text-center text-gray-400 text-sm">
+        💡 Click &quot;Detail View&quot; on any fighter to see their daily RAX
+        breakdown
       </div>
-    </div>
+    </>
   );
 }

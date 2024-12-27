@@ -76,7 +76,7 @@ export default function FighterModal({
   onClose,
   onMultiplierChange,
 }: FighterModalProps) {
-  const [showDailyView, setShowDailyView] = useState(false);
+  const [showMonthly, setShowMonthly] = useState(false);
   const multiplierColor =
     multipliers.find((m) => m.value === multiplier)?.color || "text-blue-400";
 
@@ -120,30 +120,18 @@ export default function FighterModal({
 
           <div className="mt-4 flex justify-end">
             <button
-              onClick={() => setShowDailyView(!showDailyView)}
+              onClick={() => setShowMonthly(!showMonthly)}
               className="text-sm text-blue-400 hover:text-blue-300"
             >
-              {showDailyView ? "Show Monthly" : "Show Daily"}
+              {showMonthly ? "Show Daily" : "Show Monthly"}
             </button>
           </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[60vh]">
           <div className="space-y-2">
-            {showDailyView
-              ? // Daily breakdown view
-                dailyScores.map((score) => (
-                  <div
-                    key={score.date}
-                    className="flex justify-between items-center text-xs"
-                  >
-                    <span className="text-gray-400">{score.date}</span>
-                    <span className={`font-bold ${multiplierColor}`}>
-                      {Math.round(score.value)}
-                    </span>
-                  </div>
-                ))
-              : // Monthly summary view
+            {showMonthly
+              ? // Monthly summary view
                 monthlyScores
                   .sort((a, b) => {
                     const months = [
@@ -173,7 +161,19 @@ export default function FighterModal({
                         {Math.round(mv.value)}
                       </span>
                     </div>
-                  ))}
+                  ))
+              : // Daily breakdown view
+                dailyScores.map((score) => (
+                  <div
+                    key={score.date}
+                    className="flex justify-between items-center text-xs"
+                  >
+                    <span className="text-gray-400">{score.date}</span>
+                    <span className={`font-bold ${multiplierColor}`}>
+                      {Math.round(score.value)}
+                    </span>
+                  </div>
+                ))}
           </div>
         </div>
       </div>

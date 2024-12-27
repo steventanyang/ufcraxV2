@@ -13,12 +13,13 @@ from config import HEADERS
 async def get_fighters_page(session, before):
     url = f'https://web.realsports.io/userpassshop/ufc/season/2023/entity/team/section/hotseason?before={before}'
     
-    ssl_context = ssl.create_default_context()
-    ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE
+    # ssl_context = ssl.create_default_context()
+    # ssl_context.check_hostname = False
+    # ssl_context.verify_mode = ssl.CERT_NONE
+    # TODO: got rid of this not sure if it'll break anything 
 
     try:
-        async with session.get(url, headers=HEADERS, ssl=ssl_context) as response:
+        async with session.get(url, headers=HEADERS) as response:
             if response.status == 200:
                 content = await response.read()
                 if 'gzip' in response.headers.get('Content-Encoding', ''):

@@ -44,6 +44,8 @@ export default function Home() {
   const [sortedFighters, setSortedFighters] = useState<Fighter[]>([]);
 
   const loadMoreFighters = useCallback(() => {
+    if (viewType !== "rankings") return;
+
     const filtered = sortedFighters.filter((fighter) =>
       fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
@@ -57,9 +59,11 @@ export default function Home() {
       setVisibleFighters((prev) => [...prev, ...nextFighters]);
       setPage((prev) => prev + 1);
     }
-  }, [searchQuery, page, sortedFighters, FIGHTERS_PER_PAGE]);
+  }, [searchQuery, page, sortedFighters, FIGHTERS_PER_PAGE, viewType]);
 
   useEffect(() => {
+    if (viewType !== "rankings") return;
+
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
@@ -74,7 +78,7 @@ export default function Home() {
     }
 
     return () => observer.disconnect();
-  }, [loadMoreFighters]);
+  }, [loadMoreFighters, viewType]);
 
   useEffect(() => {
     const sorted = [...fighterData.fighters].sort((a, b) => {
@@ -140,23 +144,13 @@ export default function Home() {
                   height: "85%",
                   top: "7.5%",
                   left:
-                    viewType === "rankings"
+                    viewType === "compare"
                       ? "1%"
-                      : viewType === "compare"
+                      : viewType === "rankings"
                       ? "33.333333%"
                       : "65.666666%",
                 }}
               />
-              <button
-                onClick={() => setViewType("rankings")}
-                className={`relative py-2 text-sm font-medium rounded-md flex-1 transition-colors duration-200 text-center ${
-                  viewType === "rankings"
-                    ? "text-white"
-                    : "text-gray-400 hover:text-gray-200"
-                }`}
-              >
-                <span className="px-3">Rankings</span>
-              </button>
               <button
                 onClick={() => setViewType("compare")}
                 className={`relative py-2 text-sm font-medium rounded-md flex-1 transition-colors duration-200 text-center ${
@@ -166,6 +160,16 @@ export default function Home() {
                 }`}
               >
                 <span className="px-3">Compare</span>
+              </button>
+              <button
+                onClick={() => setViewType("rankings")}
+                className={`relative py-2 text-sm font-medium rounded-md flex-1 transition-colors duration-200 text-center ${
+                  viewType === "rankings"
+                    ? "text-white"
+                    : "text-gray-400 hover:text-gray-200"
+                }`}
+              >
+                <span className="px-3">Rankings</span>
               </button>
               <button
                 onClick={() => setViewType("recommendations")}
@@ -271,13 +275,10 @@ export default function Home() {
                                   onClick={() =>
                                     setSelectedFighterModal(fighter)
                                   }
-                                  className="text-gray-400 hover:text-gray-300 font-medium"
+                                  className="text-gray-400 hover:text-gray-300 font-medium flex items-center gap-1.5"
                                 >
-                                  <span className="hidden md:inline text-sm">
-                                    Detail View
-                                  </span>
                                   <svg
-                                    className="w-4 h-4 md:hidden"
+                                    className="w-4 h-4"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -289,6 +290,9 @@ export default function Home() {
                                       d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                                     />
                                   </svg>
+                                  <span className="hidden md:inline text-sm">
+                                    Detail View
+                                  </span>
                                 </button>
                               </div>
                             </td>
@@ -331,6 +335,7 @@ export default function Home() {
                 onSelectFighter2={setSelectedFighter2}
                 multiplierMap={multiplierMap}
                 onMultiplierChange={handleMultiplierChange}
+                onShowDetail={(fighter) => setSelectedFighterModal(fighter)}
               />
             </div>
           ) : (
@@ -372,7 +377,7 @@ export default function Home() {
           </a>
           <span className="text-gray-700">•</span>
           <span className="text-gray-400 text-sm">
-            join &quot;UFC Rax group&quot; for feedback / bug reports
+            Join &quot;UFC Rax group&quot; for feedback
           </span>
         </div>
       </div>
