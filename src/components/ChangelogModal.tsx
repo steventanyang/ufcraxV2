@@ -33,6 +33,20 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
           <div className="space-y-4">
             <div className="border-b border-gray-700 pb-4">
               <h3 className="text-lg font-semibold text-gray-100 mb-2">
+                December 26, 2024
+              </h3>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>Bug fixes</li>
+                  <li>
+                    Monthly / daily breakdowns on rankings page for mobile
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-2">
                 December 25, 2024
               </h3>
               <div className="space-y-3 text-gray-300">
@@ -55,13 +69,16 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
                     breakdowns
                   </li>
                   <li>
-                    &quot;Who to Buy&quot; recommendations feature
-                    with new &quot;value score&quot; based on owners + active
-                    status
+                    &quot;Who to Buy&quot; recommendations feature with new
+                    &quot;value score&quot; based on owners + active status
                   </li>
-                  <li>10 fighter detail view accounting for OTD rax claim overlaps</li>
                   <li>
-                    Added owned passes tracking with color-coded indicators on recommendations
+                    10 fighter detail view accounting for OTD rax claim overlaps
+                    (thx to @paolo for suggesting this)
+                  </li>
+                  <li>
+                    Added owned passes tracking with color-coded indicators on
+                    recommendations
                   </li>
                   <li>Mobile performance improvements</li>
                 </ul>

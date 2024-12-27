@@ -1,6 +1,7 @@
 import { Fighter } from "@/types/fighters";
 import { useState, useMemo } from "react";
 import { useDebounce } from "@/hooks/useDebounce";
+import { calculateDailyAdjustedValue } from "@/utils/calculations";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -187,7 +188,10 @@ export default function FighterComparison({
                   }`}
                 >
                   {Math.round(
-                    fighter.value * (multiplierMap[fighter.name] || 1.2)
+                    calculateDailyAdjustedValue(
+                      fighter,
+                      multiplierMap[fighter.name] || 1.2
+                    )
                   )}
                 </span>
                 <select

@@ -4,6 +4,7 @@ import json
 import zlib
 import ssl
 from tqdm import tqdm
+from config import HEADERS
 
 # gets card purchases for each fighter
 # last ran dec 25 2024
@@ -12,36 +13,12 @@ from tqdm import tqdm
 async def get_fighters_page(session, before):
     url = f'https://web.realsports.io/userpassshop/ufc/season/2023/entity/team/section/hotseason?before={before}'
     
-    headers = {
-        'accept': 'application/json',
-        'accept-encoding': 'gzip, deflate, br, zstd',
-        'accept-language': 'en-US,en;q=0.9',
-        'cache-control': 'max-age=0',
-        'content-type': 'application/json',
-        'origin': 'https://www.realsports.io',
-        'priority': 'u=1, i',
-        'real-auth-info': 'jvbbjXpv!aE1Wn2xA!e9dcef8c-6c49-4e3c-8637-a18138cd6a52',
-        'real-device-name': '5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'real-device-type': 'desktop_web',
-        'real-device-uuid': '9393a0d2-7aec-443d-88d9-13a8e9d72cf2',
-        'real-request-token': 'token',
-        'real-version': '21',
-        'referer': 'https://www.realsports.io/',
-        'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36'
-    }
-
     ssl_context = ssl.create_default_context()
     ssl_context.check_hostname = False
     ssl_context.verify_mode = ssl.CERT_NONE
 
     try:
-        async with session.get(url, headers=headers, ssl=ssl_context) as response:
+        async with session.get(url, headers=HEADERS, ssl=ssl_context) as response:
             if response.status == 200:
                 content = await response.read()
                 if 'gzip' in response.headers.get('Content-Encoding', ''):

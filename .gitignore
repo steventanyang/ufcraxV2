@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Add these lines to your .gitignore file
+python/scripts/config.py
+python/scripts/__pycache__/

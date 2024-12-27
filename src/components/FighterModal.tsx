@@ -1,5 +1,6 @@
 import { Fighter } from "@/types/fighters";
 import { calculateDailyAdjustedValue } from "@/utils/calculations";
+import { useState } from "react";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -52,14 +53,35 @@ function getAdjustedMonthlyScores(fighter: Fighter, multiplier: number) {
   }));
 }
 
+function getDailyScores(fighter: Fighter, multiplier: number) {
+  const scoresByDay = new Map<string, number>();
+
+  fighter.scores.forEach((score) => {
+    const monthDay = getMonthDay(score.date);
+    const value = score.value * multiplier;
+
+    if (!scoresByDay.has(monthDay) || value > scoresByDay.get(monthDay)!) {
+      scoresByDay.set(monthDay, value);
+    }
+  });
+
+  return Array.from(scoresByDay.entries())
+    .map(([date, value]) => ({ date, value }))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
 export default function FighterModal({
   fighter,
   multiplier,
   onClose,
   onMultiplierChange,
 }: FighterModalProps) {
+  const [showDailyView, setShowDailyView] = useState(false);
   const multiplierColor =
     multipliers.find((m) => m.value === multiplier)?.color || "text-blue-400";
+
+  const monthlyScores = getAdjustedMonthlyScores(fighter, multiplier);
+  const dailyScores = getDailyScores(fighter, multiplier);
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
@@ -95,40 +117,63 @@ export default function FighterModal({
               ×
             </button>
           </div>
+
+          <div className="mt-4 flex justify-end">
+            <button
+              onClick={() => setShowDailyView(!showDailyView)}
+              className="text-sm text-blue-400 hover:text-blue-300"
+            >
+              {showDailyView ? "Show Monthly" : "Show Daily"}
+            </button>
+          </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[60vh]">
-          <div className="space-y-4">
-            {getAdjustedMonthlyScores(fighter, multiplier)
-              .sort((a, b) => {
-                const months = [
-                  "December",
-                  "November",
-                  "October",
-                  "September",
-                  "August",
-                  "July",
-                  "June",
-                  "May",
-                  "April",
-                  "March",
-                  "February",
-                  "January",
-                ];
-                return months.indexOf(a.month) - months.indexOf(b.month);
-              })
-              .slice(0, 12)
-              .map((mv) => (
-                <div
-                  key={mv.month}
-                  className="flex justify-between items-center text-sm"
-                >
-                  <span className="text-gray-400 font-medium">{mv.month}</span>
-                  <span className={`font-bold ${multiplierColor}`}>
-                    {Math.round(mv.value)}
-                  </span>
-                </div>
-              ))}
+          <div className="space-y-2">
+            {showDailyView
+              ? // Daily breakdown view
+                dailyScores.map((score) => (
+                  <div
+                    key={score.date}
+                    className="flex justify-between items-center text-xs"
+                  >
+                    <span className="text-gray-400">{score.date}</span>
+                    <span className={`font-bold ${multiplierColor}`}>
+                      {Math.round(score.value)}
+                    </span>
+                  </div>
+                ))
+              : // Monthly summary view
+                monthlyScores
+                  .sort((a, b) => {
+                    const months = [
+                      "December",
+                      "November",
+                      "October",
+                      "September",
+                      "August",
+                      "July",
+                      "June",
+                      "May",
+                      "April",
+                      "March",
+                      "February",
+                      "January",
+                    ];
+                    return months.indexOf(a.month) - months.indexOf(b.month);
+                  })
+                  .slice(0, 12)
+                  .map((mv) => (
+                    <div
+                      key={mv.month}
+                      className="flex justify-between items-center text-sm"
+                    >
+                      <span className="text-gray-400">{mv.month}</span>
+                      <span className={`font-bold ${multiplierColor}`}>
+                        {Math.round(mv.value)}
+                      </span>
+                    </div>
+                  ))}
           </div>
         </div>
       </div>
