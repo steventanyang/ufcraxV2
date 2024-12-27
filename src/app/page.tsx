@@ -104,7 +104,7 @@ export default function Home() {
   }, [searchQuery]);
 
   useEffect(() => {
-    fetch("https://api.countapi.xyz/hit/ufc-rax-v2/visits")
+    fetch("https://api.countapi.xyz/hit/ufcrax-v2.vercel.app/visits")
       .then((response) => response.json())
       .then((data) => setVisitorCount(data.value + 2293))
       .catch((error) => console.error("Error fetching visitor count:", error));
@@ -408,8 +408,8 @@ export default function Home() {
           <span className="text-gray-400 text-sm">
             {visitorCount ? (
               <>
-                Used by <strong>{visitorCount.toLocaleString() + 2293}</strong> rax
-                investors
+                Used by <strong>{visitorCount.toLocaleString() + 2407}</strong>{" "}
+                rax investors
               </>
             ) : (
               "Loading..."
