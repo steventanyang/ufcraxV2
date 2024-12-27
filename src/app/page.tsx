@@ -10,6 +10,7 @@ import { Fighter } from "@/types/fighters";
 import FighterModal from "@/components/FighterModal";
 import { calculateDailyAdjustedValue } from "@/utils/calculations";
 import ChangelogModal from "@/components/ChangelogModal";
+import Image from "next/image";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -127,15 +128,24 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#111111] text-gray-100">
       <div className="container mx-auto px-4 max-w-7xl h-screen flex flex-col">
-        <div className="pt-4 md:pt-6 pb-4">
-          <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
-            UFC Rax V2
-          </h1>
-          <div className="text-gray-500 text-center text-xs md:text-base mb-4">
-            <p>made by @yangsl</p>
+        <div className="pt-6 md:pt-8 pb-4">
+          <div className="flex items-center justify-center gap-3 mb-1">
+            <Image
+              src="/rax_logo.svg"
+              alt="UFC Rax Logo"
+              width={36}
+              height={36}
+              className="w-7 h-7 md:w-9 md:h-9"
+            />
+            <h1 className="text-2xl md:text-4xl font-bold text-center">
+              UFC Rax V2
+            </h1>
+          </div>
+          <div className="text-gray-500 text-center text-xs md:text-base mb-5">
+            <p>by @yangsl</p>
           </div>
 
-          <div className="flex justify-center mb-4">
+          <div className="flex justify-center mb-5">
             <nav className="flex relative rounded-lg bg-[#2a2a2a] p-1 w-full max-w-[400px]">
               <div
                 className="absolute transition-all duration-200 ease-in-out bg-[#404040] rounded-md"
@@ -185,7 +195,7 @@ export default function Home() {
           </div>
 
           {viewType === "rankings" && (
-            <div className="mb-4">
+            <div className="mb-5">
               <SearchBar onSearch={handleSearch} />
             </div>
           )}
@@ -312,16 +322,23 @@ export default function Home() {
                       })}
                     </tbody>
                   </table>
-                  <div
-                    ref={loadingRef}
-                    className="h-10 flex items-center justify-center"
-                  >
-                    {visibleFighters.length > 0 && (
-                      <div className="text-gray-500 text-sm">
-                        Loading more...
-                      </div>
-                    )}
-                  </div>
+                  {visibleFighters.length > 0 && (
+                    <div
+                      ref={loadingRef}
+                      className="h-10 flex items-center justify-center"
+                    >
+                      {visibleFighters.length <
+                        sortedFighters.filter((fighter) =>
+                          fighter.name
+                            .toLowerCase()
+                            .includes(searchQuery.toLowerCase())
+                        ).length && (
+                        <div className="text-gray-500 text-sm">
+                          Loading more...
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

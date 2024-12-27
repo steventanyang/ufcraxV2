@@ -40,7 +40,7 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
           name="search-input"
           value={inputValue}
           onChange={handleChange}
-          placeholder="Search fighters..."
+          placeholder="Search fighters"
           className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-3 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none"
         />
       </div>

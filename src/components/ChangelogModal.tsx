@@ -39,7 +39,7 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>Bug fixes</li>
                   <li>
-                    Monthly / daily breakdowns on rankings page for mobile
+                    Daily breakdowns on rankings + compare pages
                   </li>
                 </ul>
               </div>

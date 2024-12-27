@@ -143,7 +143,7 @@ export default function FighterComparison({
             type="text"
             id={`fighter-search-${side}`}
             name={`fighter-search-${side}`}
-            placeholder="Search fighters..."
+            placeholder="Search fighters"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none text-sm"

@@ -602,7 +602,7 @@ export default function Recommendations({
           </div>
           <input
             type="text"
-            placeholder="Add fighter (max 10)..."
+            placeholder="Add fighter (max 10)"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none"
