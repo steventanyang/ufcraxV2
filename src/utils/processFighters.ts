@@ -13,6 +13,18 @@ interface FightHistoryCSV {
   total_points: string;
 }
 
+interface FighterValueData {
+  value: string;
+  id: number;
+  pass_distribution: {
+    7: number;
+    6: number;
+    5: number;
+    4: number;
+    3: number;
+  };
+}
+
 interface ActiveOverride {
   name: string;
   active: boolean;
@@ -39,7 +51,8 @@ export function processFighterData(
     "./public/data/fighters_values.json",
     "utf-8"
   );
-  const ownedPassesData = JSON.parse(ownedPassesContent);
+  const ownedPassesData: Record<string, FighterValueData> =
+    JSON.parse(ownedPassesContent);
 
   const valueData = parse(valueContent, {
     columns: true,
@@ -58,12 +71,20 @@ export function processFighterData(
 
   // Process value data first
   valueData.forEach((row) => {
+    const fighterPassData = ownedPassesData[row.name] || {
+      value: "0",
+      id: 0,
+      pass_distribution: { 7: 0, 6: 0, 5: 0, 4: 0 },
+    };
+
     fightersMap.set(row.name, {
       name: row.name,
       value: parseInt(row.Value),
       scores: [],
       active: false,
-      ownedPasses: parseInt(ownedPassesData[row.name] || "0"),
+      ownedPasses: parseInt(fighterPassData.value),
+      id: fighterPassData.id,
+      passDistribution: fighterPassData.pass_distribution,
     });
   });
 

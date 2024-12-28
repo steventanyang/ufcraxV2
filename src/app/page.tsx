@@ -11,6 +11,7 @@ import FighterModal from "@/components/FighterModal";
 import { calculateDailyAdjustedValue } from "@/utils/calculations";
 import ChangelogModal from "@/components/ChangelogModal";
 import Image from "next/image";
+import PassDistributionModal from "@/components/PassDistributionModal";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -43,6 +44,8 @@ export default function Home() {
   const FIGHTERS_PER_PAGE = 50;
   const [rankMap, setRankMap] = useState<Map<string, number>>(new Map());
   const [sortedFighters, setSortedFighters] = useState<Fighter[]>([]);
+  const [selectedPassDistribution, setSelectedPassDistribution] =
+    useState<Fighter | null>(null);
   // const [visitorCount, setVisitorCount] = useState<number | null>(null);
 
   const loadMoreFighters = useCallback(() => {
@@ -323,6 +326,26 @@ export default function Home() {
                                 >
                                   {fighter.ownedPasses}
                                 </span>
+                                <button
+                                  onClick={() =>
+                                    setSelectedPassDistribution(fighter)
+                                  }
+                                  className="text-gray-400 hover:text-gray-300 font-medium flex items-center gap-1.5"
+                                >
+                                  <svg
+                                    className="w-5 h-5 md:w-6 md:h-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M16 8v8m-4-5v5M8 8v8m-4-5v5m0 0v3a2 2 0 002 2h12a2 2 0 002-2v-3"
+                                    />
+                                  </svg>
+                                </button>
                               </div>
                             </td>
                           </tr>
@@ -429,6 +452,12 @@ export default function Home() {
         isOpen={isChangelogOpen}
         onClose={() => setIsChangelogOpen(false)}
       />
+      {selectedPassDistribution && (
+        <PassDistributionModal
+          fighter={selectedPassDistribution}
+          onClose={() => setSelectedPassDistribution(null)}
+        />
+      )}
     </main>
   );
 }

@@ -33,14 +33,24 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
           <div className="space-y-4">
             <div className="border-b border-gray-700 pb-4">
               <h3 className="text-lg font-semibold text-gray-100 mb-2">
+                December 28, 2024
+              </h3>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>Added owned passes distribution modal for fighters</li>
+                  <li>Bug fixes </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-2">
                 December 26, 2024
               </h3>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>Bug fixes</li>
-                  <li>
-                    Daily breakdowns on rankings + compare pages
-                  </li>
+                  <li>Daily breakdowns on rankings + compare pages</li>
                 </ul>
               </div>
             </div>

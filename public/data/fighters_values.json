@@ -1,778 +1,8549 @@
 {
-    "AJ Dobson": "1",
-    "Aaron Riley": "1",
-    "Abdul Razak Alhassan": "1",
-    "Abus Magomedov": "3",
-    "Adrian Yanez": "2",
-    "Adriano Martins": "1",
-    "Aiemann Zahabi": "2",
-    "Ailin Perez": "18",
-    "Akira Shoji": "1",
-    "Al Iaquinta": "1",
-    "Alan Belcher": "1",
-    "Alan Jouban": "1",
-    "Alan Patrick": "1",
-    "Alejandro Perez": "1",
-    "Aleksandar Rakic": "5",
-    "Aleksei Oleinik": "17",
-    "Alessandro Costa": "1",
-    "Alex Caceres": "36",
-    "Alex Morono": "9",
-    "Alex Oliveira": "7",
-    "Alex Pereira": "1207",
-    "Alex Perez": "3",
-    "Alexa Grasso": "56",
-    "Alexander Gustafsson": "18",
-    "Alexander Shlemenko": "2",
-    "Alexander Volkanovski": "440",
-    "Alexander Volkov": "38",
-    "Alexandr Romanov": "1",
-    "Alexandre Pantoja": "97",
-    "Aliaskhab Khizriev": "1",
-    "Alistair Overeem": "629",
-    "Aljamain Sterling": "129",
-    "Allan Nascimento": "1",
-    "Alonzo Menifield": "2",
-    "Amanda Lemos": "1",
-    "Amanda Nunes": "68",
-    "Amanda Ribas": "2",
-    "Amir Albazi": "2",
-    "Anderson Silva": "649",
-    "Andre Fili": "6",
-    "Andre Muniz": "1",
-    "Andre Petroski": "2",
-    "Andrea Lee": "1",
-    "Andrei Arlovski": "192",
-    "Angela Hill": "15",
-    "Angga": "5",
-    "Anshul Jubli": "2",
-    "Anthony Hernandez": "12",
-    "Anthony Johnson": "13",
-    "Anthony Pettis": "31",
-    "Anthony Smith": "24",
-    "Antonio Banuelos": "1",
-    "Antonio Rodrigo Nogueira": "63",
-    "Antonio Schembri": "1",
-    "Antonio Silva": "2",
-    "Aoriqileng": "2",
-    "Ariane Lipski": "8",
-    "Arman Tsarukyan": "46",
-    "Armen Petrosyan": "1",
-    "Arnold Allen": "8",
-    "Art Jimmerson": "1",
-    "Ashley Yoder": "1",
-    "Askar Askarov": "3",
-    "Assu Almabayev": "9",
-    "Austen Lane": "1",
-    "Austin Hubbard": "1",
-    "Azamat Murzakanov": "2",
-    "BJ Penn": "47",
-    "Bas Rutten": "2",
-    "Bassil Hafez": "1",
-    "Belal Muhammad": "57",
-    "Ben Askren": "1",
-    "Ben Rothwell": "24",
-    "Ben Saunders": "2",
-    "Beneil Dariush": "27",
-    "Benoit Saint Denis": "59",
-    "Benson Henderson": "30",
-    "Bill Algeo": "3",
-    "Billy Goff": "1",
-    "Billy Quarantillo": "5",
-    "Blood Diamond": "1",
-    "Bo Nickal": "226",
-    "Bob Sapp": "2",
-    "Bobby Green": "90",
-    "Bobby Lashley": "2",
-    "Bogdan Grad": "1",
-    "Bogdan Guskov": "1",
-    "Bolaji Oki": "1",
-    "Boston Salmon": "1",
-    "Brad Katona": "1",
-    "Brad Pickett": "3",
-    "Brad Tavares": "13",
-    "Brady Hiestand": "1",
-    "Brandon Moreno": "52",
-    "Brandon Royval": "10",
-    "Brandon Vera": "2",
-    "Brendan Allen": "14",
-    "Brett Johns": "2",
-    "Brian Ebersole": "1",
-    "Brian Ortega": "15",
-    "Brian Stann": "1",
-    "Brock Lesnar": "37",
-    "Bruna Brasil": "2",
-    "Brunno Ferreira": "1",
-    "Bruno Silva": "2",
-    "Bryan Barberena": "3",
-    "Bryan Battle": "27",
-    "Bryan Caraway": "2",
-    "Buddy Roberts": "1",
-    "CB Dollaway": "2",
-    "CM Punk": "24",
-    "Cain Velasquez": "30",
-    "Caio Borralho": "30",
-    "Caio Machado": "1",
-    "Calvin Kattar": "5",
-    "Cameron Saaiman": "6",
-    "Cameron Smotherman": "2",
-    "Carla Esparza": "3",
-    "Carlos Condit": "33",
-    "Carlos Newton": "2",
-    "Carlos Prates": "46",
-    "Carlos Ulberg": "15",
-    "Cesar Almeida": "1",
-    "Chad Anheliger": "1",
-    "Chad Mendes": "5",
-    "Chael Sonnen": "39",
-    "Chan Sung Jung": "16",
-    "Chan-Mi Jeon": "1",
-    "ChangHo Lee": "1",
-    "Charalampos Grigoriou": "1",
-    "Charles Bennett": "1",
-    "Charles Johnson": "4",
-    "Charles Jourdain": "11",
-    "Charles Oliveira": "1078",
-    "Charles Radtke": "1",
-    "Charles Rosa": "1",
-    "Charlie Campbell": "1",
-    "Chase Hooper": "27",
-    "Cheick Kongo": "9",
-    "Chepe Mariscal": "1",
-    "Cheyanne Vlismas": "1",
-    "Chidi Njokuani": "1",
-    "Chris Brown": "1",
-    "Chris Cariaso": "2",
-    "Chris Duncan": "1",
-    "Chris Gutierrez": "2",
-    "Chris Leben": "10",
-    "Chris Lytle": "4",
-    "Chris Padilla": "3",
-    "Chris Price": "1",
-    "Chris Sanford": "1",
-    "Chris Weidman": "7",
-    "Christian Leroy Duncan": "3",
-    "Christian Rodriguez": "2",
-    "Chuck Liddell": "37",
-    "Ciryl Gane": "23",
-    "Clay Guida": "77",
-    "Clayton Carpenter": "1",
-    "Cody Durden": "2",
-    "Cody Garbrandt": "18",
-    "Cody Gibson": "1",
-    "Cody Haddon": "2",
-    "Colby Covington": "33",
-    "Cole Miller": "4",
-    "Connor Matthews": "2",
-    "Conor McGregor": "650",
-    "Corey Anderson": "2",
-    "Cortavious Romious": "1",
-    "Cory McKenna": "2",
-    "Cory Sandhagen": "19",
-    "Court McGee": "8",
-    "Cristiane Justino": "22",
-    "Cub Swanson": "77",
-    "Cung Le": "1",
-    "Curtis Blaydes": "25",
-    "Curtis Millender": "1",
-    "DaMarques Johnson": "1",
-    "Damian Stasiak": "1",
-    "Damon Jackson": "1",
-    "Dan Henderson": "151",
-    "Dan Hooker": "34",
-    "Dan Ige": "10",
-    "Dan Miller": "1",
-    "Dan Severn": "14",
-    "Daniel Cormier": "139",
-    "Daniel Marcos": "5",
-    "Daniel Rodriguez": "2",
-    "Daniel Zellhuber": "9",
-    "Danielle Taylor": "1",
-    "Danny Barlow": "8",
-    "Danny Castillo": "5",
-    "Danny Silva": "2",
-    "Darren Elkins": "35",
-    "Darren Till": "4",
-    "Dave Menne": "1",
-    "Davey Grant": "3",
-    "David Onama": "8",
-    "Deiveson Figueiredo": "26",
-    "Demetrious Johnson": "166",
-    "Demian Maia": "74",
-    "Denise Gomes": "1",
-    "Dennis Bermudez": "1",
-    "Dennis Buzukja": "1",
-    "Dennis Siver": "6",
-    "Derek Bohi": "1",
-    "Derek Brunson": "21",
-    "Derrick Lewis": "220",
-    "Devin Clark": "1",
-    "Diana Belbita": "2",
-    "Diego Ferreira": "3",
-    "Diego Lopes": "120",
-    "Diego Sanchez": "53",
-    "Dominick Cruz": "21",
-    "Dominick Reyes": "2",
-    "Dominique Steele": "2",
-    "Don Frye": "10",
-    "Don Shainis": "1",
-    "Donald Cerrone": "332",
-    "Dong Hyun Kim": "10",
-    "Dooho Choi": "11",
-    "Douglas Silva de Andrade": "1",
-    "Drakkar Klose": "1",
-    "Drew Dober": "13",
-    "Dricus Du Plessis": "115",
-    "Dustin Jacoby": "2",
-    "Dustin Ortiz": "1",
-    "Dustin Poirier": "596",
-    "Ed Herman": "5",
-    "Eddie Alvarez": "9",
-    "Eddie Wineland": "8",
-    "Edmen Shahbazyan": "3",
-    "Edson Barboza": "41",
-    "Eduarda Moura": "1",
-    "Elias Theodorou": "1",
-    "Elizeu Zaleski dos Santos": "4",
-    "Elves Brener": "2",
-    "Emmanuel Sanchez": "2",
-    "Emmanuel Yarborough": "1",
-    "Enrique Barzola": "1",
-    "Erick Silva": "2",
-    "Erin Blanchfield": "23",
-    "Eryk Anders": "4",
-    "Esteban Ribovics": "4",
-    "Evan Dunham": "3",
-    "Evan Elder": "1",
-    "Evan Tanner": "3",
-    "Evangelista Santos": "1",
-    "Fabio Maldonado": "1",
-    "Fabricio Werdum": "93",
-    "Fares Ziam": "1",
-    "Farid Basharat": "2",
-    "Fedor Emelianenko": "57",
-    "Felipe dos Santos": "5",
-    "Fernando Padilla": "3",
-    "Forrest Griffin": "11",
-    "Francis Ngannou": "43",
-    "Francisco Prado": "2",
-    "Francisco Trinaldo": "20",
-    "Frank Mir": "18",
-    "Frank Shamrock": "2",
-    "Frankie Edgar": "97",
-    "Gabriel Benitez": "2",
-    "Gabriel Bonfim": "1",
-    "Gabriel Gonzaga": "4",
-    "Gary Goodridge": "13",
-    "Gavin Tucker": "1",
-    "Gegard Mousasi": "270",
-    "Geoff Neal": "3",
-    "George Bush": "13",
-    "Georges St-Pierre": "628",
-    "Gerald Meerschaert": "14",
-    "Gerard Gordeau": "2",
-    "Germaine de Randamie": "1",
-    "Gian Villante": "2",
-    "Gilbert Burns": "39",
-    "Gilbert Melendez": "54",
-    "Gillian Robertson": "12",
-    "Gina Carano": "2",
-    "Gleison Tibau": "8",
-    "Glover Teixeira": "65",
-    "Grant Dawson": "6",
-    "Gray Maynard": "2",
-    "Gunnar Nelson": "1",
-    "Guram Kutateladze": "1",
-    "Guy Mezger": "4",
-    "Hannah Goldy": "2",
-    "Hayato Sakurai": "9",
-    "Heath Herring": "6",
-    "Hector Lombard": "1",
-    "Henry Cejudo": "6",
-    "Hermes Franca": "1",
-    "Herschel Walker": "1",
-    "Hiroyuki Takaya": "1",
-    "Holly Holm": "3",
-    "HyunSung Park": "4",
-    "Ian Garry": "78",
-    "Iasmin Lucindo": "3",
-    "Ignacio Bahamondes": "2",
-    "Igor Da Silva": "1",
-    "Igor Pokrajac": "1",
-    "Igor Vovchanchyn": "26",
-    "Ikram Aliskerov": "12",
-    "Ikuhisa Minowa": "21",
-    "Ilia Topuria": "689",
-    "Ion Cutelaba": "4",
-    "Irene Aldana": "1",
-    "Islam Makhachev": "790",
-    "Israel Adesanya": "934",
-    "Iuri Alcantara": "2",
-    "Ivan Salaverry": "1",
-    "Ivana Petrovic": "1",
-    "Jacare Souza": "37",
-    "Jack Della Maddalena": "51",
-    "Jacqueline Cavalcanti": "1",
-    "Jai Herbert": "1",
-    "Jailton Almeida": "17",
-    "Jairzinho Rozenstruik": "7",
-    "Jake Ellenberger": "2",
-    "Jake Matthews": "6",
-    "Jake Shields": "15",
-    "Jalin Turner": "13",
-    "Jamahal Hill": "43",
-    "Jamal Pogues": "1",
-    "James Head": "1",
-    "James Krause": "2",
-    "James Vick": "1",
-    "Jamie Varner": "1",
-    "Jan Blachowicz": "21",
-    "Jaqueline Amorim": "5",
-    "Jared Cannonier": "19",
-    "Jarno Errens": "1",
-    "Jarred Brooks": "1",
-    "Jasmine Jasudavicius": "1",
-    "Jason Miller": "1",
-    "Javid Basharat": "2",
-    "Jean Matsumoto": "3",
-    "Jean Silva": "24",
-    "Jeff Monson": "1",
-    "Jeka Saragih": "1",
-    "Jennifer Maia": "2",
-    "Jens Pulver": "5",
-    "JeongYeong Lee": "4",
-    "Jeremy Horn": "4",
-    "Jeremy Stephens": "29",
-    "Jessica Andrade": "53",
-    "Jessica Penne": "1",
-    "Jessica-Rose Clark": "1",
-    "Ji Yeon Kim": "1",
-    "Jim Miller": "501",
-    "Jimmy Flick": "1",
-    "Jiri Prochazka": "73",
-    "Joachim Hansen": "1",
-    "Joanderson Brito": "6",
-    "Joanna Jedrzejczyk": "30",
-    "Joanne Wood": "5",
-    "Joaquin Buckley": "56",
-    "Joby Sanchez": "1",
-    "Joe Jordan": "1",
-    "Joe Lauzon": "18",
-    "Joe Pyfer": "6",
-    "Joe Riggs": "2",
-    "Joe Son": "1",
-    "Joe Stevenson": "4",
-    "Joel Alvarez": "13",
-    "John Castaneda": "2",
-    "John Dodson": "3",
-    "John Howard": "1",
-    "John Kolosci": "1",
-    "John Lineker": "6",
-    "John Makdessi": "3",
-    "Johnny Walker": "17",
-    "Johny Hendricks": "16",
-    "Jon Fitch": "10",
-    "Jon Jones": "1832",
-    "Jonathan Martinez": "3",
-    "Jordan Espinosa": "1",
-    "Jordan Vucenic": "1",
-    "Jorge Masvidal": "49",
-    "Jorge Rivera": "2",
-    "Jose Aldo": "208",
-    "Josefine Knutsson": "1",
-    "Joseph Benavidez": "51",
-    "Joseph Morales": "1",
-    "Josh Barnett": "57",
-    "Josh Koscheck": "8",
-    "Josh Parisian": "2",
-    "Josh Thomson": "21",
-    "Joshua Burkman": "5",
-    "Joshua Van": "31",
-    "Juan Adams": "2",
-    "Julia Polastri": "1",
-    "Julian Erosa": "3",
-    "Julianna Pena": "8",
-    "JunYong Park": "2",
-    "Junior Dos Santos": "38",
-    "Junior Tafa": "1",
-    "Justin Gaethje": "176",
-    "Justin Tafa": "1",
-    "Kai Asakura": "77",
-    "Kai Kara-France": "17",
-    "Kalib Starnes": "1",
-    "Kamaru Usman": "111",
-    "Karine Silva": "1",
-    "Karl Williams": "2",
-    "Karo Parisyan": "1",
-    "Karol Rosa": "2",
-    "Karolina Kowalkiewicz": "3",
-    "Katlyn Cerminara": "4",
-    "Katsuyori Shibata": "1",
-    "Kay Hansen": "1",
-    "Kazuhiro Nakamura": "2",
-    "Kazushi Sakuraba": "76",
-    "Keita Nakamura": "3",
-    "Keith Berish": "1",
-    "Keith Jardine": "1",
-    "Kelvin Gastelum": "9",
-    "Ken Shamrock": "14",
-    "Kendall Grove": "1",
-    "Kennedy Nzechukwu": "3",
-    "Kenny Florian": "3",
-    "Ketlen Vieira": "1",
-    "Kevin Ferguson": "1",
-    "Kevin Holland": "374",
-    "Kevin Lee": "7",
-    "Kevin Randleman": "7",
-    "Khabib Nurmagomedov": "317",
-    "Khalil Rountree Jr.": "31",
-    "Khamzat Chimaev": "153",
-    "Khaos Williams": "1",
-    "Kiru Sahota": "1",
-    "Kiyoshi Tamura": "2",
-    "Kron Gracie": "1",
-    "Krzysztof Jotko": "4",
-    "Kurt Pellegrino": "1",
-    "Kyle Nelson": "1",
-    "Kyler Phillips": "6",
-    "Kyoji Horiguchi": "2",
-    "Lauren Murphy": "1",
-    "Leo Kuntz": "1",
-    "Leon Edwards": "338",
-    "Leonardo Mafra": "1",
-    "Lerone Murphy": "11",
-    "Li Jingliang": "11",
-    "Liliya Shakirova": "2",
-    "Logan Clark": "1",
-    "Loma Lookboonmee": "1",
-    "Lone'er Kavanagh": "2",
-    "Lorenz Larkin": "1",
-    "Louis Smolka": "3",
-    "Luana Carolina": "1",
-    "Luana Pinheiro": "3",
-    "Luana Santos": "10",
-    "Ludovit Klein": "4",
-    "Luis Santos": "2",
-    "Luke Rockhold": "19",
-    "Lyoto Machida": "106",
-    "Mac Danzig": "1",
-    "Mackenzie Dern": "13",
-    "Macy Chiasson": "1",
-    "Magomed Ankalaev": "17",
-    "Magomed Gadzhiyasulov": "2",
-    "Maheshate": "1",
-    "Mairon Santos": "1",
-    "Makwan Amirkhani": "1",
-    "Mandy Bohm": "1",
-    "Manel Kape": "15",
-    "Manuel Torres": "2",
-    "Marc Diakiese": "1",
-    "Marc-Andre Barriault": "2",
-    "Marcin Tybura": "9",
-    "Marcos Rogerio de Lima": "4",
-    "Marcus McGhee": "5",
-    "Maria Oliveira": "1",
-    "Marina Rodriguez": "4",
-    "Mario Bautista": "2",
-    "Mario Sperry": "1",
-    "Mariya Agapova": "1",
-    "Mark Coleman": "19",
-    "Mark Hominick": "1",
-    "Mark Hunt": "21",
-    "Mark Kerr": "1",
-    "Marlon Vera": "87",
-    "Marnic Mann": "1",
-    "Martin Buday": "1",
-    "Martin Kampmann": "2",
-    "Martin Sano": "1",
-    "Masakatsu Funaki": "1",
-    "Mateusz Gamrot": "12",
-    "Mateusz Rebecki": "1",
-    "Matt Brown": "51",
-    "Matt Frevola": "3",
-    "Matt Hamill": "3",
-    "Matt Hughes": "38",
-    "Matt Lindland": "2",
-    "Matt Mitrione": "2",
-    "Matt Serra": "1",
-    "Mauricio Rua": "248",
-    "Max Griffin": "4",
-    "Max Holloway": "907",
-    "Maycee Barber": "36",
-    "Melquizael Costa": "1",
-    "Melsik Baghdasaryan": "1",
-    "Melvin Guillard": "3",
-    "Merab Dvalishvili": "132",
-    "Michael Bisping": "163",
-    "Michael Chandler": "24",
-    "Michael Chiesa": "4",
-    "Michael Johnson": "35",
-    "Michael McDonald": "1",
-    "Michael Morales": "30",
-    "Michal Oleksiejczuk": "2",
-    "Michel Pereira": "21",
-    "Michelle Waterson-Gomez": "5",
-    "Mick Parkin": "2",
-    "Miesha Tate": "13",
-    "Mike Brown": "1",
-    "Mike Davis": "1",
-    "Mike Malott": "3",
-    "Mike Perry": "1",
-    "Mike Pierce": "1",
-    "Mike Pyle": "4",
-    "Mike Stumpf": "1",
-    "Mike Swick": "4",
-    "Miles Johns": "4",
-    "Miranda Maverick": "1",
-    "Mirko Filipovic": "101",
-    "Mitch Raposo": "15",
-    "Mitsuhiro Ishida": "1",
-    "Mizuki": "1",
-    "Mohammed Usman": "1",
-    "Montana De La Rosa": "1",
-    "Morgan Charriere": "1",
-    "Movsar Evloev": "6",
-    "Muhammad Mokaev": "28",
-    "Muhammad Naimov": "1",
-    "Muhammed Lawal": "1",
-    "Murilo Rua": "4",
-    "Muslim Salikhov": "2",
-    "Myktybek Orolbai": "15",
-    "Naoyuki Kotani": "1",
-    "Nasrat Haqparast": "2",
-    "Nassourdine Imavov": "8",
-    "Natalia Silva": "9",
-    "Nate Diaz": "257",
-    "Nate Landwehr": "2",
-    "Nate Maness": "1",
-    "Nate Marquardt": "19",
-    "Nathan Fletcher": "2",
-    "Nazim Sadykhov": "1",
-    "Neil Magny": "89",
-    "Nick Bustamante": "3",
-    "Nick Diaz": "142",
-    "Nick Hein": "1",
-    "Nicolas Dalby": "4",
-    "Nikita Krylov": "7",
-    "Niko Price": "3",
-    "Norma Dumont": "4",
-    "Oban Elliott": "1",
-    "Ode Osbourne": "1",
-    "Olivier Aubin-Mercier": "2",
-    "Oumar Sy": "1",
-    "Ovince Saint Preux": "62",
-    "Paddy Pimblett": "146",
-    "Pannie Kianzad": "1",
-    "Pat Barry": "1",
-    "Pat Curran": "2",
-    "Pat Healy": "2",
-    "Pat Miletich": "1",
-    "Pat Sabatini": "3",
-    "Patrick Cote": "12",
-    "Patrick Smith": "1",
-    "Paul Daley": "2",
-    "Paul Felder": "3",
-    "Paulo Costa": "20",
-    "Paulo Filho": "1",
-    "Payton Talbott": "253",
-    "Pearl Gonzalez": "1",
-    "Pedro Munhoz": "4",
-    "Petr Yan": "52",
-    "Phil Baroni": "1",
-    "Phil Davis": "1",
-    "Phil Hawes": "1",
-    "Philipe Lins": "3",
-    "Preston Parsons": "1",
-    "Quinton Jackson": "97",
-    "Rachael Ostovich": "5",
-    "Rafael Carino": "1",
-    "Rafael Cavalcante": "1",
-    "Rafael Dos Anjos": "211",
-    "Rafael Fiziev": "9",
-    "Rafael Natal": "2",
-    "Ramazan Temirov": "1",
-    "Rameau Thierry Sokoudjou": "1",
-    "Ramiz Brahimaj": "3",
-    "Ramon Taveras": "2",
-    "Ramona Pascual": "1",
-    "Randall Wallace": "1",
-    "Randy Brown": "11",
-    "Randy Couture": "38",
-    "Rani Yahya": "17",
-    "Raphael Assuncao": "11",
-    "Raquel Pennington": "7",
-    "Rashad Evans": "23",
-    "Rashid Magomedov": "1",
-    "Raul Rosas Jr.": "124",
-    "Rei Tsuruya": "8",
-    "Reinier de Ridder": "3",
-    "Renan Barao": "7",
-    "Renato Moicano": "15",
-    "Renato Sobral": "2",
-    "Ricardo Lamas": "10",
-    "Ricco Rodriguez": "3",
-    "Rich Clementi": "3",
-    "Rich Franklin": "81",
-    "Rick Story": "8",
-    "Ricky Simon": "5",
-    "Rinat Fakhretdinov": "2",
-    "Rob Font": "15",
-    "Robbie Lawler": "104",
-    "Robelis Despaigne": "74",
-    "Robert Valentin": "1",
-    "Robert Whittaker": "164",
-    "Rodrigo Nascimento": "1",
-    "Rogerio Nogueira": "28",
-    "Roman Dolidze": "3",
-    "Roman Kopylov": "9",
-    "Ronaldo Rodriguez": "11",
-    "Ronda Rousey": "13",
-    "Rory MacDonald": "3",
-    "Rose Namajunas": "38",
-    "Ross Pearson": "6",
-    "Rousimar Palhares": "4",
-    "Roxanne Modafferi": "3",
-    "Roy Nelson": "4",
-    "Royce Gracie": "12",
-    "Rustam Khabilov": "1",
-    "Ryan Bader": "15",
-    "Ryan Hall": "1",
-    "Ryan Jimmo": "1",
-    "Ryan MacDonald": "1",
-    "Ryan Spann": "2",
-    "Sage Northcutt": "1",
-    "Said Nurmagomedov": "1",
-    "Sam Alvey": "5",
-    "Sam Sicilia": "1",
-    "Santiago Ponzinibbio": "11",
-    "Sara McMann": "1",
-    "Sarah Kaufman": "1",
-    "Scott Holtzman": "1",
-    "Scott Jorgensen": "4",
-    "Sean Brady": "10",
-    "Sean O'Connell": "1",
-    "Sean O'Malley": "3331",
-    "Sean Sharaf": "1",
-    "Sean Spencer": "1",
-    "Sean Strickland": "518",
-    "Sedriques Dumas": "5",
-    "Seo Hee Ham": "1",
-    "Sergei Kharitonov": "4",
-    "Sergei Pavlovich": "10",
-    "Serghei Spivac": "2",
-    "Sergio Pettis": "2",
-    "Shane Burgos": "2",
-    "Shang Zhifa": "1",
-    "Shannon Ritch": "1",
-    "Shannon Ross": "1",
-    "Shara Magomedov": "72",
-    "Shauna Bannon": "1",
-    "Shavkat Rakhmonov": "352",
-    "Shawn Jordan": "1",
-    "Shayilan Nuerdanbieke": "1",
-    "Shayna Baszler": "1",
-    "Shi Ming": "9",
-    "Shinya Aoki": "41",
-    "Shohei Nose": "1",
-    "Shonie Carter": "1",
-    "Sodiq Yusuff": "3",
-    "Song Kenan": "3",
-    "Song Yadong": "38",
-    "Spencer Fisher": "1",
-    "Stefan Struve": "5",
-    "Stephan Bonnar": "3",
-    "Stephanie Luciano": "1",
-    "Stephen Thompson": "34",
-    "Steve Cantwell": "1",
-    "Steve Erceg": "39",
-    "Steve Garcia": "2",
-    "Steven Koslow": "1",
-    "Stevie Ray": "2",
-    "Stipe Miocic": "63",
-    "TJ Dillashaw": "34",
-    "TJ Grant": "1",
-    "Tabatha Ricci": "13",
-    "Tagir Ulanbekov": "2",
-    "Tai Tuivasa": "25",
-    "Takanori Gomi": "35",
-    "Takeya Mizugaki": "4",
-    "Talita Alencar": "1",
-    "Tarec Saffiedine": "2",
-    "Tatiana Suarez": "4",
-    "Tatsuro Taira": "60",
-    "Tatsuya Kawajiri": "27",
-    "Tecia Torres": "2",
-    "Teila Tuli": "3",
-    "Terrance McKinney": "5",
-    "Thales Leites": "9",
-    "Themba Gorimbo": "3",
-    "Thiago Alves": "20",
-    "Thiago Moises": "3",
-    "Thiago Santos": "23",
-    "Thiago Silva": "6",
-    "Thiago Tavares": "3",
-    "Tim Boetsch": "6",
-    "Tim Elliott": "3",
-    "Tim Kennedy": "3",
-    "Tim Means": "31",
-    "Tim Sylvia": "3",
-    "Tito Ortiz": "34",
-    "Tom Aspinall": "180",
-    "Tom Egan": "1",
-    "Tom Nolan": "2",
-    "Tony Ferguson": "78",
-    "Tony Gravely": "2",
-    "Torrez Finney": "3",
-    "Tracy Cortez": "118",
-    "Travis Browne": "4",
-    "Travis Fulton": "31",
-    "Travis Wiuff": "3",
-    "Trent Jenkins": "1",
-    "Trevin Giles": "1",
-    "Trevor Peek": "2",
-    "Trevor Smith": "2",
-    "Trey Waters": "1",
-    "Tucker Lutz": "1",
-    "Tyron Woodley": "39",
-    "Tyson Griffin": "1",
-    "Umar Nurmagomedov": "49",
-    "Uriah Hall": "7",
-    "Valentina Shevchenko": "59",
-    "Valter Walker": "1",
-    "Veronica Hardy": "3",
-    "Viacheslav Borshchev": "1",
-    "Vicente Luque": "11",
-    "Viktoriia Dudakova": "4",
-    "Vinicius Oliveira": "3",
-    "Vinicius Salvador": "1",
-    "Virna Jandiroba": "6",
-    "Vitor Belfort": "62",
-    "Viviane Pereira": "2",
-    "Vladimir Matyushenko": "1",
-    "Volkan Oezdemir": "2",
-    "Waldo Cortes-Acosta": "2",
-    "Walt Harris": "1",
-    "Wanderlei Silva": "228",
-    "War Machine": "4",
-    "Westin Wilson": "1",
-    "Xiao Long": "1",
-    "Yair Rodriguez": "15",
-    "Yan Xiaonan": "5",
-    "Yanal Ashmouz": "1",
-    "Yancy Medeiros": "1",
-    "Yazmin Jauregui": "2",
-    "Yizha": "3",
-    "Yoel Romero": "7",
-    "Yoshihiro Akiyama": "7",
-    "Yosuke Nishijima": "1",
-    "Yuki Kondo": "1",
-    "Yusaku Kinoshita": "1",
-    "Yushin Okami": "8",
-    "Yves Edwards": "18",
-    "Zabit Magomedsharipov": "6",
-    "Zachary Scroggin": "1",
-    "Zak Cummings": "4",
-    "Zane Frazier": "2",
-    "Zhang Mingyang": "5",
-    "Zhang Weili": "73"
+    "AJ Dobson": {
+        "id": 3655,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Aaron Riley": {
+        "id": 431,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Abdul Razak Alhassan": {
+        "id": 2634,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Abus Magomedov": {
+        "id": 3741,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Adrian Yanez": {
+        "id": 3502,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Adriano Martins": {
+        "id": 915,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Aiemann Zahabi": {
+        "id": 2852,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Ailin Perez": {
+        "id": 3881,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "18"
+    },
+    "Akira Shoji": {
+        "id": 833,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Al Iaquinta": {
+        "id": 1983,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alan Belcher": {
+        "id": 521,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alan Jouban": {
+        "id": 2291,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alan Patrick": {
+        "id": 2101,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alejandro Perez": {
+        "id": 2354,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Aleksandar Rakic": {
+        "id": 2924,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Aleksei Oleinik": {
+        "id": 2155,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Alessandro Costa": {
+        "id": 3831,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alex Caceres": {
+        "id": 1755,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 12,
+            "6": 3,
+            "7": 0
+        },
+        "value": "36"
+    },
+    "Alex Morono": {
+        "id": 2737,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Alex Oliveira": {
+        "id": 2469,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Alex Pereira": {
+        "id": 3546,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1209"
+    },
+    "Alex Perez": {
+        "id": 2969,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Alexa Grasso": {
+        "id": 2814,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 10,
+            "6": 1,
+            "7": 1
+        },
+        "value": "56"
+    },
+    "Alexander Gustafsson": {
+        "id": 1139,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "18"
+    },
+    "Alexander Shlemenko": {
+        "id": 2408,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Alexander Volkanovski": {
+        "id": 2824,
+        "pass_distribution": {
+            "3": 1,
+            "4": 48,
+            "5": 22,
+            "6": 5,
+            "7": 0
+        },
+        "value": "440"
+    },
+    "Alexander Volkov": {
+        "id": 2492,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 11,
+            "6": 1,
+            "7": 0
+        },
+        "value": "38"
+    },
+    "Alexandr Romanov": {
+        "id": 3287,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alexandre Pantoja": {
+        "id": 2858,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 4,
+            "6": 1,
+            "7": 1
+        },
+        "value": "97"
+    },
+    "Aliaskhab Khizriev": {
+        "id": 3547,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alistair Overeem": {
+        "id": 808,
+        "pass_distribution": {
+            "3": 1,
+            "4": 19,
+            "5": 13,
+            "6": 1,
+            "7": 1
+        },
+        "value": "630"
+    },
+    "Aljamain Sterling": {
+        "id": 2177,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 16,
+            "6": 4,
+            "7": 0
+        },
+        "value": "129"
+    },
+    "Allan Nascimento": {
+        "id": 3179,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Alonzo Menifield": {
+        "id": 2686,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Amanda Lemos": {
+        "id": 2908,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Amanda Nunes": {
+        "id": 1719,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 5,
+            "6": 1,
+            "7": 1
+        },
+        "value": "68"
+    },
+    "Amanda Ribas": {
+        "id": 2898,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Amir Albazi": {
+        "id": 3478,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Anderson Silva": {
+        "id": 235,
+        "pass_distribution": {
+            "3": 1,
+            "4": 35,
+            "5": 16,
+            "6": 1,
+            "7": 1
+        },
+        "value": "649"
+    },
+    "Andre Fili": {
+        "id": 2119,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 2
+        },
+        "value": "6"
+    },
+    "Andre Muniz": {
+        "id": 3162,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Andre Petroski": {
+        "id": 3749,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Andrea Lee": {
+        "id": 3059,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Andrei Arlovski": {
+        "id": 367,
+        "pass_distribution": {
+            "3": 1,
+            "4": 22,
+            "5": 10,
+            "6": 4,
+            "7": 0
+        },
+        "value": "192"
+    },
+    "Angela Hill": {
+        "id": 2352,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 6,
+            "6": 2,
+            "7": 1
+        },
+        "value": "15"
+    },
+    "Angga": {
+        "id": 3821,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Anshul Jubli": {
+        "id": 3811,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Anthony Hernandez": {
+        "id": 3091,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "12"
+    },
+    "Anthony Johnson": {
+        "id": 516,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 4,
+            "6": 2,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Anthony Pettis": {
+        "id": 1069,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 6,
+            "6": 3,
+            "7": 1
+        },
+        "value": "31"
+    },
+    "Anthony Smith": {
+        "id": 1843,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 2,
+            "7": 1
+        },
+        "value": "24"
+    },
+    "Antonio Banuelos": {
+        "id": 1035,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Antonio Rodrigo Nogueira": {
+        "id": 272,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 12,
+            "6": 2,
+            "7": 1
+        },
+        "value": "63"
+    },
+    "Antonio Schembri": {
+        "id": 829,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Antonio Silva": {
+        "id": 1431,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Aoriqileng": {
+        "id": 3634,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Ariane Lipski": {
+        "id": 3209,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "8"
+    },
+    "Arman Tsarukyan": {
+        "id": 3269,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 2,
+            "7": 0
+        },
+        "value": "46"
+    },
+    "Armen Petrosyan": {
+        "id": 3707,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Arnold Allen": {
+        "id": 2570,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Art Jimmerson": {
+        "id": 28,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ashley Yoder": {
+        "id": 2845,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Askar Askarov": {
+        "id": 3372,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Assu Almabayev": {
+        "id": 4008,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Austen Lane": {
+        "id": 3081,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Austin Hubbard": {
+        "id": 3282,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Azamat Murzakanov": {
+        "id": 2900,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "BJ Penn": {
+        "id": 361,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 11,
+            "6": 1,
+            "7": 2
+        },
+        "value": "47"
+    },
+    "Bas Rutten": {
+        "id": 53,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Bassil Hafez": {
+        "id": 4114,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Belal Muhammad": {
+        "id": 2778,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 5,
+            "6": 2,
+            "7": 1
+        },
+        "value": "57"
+    },
+    "Ben Askren": {
+        "id": 3213,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ben Rothwell": {
+        "id": 969,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "24"
+    },
+    "Ben Saunders": {
+        "id": 502,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Beneil Dariush": {
+        "id": 2168,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 9,
+            "6": 2,
+            "7": 0
+        },
+        "value": "27"
+    },
+    "Benoit Saint Denis": {
+        "id": 3769,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "59"
+    },
+    "Benson Henderson": {
+        "id": 1066,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 6,
+            "6": 1,
+            "7": 1
+        },
+        "value": "30"
+    },
+    "Bill Algeo": {
+        "id": 3302,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Billy Goff": {
+        "id": 3833,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Billy Quarantillo": {
+        "id": 3351,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Blood Diamond": {
+        "id": 3774,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Bo Nickal": {
+        "id": 3904,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "226"
+    },
+    "Bob Sapp": {
+        "id": 825,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Bobby Green": {
+        "id": 1683,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 18,
+            "6": 1,
+            "7": 1
+        },
+        "value": "90"
+    },
+    "Bobby Lashley": {
+        "id": 1471,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Bogdan Grad": {
+        "id": 4022,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Bogdan Guskov": {
+        "id": 4119,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Bolaji Oki": {
+        "id": 4062,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Boston Salmon": {
+        "id": 2911,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brad Katona": {
+        "id": 3128,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brad Pickett": {
+        "id": 1170,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Brad Tavares": {
+        "id": 1546,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Brady Hiestand": {
+        "id": 3746,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brandon Moreno": {
+        "id": 2825,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 6,
+            "6": 2,
+            "7": 0
+        },
+        "value": "52"
+    },
+    "Brandon Royval": {
+        "id": 3459,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Brandon Vera": {
+        "id": 323,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Brendan Allen": {
+        "id": 3333,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "14"
+    },
+    "Brett Johns": {
+        "id": 2839,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Brian Ebersole": {
+        "id": 1209,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brian Ortega": {
+        "id": 2238,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Brian Stann": {
+        "id": 667,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brock Lesnar": {
+        "id": 305,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "37"
+    },
+    "Bruna Brasil": {
+        "id": 3889,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Brunno Ferreira": {
+        "id": 3890,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Bruno Silva": {
+        "id": 3314,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Bryan Barberena": {
+        "id": 2263,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Bryan Battle": {
+        "id": 3745,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 6,
+            "6": 0,
+            "7": 0
+        },
+        "value": "27"
+    },
+    "Bryan Caraway": {
+        "id": 1184,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Buddy Roberts": {
+        "id": 1945,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "CB Dollaway": {
+        "id": 507,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "CM Punk": {
+        "id": 2796,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "24"
+    },
+    "Cain Velasquez": {
+        "id": 497,
+        "pass_distribution": {
+            "3": 0,
+            "4": 7,
+            "5": 15,
+            "6": 0,
+            "7": 0
+        },
+        "value": "30"
+    },
+    "Caio Borralho": {
+        "id": 3658,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 6,
+            "6": 0,
+            "7": 0
+        },
+        "value": "30"
+    },
+    "Caio Machado": {
+        "id": 3834,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Calvin Kattar": {
+        "id": 2959,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "5"
+    },
+    "Cameron Saaiman": {
+        "id": 3900,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Cameron Smotherman": {
+        "id": 4048,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Carla Esparza": {
+        "id": 2338,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Carlos Condit": {
+        "id": 663,
+        "pass_distribution": {
+            "3": 1,
+            "4": 11,
+            "5": 7,
+            "6": 1,
+            "7": 1
+        },
+        "value": "33"
+    },
+    "Carlos Newton": {
+        "id": 279,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Carlos Prates": {
+        "id": 4075,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "46"
+    },
+    "Carlos Ulberg": {
+        "id": 3603,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Cesar Almeida": {
+        "id": 4026,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chad Anheliger": {
+        "id": 3684,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chad Mendes": {
+        "id": 1484,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "5"
+    },
+    "Chael Sonnen": {
+        "id": 296,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "39"
+    },
+    "Chan Sung Jung": {
+        "id": 1494,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 1,
+            "7": 1
+        },
+        "value": "16"
+    },
+    "Chan-Mi Jeon": {
+        "id": 2902,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "ChangHo Lee": {
+        "id": 3985,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Charalampos Grigoriou": {
+        "id": 4049,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Charles Bennett": {
+        "id": 686,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Charles Johnson": {
+        "id": 3788,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Charles Jourdain": {
+        "id": 3292,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Charles Oliveira": {
+        "id": 1531,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 9,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1079"
+    },
+    "Charles Radtke": {
+        "id": 4113,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Charles Rosa": {
+        "id": 2330,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Charlie Campbell": {
+        "id": 3835,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chase Hooper": {
+        "id": 3139,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "27"
+    },
+    "Cheick Kongo": {
+        "id": 238,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 7,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Chepe Mariscal": {
+        "id": 4089,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cheyanne Vlismas": {
+        "id": 3511,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chidi Njokuani": {
+        "id": 2668,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chris Brown": {
+        "id": 1924,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chris Cariaso": {
+        "id": 1253,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Chris Duncan": {
+        "id": 3685,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chris Gutierrez": {
+        "id": 3219,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Chris Leben": {
+        "id": 414,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 1,
+            "7": 1
+        },
+        "value": "10"
+    },
+    "Chris Lytle": {
+        "id": 217,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Chris Padilla": {
+        "id": 4192,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Chris Price": {
+        "id": 495,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chris Sanford": {
+        "id": 105,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Chris Weidman": {
+        "id": 1769,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Christian Leroy Duncan": {
+        "id": 3968,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Christian Rodriguez": {
+        "id": 3730,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Chuck Liddell": {
+        "id": 113,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 10,
+            "6": 1,
+            "7": 1
+        },
+        "value": "37"
+    },
+    "Ciryl Gane": {
+        "id": 3327,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "23"
+    },
+    "Clay Guida": {
+        "id": 459,
+        "pass_distribution": {
+            "3": 1,
+            "4": 13,
+            "5": 15,
+            "6": 5,
+            "7": 1
+        },
+        "value": "77"
+    },
+    "Clayton Carpenter": {
+        "id": 3838,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cody Durden": {
+        "id": 3529,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Cody Garbrandt": {
+        "id": 2369,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 6,
+            "6": 1,
+            "7": 0
+        },
+        "value": "18"
+    },
+    "Cody Gibson": {
+        "id": 2192,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cody Haddon": {
+        "id": 4240,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Colby Covington": {
+        "id": 2297,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 6,
+            "6": 0,
+            "7": 1
+        },
+        "value": "33"
+    },
+    "Cole Miller": {
+        "id": 522,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Connor Matthews": {
+        "id": 3839,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Conor McGregor": {
+        "id": 2057,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "651"
+    },
+    "Corey Anderson": {
+        "id": 2281,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Cortavious Romious": {
+        "id": 4154,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cory McKenna": {
+        "id": 3501,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Cory Sandhagen": {
+        "id": 3055,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 6,
+            "6": 1,
+            "7": 1
+        },
+        "value": "19"
+    },
+    "Court McGee": {
+        "id": 1543,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Cristiane Justino": {
+        "id": 1194,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 9,
+            "6": 0,
+            "7": 1
+        },
+        "value": "22"
+    },
+    "Cub Swanson": {
+        "id": 1050,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 21,
+            "6": 3,
+            "7": 2
+        },
+        "value": "77"
+    },
+    "Cung Le": {
+        "id": 1001,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Curtis Blaydes": {
+        "id": 2764,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 6,
+            "6": 0,
+            "7": 1
+        },
+        "value": "25"
+    },
+    "Curtis Millender": {
+        "id": 2419,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "DaMarques Johnson": {
+        "id": 876,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Damian Stasiak": {
+        "id": 2504,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Damon Jackson": {
+        "id": 2315,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dan Henderson": {
+        "id": 129,
+        "pass_distribution": {
+            "3": 1,
+            "4": 33,
+            "5": 21,
+            "6": 3,
+            "7": 0
+        },
+        "value": "151"
+    },
+    "Dan Hooker": {
+        "id": 2254,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 8,
+            "6": 1,
+            "7": 1
+        },
+        "value": "34"
+    },
+    "Dan Ige": {
+        "id": 2941,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 4,
+            "6": 2,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Dan Miller": {
+        "id": 445,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dan Severn": {
+        "id": 5,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "14"
+    },
+    "Daniel Cormier": {
+        "id": 1409,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 18,
+            "6": 0,
+            "7": 0
+        },
+        "value": "139"
+    },
+    "Daniel Marcos": {
+        "id": 3935,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Daniel Rodriguez": {
+        "id": 3359,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Daniel Zellhuber": {
+        "id": 3697,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Danielle Taylor": {
+        "id": 2808,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Danny Barlow": {
+        "id": 4121,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Danny Castillo": {
+        "id": 1061,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Danny Silva": {
+        "id": 4122,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Darren Elkins": {
+        "id": 1486,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 10,
+            "6": 0,
+            "7": 2
+        },
+        "value": "35"
+    },
+    "Darren Till": {
+        "id": 2544,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Dave Menne": {
+        "id": 216,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Davey Grant": {
+        "id": 2137,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "David Onama": {
+        "id": 3773,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Deiveson Figueiredo": {
+        "id": 2878,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 5,
+            "6": 1,
+            "7": 1
+        },
+        "value": "26"
+    },
+    "Demetrious Johnson": {
+        "id": 1495,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 15,
+            "6": 1,
+            "7": 0
+        },
+        "value": "166"
+    },
+    "Demian Maia": {
+        "id": 326,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 9,
+            "6": 2,
+            "7": 2
+        },
+        "value": "74"
+    },
+    "Denise Gomes": {
+        "id": 3841,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dennis Bermudez": {
+        "id": 1907,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dennis Buzukja": {
+        "id": 3526,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dennis Siver": {
+        "id": 366,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 2,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Derek Bohi": {
+        "id": 2564,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Derek Brunson": {
+        "id": 1806,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 11,
+            "6": 0,
+            "7": 0
+        },
+        "value": "21"
+    },
+    "Derrick Lewis": {
+        "id": 2082,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 21,
+            "6": 1,
+            "7": 0
+        },
+        "value": "220"
+    },
+    "Devin Clark": {
+        "id": 2780,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Diana Belbita": {
+        "id": 3284,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Diego Ferreira": {
+        "id": 2208,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 2,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Diego Lopes": {
+        "id": 3754,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "121"
+    },
+    "Diego Sanchez": {
+        "id": 461,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 17,
+            "6": 1,
+            "7": 2
+        },
+        "value": "53"
+    },
+    "Dominick Cruz": {
+        "id": 1057,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 1,
+            "6": 3,
+            "7": 1
+        },
+        "value": "21"
+    },
+    "Dominick Reyes": {
+        "id": 2907,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Dominique Steele": {
+        "id": 1875,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Don Frye": {
+        "id": 60,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 0,
+            "6": 2,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Don Shainis": {
+        "id": 3949,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Donald Cerrone": {
+        "id": 1076,
+        "pass_distribution": {
+            "3": 1,
+            "4": 26,
+            "5": 23,
+            "6": 1,
+            "7": 2
+        },
+        "value": "332"
+    },
+    "Dong Hyun Kim": {
+        "id": 455,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 0,
+            "7": 1
+        },
+        "value": "10"
+    },
+    "Dooho Choi": {
+        "id": 2198,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Douglas Silva de Andrade": {
+        "id": 2183,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Drakkar Klose": {
+        "id": 2854,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Drew Dober": {
+        "id": 1340,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 4,
+            "6": 3,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Dricus Du Plessis": {
+        "id": 3599,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 4,
+            "6": 0,
+            "7": 1
+        },
+        "value": "115"
+    },
+    "Dustin Jacoby": {
+        "id": 1890,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Dustin Ortiz": {
+        "id": 1504,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dustin Poirier": {
+        "id": 1595,
+        "pass_distribution": {
+            "3": 1,
+            "4": 13,
+            "5": 7,
+            "6": 4,
+            "7": 0
+        },
+        "value": "596"
+    },
+    "Ed Herman": {
+        "id": 419,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Eddie Alvarez": {
+        "id": 890,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Eddie Wineland": {
+        "id": 961,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 5,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Edmen Shahbazyan": {
+        "id": 3121,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Edson Barboza": {
+        "id": 1657,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 15,
+            "6": 3,
+            "7": 1
+        },
+        "value": "41"
+    },
+    "Eduarda Moura": {
+        "id": 4016,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Elias Theodorou": {
+        "id": 2224,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Elizeu Zaleski dos Santos": {
+        "id": 2508,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Elves Brener": {
+        "id": 3969,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Emmanuel Sanchez": {
+        "id": 2477,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Emmanuel Yarborough": {
+        "id": 12,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Enrique Barzola": {
+        "id": 2705,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Erick Silva": {
+        "id": 1820,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Erin Blanchfield": {
+        "id": 3647,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 0,
+            "7": 0
+        },
+        "value": "23"
+    },
+    "Eryk Anders": {
+        "id": 2954,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "4"
+    },
+    "Esteban Ribovics": {
+        "id": 3845,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Evan Dunham": {
+        "id": 648,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Evan Elder": {
+        "id": 3787,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Evan Tanner": {
+        "id": 142,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Evangelista Santos": {
+        "id": 824,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Fabio Maldonado": {
+        "id": 1663,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Fabricio Werdum": {
+        "id": 308,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 12,
+            "6": 2,
+            "7": 1
+        },
+        "value": "93"
+    },
+    "Fares Ziam": {
+        "id": 3423,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Farid Basharat": {
+        "id": 3846,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Fedor Emelianenko": {
+        "id": 705,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 10,
+            "6": 1,
+            "7": 0
+        },
+        "value": "57"
+    },
+    "Felipe dos Santos": {
+        "id": 4010,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Fernando Padilla": {
+        "id": 3679,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Forrest Griffin": {
+        "id": 380,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 2,
+            "7": 1
+        },
+        "value": "11"
+    },
+    "Francis Ngannou": {
+        "id": 2659,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "43"
+    },
+    "Francisco Prado": {
+        "id": 3965,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Francisco Trinaldo": {
+        "id": 1997,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 4,
+            "6": 3,
+            "7": 1
+        },
+        "value": "20"
+    },
+    "Frank Mir": {
+        "id": 377,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 8,
+            "6": 2,
+            "7": 0
+        },
+        "value": "18"
+    },
+    "Frank Shamrock": {
+        "id": 170,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Frankie Edgar": {
+        "id": 451,
+        "pass_distribution": {
+            "3": 1,
+            "4": 17,
+            "5": 20,
+            "6": 3,
+            "7": 2
+        },
+        "value": "97"
+    },
+    "Gabriel Benitez": {
+        "id": 2360,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Gabriel Bonfim": {
+        "id": 3908,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Gabriel Gonzaga": {
+        "id": 375,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Gary Goodridge": {
+        "id": 66,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 2,
+            "6": 1,
+            "7": 1
+        },
+        "value": "13"
+    },
+    "Gavin Tucker": {
+        "id": 2862,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Gegard Mousasi": {
+        "id": 786,
+        "pass_distribution": {
+            "3": 1,
+            "4": 29,
+            "5": 17,
+            "6": 4,
+            "7": 0
+        },
+        "value": "270"
+    },
+    "Geoff Neal": {
+        "id": 2963,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "George Bush": {
+        "id": 1491,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Georges St-Pierre": {
+        "id": 439,
+        "pass_distribution": {
+            "3": 1,
+            "4": 19,
+            "5": 15,
+            "6": 1,
+            "7": 1
+        },
+        "value": "629"
+    },
+    "Gerald Meerschaert": {
+        "id": 2844,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "14"
+    },
+    "Gerard Gordeau": {
+        "id": 7,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Germaine de Randamie": {
+        "id": 1744,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Gian Villante": {
+        "id": 1742,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Gilbert Burns": {
+        "id": 2288,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 8,
+            "6": 1,
+            "7": 0
+        },
+        "value": "39"
+    },
+    "Gilbert Melendez": {
+        "id": 778,
+        "pass_distribution": {
+            "3": 1,
+            "4": 15,
+            "5": 15,
+            "6": 3,
+            "7": 0
+        },
+        "value": "54"
+    },
+    "Gillian Robertson": {
+        "id": 3031,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 5,
+            "6": 0,
+            "7": 1
+        },
+        "value": "12"
+    },
+    "Gina Carano": {
+        "id": 1193,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Gleison Tibau": {
+        "id": 514,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 2,
+            "7": 1
+        },
+        "value": "8"
+    },
+    "Glover Teixeira": {
+        "id": 1968,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 15,
+            "6": 1,
+            "7": 1
+        },
+        "value": "65"
+    },
+    "Grant Dawson": {
+        "id": 2981,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Gray Maynard": {
+        "id": 374,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Gunnar Nelson": {
+        "id": 2015,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Guram Kutateladze": {
+        "id": 3606,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Guy Mezger": {
+        "id": 84,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Hannah Goldy": {
+        "id": 3300,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Hayato Sakurai": {
+        "id": 244,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 2,
+            "7": 1
+        },
+        "value": "9"
+    },
+    "Heath Herring": {
+        "id": 340,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Hector Lombard": {
+        "id": 768,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Henry Cejudo": {
+        "id": 2299,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Hermes Franca": {
+        "id": 218,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Herschel Walker": {
+        "id": 1472,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Hiroyuki Takaya": {
+        "id": 929,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Holly Holm": {
+        "id": 2317,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "HyunSung Park": {
+        "id": 3818,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Ian Garry": {
+        "id": 3717,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "78"
+    },
+    "Iasmin Lucindo": {
+        "id": 3919,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Ignacio Bahamondes": {
+        "id": 3595,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Igor Da Silva": {
+        "id": 4044,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Igor Pokrajac": {
+        "id": 966,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Igor Vovchanchyn": {
+        "id": 858,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 10,
+            "6": 1,
+            "7": 0
+        },
+        "value": "26"
+    },
+    "Ikram Aliskerov": {
+        "id": 3891,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "12"
+    },
+    "Ikuhisa Minowa": {
+        "id": 259,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 7,
+            "6": 0,
+            "7": 0
+        },
+        "value": "21"
+    },
+    "Ilia Topuria": {
+        "id": 3605,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "689"
+    },
+    "Ion Cutelaba": {
+        "id": 2765,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Irene Aldana": {
+        "id": 2843,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Islam Makhachev": {
+        "id": 2466,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "791"
+    },
+    "Israel Adesanya": {
+        "id": 3051,
+        "pass_distribution": {
+            "3": 1,
+            "4": 34,
+            "5": 25,
+            "6": 0,
+            "7": 1
+        },
+        "value": "934"
+    },
+    "Iuri Alcantara": {
+        "id": 1706,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Ivan Salaverry": {
+        "id": 140,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ivana Petrovic": {
+        "id": 4013,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jacare Souza": {
+        "id": 896,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 11,
+            "6": 3,
+            "7": 0
+        },
+        "value": "37"
+    },
+    "Jack Della Maddalena": {
+        "id": 3753,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 6,
+            "6": 0,
+            "7": 0
+        },
+        "value": "51"
+    },
+    "Jacqueline Cavalcanti": {
+        "id": 4090,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jai Herbert": {
+        "id": 3439,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jailton Almeida": {
+        "id": 3662,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Jairzinho Rozenstruik": {
+        "id": 3232,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Jake Ellenberger": {
+        "id": 965,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Jake Matthews": {
+        "id": 2258,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Jake Shields": {
+        "id": 1202,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 8,
+            "6": 1,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Jalin Turner": {
+        "id": 3072,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Jamahal Hill": {
+        "id": 3349,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "43"
+    },
+    "Jamal Pogues": {
+        "id": 3398,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "James Head": {
+        "id": 1801,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "James Krause": {
+        "id": 1096,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "James Vick": {
+        "id": 1984,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Jamie Varner": {
+        "id": 530,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Jan Blachowicz": {
+        "id": 2300,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "21"
+    },
+    "Jaqueline Amorim": {
+        "id": 3951,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Jared Cannonier": {
+        "id": 2337,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 6,
+            "6": 2,
+            "7": 0
+        },
+        "value": "19"
+    },
+    "Jarno Errens": {
+        "id": 3944,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jarred Brooks": {
+        "id": 2864,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jasmine Jasudavicius": {
+        "id": 3663,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Jason Miller": {
+        "id": 421,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Javid Basharat": {
+        "id": 3689,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Jean Matsumoto": {
+        "id": 4104,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Jean Silva": {
+        "id": 4064,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "24"
+    },
+    "Jeff Monson": {
+        "id": 141,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jeka Saragih": {
+        "id": 3880,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jennifer Maia": {
+        "id": 3065,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Jens Pulver": {
+        "id": 225,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 2,
+            "7": 1
+        },
+        "value": "5"
+    },
+    "JeongYeong Lee": {
+        "id": 3815,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Jeremy Horn": {
+        "id": 245,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Jeremy Stephens": {
+        "id": 545,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 9,
+            "6": 1,
+            "7": 2
+        },
+        "value": "29"
+    },
+    "Jessica Andrade": {
+        "id": 2079,
+        "pass_distribution": {
+            "3": 1,
+            "4": 11,
+            "5": 13,
+            "6": 2,
+            "7": 2
+        },
+        "value": "53"
+    },
+    "Jessica Penne": {
+        "id": 2341,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jessica-Rose Clark": {
+        "id": 3022,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ji Yeon Kim": {
+        "id": 2889,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jim Miller": {
+        "id": 509,
+        "pass_distribution": {
+            "3": 1,
+            "4": 27,
+            "5": 8,
+            "6": 2,
+            "7": 0
+        },
+        "value": "501"
+    },
+    "Jimmy Flick": {
+        "id": 3564,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jiri Prochazka": {
+        "id": 3438,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "73"
+    },
+    "Joachim Hansen": {
+        "id": 731,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joanderson Brito": {
+        "id": 3669,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Joanna Jedrzejczyk": {
+        "id": 2280,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 11,
+            "6": 2,
+            "7": 0
+        },
+        "value": "30"
+    },
+    "Joanne Wood": {
+        "id": 2339,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "5"
+    },
+    "Joaquin Buckley": {
+        "id": 3536,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 9,
+            "6": 1,
+            "7": 0
+        },
+        "value": "56"
+    },
+    "Joby Sanchez": {
+        "id": 2311,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joe Jordan": {
+        "id": 350,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joe Lauzon": {
+        "id": 524,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "18"
+    },
+    "Joe Pyfer": {
+        "id": 3505,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Joe Riggs": {
+        "id": 485,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Joe Son": {
+        "id": 132,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joe Stevenson": {
+        "id": 477,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Joel Alvarez": {
+        "id": 3245,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "John Castaneda": {
+        "id": 2925,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "John Dodson": {
+        "id": 1904,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "John Howard": {
+        "id": 646,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "John Kolosci": {
+        "id": 224,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "John Lineker": {
+        "id": 1966,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "6"
+    },
+    "John Makdessi": {
+        "id": 1675,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Johnny Walker": {
+        "id": 3173,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 5,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Johny Hendricks": {
+        "id": 947,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 6,
+            "6": 1,
+            "7": 1
+        },
+        "value": "16"
+    },
+    "Jon Fitch": {
+        "id": 339,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 4,
+            "6": 0,
+            "7": 1
+        },
+        "value": "10"
+    },
+    "Jon Jones": {
+        "id": 549,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 5,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1832"
+    },
+    "Jonathan Martinez": {
+        "id": 3198,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Jordan Espinosa": {
+        "id": 2991,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jordan Vucenic": {
+        "id": 4272,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jorge Masvidal": {
+        "id": 1272,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 11,
+            "6": 3,
+            "7": 1
+        },
+        "value": "50"
+    },
+    "Jorge Rivera": {
+        "id": 157,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Jose Aldo": {
+        "id": 1052,
+        "pass_distribution": {
+            "3": 1,
+            "4": 35,
+            "5": 25,
+            "6": 4,
+            "7": 1
+        },
+        "value": "208"
+    },
+    "Josefine Knutsson": {
+        "id": 3808,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joseph Benavidez": {
+        "id": 911,
+        "pass_distribution": {
+            "3": 1,
+            "4": 17,
+            "5": 9,
+            "6": 3,
+            "7": 1
+        },
+        "value": "51"
+    },
+    "Joseph Morales": {
+        "id": 2955,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Josh Barnett": {
+        "id": 328,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 13,
+            "6": 1,
+            "7": 1
+        },
+        "value": "57"
+    },
+    "Josh Koscheck": {
+        "id": 330,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 1,
+            "7": 1
+        },
+        "value": "9"
+    },
+    "Josh Parisian": {
+        "id": 3112,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Josh Thomson": {
+        "id": 356,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 7,
+            "6": 2,
+            "7": 1
+        },
+        "value": "21"
+    },
+    "Joshua Burkman": {
+        "id": 407,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Joshua Van": {
+        "id": 3989,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 1
+        },
+        "value": "31"
+    },
+    "Juan Adams": {
+        "id": 3147,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Julia Polastri": {
+        "id": 3664,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Julian Erosa": {
+        "id": 2728,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Julianna Pena": {
+        "id": 1511,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "JunYong Park": {
+        "id": 3276,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Junior Dos Santos": {
+        "id": 535,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 10,
+            "6": 2,
+            "7": 0
+        },
+        "value": "38"
+    },
+    "Junior Tafa": {
+        "id": 3702,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Justin Gaethje": {
+        "id": 2896,
+        "pass_distribution": {
+            "3": 1,
+            "4": 11,
+            "5": 10,
+            "6": 1,
+            "7": 0
+        },
+        "value": "176"
+    },
+    "Justin Tafa": {
+        "id": 3370,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kai Asakura": {
+        "id": 4270,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "77"
+    },
+    "Kai Kara-France": {
+        "id": 3197,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Kalib Starnes": {
+        "id": 233,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kamaru Usman": {
+        "id": 2587,
+        "pass_distribution": {
+            "3": 1,
+            "4": 10,
+            "5": 12,
+            "6": 0,
+            "7": 2
+        },
+        "value": "111"
+    },
+    "Karine Silva": {
+        "id": 3713,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Karl Williams": {
+        "id": 3946,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Karo Parisyan": {
+        "id": 483,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Karol Rosa": {
+        "id": 3342,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Karolina Kowalkiewicz": {
+        "id": 2678,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Katlyn Cerminara": {
+        "id": 2785,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "4"
+    },
+    "Katsuyori Shibata": {
+        "id": 903,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kay Hansen": {
+        "id": 3471,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kazuhiro Nakamura": {
+        "id": 385,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Kazushi Sakuraba": {
+        "id": 110,
+        "pass_distribution": {
+            "3": 1,
+            "4": 18,
+            "5": 16,
+            "6": 2,
+            "7": 0
+        },
+        "value": "76"
+    },
+    "Keita Nakamura": {
+        "id": 525,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Keith Berish": {
+        "id": 2272,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Keith Jardine": {
+        "id": 248,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kelvin Gastelum": {
+        "id": 2070,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 4,
+            "6": 2,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Ken Shamrock": {
+        "id": 38,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "14"
+    },
+    "Kendall Grove": {
+        "id": 487,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kennedy Nzechukwu": {
+        "id": 2984,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Kenny Florian": {
+        "id": 270,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Ketlen Vieira": {
+        "id": 2809,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kevin Ferguson": {
+        "id": 1026,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kevin Holland": {
+        "id": 3086,
+        "pass_distribution": {
+            "3": 1,
+            "4": 18,
+            "5": 15,
+            "6": 3,
+            "7": 0
+        },
+        "value": "374"
+    },
+    "Kevin Lee": {
+        "id": 2157,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 1
+        },
+        "value": "7"
+    },
+    "Kevin Randleman": {
+        "id": 149,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Khabib Nurmagomedov": {
+        "id": 1919,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 8,
+            "6": 0,
+            "7": 0
+        },
+        "value": "317"
+    },
+    "Khalil Rountree Jr.": {
+        "id": 2790,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 6,
+            "6": 1,
+            "7": 0
+        },
+        "value": "31"
+    },
+    "Khamzat Chimaev": {
+        "id": 3480,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "154"
+    },
+    "Khaos Williams": {
+        "id": 3440,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kiru Sahota": {
+        "id": 4169,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kiyoshi Tamura": {
+        "id": 849,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Kron Gracie": {
+        "id": 3229,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Krzysztof Jotko": {
+        "id": 2122,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Kurt Pellegrino": {
+        "id": 373,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kyle Nelson": {
+        "id": 3228,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Kyler Phillips": {
+        "id": 2948,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Kyoji Horiguchi": {
+        "id": 2103,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Lauren Murphy": {
+        "id": 2293,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Leo Kuntz": {
+        "id": 2273,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Leon Edwards": {
+        "id": 2329,
+        "pass_distribution": {
+            "3": 1,
+            "4": 17,
+            "5": 15,
+            "6": 1,
+            "7": 0
+        },
+        "value": "338"
+    },
+    "Leonardo Mafra": {
+        "id": 2001,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Lerone Murphy": {
+        "id": 3424,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Li Jingliang": {
+        "id": 2206,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Liliya Shakirova": {
+        "id": 3608,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Logan Clark": {
+        "id": 537,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Loma Lookboonmee": {
+        "id": 3427,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Lone'er Kavanagh": {
+        "id": 4200,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Lorenz Larkin": {
+        "id": 1783,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Louis Smolka": {
+        "id": 2166,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Luana Carolina": {
+        "id": 3183,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Luana Pinheiro": {
+        "id": 3572,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Luana Santos": {
+        "id": 4080,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Ludovit Klein": {
+        "id": 3597,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Luis Santos": {
+        "id": 1101,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Luke Rockhold": {
+        "id": 1294,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "19"
+    },
+    "Lyoto Machida": {
+        "id": 346,
+        "pass_distribution": {
+            "3": 1,
+            "4": 23,
+            "5": 15,
+            "6": 2,
+            "7": 0
+        },
+        "value": "106"
+    },
+    "Mac Danzig": {
+        "id": 395,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mackenzie Dern": {
+        "id": 3054,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 3,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Macy Chiasson": {
+        "id": 3221,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Magomed Ankalaev": {
+        "id": 3046,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Magomed Gadzhiyasulov": {
+        "id": 4109,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Maheshate": {
+        "id": 3731,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mairon Santos": {
+        "id": 4289,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Makwan Amirkhani": {
+        "id": 2373,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mandy Bohm": {
+        "id": 3677,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Manel Kape": {
+        "id": 3455,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Manuel Torres": {
+        "id": 3733,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Marc Diakiese": {
+        "id": 2822,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Marc-Andre Barriault": {
+        "id": 3233,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Marcin Tybura": {
+        "id": 2753,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Marcos Rogerio de Lima": {
+        "id": 1865,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Marcus McGhee": {
+        "id": 4014,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Maria Oliveira": {
+        "id": 3167,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Marina Rodriguez": {
+        "id": 3168,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Mario Bautista": {
+        "id": 3239,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Mario Sperry": {
+        "id": 838,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mariya Agapova": {
+        "id": 3358,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mark Coleman": {
+        "id": 41,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 3,
+            "7": 0
+        },
+        "value": "19"
+    },
+    "Mark Hominick": {
+        "id": 578,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mark Hunt": {
+        "id": 735,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 6,
+            "6": 2,
+            "7": 1
+        },
+        "value": "21"
+    },
+    "Mark Kerr": {
+        "id": 99,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Marlon Vera": {
+        "id": 2359,
+        "pass_distribution": {
+            "3": 1,
+            "4": 18,
+            "5": 17,
+            "6": 1,
+            "7": 1
+        },
+        "value": "87"
+    },
+    "Marnic Mann": {
+        "id": 3894,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Martin Buday": {
+        "id": 3682,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Martin Kampmann": {
+        "id": 474,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Martin Sano": {
+        "id": 3739,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Marvin Vettori": {
+        "id": 2783,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Masakatsu Funaki": {
+        "id": 898,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mateusz Gamrot": {
+        "id": 3598,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "12"
+    },
+    "Mateusz Rebecki": {
+        "id": 3856,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Matt Brown": {
+        "id": 432,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 10,
+            "6": 1,
+            "7": 1
+        },
+        "value": "51"
+    },
+    "Matt Frevola": {
+        "id": 2994,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Matt Hamill": {
+        "id": 284,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Matt Hughes": {
+        "id": 187,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 8,
+            "6": 3,
+            "7": 0
+        },
+        "value": "38"
+    },
+    "Matt Lindland": {
+        "id": 125,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Matt Mitrione": {
+        "id": 1163,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Matt Serra": {
+        "id": 212,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mauricio Rua": {
+        "id": 457,
+        "pass_distribution": {
+            "3": 1,
+            "4": 28,
+            "5": 18,
+            "6": 5,
+            "7": 0
+        },
+        "value": "248"
+    },
+    "Max Griffin": {
+        "id": 2805,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Max Holloway": {
+        "id": 1936,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 14,
+            "6": 1,
+            "7": 2
+        },
+        "value": "907"
+    },
+    "Maycee Barber": {
+        "id": 3114,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 9,
+            "6": 0,
+            "7": 0
+        },
+        "value": "36"
+    },
+    "Melquizael Costa": {
+        "id": 3966,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Melsik Baghdasaryan": {
+        "id": 3527,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Melvin Guillard": {
+        "id": 501,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Merab Dvalishvili": {
+        "id": 3020,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 9,
+            "6": 1,
+            "7": 0
+        },
+        "value": "132"
+    },
+    "Michael Bisping": {
+        "id": 368,
+        "pass_distribution": {
+            "3": 1,
+            "4": 24,
+            "5": 15,
+            "6": 2,
+            "7": 0
+        },
+        "value": "163"
+    },
+    "Michael Chandler": {
+        "id": 1442,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "24"
+    },
+    "Michael Chiesa": {
+        "id": 1985,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Michael Johnson": {
+        "id": 1711,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 10,
+            "6": 2,
+            "7": 1
+        },
+        "value": "35"
+    },
+    "Michael McDonald": {
+        "id": 1650,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Michael Morales": {
+        "id": 3700,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "30"
+    },
+    "Michal Oleksiejczuk": {
+        "id": 3016,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Michel Pereira": {
+        "id": 3267,
+        "pass_distribution": {
+            "3": 0,
+            "4": 3,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "21"
+    },
+    "Michelle Waterson-Gomez": {
+        "id": 1347,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Mick Parkin": {
+        "id": 3857,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Miesha Tate": {
+        "id": 1317,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 4,
+            "6": 2,
+            "7": 1
+        },
+        "value": "13"
+    },
+    "Mike Brown": {
+        "id": 627,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mike Davis": {
+        "id": 3135,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mike Malott": {
+        "id": 2642,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Mike Perry": {
+        "id": 2813,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mike Pierce": {
+        "id": 1078,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mike Pyle": {
+        "id": 870,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Mike Stumpf": {
+        "id": 1884,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mike Swick": {
+        "id": 379,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Miles Johns": {
+        "id": 3313,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Miranda Maverick": {
+        "id": 3469,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mirko Filipovic": {
+        "id": 219,
+        "pass_distribution": {
+            "3": 1,
+            "4": 17,
+            "5": 15,
+            "6": 1,
+            "7": 0
+        },
+        "value": "101"
+    },
+    "Mitch Raposo": {
+        "id": 3766,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Mitsuhiro Ishida": {
+        "id": 743,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mizuki": {
+        "id": 3405,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Mohammed Usman": {
+        "id": 3914,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Montana De La Rosa": {
+        "id": 3037,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Morgan Charriere": {
+        "id": 4131,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Movsar Evloev": {
+        "id": 3266,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Muhammad Mokaev": {
+        "id": 3776,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "28"
+    },
+    "Muhammad Naimov": {
+        "id": 3591,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Muhammed Lawal": {
+        "id": 1460,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Murilo Rua": {
+        "id": 820,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Muslim Salikhov": {
+        "id": 3021,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Myktybek Orolbai": {
+        "id": 4159,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Naoyuki Kotani": {
+        "id": 460,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Nasrat Haqparast": {
+        "id": 3014,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Nassourdine Imavov": {
+        "id": 3576,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Natalia Silva": {
+        "id": 3623,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Nate Diaz": {
+        "id": 538,
+        "pass_distribution": {
+            "3": 1,
+            "4": 33,
+            "5": 23,
+            "6": 1,
+            "7": 0
+        },
+        "value": "257"
+    },
+    "Nate Landwehr": {
+        "id": 3422,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Nate Maness": {
+        "id": 3482,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Nate Marquardt": {
+        "id": 372,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 11,
+            "6": 0,
+            "7": 1
+        },
+        "value": "19"
+    },
+    "Nathan Fletcher": {
+        "id": 4283,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Nazim Sadykhov": {
+        "id": 3859,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Neil Magny": {
+        "id": 2047,
+        "pass_distribution": {
+            "3": 1,
+            "4": 11,
+            "5": 24,
+            "6": 2,
+            "7": 0
+        },
+        "value": "89"
+    },
+    "Nick Bustamante": {
+        "id": 2431,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Nick Diaz": {
+        "id": 506,
+        "pass_distribution": {
+            "3": 1,
+            "4": 24,
+            "5": 11,
+            "6": 3,
+            "7": 1
+        },
+        "value": "142"
+    },
+    "Nick Hein": {
+        "id": 2207,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Nicolas Dalby": {
+        "id": 2509,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Nikita Krylov": {
+        "id": 2076,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Niko Price": {
+        "id": 2851,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Norma Dumont": {
+        "id": 3264,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Oban Elliott": {
+        "id": 4069,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ode Osbourne": {
+        "id": 3329,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Olivier Aubin-Mercier": {
+        "id": 2223,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Oumar Sy": {
+        "id": 3860,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ovince Saint Preux": {
+        "id": 1499,
+        "pass_distribution": {
+            "3": 1,
+            "4": 16,
+            "5": 12,
+            "6": 0,
+            "7": 2
+        },
+        "value": "62"
+    },
+    "Paddy Pimblett": {
+        "id": 3644,
+        "pass_distribution": {
+            "3": 1,
+            "4": 8,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "146"
+    },
+    "Pannie Kianzad": {
+        "id": 3218,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Pat Barry": {
+        "id": 382,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Pat Curran": {
+        "id": 2409,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Pat Healy": {
+        "id": 197,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Pat Miletich": {
+        "id": 93,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Pat Sabatini": {
+        "id": 3638,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Patrick Cote": {
+        "id": 405,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "12"
+    },
+    "Patrick Smith": {
+        "id": 48,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Paul Daley": {
+        "id": 967,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Paul Felder": {
+        "id": 2316,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Paulo Costa": {
+        "id": 2876,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "20"
+    },
+    "Paulo Filho": {
+        "id": 710,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Payton Talbott": {
+        "id": 4023,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "253"
+    },
+    "Pearl Gonzalez": {
+        "id": 2881,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Pedro Munhoz": {
+        "id": 2191,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Petr Yan": {
+        "id": 3068,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 9,
+            "6": 2,
+            "7": 0
+        },
+        "value": "52"
+    },
+    "Phil Baroni": {
+        "id": 267,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Phil Davis": {
+        "id": 1189,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Phil Hawes": {
+        "id": 2929,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Philipe Lins": {
+        "id": 2627,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Preston Parsons": {
+        "id": 3716,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Quinton Jackson": {
+        "id": 348,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 12,
+            "6": 0,
+            "7": 2
+        },
+        "value": "97"
+    },
+    "Rachael Ostovich": {
+        "id": 3043,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Rafael Carino": {
+        "id": 172,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Rafael Cavalcante": {
+        "id": 1390,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Rafael Dos Anjos": {
+        "id": 532,
+        "pass_distribution": {
+            "3": 1,
+            "4": 23,
+            "5": 26,
+            "6": 1,
+            "7": 1
+        },
+        "value": "211"
+    },
+    "Rafael Fiziev": {
+        "id": 3078,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Rafael Natal": {
+        "id": 1594,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Ramazan Temirov": {
+        "id": 4282,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Rameau Thierry Sokoudjou": {
+        "id": 518,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ramiz Brahimaj": {
+        "id": 3307,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Ramon Taveras": {
+        "id": 4077,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Ramona Pascual": {
+        "id": 3784,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Randall Wallace": {
+        "id": 2993,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Randy Brown": {
+        "id": 2739,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 3,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Randy Couture": {
+        "id": 27,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 15,
+            "6": 2,
+            "7": 0
+        },
+        "value": "38"
+    },
+    "Rani Yahya": {
+        "id": 1044,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 8,
+            "6": 2,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Raphael Assuncao": {
+        "id": 1039,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 5,
+            "6": 2,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Raquel Pennington": {
+        "id": 2150,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 1
+        },
+        "value": "7"
+    },
+    "Rashad Evans": {
+        "id": 387,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 9,
+            "6": 3,
+            "7": 0
+        },
+        "value": "23"
+    },
+    "Rashid Magomedov": {
+        "id": 2158,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Raul Rosas Jr.": {
+        "id": 3931,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "124"
+    },
+    "Rei Tsuruya": {
+        "id": 3978,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Reinier de Ridder": {
+        "id": 4302,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Renan Barao": {
+        "id": 1527,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Renato Moicano": {
+        "id": 2375,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Renato Sobral": {
+        "id": 246,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Ricardo Lamas": {
+        "id": 1054,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 6,
+            "6": 1,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Ricco Rodriguez": {
+        "id": 310,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Rich Clementi": {
+        "id": 265,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Rich Franklin": {
+        "id": 220,
+        "pass_distribution": {
+            "3": 1,
+            "4": 18,
+            "5": 13,
+            "6": 2,
+            "7": 0
+        },
+        "value": "81"
+    },
+    "Rick Story": {
+        "id": 669,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 1
+        },
+        "value": "8"
+    },
+    "Ricky Simon": {
+        "id": 2971,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Rinat Fakhretdinov": {
+        "id": 3635,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Rob Font": {
+        "id": 2266,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 4,
+            "6": 1,
+            "7": 1
+        },
+        "value": "15"
+    },
+    "Robbie Lawler": {
+        "id": 471,
+        "pass_distribution": {
+            "3": 1,
+            "4": 21,
+            "5": 19,
+            "6": 4,
+            "7": 0
+        },
+        "value": "104"
+    },
+    "Robelis Despaigne": {
+        "id": 4161,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "74"
+    },
+    "Robert Valentin": {
+        "id": 4287,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Robert Whittaker": {
+        "id": 2037,
+        "pass_distribution": {
+            "3": 1,
+            "4": 14,
+            "5": 13,
+            "6": 4,
+            "7": 2
+        },
+        "value": "164"
+    },
+    "Rodrigo Nascimento": {
+        "id": 3361,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Rogerio Nogueira": {
+        "id": 797,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 10,
+            "6": 1,
+            "7": 0
+        },
+        "value": "28"
+    },
+    "Roman Dolidze": {
+        "id": 3238,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Roman Kopylov": {
+        "id": 3256,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Ronaldo Rodriguez": {
+        "id": 3484,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Ronda Rousey": {
+        "id": 1828,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Rory MacDonald": {
+        "id": 1176,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Rose Namajunas": {
+        "id": 2344,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 9,
+            "6": 1,
+            "7": 1
+        },
+        "value": "38"
+    },
+    "Ross Pearson": {
+        "id": 875,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Rousimar Palhares": {
+        "id": 404,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "4"
+    },
+    "Roxanne Modafferi": {
+        "id": 1430,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Roy Nelson": {
+        "id": 1015,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "4"
+    },
+    "Royce Gracie": {
+        "id": 70,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "12"
+    },
+    "Rustam Khabilov": {
+        "id": 2023,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ryan Bader": {
+        "id": 503,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 6,
+            "6": 2,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Ryan Hall": {
+        "id": 2726,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ryan Jimmo": {
+        "id": 1922,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ryan MacDonald": {
+        "id": 3257,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Ryan Spann": {
+        "id": 2935,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Sage Northcutt": {
+        "id": 2628,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Said Nurmagomedov": {
+        "id": 3066,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sam Alvey": {
+        "id": 2264,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Sam Sicilia": {
+        "id": 1978,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Santiago Ponzinibbio": {
+        "id": 2107,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 3,
+            "7": 0
+        },
+        "value": "11"
+    },
+    "Sara McMann": {
+        "id": 2022,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sarah Kaufman": {
+        "id": 1380,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Scott Holtzman": {
+        "id": 2558,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Scott Jorgensen": {
+        "id": 1034,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Sean Brady": {
+        "id": 3262,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Sean O'Connell": {
+        "id": 2205,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sean O'Malley": {
+        "id": 2917,
+        "pass_distribution": {
+            "3": 1,
+            "4": 15,
+            "5": 9,
+            "6": 1,
+            "7": 1
+        },
+        "value": "3332"
+    },
+    "Sean Sharaf": {
+        "id": 4307,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sean Spencer": {
+        "id": 2053,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sean Strickland": {
+        "id": 2204,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 12,
+            "6": 2,
+            "7": 0
+        },
+        "value": "518"
+    },
+    "Sedriques Dumas": {
+        "id": 3867,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Seo Hee Ham": {
+        "id": 2372,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sergei Kharitonov": {
+        "id": 751,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 2,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Sergei Pavlovich": {
+        "id": 3212,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
+    },
+    "Serghei Spivac": {
+        "id": 3285,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Sergio Pettis": {
+        "id": 2118,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Shane Burgos": {
+        "id": 2847,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Shang Zhifa": {
+        "id": 3711,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shannon Ritch": {
+        "id": 819,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shannon Ross": {
+        "id": 3868,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shara Magomedov": {
+        "id": 3964,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "72"
+    },
+    "Shauna Bannon": {
+        "id": 4081,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shavkat Rakhmonov": {
+        "id": 3417,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 5,
+            "6": 0,
+            "7": 0
+        },
+        "value": "352"
+    },
+    "Shawn Jordan": {
+        "id": 1850,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shayilan Nuerdanbieke": {
+        "id": 3645,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shayna Baszler": {
+        "id": 1401,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shi Ming": {
+        "id": 4176,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Shinya Aoki": {
+        "id": 676,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 8,
+            "6": 0,
+            "7": 1
+        },
+        "value": "41"
+    },
+    "Shohei Nose": {
+        "id": 3824,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Shonie Carter": {
+        "id": 162,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Sodiq Yusuff": {
+        "id": 3136,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Song Kenan": {
+        "id": 3024,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Song Yadong": {
+        "id": 3030,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "38"
+    },
+    "Spencer Fisher": {
+        "id": 269,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Stefan Struve": {
+        "id": 649,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "5"
+    },
+    "Stephan Bonnar": {
+        "id": 297,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Stephanie Luciano": {
+        "id": 4047,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Stephen Thompson": {
+        "id": 1944,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 14,
+            "6": 2,
+            "7": 0
+        },
+        "value": "34"
+    },
+    "Steve Cantwell": {
+        "id": 547,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Steve Erceg": {
+        "id": 3869,
+        "pass_distribution": {
+            "3": 0,
+            "4": 4,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "39"
+    },
+    "Steve Garcia": {
+        "id": 2639,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Steven Koslow": {
+        "id": 3961,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Stevie Ray": {
+        "id": 2502,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Stipe Miocic": {
+        "id": 1852,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 7,
+            "6": 3,
+            "7": 0
+        },
+        "value": "63"
+    },
+    "TJ Dillashaw": {
+        "id": 1905,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 11,
+            "6": 0,
+            "7": 1
+        },
+        "value": "34"
+    },
+    "TJ Grant": {
+        "id": 655,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Tabatha Ricci": {
+        "id": 3703,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 3,
+            "6": 2,
+            "7": 0
+        },
+        "value": "13"
+    },
+    "Tagir Ulanbekov": {
+        "id": 3460,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Tai Tuivasa": {
+        "id": 3015,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "25"
+    },
+    "Takanori Gomi": {
+        "id": 721,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 10,
+            "6": 1,
+            "7": 1
+        },
+        "value": "35"
+    },
+    "Takeya Mizugaki": {
+        "id": 1051,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Talita Alencar": {
+        "id": 4079,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Tarec Saffiedine": {
+        "id": 942,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Tatiana Suarez": {
+        "id": 2791,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Tatsuro Taira": {
+        "id": 3781,
+        "pass_distribution": {
+            "3": 1,
+            "4": 7,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "60"
+    },
+    "Tatsuya Kawajiri": {
+        "id": 750,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 9,
+            "6": 2,
+            "7": 0
+        },
+        "value": "27"
+    },
+    "Tecia Torres": {
+        "id": 2340,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Teila Tuli": {
+        "id": 109,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Terrance McKinney": {
+        "id": 3345,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Thales Leites": {
+        "id": 449,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 7,
+            "6": 1,
+            "7": 0
+        },
+        "value": "9"
+    },
+    "Themba Gorimbo": {
+        "id": 3939,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Thiago Alves": {
+        "id": 511,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 6,
+            "6": 3,
+            "7": 0
+        },
+        "value": "20"
+    },
+    "Thiago Moises": {
+        "id": 3188,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Thiago Santos": {
+        "id": 2087,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 3,
+            "6": 1,
+            "7": 2
+        },
+        "value": "23"
+    },
+    "Thiago Silva": {
+        "id": 488,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 2,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Thiago Tavares": {
+        "id": 533,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Tim Boetsch": {
+        "id": 435,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Tim Elliott": {
+        "id": 1970,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Tim Kennedy": {
+        "id": 1403,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "3"
+    },
+    "Tim Means": {
+        "id": 1952,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 11,
+            "6": 4,
+            "7": 0
+        },
+        "value": "31"
+    },
+    "Tim Sylvia": {
+        "id": 264,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 2,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Tito Ortiz": {
+        "id": 234,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 8,
+            "6": 1,
+            "7": 1
+        },
+        "value": "34"
+    },
+    "Tom Aspinall": {
+        "id": 3433,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "180"
+    },
+    "Tom Egan": {
+        "id": 636,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Tom Nolan": {
+        "id": 4024,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Tony Ferguson": {
+        "id": 1815,
+        "pass_distribution": {
+            "3": 1,
+            "4": 12,
+            "5": 14,
+            "6": 2,
+            "7": 0
+        },
+        "value": "78"
+    },
+    "Tony Gravely": {
+        "id": 3393,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Torrez Finney": {
+        "id": 4141,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Tracy Cortez": {
+        "id": 3357,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 6,
+            "6": 1,
+            "7": 0
+        },
+        "value": "118"
+    },
+    "Travis Browne": {
+        "id": 1515,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Travis Fulton": {
+        "id": 300,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "31"
+    },
+    "Travis Wiuff": {
+        "id": 342,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Trent Jenkins": {
+        "id": 83,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Trevin Giles": {
+        "id": 2932,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Trevor Peek": {
+        "id": 3942,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Trevor Smith": {
+        "id": 1810,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Trey Waters": {
+        "id": 3943,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Tucker Lutz": {
+        "id": 3521,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Tyron Woodley": {
+        "id": 1386,
+        "pass_distribution": {
+            "3": 1,
+            "4": 5,
+            "5": 7,
+            "6": 3,
+            "7": 0
+        },
+        "value": "39"
+    },
+    "Tyson Griffin": {
+        "id": 519,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Umar Nurmagomedov": {
+        "id": 3449,
+        "pass_distribution": {
+            "3": 1,
+            "4": 4,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "49"
+    },
+    "Uriah Hall": {
+        "id": 2069,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 5,
+            "6": 0,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Valentina Shevchenko": {
+        "id": 2731,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 9,
+            "6": 3,
+            "7": 0
+        },
+        "value": "59"
+    },
+    "Valter Walker": {
+        "id": 4093,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Veronica Hardy": {
+        "id": 2816,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Viacheslav Borshchev": {
+        "id": 3770,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Vicente Luque": {
+        "id": 2588,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 5,
+            "6": 0,
+            "7": 1
+        },
+        "value": "11"
+    },
+    "Viktoriia Dudakova": {
+        "id": 3872,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Vinicius Oliveira": {
+        "id": 4124,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Vinicius Salvador": {
+        "id": 3654,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Virna Jandiroba": {
+        "id": 3280,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Vitor Belfort": {
+        "id": 295,
+        "pass_distribution": {
+            "3": 1,
+            "4": 11,
+            "5": 7,
+            "6": 2,
+            "7": 1
+        },
+        "value": "62"
+    },
+    "Viviane Pereira": {
+        "id": 2835,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Vladimir Matyushenko": {
+        "id": 138,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Volkan Oezdemir": {
+        "id": 2863,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Waldo Cortes-Acosta": {
+        "id": 3874,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Walt Harris": {
+        "id": 2106,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Wanderlei Silva": {
+        "id": 275,
+        "pass_distribution": {
+            "3": 1,
+            "4": 32,
+            "5": 21,
+            "6": 3,
+            "7": 0
+        },
+        "value": "228"
+    },
+    "War Machine": {
+        "id": 458,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Westin Wilson": {
+        "id": 4096,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Xiao Long": {
+        "id": 3735,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Yair Rodriguez": {
+        "id": 2362,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "15"
+    },
+    "Yan Xiaonan": {
+        "id": 3010,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Yanal Ashmouz": {
+        "id": 3960,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Yancy Medeiros": {
+        "id": 1481,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "1"
+    },
+    "Yazmin Jauregui": {
+        "id": 3789,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Yizha": {
+        "id": 3797,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Yoel Romero": {
+        "id": 1866,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Yoshihiro Akiyama": {
+        "id": 914,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 6,
+            "6": 1,
+            "7": 0
+        },
+        "value": "7"
+    },
+    "Yosuke Nishijima": {
+        "id": 796,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Yuki Kondo": {
+        "id": 242,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Yusaku Kinoshita": {
+        "id": 3918,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Yushin Okami": {
+        "id": 479,
+        "pass_distribution": {
+            "3": 0,
+            "4": 2,
+            "5": 3,
+            "6": 1,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Yves Edwards": {
+        "id": 283,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 5,
+            "6": 3,
+            "7": 0
+        },
+        "value": "18"
+    },
+    "Zabit Magomedsharipov": {
+        "id": 2965,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Zachary Scroggin": {
+        "id": 4310,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Zak Cummings": {
+        "id": 1422,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "4"
+    },
+    "Zane Frazier": {
+        "id": 64,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Zhang Mingyang": {
+        "id": 3743,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
+    "Zhang Weili": {
+        "id": 3099,
+        "pass_distribution": {
+            "3": 1,
+            "4": 9,
+            "5": 8,
+            "6": 1,
+            "7": 0
+        },
+        "value": "73"
+    }
 }
