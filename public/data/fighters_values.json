@@ -156,7 +156,7 @@
     "Aleksandar Rakic": {
         "id": 2924,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 0,
             "6": 1,
@@ -167,7 +167,7 @@
     "Aleksei Oleinik": {
         "id": 2155,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 1,
             "5": 4,
             "6": 0,
@@ -189,7 +189,7 @@
     "Alex Caceres": {
         "id": 1755,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 7,
             "5": 12,
             "6": 3,
@@ -222,13 +222,13 @@
     "Alex Pereira": {
         "id": 3546,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 4,
             "5": 1,
             "6": 1,
             "7": 0
         },
-        "value": "1209"
+        "value": "1210"
     },
     "Alex Perez": {
         "id": 2969,
@@ -244,7 +244,7 @@
     "Alexa Grasso": {
         "id": 2814,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 3,
             "5": 10,
             "6": 1,
@@ -255,7 +255,7 @@
     "Alexander Gustafsson": {
         "id": 1139,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 7,
             "6": 1,
@@ -277,7 +277,7 @@
     "Alexander Volkanovski": {
         "id": 2824,
         "pass_distribution": {
-            "3": 1,
+            "3": 69,
             "4": 48,
             "5": 22,
             "6": 5,
@@ -310,7 +310,7 @@
     "Alexandre Pantoja": {
         "id": 2858,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 12,
             "5": 4,
             "6": 1,
@@ -332,7 +332,7 @@
     "Alistair Overeem": {
         "id": 808,
         "pass_distribution": {
-            "3": 1,
+            "3": 52,
             "4": 19,
             "5": 13,
             "6": 1,
@@ -343,7 +343,7 @@
     "Aljamain Sterling": {
         "id": 2177,
         "pass_distribution": {
-            "3": 1,
+            "3": 17,
             "4": 14,
             "5": 16,
             "6": 4,
@@ -387,8 +387,8 @@
     "Amanda Nunes": {
         "id": 1719,
         "pass_distribution": {
-            "3": 1,
-            "4": 9,
+            "3": 9,
+            "4": 10,
             "5": 5,
             "6": 1,
             "7": 1
@@ -420,13 +420,13 @@
     "Anderson Silva": {
         "id": 235,
         "pass_distribution": {
-            "3": 1,
+            "3": 71,
             "4": 35,
             "5": 16,
             "6": 1,
             "7": 1
         },
-        "value": "649"
+        "value": "650"
     },
     "Andre Fili": {
         "id": 2119,
@@ -475,7 +475,7 @@
     "Andrei Arlovski": {
         "id": 367,
         "pass_distribution": {
-            "3": 1,
+            "3": 40,
             "4": 22,
             "5": 10,
             "6": 4,
@@ -519,7 +519,7 @@
     "Anthony Hernandez": {
         "id": 3091,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 4,
             "6": 0,
@@ -530,7 +530,7 @@
     "Anthony Johnson": {
         "id": 516,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 4,
             "6": 2,
@@ -541,7 +541,7 @@
     "Anthony Pettis": {
         "id": 1069,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 9,
             "5": 6,
             "6": 3,
@@ -552,7 +552,7 @@
     "Anthony Smith": {
         "id": 1843,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 4,
             "5": 5,
             "6": 2,
@@ -574,7 +574,7 @@
     "Antonio Rodrigo Nogueira": {
         "id": 272,
         "pass_distribution": {
-            "3": 1,
+            "3": 15,
             "4": 16,
             "5": 12,
             "6": 2,
@@ -629,7 +629,7 @@
     "Arman Tsarukyan": {
         "id": 3269,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 4,
             "5": 5,
             "6": 2,
@@ -651,7 +651,7 @@
     "Arnold Allen": {
         "id": 2570,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 0,
             "6": 1,
@@ -739,7 +739,7 @@
     "BJ Penn": {
         "id": 361,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 10,
             "5": 11,
             "6": 1,
@@ -772,7 +772,7 @@
     "Belal Muhammad": {
         "id": 2778,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 12,
             "5": 5,
             "6": 2,
@@ -794,7 +794,7 @@
     "Ben Rothwell": {
         "id": 969,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 6,
             "5": 7,
             "6": 1,
@@ -816,7 +816,7 @@
     "Beneil Dariush": {
         "id": 2168,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 2,
             "5": 9,
             "6": 2,
@@ -827,7 +827,7 @@
     "Benoit Saint Denis": {
         "id": 3769,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 2,
             "5": 1,
             "6": 0,
@@ -838,7 +838,7 @@
     "Benson Henderson": {
         "id": 1066,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 8,
             "5": 6,
             "6": 1,
@@ -893,7 +893,7 @@
     "Bo Nickal": {
         "id": 3904,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 2,
             "6": 0,
@@ -915,7 +915,7 @@
     "Bobby Green": {
         "id": 1683,
         "pass_distribution": {
-            "3": 1,
+            "3": 21,
             "4": 10,
             "5": 18,
             "6": 1,
@@ -1003,7 +1003,7 @@
     "Brad Tavares": {
         "id": 1546,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 4,
             "6": 1,
@@ -1025,7 +1025,7 @@
     "Brandon Moreno": {
         "id": 2825,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 10,
             "5": 6,
             "6": 2,
@@ -1091,7 +1091,7 @@
     "Brian Ortega": {
         "id": 2238,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 5,
             "6": 1,
@@ -1113,7 +1113,7 @@
     "Brock Lesnar": {
         "id": 305,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 1,
             "5": 2,
             "6": 0,
@@ -1168,7 +1168,7 @@
     "Bryan Battle": {
         "id": 3745,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 1,
             "5": 6,
             "6": 0,
@@ -1212,7 +1212,7 @@
     "CM Punk": {
         "id": 2796,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 1,
             "6": 0,
@@ -1234,7 +1234,7 @@
     "Caio Borralho": {
         "id": 3658,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 6,
             "6": 0,
@@ -1300,7 +1300,7 @@
     "Carlos Condit": {
         "id": 663,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 11,
             "5": 7,
             "6": 1,
@@ -1322,7 +1322,7 @@
     "Carlos Prates": {
         "id": 4075,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 1,
             "5": 3,
             "6": 0,
@@ -1333,7 +1333,7 @@
     "Carlos Ulberg": {
         "id": 3603,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 3,
             "5": 3,
             "6": 0,
@@ -1377,7 +1377,7 @@
     "Chael Sonnen": {
         "id": 296,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 5,
             "5": 7,
             "6": 1,
@@ -1454,7 +1454,7 @@
     "Charles Jourdain": {
         "id": 3292,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 2,
             "5": 3,
             "6": 0,
@@ -1465,7 +1465,7 @@
     "Charles Oliveira": {
         "id": 1531,
         "pass_distribution": {
-            "3": 1,
+            "3": 28,
             "4": 5,
             "5": 9,
             "6": 1,
@@ -1509,7 +1509,7 @@
     "Chase Hooper": {
         "id": 3139,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 5,
             "6": 1,
@@ -1696,7 +1696,7 @@
     "Chuck Liddell": {
         "id": 113,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 8,
             "5": 10,
             "6": 1,
@@ -1707,7 +1707,7 @@
     "Ciryl Gane": {
         "id": 3327,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 5,
             "6": 1,
@@ -1718,7 +1718,7 @@
     "Clay Guida": {
         "id": 459,
         "pass_distribution": {
-            "3": 1,
+            "3": 13,
             "4": 13,
             "5": 15,
             "6": 5,
@@ -1751,7 +1751,7 @@
     "Cody Garbrandt": {
         "id": 2369,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 1,
             "5": 6,
             "6": 1,
@@ -1784,7 +1784,7 @@
     "Colby Covington": {
         "id": 2297,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 5,
             "5": 6,
             "6": 0,
@@ -1817,7 +1817,7 @@
     "Conor McGregor": {
         "id": 2057,
         "pass_distribution": {
-            "3": 1,
+            "3": 11,
             "4": 4,
             "5": 3,
             "6": 1,
@@ -1861,7 +1861,7 @@
     "Cory Sandhagen": {
         "id": 3055,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 2,
             "5": 6,
             "6": 1,
@@ -1872,7 +1872,7 @@
     "Court McGee": {
         "id": 1543,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 2,
             "6": 2,
@@ -1883,7 +1883,7 @@
     "Cristiane Justino": {
         "id": 1194,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 0,
             "5": 9,
             "6": 0,
@@ -1894,7 +1894,7 @@
     "Cub Swanson": {
         "id": 1050,
         "pass_distribution": {
-            "3": 1,
+            "3": 13,
             "4": 14,
             "5": 21,
             "6": 3,
@@ -1916,7 +1916,7 @@
     "Curtis Blaydes": {
         "id": 2764,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 2,
             "5": 6,
             "6": 0,
@@ -1971,18 +1971,18 @@
     "Dan Henderson": {
         "id": 129,
         "pass_distribution": {
-            "3": 1,
+            "3": 26,
             "4": 33,
             "5": 21,
             "6": 3,
             "7": 0
         },
-        "value": "151"
+        "value": "152"
     },
     "Dan Hooker": {
         "id": 2254,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 7,
             "5": 8,
             "6": 1,
@@ -2026,7 +2026,7 @@
     "Daniel Cormier": {
         "id": 1409,
         "pass_distribution": {
-            "3": 1,
+            "3": 30,
             "4": 14,
             "5": 18,
             "6": 0,
@@ -2114,7 +2114,7 @@
     "Darren Elkins": {
         "id": 1486,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 7,
             "5": 10,
             "6": 0,
@@ -2169,7 +2169,7 @@
     "Deiveson Figueiredo": {
         "id": 2878,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 10,
             "5": 5,
             "6": 1,
@@ -2180,7 +2180,7 @@
     "Demetrious Johnson": {
         "id": 1495,
         "pass_distribution": {
-            "3": 1,
+            "3": 35,
             "4": 16,
             "5": 15,
             "6": 1,
@@ -2191,7 +2191,7 @@
     "Demian Maia": {
         "id": 326,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 16,
             "5": 9,
             "6": 2,
@@ -2257,7 +2257,7 @@
     "Derek Brunson": {
         "id": 1806,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 5,
             "5": 11,
             "6": 0,
@@ -2268,7 +2268,7 @@
     "Derrick Lewis": {
         "id": 2082,
         "pass_distribution": {
-            "3": 1,
+            "3": 39,
             "4": 10,
             "5": 21,
             "6": 1,
@@ -2312,7 +2312,7 @@
     "Diego Lopes": {
         "id": 3754,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 3,
             "5": 2,
             "6": 0,
@@ -2323,7 +2323,7 @@
     "Diego Sanchez": {
         "id": 461,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 9,
             "5": 17,
             "6": 1,
@@ -2334,7 +2334,7 @@
     "Dominick Cruz": {
         "id": 1057,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 4,
             "5": 1,
             "6": 3,
@@ -2367,7 +2367,7 @@
     "Don Frye": {
         "id": 60,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 0,
             "6": 2,
@@ -2389,13 +2389,13 @@
     "Donald Cerrone": {
         "id": 1076,
         "pass_distribution": {
-            "3": 1,
+            "3": 62,
             "4": 26,
             "5": 23,
             "6": 1,
             "7": 2
         },
-        "value": "332"
+        "value": "333"
     },
     "Dong Hyun Kim": {
         "id": 455,
@@ -2444,7 +2444,7 @@
     "Drew Dober": {
         "id": 1340,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 1,
             "5": 4,
             "6": 3,
@@ -2455,7 +2455,7 @@
     "Dricus Du Plessis": {
         "id": 3599,
         "pass_distribution": {
-            "3": 1,
+            "3": 15,
             "4": 7,
             "5": 4,
             "6": 0,
@@ -2488,7 +2488,7 @@
     "Dustin Poirier": {
         "id": 1595,
         "pass_distribution": {
-            "3": 1,
+            "3": 44,
             "4": 13,
             "5": 7,
             "6": 4,
@@ -2510,7 +2510,7 @@
     "Eddie Alvarez": {
         "id": 890,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 2,
             "6": 1,
@@ -2543,7 +2543,7 @@
     "Edson Barboza": {
         "id": 1657,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 9,
             "5": 15,
             "6": 3,
@@ -2576,7 +2576,7 @@
     "Elizeu Zaleski dos Santos": {
         "id": 2508,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 1,
             "6": 0,
@@ -2730,7 +2730,7 @@
     "Fabricio Werdum": {
         "id": 308,
         "pass_distribution": {
-            "3": 1,
+            "3": 26,
             "4": 16,
             "5": 12,
             "6": 2,
@@ -2763,7 +2763,7 @@
     "Fedor Emelianenko": {
         "id": 705,
         "pass_distribution": {
-            "3": 1,
+            "3": 11,
             "4": 9,
             "5": 10,
             "6": 1,
@@ -2796,7 +2796,7 @@
     "Forrest Griffin": {
         "id": 380,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 0,
             "5": 3,
             "6": 2,
@@ -2807,7 +2807,7 @@
     "Francis Ngannou": {
         "id": 2659,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 2,
             "5": 4,
             "6": 1,
@@ -2829,7 +2829,7 @@
     "Francisco Trinaldo": {
         "id": 1997,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 6,
             "5": 4,
             "6": 3,
@@ -2840,7 +2840,7 @@
     "Frank Mir": {
         "id": 377,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 8,
             "6": 2,
@@ -2862,7 +2862,7 @@
     "Frankie Edgar": {
         "id": 451,
         "pass_distribution": {
-            "3": 1,
+            "3": 18,
             "4": 17,
             "5": 20,
             "6": 3,
@@ -2906,7 +2906,7 @@
     "Gary Goodridge": {
         "id": 66,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 3,
             "5": 2,
             "6": 1,
@@ -2928,7 +2928,7 @@
     "Gegard Mousasi": {
         "id": 786,
         "pass_distribution": {
-            "3": 1,
+            "3": 53,
             "4": 29,
             "5": 17,
             "6": 4,
@@ -2961,7 +2961,7 @@
     "Georges St-Pierre": {
         "id": 439,
         "pass_distribution": {
-            "3": 1,
+            "3": 76,
             "4": 19,
             "5": 15,
             "6": 1,
@@ -2972,7 +2972,7 @@
     "Gerald Meerschaert": {
         "id": 2844,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 5,
             "6": 1,
@@ -3016,7 +3016,7 @@
     "Gilbert Burns": {
         "id": 2288,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 4,
             "5": 8,
             "6": 1,
@@ -3027,7 +3027,7 @@
     "Gilbert Melendez": {
         "id": 778,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 15,
             "5": 15,
             "6": 3,
@@ -3038,7 +3038,7 @@
     "Gillian Robertson": {
         "id": 3031,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 5,
             "6": 0,
@@ -3071,7 +3071,7 @@
     "Glover Teixeira": {
         "id": 1968,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 16,
             "5": 15,
             "6": 1,
@@ -3247,7 +3247,7 @@
     "Ian Garry": {
         "id": 3717,
         "pass_distribution": {
-            "3": 1,
+            "3": 11,
             "4": 4,
             "5": 3,
             "6": 0,
@@ -3302,7 +3302,7 @@
     "Igor Vovchanchyn": {
         "id": 858,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 1,
             "5": 10,
             "6": 1,
@@ -3324,7 +3324,7 @@
     "Ikuhisa Minowa": {
         "id": 259,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 4,
             "5": 7,
             "6": 0,
@@ -3335,7 +3335,7 @@
     "Ilia Topuria": {
         "id": 3605,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 6,
             "5": 4,
             "6": 0,
@@ -3368,8 +3368,8 @@
     "Islam Makhachev": {
         "id": 2466,
         "pass_distribution": {
-            "3": 1,
-            "4": 3,
+            "3": 18,
+            "4": 4,
             "5": 4,
             "6": 1,
             "7": 0
@@ -3379,8 +3379,8 @@
     "Israel Adesanya": {
         "id": 3051,
         "pass_distribution": {
-            "3": 1,
-            "4": 34,
+            "3": 79,
+            "4": 35,
             "5": 25,
             "6": 0,
             "7": 1
@@ -3423,7 +3423,7 @@
     "Jacare Souza": {
         "id": 896,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 8,
             "5": 11,
             "6": 3,
@@ -3434,7 +3434,7 @@
     "Jack Della Maddalena": {
         "id": 3753,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 4,
             "5": 6,
             "6": 0,
@@ -3467,7 +3467,7 @@
     "Jailton Almeida": {
         "id": 3662,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 3,
             "6": 1,
@@ -3533,7 +3533,7 @@
     "Jamahal Hill": {
         "id": 3349,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 1,
             "5": 2,
             "6": 1,
@@ -3599,7 +3599,7 @@
     "Jan Blachowicz": {
         "id": 2300,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 7,
             "5": 5,
             "6": 1,
@@ -3621,7 +3621,7 @@
     "Jared Cannonier": {
         "id": 2337,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 6,
             "6": 2,
@@ -3698,7 +3698,7 @@
     "Jean Silva": {
         "id": 4064,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 4,
             "5": 3,
             "6": 0,
@@ -3775,7 +3775,7 @@
     "Jeremy Stephens": {
         "id": 545,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 4,
             "5": 9,
             "6": 1,
@@ -3786,7 +3786,7 @@
     "Jessica Andrade": {
         "id": 2079,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 11,
             "5": 13,
             "6": 2,
@@ -3830,7 +3830,7 @@
     "Jim Miller": {
         "id": 509,
         "pass_distribution": {
-            "3": 1,
+            "3": 53,
             "4": 27,
             "5": 8,
             "6": 2,
@@ -3852,7 +3852,7 @@
     "Jiri Prochazka": {
         "id": 3438,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 6,
             "5": 3,
             "6": 0,
@@ -3885,7 +3885,7 @@
     "Joanna Jedrzejczyk": {
         "id": 2280,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 8,
             "5": 11,
             "6": 2,
@@ -3907,7 +3907,7 @@
     "Joaquin Buckley": {
         "id": 3536,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 2,
             "5": 9,
             "6": 1,
@@ -3940,7 +3940,7 @@
     "Joe Lauzon": {
         "id": 524,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 4,
             "5": 2,
             "6": 0,
@@ -4050,7 +4050,7 @@
     "John Lineker": {
         "id": 1966,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 1,
             "6": 0,
@@ -4083,7 +4083,7 @@
     "Johny Hendricks": {
         "id": 947,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 6,
             "6": 1,
@@ -4094,7 +4094,7 @@
     "Jon Fitch": {
         "id": 339,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 4,
             "6": 0,
@@ -4105,7 +4105,7 @@
     "Jon Jones": {
         "id": 549,
         "pass_distribution": {
-            "3": 1,
+            "3": 23,
             "4": 6,
             "5": 5,
             "6": 1,
@@ -4149,7 +4149,7 @@
     "Jorge Masvidal": {
         "id": 1272,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 6,
             "5": 11,
             "6": 3,
@@ -4171,7 +4171,7 @@
     "Jose Aldo": {
         "id": 1052,
         "pass_distribution": {
-            "3": 1,
+            "3": 32,
             "4": 35,
             "5": 25,
             "6": 4,
@@ -4193,7 +4193,7 @@
     "Joseph Benavidez": {
         "id": 911,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 17,
             "5": 9,
             "6": 3,
@@ -4215,7 +4215,7 @@
     "Josh Barnett": {
         "id": 328,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 10,
             "5": 13,
             "6": 1,
@@ -4248,7 +4248,7 @@
     "Josh Thomson": {
         "id": 356,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 2,
             "5": 7,
             "6": 2,
@@ -4270,7 +4270,7 @@
     "Joshua Van": {
         "id": 3989,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 0,
             "5": 3,
             "6": 0,
@@ -4314,7 +4314,7 @@
     "Julianna Pena": {
         "id": 1511,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 3,
             "6": 0,
@@ -4336,7 +4336,7 @@
     "Junior Dos Santos": {
         "id": 535,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 12,
             "5": 10,
             "6": 2,
@@ -4358,7 +4358,7 @@
     "Justin Gaethje": {
         "id": 2896,
         "pass_distribution": {
-            "3": 1,
+            "3": 18,
             "4": 11,
             "5": 10,
             "6": 1,
@@ -4391,7 +4391,7 @@
     "Kai Kara-France": {
         "id": 3197,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 6,
             "5": 3,
             "6": 0,
@@ -4413,7 +4413,7 @@
     "Kamaru Usman": {
         "id": 2587,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 10,
             "5": 12,
             "6": 0,
@@ -4523,7 +4523,7 @@
     "Kazushi Sakuraba": {
         "id": 110,
         "pass_distribution": {
-            "3": 1,
+            "3": 25,
             "4": 18,
             "5": 16,
             "6": 2,
@@ -4578,7 +4578,7 @@
     "Ken Shamrock": {
         "id": 38,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 2,
             "6": 1,
@@ -4644,7 +4644,7 @@
     "Kevin Holland": {
         "id": 3086,
         "pass_distribution": {
-            "3": 1,
+            "3": 28,
             "4": 18,
             "5": 15,
             "6": 3,
@@ -4666,7 +4666,7 @@
     "Kevin Randleman": {
         "id": 149,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 2,
             "6": 0,
@@ -4677,7 +4677,7 @@
     "Khabib Nurmagomedov": {
         "id": 1919,
         "pass_distribution": {
-            "3": 1,
+            "3": 34,
             "4": 12,
             "5": 8,
             "6": 0,
@@ -4688,7 +4688,7 @@
     "Khalil Rountree Jr.": {
         "id": 2790,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 1,
             "5": 6,
             "6": 1,
@@ -4699,7 +4699,7 @@
     "Khamzat Chimaev": {
         "id": 3480,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 3,
             "5": 1,
             "6": 0,
@@ -4787,7 +4787,7 @@
     "Kyler Phillips": {
         "id": 2948,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 2,
             "6": 0,
@@ -4831,7 +4831,7 @@
     "Leon Edwards": {
         "id": 2329,
         "pass_distribution": {
-            "3": 1,
+            "3": 34,
             "4": 17,
             "5": 15,
             "6": 1,
@@ -4853,7 +4853,7 @@
     "Lerone Murphy": {
         "id": 3424,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 3,
             "6": 0,
@@ -4974,7 +4974,7 @@
     "Ludovit Klein": {
         "id": 3597,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 0,
             "5": 0,
             "6": 1,
@@ -4996,7 +4996,7 @@
     "Luke Rockhold": {
         "id": 1294,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 9,
             "5": 2,
             "6": 0,
@@ -5007,8 +5007,8 @@
     "Lyoto Machida": {
         "id": 346,
         "pass_distribution": {
-            "3": 1,
-            "4": 23,
+            "3": 16,
+            "4": 24,
             "5": 15,
             "6": 2,
             "7": 0
@@ -5029,7 +5029,7 @@
     "Mackenzie Dern": {
         "id": 3054,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 1,
             "6": 3,
@@ -5117,7 +5117,7 @@
     "Manel Kape": {
         "id": 3455,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 0,
             "5": 2,
             "6": 0,
@@ -5161,7 +5161,7 @@
     "Marcin Tybura": {
         "id": 2753,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 1,
             "6": 2,
@@ -5249,7 +5249,7 @@
     "Mark Coleman": {
         "id": 41,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 4,
             "5": 5,
             "6": 3,
@@ -5271,7 +5271,7 @@
     "Mark Hunt": {
         "id": 735,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 4,
             "5": 6,
             "6": 2,
@@ -5293,7 +5293,7 @@
     "Marlon Vera": {
         "id": 2359,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 18,
             "5": 17,
             "6": 1,
@@ -5348,7 +5348,7 @@
     "Marvin Vettori": {
         "id": 2783,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 2,
             "6": 1,
@@ -5392,7 +5392,7 @@
     "Matt Brown": {
         "id": 432,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 14,
             "5": 10,
             "6": 1,
@@ -5425,7 +5425,7 @@
     "Matt Hughes": {
         "id": 187,
         "pass_distribution": {
-            "3": 1,
+            "3": 8,
             "4": 8,
             "5": 8,
             "6": 3,
@@ -5469,7 +5469,7 @@
     "Mauricio Rua": {
         "id": 457,
         "pass_distribution": {
-            "3": 1,
+            "3": 53,
             "4": 28,
             "5": 18,
             "6": 5,
@@ -5491,18 +5491,18 @@
     "Max Holloway": {
         "id": 1936,
         "pass_distribution": {
-            "3": 1,
-            "4": 14,
-            "5": 14,
+            "3": 35,
+            "4": 13,
+            "5": 15,
             "6": 1,
             "7": 2
         },
-        "value": "907"
+        "value": "908"
     },
     "Maycee Barber": {
         "id": 3114,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 9,
             "5": 9,
             "6": 0,
@@ -5546,7 +5546,7 @@
     "Merab Dvalishvili": {
         "id": 3020,
         "pass_distribution": {
-            "3": 1,
+            "3": 12,
             "4": 7,
             "5": 9,
             "6": 1,
@@ -5557,7 +5557,7 @@
     "Michael Bisping": {
         "id": 368,
         "pass_distribution": {
-            "3": 1,
+            "3": 37,
             "4": 24,
             "5": 15,
             "6": 2,
@@ -5568,7 +5568,7 @@
     "Michael Chandler": {
         "id": 1442,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 4,
             "5": 3,
             "6": 0,
@@ -5590,7 +5590,7 @@
     "Michael Johnson": {
         "id": 1711,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 4,
             "5": 10,
             "6": 2,
@@ -5612,7 +5612,7 @@
     "Michael Morales": {
         "id": 3700,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 4,
             "5": 4,
             "6": 0,
@@ -5788,7 +5788,7 @@
     "Mirko Filipovic": {
         "id": 219,
         "pass_distribution": {
-            "3": 1,
+            "3": 25,
             "4": 17,
             "5": 15,
             "6": 1,
@@ -5876,7 +5876,7 @@
     "Muhammad Mokaev": {
         "id": 3776,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -5965,8 +5965,8 @@
         "id": 3576,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
-            "5": 3,
+            "4": 0,
+            "5": 4,
             "6": 1,
             "7": 0
         },
@@ -5986,7 +5986,7 @@
     "Nate Diaz": {
         "id": 538,
         "pass_distribution": {
-            "3": 1,
+            "3": 44,
             "4": 33,
             "5": 23,
             "6": 1,
@@ -6052,7 +6052,7 @@
     "Neil Magny": {
         "id": 2047,
         "pass_distribution": {
-            "3": 1,
+            "3": 16,
             "4": 11,
             "5": 24,
             "6": 2,
@@ -6074,7 +6074,7 @@
     "Nick Diaz": {
         "id": 506,
         "pass_distribution": {
-            "3": 1,
+            "3": 25,
             "4": 24,
             "5": 11,
             "6": 3,
@@ -6184,7 +6184,7 @@
     "Ovince Saint Preux": {
         "id": 1499,
         "pass_distribution": {
-            "3": 1,
+            "3": 15,
             "4": 16,
             "5": 12,
             "6": 0,
@@ -6195,7 +6195,7 @@
     "Paddy Pimblett": {
         "id": 3644,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 8,
             "5": 1,
             "6": 0,
@@ -6316,7 +6316,7 @@
     "Paulo Costa": {
         "id": 2876,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 3,
             "5": 4,
             "6": 0,
@@ -6338,7 +6338,7 @@
     "Payton Talbott": {
         "id": 4023,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 3,
             "6": 0,
@@ -6371,7 +6371,7 @@
     "Petr Yan": {
         "id": 3068,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 6,
             "5": 9,
             "6": 2,
@@ -6437,7 +6437,7 @@
     "Quinton Jackson": {
         "id": 348,
         "pass_distribution": {
-            "3": 1,
+            "3": 25,
             "4": 12,
             "5": 12,
             "6": 0,
@@ -6481,18 +6481,18 @@
     "Rafael Dos Anjos": {
         "id": 532,
         "pass_distribution": {
-            "3": 1,
+            "3": 43,
             "4": 23,
             "5": 26,
             "6": 1,
             "7": 1
         },
-        "value": "211"
+        "value": "212"
     },
     "Rafael Fiziev": {
         "id": 3078,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 2,
             "6": 0,
@@ -6591,7 +6591,7 @@
     "Randy Couture": {
         "id": 27,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 9,
             "5": 15,
             "6": 2,
@@ -6602,7 +6602,7 @@
     "Rani Yahya": {
         "id": 1044,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 2,
             "5": 8,
             "6": 2,
@@ -6635,7 +6635,7 @@
     "Rashad Evans": {
         "id": 387,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 5,
             "5": 9,
             "6": 3,
@@ -6657,7 +6657,7 @@
     "Raul Rosas Jr.": {
         "id": 3931,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 1,
             "5": 2,
             "6": 0,
@@ -6756,7 +6756,7 @@
     "Rich Franklin": {
         "id": 220,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 18,
             "5": 13,
             "6": 2,
@@ -6767,7 +6767,7 @@
     "Rick Story": {
         "id": 669,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 1,
             "6": 1,
@@ -6800,7 +6800,7 @@
     "Rob Font": {
         "id": 2266,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 3,
             "5": 4,
             "6": 1,
@@ -6811,7 +6811,7 @@
     "Robbie Lawler": {
         "id": 471,
         "pass_distribution": {
-            "3": 1,
+            "3": 24,
             "4": 21,
             "5": 19,
             "6": 4,
@@ -6844,7 +6844,7 @@
     "Robert Whittaker": {
         "id": 2037,
         "pass_distribution": {
-            "3": 1,
+            "3": 27,
             "4": 14,
             "5": 13,
             "6": 4,
@@ -6866,7 +6866,7 @@
     "Rogerio Nogueira": {
         "id": 797,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 6,
             "5": 10,
             "6": 1,
@@ -6877,7 +6877,7 @@
     "Roman Dolidze": {
         "id": 3238,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -6932,7 +6932,7 @@
     "Rose Namajunas": {
         "id": 2344,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 6,
             "5": 9,
             "6": 1,
@@ -7108,7 +7108,7 @@
     "Santiago Ponzinibbio": {
         "id": 2107,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 2,
             "6": 3,
@@ -7185,7 +7185,7 @@
     "Sean O'Malley": {
         "id": 2917,
         "pass_distribution": {
-            "3": 1,
+            "3": 70,
             "4": 15,
             "5": 9,
             "6": 1,
@@ -7218,9 +7218,9 @@
     "Sean Strickland": {
         "id": 2204,
         "pass_distribution": {
-            "3": 1,
-            "4": 12,
-            "5": 12,
+            "3": 43,
+            "4": 13,
+            "5": 11,
             "6": 2,
             "7": 0
         },
@@ -7339,7 +7339,7 @@
     "Shara Magomedov": {
         "id": 3964,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 2,
             "5": 2,
             "6": 0,
@@ -7361,7 +7361,7 @@
     "Shavkat Rakhmonov": {
         "id": 3417,
         "pass_distribution": {
-            "3": 1,
+            "3": 12,
             "4": 4,
             "5": 5,
             "6": 0,
@@ -7416,7 +7416,7 @@
     "Shinya Aoki": {
         "id": 676,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 7,
             "5": 8,
             "6": 0,
@@ -7471,7 +7471,7 @@
     "Song Yadong": {
         "id": 3030,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 5,
             "5": 7,
             "6": 1,
@@ -7526,7 +7526,7 @@
     "Stephen Thompson": {
         "id": 1944,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 5,
             "5": 14,
             "6": 2,
@@ -7592,7 +7592,7 @@
     "Stipe Miocic": {
         "id": 1852,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 7,
             "5": 7,
             "6": 3,
@@ -7603,7 +7603,7 @@
     "TJ Dillashaw": {
         "id": 1905,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 6,
             "5": 11,
             "6": 0,
@@ -7647,7 +7647,7 @@
     "Tai Tuivasa": {
         "id": 3015,
         "pass_distribution": {
-            "3": 1,
+            "3": 4,
             "4": 2,
             "5": 2,
             "6": 0,
@@ -7658,7 +7658,7 @@
     "Takanori Gomi": {
         "id": 721,
         "pass_distribution": {
-            "3": 1,
+            "3": 11,
             "4": 4,
             "5": 10,
             "6": 1,
@@ -7713,7 +7713,7 @@
     "Tatsuro Taira": {
         "id": 3781,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 7,
             "5": 3,
             "6": 0,
@@ -7724,7 +7724,7 @@
     "Tatsuya Kawajiri": {
         "id": 750,
         "pass_distribution": {
-            "3": 1,
+            "3": 7,
             "4": 6,
             "5": 9,
             "6": 2,
@@ -7790,7 +7790,7 @@
     "Thiago Alves": {
         "id": 511,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 3,
             "5": 6,
             "6": 3,
@@ -7812,7 +7812,7 @@
     "Thiago Santos": {
         "id": 2087,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 3,
             "5": 3,
             "6": 1,
@@ -7878,7 +7878,7 @@
     "Tim Means": {
         "id": 1952,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 1,
             "5": 11,
             "6": 4,
@@ -7900,7 +7900,7 @@
     "Tito Ortiz": {
         "id": 234,
         "pass_distribution": {
-            "3": 1,
+            "3": 9,
             "4": 5,
             "5": 8,
             "6": 1,
@@ -7911,7 +7911,7 @@
     "Tom Aspinall": {
         "id": 3433,
         "pass_distribution": {
-            "3": 1,
+            "3": 2,
             "4": 1,
             "5": 2,
             "6": 0,
@@ -7944,8 +7944,8 @@
     "Tony Ferguson": {
         "id": 1815,
         "pass_distribution": {
-            "3": 1,
-            "4": 12,
+            "3": 9,
+            "4": 13,
             "5": 14,
             "6": 2,
             "7": 0
@@ -7977,7 +7977,7 @@
     "Tracy Cortez": {
         "id": 3357,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 5,
             "5": 6,
             "6": 1,
@@ -8087,7 +8087,7 @@
     "Tyron Woodley": {
         "id": 1386,
         "pass_distribution": {
-            "3": 1,
+            "3": 10,
             "4": 5,
             "5": 7,
             "6": 3,
@@ -8109,7 +8109,7 @@
     "Umar Nurmagomedov": {
         "id": 3449,
         "pass_distribution": {
-            "3": 1,
+            "3": 3,
             "4": 4,
             "5": 3,
             "6": 0,
@@ -8131,7 +8131,7 @@
     "Valentina Shevchenko": {
         "id": 2731,
         "pass_distribution": {
-            "3": 1,
+            "3": 12,
             "4": 9,
             "5": 9,
             "6": 3,
@@ -8230,7 +8230,7 @@
     "Vitor Belfort": {
         "id": 295,
         "pass_distribution": {
-            "3": 1,
+            "3": 14,
             "4": 11,
             "5": 7,
             "6": 2,
@@ -8296,7 +8296,7 @@
     "Wanderlei Silva": {
         "id": 275,
         "pass_distribution": {
-            "3": 1,
+            "3": 49,
             "4": 32,
             "5": 21,
             "6": 3,
@@ -8340,7 +8340,7 @@
     "Yair Rodriguez": {
         "id": 2362,
         "pass_distribution": {
-            "3": 1,
+            "3": 5,
             "4": 2,
             "5": 4,
             "6": 1,
@@ -8538,7 +8538,7 @@
     "Zhang Weili": {
         "id": 3099,
         "pass_distribution": {
-            "3": 1,
+            "3": 6,
             "4": 9,
             "5": 8,
             "6": 1,

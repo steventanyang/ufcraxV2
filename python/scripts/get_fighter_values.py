@@ -10,6 +10,9 @@ from config import HEADERS
 # last ran dec 25 2024
 # use mobile instead of desktop
 
+# TODO: 
+# https://web.realsports.io/teams/346/sport/ufc -> get age and add vet status tag
+
 async def get_fighters_page(session, before):
     url = f'https://web.realsports.io/userpassshop/ufc/season/2023/entity/team/section/hotseason?before={before}'
     
@@ -67,19 +70,19 @@ async def get_fighter_passes(session, fighter_id):
                         data = content
                     
                     json_data = json.loads(data)
-                    found_level_3 = False
+                    found_level_2 = False
                     
                     if 'feedItems' in json_data and json_data['feedItems']:
                         for item in json_data['feedItems']:
                             if 'boostInfo' in item and 'level' in item['boostInfo']:
                                 level = item['boostInfo']['level']
+                                if level <= 2:
+                                    found_level_2 = True
+                                    break
                                 if level in pass_distribution:
                                     pass_distribution[level] += 1
-                                if level <= 3:
-                                    found_level_3 = True
-                                    break
                         
-                        if found_level_3:
+                        if found_level_2:
                             break
                         
                         current_before += 20
