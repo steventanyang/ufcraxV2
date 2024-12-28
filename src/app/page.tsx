@@ -43,7 +43,7 @@ export default function Home() {
   const FIGHTERS_PER_PAGE = 50;
   const [rankMap, setRankMap] = useState<Map<string, number>>(new Map());
   const [sortedFighters, setSortedFighters] = useState<Fighter[]>([]);
-  const [visitorCount, setVisitorCount] = useState<number | null>(null);
+  // const [visitorCount, setVisitorCount] = useState<number | null>(null);
 
   const loadMoreFighters = useCallback(() => {
     if (viewType !== "rankings") return;
@@ -103,12 +103,12 @@ export default function Home() {
     setPage(1);
   }, [searchQuery]);
 
-  useEffect(() => {
-    fetch("https://api.countapi.xyz/hit/ufcrax-v2.vercel.app/visits")
-      .then((response) => response.json())
-      .then((data) => setVisitorCount(data.value + 2293))
-      .catch((error) => console.error("Error fetching visitor count:", error));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://api.countapi.xyz/hit/ufcrax-v2.vercel.app/visits")
+  //     .then((response) => response.json())
+  //     .then((data) => setVisitorCount(data.value + 2293))
+  //     .catch((error) => console.error("Error fetching visitor count:", error));
+  // }, []);
 
   const handleMultiplierChange = (fighterName: string, multiplier: number) => {
     setMultiplierMap((prev) => ({
@@ -404,7 +404,7 @@ export default function Home() {
           <span className="text-gray-400 text-sm">
             Join &quot;UFC Rax group&quot; for feedback
           </span>
-          <span className="text-gray-700">•</span>
+          {/* <span className="text-gray-700">•</span>
           <span className="text-gray-400 text-sm">
             {visitorCount ? (
               <>
@@ -414,7 +414,7 @@ export default function Home() {
             ) : (
               "Loading..."
             )}
-          </span>
+          </span> */}
         </div>
       </div>
       {selectedFighterModal && (
