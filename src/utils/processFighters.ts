@@ -23,6 +23,7 @@ interface FighterValueData {
     4: number;
     3: number;
   };
+  age?: number;
 }
 
 interface ActiveOverride {
@@ -85,6 +86,7 @@ export function processFighterData(
       ownedPasses: parseInt(fighterPassData.value),
       id: fighterPassData.id,
       passDistribution: fighterPassData.pass_distribution,
+      age: fighterPassData.age,
     });
   });
 

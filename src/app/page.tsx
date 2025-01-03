@@ -13,6 +13,9 @@ import ChangelogModal from "@/components/ChangelogModal";
 import Image from "next/image";
 import PassDistributionModal from "@/components/PassDistributionModal";
 
+type SortField = "name" | "rax" | "passes" | "age" | "fights";
+type SortDirection = "asc" | "desc";
+
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
   { value: 1.4, color: "text-green-400" },
@@ -46,6 +49,9 @@ export default function Home() {
   const [sortedFighters, setSortedFighters] = useState<Fighter[]>([]);
   const [selectedPassDistribution, setSelectedPassDistribution] =
     useState<Fighter | null>(null);
+  const [showActiveOnly, setShowActiveOnly] = useState(false);
+  const [sortField, setSortField] = useState<SortField>("rax");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
   // const [visitorCount, setVisitorCount] = useState<number | null>(null);
 
   const loadMoreFighters = useCallback(() => {
@@ -86,11 +92,32 @@ export default function Home() {
   }, [loadMoreFighters, viewType]);
 
   useEffect(() => {
-    const sorted = [...fighterData.fighters].sort((a, b) => {
-      const aValue = calculateDailyAdjustedValue(a);
-      const bValue = calculateDailyAdjustedValue(b);
-      return bValue - aValue;
-    });
+    const sorted = [...fighterData.fighters]
+      .filter((fighter) => fighter.name?.trim())
+      .sort((a, b) => {
+        let comparison = 0;
+
+        switch (sortField) {
+          case "name":
+            comparison = a.name.localeCompare(b.name);
+            break;
+          case "rax":
+            comparison =
+              calculateDailyAdjustedValue(b) - calculateDailyAdjustedValue(a);
+            break;
+          case "passes":
+            comparison = b.ownedPasses - a.ownedPasses;
+            break;
+          case "age":
+            comparison = (b.age || 0) - (a.age || 0);
+            break;
+          case "fights":
+            comparison = b.scores.length - a.scores.length;
+            break;
+        }
+
+        return sortDirection === "asc" ? -comparison : comparison;
+      });
 
     setSortedFighters(sorted);
 
@@ -99,12 +126,16 @@ export default function Home() {
     );
     setRankMap(ranks);
 
-    const filtered = sorted.filter((fighter) =>
-      fighter.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const filtered = sorted.filter((fighter) => {
+      const matchesSearch = fighter.name
+        .toLowerCase()
+        .includes(searchQuery.toLowerCase());
+      return showActiveOnly ? matchesSearch && fighter.active : matchesSearch;
+    });
+
     setVisibleFighters(filtered.slice(0, FIGHTERS_PER_PAGE));
     setPage(1);
-  }, [searchQuery]);
+  }, [searchQuery, showActiveOnly, sortField, sortDirection]);
 
   // useEffect(() => {
   //   fetch("https://api.countapi.xyz/hit/ufcrax-v2.vercel.app/visits")
@@ -132,9 +163,46 @@ export default function Home() {
     return "text-green-500"; // Minimal ownership
   };
 
+  const getAgeColor = (age: number | undefined) => {
+    if (!age) return "text-gray-400";
+    if (age >= 45) return "text-red-700"; // Extremely old
+    if (age >= 42) return "text-red-600"; // Very old
+    if (age >= 39) return "text-red-500"; // Old
+    if (age >= 36) return "text-red-400"; // Aging
+    if (age >= 34) return "text-yellow-400"; // Past prime
+    if (age >= 32) return "text-lime-400"; // Slightly past prime
+    if (age > 30) return "text-green-400"; // Just past prime
+    return "text-green-500"; // Below prime
+  };
+
+  const getFightsColor = (fights: number) => {
+    if (fights >= 40) return "text-red-700"; // Veteran
+    if (fights >= 35) return "text-red-600"; // Very experienced
+    if (fights >= 30) return "text-red-500"; // Highly experienced
+    if (fights >= 25) return "text-red-400"; // Experienced
+    if (fights >= 20) return "text-yellow-400"; // Seasoned
+    if (fights >= 15) return "text-lime-400"; // Moderate experience
+    if (fights >= 10) return "text-green-400"; // Some experience
+    return "text-green-500"; // New fighter
+  };
+
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query);
   }, []);
+
+  const handleSort = (field: SortField) => {
+    if (sortField === field) {
+      setSortDirection(sortDirection === "asc" ? "desc" : "asc");
+    } else {
+      setSortField(field);
+      setSortDirection("desc");
+    }
+  };
+
+  const SortIndicator = ({ field }: { field: SortField }) => {
+    if (sortField !== field) return null;
+    return <span className="ml-1">{sortDirection === "desc" ? "▼" : "▲"}</span>;
+  };
 
   return (
     <main className="min-h-screen bg-[#111111] text-gray-100">
@@ -225,16 +293,78 @@ export default function Home() {
                     <thead className="bg-[#111111] sticky top-0 z-10">
                       <tr>
                         <th className="w-12 md:w-20 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
-                          Rank
+                          <div className="flex items-center">Rank</div>
                         </th>
-                        <th className="px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
-                          Fighter
+                        <th
+                          onClick={() => handleSort("name")}
+                          className="px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider cursor-pointer hover:text-gray-300"
+                        >
+                          <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2">
+                              <span>Fighter</span>
+                              <SortIndicator field="name" />
+                            </div>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation(); // Prevent sort trigger
+                                setShowActiveOnly(!showActiveOnly);
+                              }}
+                              className="flex items-center gap-1.5 px-2 py-1 text-[10px] rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200"
+                            >
+                              <div
+                                className={`w-3.5 h-3.5 rounded-full transition-colors duration-200 ${
+                                  showActiveOnly
+                                    ? "bg-green-400"
+                                    : "bg-gray-600"
+                                }`}
+                              />
+                              <span
+                                className={
+                                  showActiveOnly
+                                    ? "text-green-400"
+                                    : "text-gray-400"
+                                }
+                              >
+                                Show Active Only
+                              </span>
+                            </button>
+                          </div>
                         </th>
-                        <th className="w-24 md:w-72 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
-                          Rax / Year
+                        <th
+                          onClick={() => handleSort("rax")}
+                          className="w-24 md:w-72 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider cursor-pointer hover:text-gray-300"
+                        >
+                          <div className="flex items-center">
+                            Rax / Year
+                            <SortIndicator field="rax" />
+                          </div>
                         </th>
-                        <th className="w-24 md:w-32 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider">
-                          Owned Passes
+                        <th
+                          onClick={() => handleSort("passes")}
+                          className="w-24 md:w-32 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider cursor-pointer hover:text-gray-300"
+                        >
+                          <div className="flex items-center">
+                            Owned Passes
+                            <SortIndicator field="passes" />
+                          </div>
+                        </th>
+                        <th
+                          onClick={() => handleSort("age")}
+                          className="w-20 md:w-24 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider cursor-pointer hover:text-gray-300"
+                        >
+                          <div className="flex items-center">
+                            Age
+                            <SortIndicator field="age" />
+                          </div>
+                        </th>
+                        <th
+                          onClick={() => handleSort("fights")}
+                          className="w-20 md:w-24 px-2 md:px-6 py-3 md:py-4 text-left text-xs md:text-sm font-bold text-gray-500 tracking-wider cursor-pointer hover:text-gray-300"
+                        >
+                          <div className="flex items-center">
+                            Fights
+                            <SortIndicator field="fights" />
+                          </div>
                         </th>
                       </tr>
                     </thead>
@@ -347,6 +477,24 @@ export default function Home() {
                                   </svg>
                                 </button>
                               </div>
+                            </td>
+                            <td className="w-20 md:w-24 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
+                              <span
+                                className={`text-sm md:text-xl font-bold ${getAgeColor(
+                                  fighter.age
+                                )}`}
+                              >
+                                {fighter.age || "-"}
+                              </span>
+                            </td>
+                            <td className="w-20 md:w-24 px-2 md:px-6 py-2 md:py-4 whitespace-nowrap">
+                              <span
+                                className={`text-sm md:text-xl font-bold ${getFightsColor(
+                                  fighter.scores.length
+                                )}`}
+                              >
+                                {fighter.scores.length}
+                              </span>
                             </td>
                           </tr>
                         );

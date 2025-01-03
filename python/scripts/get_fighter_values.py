@@ -5,6 +5,8 @@ import zlib
 import ssl
 from tqdm import tqdm
 from config import HEADERS
+from datetime import datetime
+import re
 
 # gets card purchases for each fighter
 # last ran dec 25 2024
@@ -99,13 +101,40 @@ async def get_fighter_passes(session, fighter_id):
     
     return pass_distribution
 
-async def process_pass_batch(session, fighters_batch):
-    tasks = []
-    for name, data in fighters_batch:
-        tasks.append(get_fighter_passes(session, data['id']))
+async def get_fighter_age(session, fighter_id):
+    url = f'https://web.realsports.io/teams/{fighter_id}/sport/ufc'
     
-    results = await asyncio.gather(*tasks)
-    return list(zip([f[0] for f in fighters_batch], results))
+    try:
+        async with session.get(url, headers=HEADERS) as response:
+            if response.status == 200:
+                data = await response.json()
+                details = data.get('team', {}).get('additionalInfo', {}).get('details', [])
+                
+                for detail in details:
+                    if 'DOB:' in detail:
+                        dob_match = re.search(r'DOB: (\d{4}-\d{2}-\d{2})', detail)
+                        if dob_match:
+                            dob_str = dob_match.group(1)
+                            dob = datetime.strptime(dob_str, '%Y-%m-%d')
+                            age = (datetime.now() - dob).days // 365
+                            return age
+                return None
+    except Exception as e:
+        print(f"Error getting age for fighter {fighter_id}: {str(e)}")
+        return None
+
+async def process_pass_batch(session, fighters_batch):
+    pass_tasks = []
+    age_tasks = []
+    
+    for name, data in fighters_batch:
+        pass_tasks.append(get_fighter_passes(session, data['id']))
+        age_tasks.append(get_fighter_age(session, data['id']))
+    
+    pass_results = await asyncio.gather(*pass_tasks)
+    age_results = await asyncio.gather(*age_tasks)
+    
+    return list(zip([f[0] for f in fighters_batch], pass_results, age_results))
 
 async def process_batch(session, start_before, batch_size=5):
     tasks = []
@@ -156,9 +185,11 @@ async def main():
                 batch = fighters_items[i:i + batch_size]
                 results = await process_pass_batch(session, batch)
                 
-                for name, passes in results:
+                for name, passes, age in results:
                     if passes:
                         all_fighters[name]['pass_distribution'] = passes
+                    if age is not None:
+                        all_fighters[name]['age'] = age
                 
                 pbar.update(len(batch))
                 await asyncio.sleep(0.2)  # Small delay between batches

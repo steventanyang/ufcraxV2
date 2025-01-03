@@ -13,6 +13,7 @@ export interface Fighter {
   ownedPasses: number;
   id: number;
   passDistribution: PassDistribution;
+  age?: number;
 }
 
 export interface Score {

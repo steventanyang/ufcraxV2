@@ -33,6 +33,37 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
           <div className="space-y-4">
             <div className="border-b border-gray-700 pb-4">
               <h3 className="text-lg font-semibold text-gray-100 mb-2">
+                January 2, 2025
+              </h3>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>
+                    Added advanced sorting system to rankings page:
+                    <ul className="list-disc list-inside ml-4 mt-1 text-gray-400">
+                      <li>
+                        Sort by fighter name, Rax/Year, owned passes, age, or
+                        number of fights
+                      </li>
+                      <li>
+                        Click column headers to toggle ascending/descending
+                        order
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Added age and fight count columns with color-coded
+                    indicators
+                  </li>
+                  <li>
+                    Added &quot;Show Active Only&quot; toggle
+                  </li>
+                  <li>Small bug fixes</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-2">
                 December 28, 2024
               </h3>
               <div className="space-y-3 text-gray-300">
