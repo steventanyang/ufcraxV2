@@ -128,13 +128,25 @@ async def process_pass_batch(session, fighters_batch):
     age_tasks = []
     
     for name, data in fighters_batch:
-        pass_tasks.append(get_fighter_passes(session, data['id']))
-        age_tasks.append(get_fighter_age(session, data['id']))
+        pass_tasks.append((name, get_fighter_passes(session, data['id'])))
+        age_tasks.append((name, get_fighter_age(session, data['id'])))
     
-    pass_results = await asyncio.gather(*pass_tasks)
-    age_results = await asyncio.gather(*age_tasks)
+    # Process passes and ages separately
+    pass_results = []
+    for name, task in pass_tasks:
+        result = await task
+        pass_results.append((name, result))
     
-    return list(zip([f[0] for f in fighters_batch], pass_results, age_results))
+    age_results = []
+    for name, task in age_tasks:
+        result = await task
+        age_results.append((name, result))
+    
+    # Create a dictionary for easier lookup
+    age_dict = {name: age for name, age in age_results}
+    
+    # Return results with passes guaranteed, age optional
+    return [(name, passes, age_dict.get(name)) for name, passes in pass_results]
 
 async def process_batch(session, start_before, batch_size=5):
     tasks = []

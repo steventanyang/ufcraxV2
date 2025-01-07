@@ -21,10 +21,7 @@ type FighterModalProps = {
 
 function getMonthDay(date: string): string {
   const d = new Date(date);
-  return `${(d.getMonth() + 1).toString().padStart(2, "0")}-${d
-    .getDate()
-    .toString()
-    .padStart(2, "0")}`;
+  return d.toLocaleDateString("en-US", { month: "long", day: "numeric" });
 }
 
 function getAdjustedMonthlyScores(fighter: Fighter, multiplier: number) {
@@ -67,7 +64,12 @@ function getDailyScores(fighter: Fighter, multiplier: number) {
 
   return Array.from(scoresByDay.entries())
     .map(([date, value]) => ({ date, value }))
-    .sort((a, b) => b.date.localeCompare(a.date));
+    .sort((a, b) => {
+      // Convert back to Date objects for proper sorting
+      const dateA = new Date(a.date + ", 2024"); // Add year for proper parsing
+      const dateB = new Date(b.date + ", 2024");
+      return dateB.getTime() - dateA.getTime();
+    });
 }
 
 export default function FighterModal({

@@ -38,6 +38,7 @@ const activeOverrides: ActiveOverride[] = [
   { name: "Ovince Saint Preux", active: false },
   { name: "Matt Brown", active: false },
   { name: "Stipe Miocic", active: false },
+  { name: "Andrei Arlovski", active: false },
 ];
 
 export function processFighterData(

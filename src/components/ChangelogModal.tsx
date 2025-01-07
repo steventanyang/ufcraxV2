@@ -33,6 +33,21 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
           <div className="space-y-4">
             <div className="border-b border-gray-700 pb-4">
               <h3 className="text-lg font-semibold text-gray-100 mb-2">
+                January 6, 2025
+              </h3>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>
+                    Changed date format in fighter details from MM-DD to month
+                    name and day
+                  </li>
+                  <li>Small bug fixes</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-2">
                 January 2, 2025
               </h3>
               <div className="space-y-3 text-gray-300">
@@ -54,9 +69,7 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
                     Added age and fight count columns with color-coded
                     indicators
                   </li>
-                  <li>
-                    Added &quot;Show Active Only&quot; toggle
-                  </li>
+                  <li>Added &quot;Show Active Only&quot; toggle</li>
                   <li>Small bug fixes</li>
                 </ul>
               </div>
