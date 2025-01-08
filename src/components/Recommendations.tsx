@@ -1,5 +1,5 @@
 import { Fighter } from "@/types/fighters";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type RecommendationsProps = {
   fighters: Fighter[];
@@ -516,6 +516,8 @@ function OwnedPassesIndicator({ passes }: { passes: number }) {
   );
 }
 
+const STORAGE_KEY_FIGHTERS = "selectedFightersV1";
+
 export default function Recommendations({
   fighters,
   multiplierMap,
@@ -523,7 +525,35 @@ export default function Recommendations({
 }: RecommendationsProps & {
   onMultiplierChange: (fighterName: string, multiplier: number) => void;
 }) {
-  const [selectedFighters, setSelectedFighters] = useState<Fighter[]>([]);
+  // Initialize state from localStorage
+  const [selectedFighters, setSelectedFighters] = useState<Fighter[]>(() => {
+    if (typeof window === "undefined") return []; // Handle SSR
+    const saved = localStorage.getItem(STORAGE_KEY_FIGHTERS);
+    if (!saved) return [];
+
+    try {
+      const parsed = JSON.parse(saved);
+      // Find the fighters in the current fighters list (in case data has updated)
+      return parsed
+        .map((name: string) => fighters.find((f) => f.name === name))
+        .filter(Boolean);
+    } catch (e) {
+      return [e];
+    }
+  });
+
+  // Save to localStorage whenever selectedFighters changes
+  useEffect(() => {
+    if (selectedFighters.length > 0) {
+      localStorage.setItem(
+        STORAGE_KEY_FIGHTERS,
+        JSON.stringify(selectedFighters.map((f) => f.name))
+      );
+    } else {
+      localStorage.removeItem(STORAGE_KEY_FIGHTERS);
+    }
+  }, [selectedFighters]);
+
   const [searchQuery, setSearchQuery] = useState("");
   const [showConflicts, setShowConflicts] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
@@ -712,6 +742,23 @@ export default function Recommendations({
             <div className="text-3xl md:text-4xl font-bold text-white">
               {totalRax}
             </div>
+            {selectedFighters.length > 0 && (
+              <button
+                onClick={() => {
+                  if (
+                    confirm(
+                      "Are you sure you want to clear all selected fighters?"
+                    )
+                  ) {
+                    setSelectedFighters([]);
+                    localStorage.removeItem(STORAGE_KEY_FIGHTERS);
+                  }
+                }}
+                className="mt-2 text-xs text-gray-400 hover:text-gray-300"
+              >
+                Clear All Fighters
+              </button>
+            )}
           </div>
         </div>
 

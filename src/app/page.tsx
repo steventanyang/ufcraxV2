@@ -26,10 +26,22 @@ const multipliers = [
   { value: 6.0, color: "text-pink-400" },
 ];
 
+const STORAGE_KEY_MULTIPLIERS = "selectedMultipliersV1";
+
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [multiplierMap, setMultiplierMap] = useState<Record<string, number>>(
-    {}
+    () => {
+      if (typeof window === "undefined") return {}; // Handle SSR
+      const saved = localStorage.getItem(STORAGE_KEY_MULTIPLIERS);
+      if (!saved) return {};
+
+      try {
+        return JSON.parse(saved);
+      } catch (e) {
+        return {e};
+      }
+    }
   );
   const [viewType, setViewType] = useState<ViewType>("rankings");
   const [selectedFighter1, setSelectedFighter1] = useState<Fighter | null>(
@@ -53,6 +65,17 @@ export default function Home() {
   const [sortField, setSortField] = useState<SortField>("rax");
   const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
   // const [visitorCount, setVisitorCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (Object.keys(multiplierMap).length > 0) {
+      localStorage.setItem(
+        STORAGE_KEY_MULTIPLIERS,
+        JSON.stringify(multiplierMap)
+      );
+    } else {
+      localStorage.removeItem(STORAGE_KEY_MULTIPLIERS);
+    }
+  }, [multiplierMap]);
 
   const loadMoreFighters = useCallback(() => {
     if (viewType !== "rankings") return;
