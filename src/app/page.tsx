@@ -39,7 +39,7 @@ export default function Home() {
       try {
         return JSON.parse(saved);
       } catch (e) {
-        return {e};
+        return { e };
       }
     }
   );
@@ -248,7 +248,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mb-5">
-            <nav className="flex relative rounded-lg bg-[#2a2a2a] p-1 w-full max-w-[400px]">
+            <nav className="flex relative rounded-lg bg-[#2a2a2a] p-1 w-full max-w-[500px]">
               <div
                 className="absolute transition-all duration-200 ease-in-out bg-[#404040] rounded-md"
                 style={{
@@ -257,10 +257,10 @@ export default function Home() {
                   top: "7.5%",
                   left:
                     viewType === "compare"
-                      ? "1%"
+                      ? "0.5%"
                       : viewType === "rankings"
                       ? "33.333333%"
-                      : "65.666666%",
+                      : "65.8%",
                 }}
               />
               <button

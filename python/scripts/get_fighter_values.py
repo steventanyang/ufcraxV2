@@ -7,6 +7,7 @@ from tqdm import tqdm
 from config import HEADERS
 from datetime import datetime
 import re
+import os
 
 # gets card purchases for each fighter
 # last ran dec 25 2024
@@ -14,6 +15,18 @@ import re
 
 # TODO: 
 # https://web.realsports.io/teams/346/sport/ufc -> get age and add vet status tag
+
+# Load existing progress if available
+def load_progress():
+    if os.path.exists('../../public/data/fighters_values_partial.json'):
+        with open('../../public/data/fighters_values_partial.json', 'r') as f:
+            return json.load(f)
+    return {}
+
+# Save current progress
+def save_progress(fighters_data):
+    with open('../../public/data/fighters_values_partial.json', 'w') as f:
+        json.dump(fighters_data, f, indent=4, sort_keys=True)
 
 async def get_fighters_page(session, before):
     url = f'https://web.realsports.io/userpassshop/ufc/season/2023/entity/team/section/hotseason?before={before}'
@@ -55,7 +68,7 @@ async def get_fighters_page(session, before):
 async def get_fighter_passes(session, fighter_id):
     pass_distribution = {7: 0, 6: 0, 5: 0, 4: 0, 3: 0}
     current_before = 0
-    max_before = 1000  # Adjust this if needed
+    max_before = 1000
     
     while current_before <= max_before:
         url = f'https://web.realsports.io/userpasses/ufc/type/team/entity/{fighter_id}/leaderboard?before={current_before}&season=2023&sort=boostvalue'
@@ -88,7 +101,7 @@ async def get_fighter_passes(session, fighter_id):
                             break
                         
                         current_before += 20
-                        await asyncio.sleep(0.1)  # Small delay between requests
+                        await asyncio.sleep(0.05)  # Reduced delay
                     else:
                         break
                 else:
@@ -165,32 +178,40 @@ async def process_batch(session, start_before, batch_size=5):
     return combined_dict, should_continue
 
 async def main():
+    # Load any existing progress
+    all_fighters = load_progress()
+    print(f"Loaded {len(all_fighters)} fighters from previous progress")
+    
     start_before = 0
     max_before = 1500
     batch_size = 5
-    all_fighters = {}
     
     async with aiohttp.ClientSession() as session:
-        # First get all fighters and their IDs
-        current_before = start_before
-        
-        with tqdm(total=max_before) as pbar:
-            while current_before <= max_before:
-                fighters_dict, should_continue = await process_batch(session, current_before, batch_size)
-                all_fighters.update(fighters_dict)
-                
-                if not should_continue:
-                    print("\nNo more data found, stopping...")
-                    break
-                
-                current_before += batch_size * 20
-                pbar.update(batch_size * 20)
-                await asyncio.sleep(0.5)
+        # First get all fighters and their IDs if we don't have them
+        if not all_fighters:
+            current_before = start_before
+            
+            with tqdm(total=max_before) as pbar:
+                while current_before <= max_before:
+                    fighters_dict, should_continue = await process_batch(session, current_before, batch_size)
+                    all_fighters.update(fighters_dict)
+                    
+                    if not should_continue:
+                        print("\nNo more data found, stopping...")
+                        break
+                    
+                    current_before += batch_size * 20
+                    pbar.update(batch_size * 20)
+                    await asyncio.sleep(0.2)  # Reduced delay
+            
+            # Save progress after getting all fighters
+            save_progress(all_fighters)
         
         # Now get pass distribution for each fighter
         print("\nGetting pass distribution for each fighter...")
-        batch_size = 2  # Process 2 fighters at a time
-        fighters_items = list(all_fighters.items())
+        batch_size = 10  # Increased batch size
+        fighters_items = [(name, data) for name, data in all_fighters.items() 
+                         if 'pass_distribution' not in data]  # Only process fighters without pass distribution
         
         with tqdm(total=len(fighters_items)) as pbar:
             for i in range(0, len(fighters_items), batch_size):
@@ -203,22 +224,22 @@ async def main():
                     if age is not None:
                         all_fighters[name]['age'] = age
                 
+                # Save progress every 50 fighters
+                if i % 50 == 0:
+                    save_progress(all_fighters)
+                
                 pbar.update(len(batch))
-                await asyncio.sleep(0.2)  # Small delay between batches
+                await asyncio.sleep(0.1)  # Reduced delay
     
-    # Save fighters dictionary to JSON file
+    # Save final results
     with open('../../public/data/fighters_values.json', 'w') as f:
         json.dump(all_fighters, f, indent=4, sort_keys=True)
     
-    print(f"\nComplete! Saved {len(all_fighters)} fighters to 'fighters_values.json'")
+    # Clean up partial file
+    if os.path.exists('../../public/data/fighters_values_partial.json'):
+        os.remove('../../public/data/fighters_values_partial.json')
     
-    # Example usage:
-    print("\nExample lookups:")
-    for name in list(all_fighters.keys())[:3]:
-        print(f"{name}:")
-        print(f"  Value: {all_fighters[name]['value']}")
-        print(f"  ID: {all_fighters[name]['id']}")
-        print(f"  Pass Distribution: {all_fighters[name]['pass_distribution']}")
+    print(f"\nComplete! Saved {len(all_fighters)} fighters to 'fighters_values.json'")
 
 if __name__ == "__main__":
     asyncio.run(main())

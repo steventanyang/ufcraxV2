@@ -1,1 +1,1 @@
-export type ViewType = "rankings" | "compare" | "recommendations";
+export type ViewType = "rankings" | "compare" | "recommendations" | "test";

@@ -232,18 +232,18 @@ class FightProcessor:
             date, 
             loser, 
             details['method'],
-            method_points,  # Only pass the method points
+            method_points,  # Winner gets method points
             strike_diff if striker == winner else 0,
             FIVE_ROUND_BONUS if is_five_rounds else 0
         )
 
-        # Update loser's record with only applicable bonuses
+        # Update loser's record with loss points and applicable bonuses
         self.update_fight_history(
             loser,
             date,
             winner,
             details['method'],
-            0,  # Loser gets no method points
+            25,  # Loser gets 25 points for the loss
             strike_diff if striker == loser else 0,
             FIVE_ROUND_BONUS if is_five_rounds else 0
         )
