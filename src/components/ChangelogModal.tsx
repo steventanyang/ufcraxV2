@@ -36,6 +36,28 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             <div className="border-b border-gray-700 pb-4">
               <div className="flex items-center gap-2 mb-2">
                 <h3 className="text-lg font-semibold text-gray-100">
+                  January 28, 2025
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.7</span>
+              </div>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>
+                    Added calendar visualization for multiple fighters:
+                    <ul className="list-disc list-inside ml-4 mt-1 text-gray-400">
+                      <li>
+                        The detail poppup in the &quot;Who to buy&quot; page
+                        now shows calendar for selected fighters
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
                   January 26, 2025
                 </h3>
                 <span className="text-sm text-gray-400">v1.0.6</span>
