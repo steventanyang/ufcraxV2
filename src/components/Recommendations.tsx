@@ -1,5 +1,6 @@
 import { Fighter } from "@/types/fighters";
 import { useState, useEffect } from "react";
+import MultipleCalendar from "./MultipleCalendar";
 
 type RecommendationsProps = {
   fighters: Fighter[];
@@ -407,7 +408,7 @@ function TotalBreakdownModal({
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-      <div className="bg-[#1a1a1a] rounded-lg p-6 max-w-lg w-full mx-4 max-h-[80vh] overflow-y-auto relative">
+      <div className="bg-[#1a1a1a] rounded-lg p-6 max-w-3xl w-full mx-4 max-h-[80vh] overflow-y-auto relative">
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-xl font-bold text-white">Monthly Breakdown</h3>
           <button
@@ -423,6 +424,14 @@ function TotalBreakdownModal({
           <div className="text-3xl font-bold text-white">
             {Math.round(grandTotal)}
           </div>
+        </div>
+
+        <div className="mb-6 p-4 bg-[#2a2a2a] rounded-lg">
+          <h3 className="text-lg font-bold mb-4">Calendar View</h3>
+          <MultipleCalendar
+            fighters={selectedFighters}
+            multiplierMap={multiplierMap}
+          />
         </div>
 
         <div className="flex justify-end mb-4">
