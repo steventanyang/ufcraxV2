@@ -569,12 +569,15 @@ export default function Home() {
         </div>
 
         <div className="py-4 flex justify-center items-center gap-4 border-t border-gray-800">
-          <button
-            onClick={() => setIsChangelogOpen(true)}
-            className="text-gray-400 hover:text-gray-200 text-sm font-medium transition-colors duration-200"
-          >
-            Changelog
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setIsChangelogOpen(true)}
+              className="text-gray-400 hover:text-gray-200 text-sm font-medium transition-colors duration-200"
+            >
+              Changelog
+            </button>
+            <span className="text-gray-700 text-sm font-medium">v1.0.6</span>
+          </div>
           <span className="text-gray-700">•</span>
           <a
             href="https://github.com/steventanyang/ufcraxV2"

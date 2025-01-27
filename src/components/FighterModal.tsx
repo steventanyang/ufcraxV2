@@ -1,6 +1,7 @@
 import { Fighter } from "@/types/fighters";
 import { calculateDailyAdjustedValue } from "@/utils/calculations";
 import { useState } from "react";
+import FighterCalendar from "./FighterCalendar";
 
 const multipliers = [
   { value: 1.2, color: "text-blue-400" },
@@ -18,6 +19,8 @@ type FighterModalProps = {
   onClose: () => void;
   onMultiplierChange: (fighterName: string, multiplier: number) => void;
 };
+
+type ViewType = "monthly" | "daily" | "calendar";
 
 function getMonthDay(date: string): string {
   const d = new Date(date);
@@ -78,7 +81,7 @@ export default function FighterModal({
   onClose,
   onMultiplierChange,
 }: FighterModalProps) {
-  const [showMonthly, setShowMonthly] = useState(false);
+  const [viewType, setViewType] = useState<ViewType>("monthly");
   const multiplierColor =
     multipliers.find((m) => m.value === multiplier)?.color || "text-blue-400";
 
@@ -87,7 +90,7 @@ export default function FighterModal({
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-      <div className="bg-[#1a1a1a] rounded-lg w-[400px] max-h-[80vh] overflow-hidden">
+      <div className="bg-[#1a1a1a] rounded-lg w-[600px] max-h-[80vh] overflow-hidden">
         <div className="p-6 border-b border-gray-800">
           <div className="flex items-center justify-between">
             <div>
@@ -120,63 +123,97 @@ export default function FighterModal({
             </button>
           </div>
 
-          <div className="mt-4 flex justify-end">
+          <div className="mt-4 flex justify-end gap-4">
             <button
-              onClick={() => setShowMonthly(!showMonthly)}
-              className="text-sm text-blue-400 hover:text-blue-300"
+              onClick={() => setViewType("monthly")}
+              className={`text-sm ${
+                viewType === "monthly"
+                  ? "text-blue-400"
+                  : "text-gray-400 hover:text-gray-300"
+              }`}
             >
-              {showMonthly ? "Show Daily" : "Show Monthly"}
+              Monthly
+            </button>
+            <button
+              onClick={() => setViewType("daily")}
+              className={`text-sm ${
+                viewType === "daily"
+                  ? "text-blue-400"
+                  : "text-gray-400 hover:text-gray-300"
+              }`}
+            >
+              Daily
+            </button>
+            <button
+              onClick={() => setViewType("calendar")}
+              className={`text-sm ${
+                viewType === "calendar"
+                  ? "text-blue-400"
+                  : "text-gray-400 hover:text-gray-300"
+              }`}
+            >
+              Calendar
             </button>
           </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[60vh]">
-          <div className="space-y-2">
-            {showMonthly
-              ? // Monthly summary view
-                monthlyScores
-                  .sort((a, b) => {
-                    const months = [
-                      "December",
-                      "November",
-                      "October",
-                      "September",
-                      "August",
-                      "July",
-                      "June",
-                      "May",
-                      "April",
-                      "March",
-                      "February",
-                      "January",
-                    ];
-                    return months.indexOf(a.month) - months.indexOf(b.month);
-                  })
-                  .slice(0, 12)
-                  .map((mv) => (
-                    <div
-                      key={mv.month}
-                      className="flex justify-between items-center text-sm"
-                    >
-                      <span className="text-gray-400">{mv.month}</span>
-                      <span className={`font-bold ${multiplierColor}`}>
-                        {Math.round(mv.value)}
-                      </span>
-                    </div>
-                  ))
-              : // Daily breakdown view
-                dailyScores.map((score) => (
+          {viewType === "monthly" && (
+            <div className="space-y-2">
+              {monthlyScores
+                .sort((a, b) => {
+                  const months = [
+                    "December",
+                    "November",
+                    "October",
+                    "September",
+                    "August",
+                    "July",
+                    "June",
+                    "May",
+                    "April",
+                    "March",
+                    "February",
+                    "January",
+                  ];
+                  return months.indexOf(a.month) - months.indexOf(b.month);
+                })
+                .slice(0, 12)
+                .map((mv) => (
                   <div
-                    key={score.date}
-                    className="flex justify-between items-center text-xs"
+                    key={mv.month}
+                    className="flex justify-between items-center text-sm"
                   >
-                    <span className="text-gray-400">{score.date}</span>
+                    <span className="text-gray-400">{mv.month}</span>
                     <span className={`font-bold ${multiplierColor}`}>
-                      {Math.round(score.value)}
+                      {Math.round(mv.value)}
                     </span>
                   </div>
                 ))}
-          </div>
+            </div>
+          )}
+
+          {viewType === "daily" && (
+            <div className="space-y-2">
+              {dailyScores.map((score) => (
+                <div
+                  key={score.date}
+                  className="flex justify-between items-center text-xs"
+                >
+                  <span className="text-gray-400">{score.date}</span>
+                  <span className={`font-bold ${multiplierColor}`}>
+                    {Math.round(score.value)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {viewType === "calendar" && (
+            <div className="pt-4">
+              <FighterCalendar fighter={fighter} multiplier={multiplier} />
+            </div>
+          )}
         </div>
       </div>
     </div>

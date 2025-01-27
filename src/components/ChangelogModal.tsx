@@ -11,7 +11,10 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
       <div className="bg-[#1a1a1a] rounded-lg max-w-2xl w-full max-h-[80vh] overflow-y-auto">
         <div className="p-6">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-xl font-bold text-gray-100">Changelog</h2>
+            <div className="flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gray-100">Changelog</h2>
+              <span className="text-sm text-gray-400">v1.0.6</span>
+            </div>
             <button
               onClick={onClose}
               className="text-gray-400 hover:text-gray-200"
@@ -32,12 +35,49 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
 
           <div className="space-y-4">
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                January 7, 2025
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  January 26, 2025
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.6</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
-                  <li>selections in recommended tab now persist between browser sessions</li>
+                  <li>
+                    Added new calendar view to fighter details:
+                    <ul className="list-disc list-inside ml-4 mt-1 text-gray-400">
+                      <li>
+                        Visual heatmap showing daily Rax activity over the past
+                        year
+                      </li>
+                      <li>
+                        Color intensity indicates relative Rax value for each
+                        day
+                      </li>
+                      <li>Detail View &gt; Calendar</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Updated fighter value calculations to include +25 Rax for
+                    losses
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-700 pb-4">
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  January 7, 2025
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.5</span>
+              </div>
+              <div className="space-y-3 text-gray-300">
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>
+                    selections in recommended tab now persist between browser
+                    sessions
+                  </li>
                   <li>
                     Added &quot;Clear All Fighters&quot; button to
                     recommendations page
@@ -47,9 +87,12 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             </div>
 
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                January 6, 2025
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  January 6, 2025
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.4</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>
@@ -62,9 +105,12 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             </div>
 
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                January 2, 2025
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  January 2, 2025
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.3</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>
@@ -91,9 +137,12 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             </div>
 
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                December 28, 2024
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  December 28, 2024
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.2</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>Added owned passes distribution modal for fighters</li>
@@ -103,9 +152,12 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             </div>
 
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                December 26, 2024
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  December 26, 2024
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.1</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>Bug fixes</li>
@@ -115,9 +167,12 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
             </div>
 
             <div className="border-b border-gray-700 pb-4">
-              <h3 className="text-lg font-semibold text-gray-100 mb-2">
-                December 25, 2024
-              </h3>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-lg font-semibold text-gray-100">
+                  December 25, 2024
+                </h3>
+                <span className="text-sm text-gray-400">v1.0.0</span>
+              </div>
               <div className="space-y-3 text-gray-300">
                 <p className="font-medium text-green-400">Initial Release</p>
                 <ul className="list-disc list-inside space-y-2 text-sm">
