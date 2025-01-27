@@ -13,7 +13,6 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center gap-2">
               <h2 className="text-xl font-bold text-gray-100">Changelog</h2>
-              <span className="text-sm text-gray-400">v1.0.6</span>
             </div>
             <button
               onClick={onClose}

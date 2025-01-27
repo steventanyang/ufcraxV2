@@ -191,11 +191,14 @@ export default function FighterCalendar({
       {/* Calendar grid */}
       <div className="grid grid-cols-[repeat(26,_minmax(0,_1fr))] gap-[3px]">
         {weeks.map((week, weekIndex) => (
-          <div key={weekIndex} className="grid grid-rows-7 gap-[3px]">
+          <div
+            key={weekIndex}
+            className="grid grid-rows-7 gap-[2px] md:gap-[3px]"
+          >
             {week.map((day, dayIndex) => (
               <div
                 key={`${weekIndex}-${dayIndex}`}
-                className={`h-[14px] w-[14px] rounded-sm ${getIntensityColor(
+                className={`h-[10px] w-[10px] md:h-[14px] md:w-[14px] rounded-sm ${getIntensityColor(
                   day.value,
                   maxValue,
                   colors
