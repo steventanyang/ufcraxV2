@@ -1,8 +1,13 @@
-# add_new_fights.py
+# this pipeline doesn't work yet, follow these steps:
+# 
+# 
+#  add_new_fights.py
 # remove_duplicates.py
 # process_matches.py
 # aggregate_values.py
-# get_fighter_values.py
+# get_fighter_values.py # we need to get api key from real 
+
+# load files into root data folder and then run index.ts in our fe
 
 import subprocess
 import os

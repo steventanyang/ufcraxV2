@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 660271,
+      "value": "1066",
+      "entityType": "player",
+      "entity": {
+        "id": 660271,
+        "sport": "mlb",
+        "teamId": 119,
+        "avatar": "f69d135d4d60278128222bd5a898f2d6",
+        "firstName": "Shohei",
+        "lastName": "Ohtani",
+        "injuryStatus": "Active",
+        "displayName": "S. Ohtani",
+        "backgroundColor": "#005A9C44"
+      },
+      "type": "earnings",
+      "sport": "mlb",
+      "cardBgSource": "assets/cards/bgxs/bw3.png",
+      "label": "Shohei Ohtani",
+      "subLabel": null
+    }
+  ]
+}
