@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Rax Pipeline</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+        .card {
+            background: #2a2a2a;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .card h2 {
+            font-size: 1.1rem;
+            color: #888;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #aaa;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #333;
+            color: #fff;
+            font-size: 1rem;
+            font-family: monospace;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+        }
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        .checkbox-item label {
+            margin: 0;
+            cursor: pointer;
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-primary {
+            background: #007bff;
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+        .btn-primary:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+        .btn-danger {
+            background: #dc3545;
+            color: #fff;
+            margin-left: 0.5rem;
+        }
+        .btn-danger:hover {
+            background: #c82333;
+        }
+        .actions {
+            margin-top: 1rem;
+        }
+        .status-bar {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #666;
+        }
+        .status-indicator.running {
+            background: #ffc107;
+            animation: pulse 1s infinite;
+        }
+        .status-indicator.success {
+            background: #28a745;
+        }
+        .status-indicator.error {
+            background: #dc3545;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .progress-bar {
+            flex: 1;
+            height: 8px;
+            background: #444;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: #007bff;
+            transition: width 0.3s;
+        }
+        .progress-text {
+            min-width: 60px;
+            text-align: right;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        .logs {
+            background: #111;
+            border-radius: 4px;
+            padding: 1rem;
+            height: 400px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        .logs:empty::before {
+            content: "Logs will appear here...";
+            color: #555;
+        }
+        .log-entry {
+            color: #aaa;
+        }
+        .log-entry.error {
+            color: #ff6b6b;
+        }
+        .log-entry.success {
+            color: #69db7c;
+        }
+        .current-stage {
+            color: #69db7c;
+            font-weight: 500;
+        }
+        .help-text {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>UFC Rax Pipeline</h1>
+        
+        <div class="card">
+            <h2>API Token</h2>
+            <label for="token">real-request-token</label>
+            <input type="text" id="token" placeholder="Paste your token here...">
+            <p class="help-text">Get this from browser DevTools → Network tab → any realsports.io request</p>
+        </div>
+        
+        <div class="card">
+            <h2>Pipeline Stages</h2>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="add_fights" checked>
+                    <label for="add_fights">Add New Fights</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="remove_duplicates" checked>
+                    <label for="remove_duplicates">Remove Duplicates</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="process_matches" checked>
+                    <label for="process_matches">Process Matches</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="aggregate" checked>
+                    <label for="aggregate">Aggregate Values</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="get_values" checked>
+                    <label for="get_values">Fetch API Data</label>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="btn btn-primary" id="runBtn" onclick="runPipeline()">Run Pipeline</button>
+                <button class="btn btn-danger" id="cancelBtn" onclick="cancelPipeline()" style="display: none;">Cancel</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Status</h2>
+            <div class="status-bar">
+                <div class="status-indicator" id="statusIndicator"></div>
+                <span id="currentStage">Ready</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <span class="progress-text" id="progressText">0%</span>
+            </div>
+            <div class="logs" id="logs"></div>
+        </div>
+    </div>
+
+    <script>
+        let eventSource = null;
+        
+        function getSelectedStages() {
+            const stages = [];
+            ['add_fights', 'remove_duplicates', 'process_matches', 'aggregate', 'get_values'].forEach(id => {
+                if (document.getElementById(id).checked) {
+                    stages.push(id);
+                }
+            });
+            return stages;
+        }
+        
+        async function runPipeline() {
+            const token = document.getElementById('token').value.trim();
+            const stages = getSelectedStages();
+            
+            if (stages.includes('get_values') && !token) {
+                alert('Please enter the API token (required for Fetch API Data stage)');
+                return;
+            }
+            
+            if (stages.length === 0) {
+                alert('Please select at least one stage');
+                return;
+            }
+            
+            // Clear logs
+            document.getElementById('logs').innerHTML = '';
+            
+            // Update UI
+            document.getElementById('runBtn').disabled = true;
+            document.getElementById('cancelBtn').style.display = 'inline-block';
+            document.getElementById('statusIndicator').className = 'status-indicator running';
+            
+            try {
+                const response = await fetch('/api/run-pipeline', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ token, stages, full_refresh: true })
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    addLog(data.error, 'error');
+                    resetUI();
+                    return;
+                }
+                
+                // Start streaming logs
+                startLogStream();
+                
+            } catch (err) {
+                addLog('Failed to start pipeline: ' + err.message, 'error');
+                resetUI();
+            }
+        }
+        
+        function startLogStream() {
+            if (eventSource) {
+                eventSource.close();
+            }
+            
+            eventSource = new EventSource('/api/stream');
+            
+            eventSource.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                
+                if (data.done) {
+                    eventSource.close();
+                    resetUI();
+                    return;
+                }
+                
+                // Update progress
+                document.getElementById('progressFill').style.width = data.progress + '%';
+                document.getElementById('progressText').innerText = data.progress + '%';
+                
+                // Update current stage
+                if (data.current_stage) {
+                    document.getElementById('currentStage').innerText = data.current_stage;
+                }
+                
+                // Add new logs
+                if (data.logs && data.logs.length > 0) {
+                    data.logs.forEach(log => {
+                        const isError = log.toLowerCase().includes('error');
+                        const isSuccess = log.toLowerCase().includes('complete') || log.toLowerCase().includes('saved');
+                        addLog(log, isError ? 'error' : (isSuccess ? 'success' : ''));
+                    });
+                }
+                
+                // Update status indicator
+                if (data.error) {
+                    document.getElementById('statusIndicator').className = 'status-indicator error';
+                } else if (!data.running) {
+                    document.getElementById('statusIndicator').className = 'status-indicator success';
+                }
+            };
+            
+            eventSource.onerror = () => {
+                eventSource.close();
+                resetUI();
+            };
+        }
+        
+        function addLog(message, type = '') {
+            const logs = document.getElementById('logs');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry' + (type ? ' ' + type : '');
+            entry.textContent = message;
+            logs.appendChild(entry);
+            logs.scrollTop = logs.scrollHeight;
+        }
+        
+        async function cancelPipeline() {
+            try {
+                document.getElementById('cancelBtn').disabled = true;
+                document.getElementById('cancelBtn').innerText = 'Cancelling...';
+                document.getElementById('statusIndicator').className = 'status-indicator error';
+                document.getElementById('currentStage').innerText = 'Cancelling...';
+                await fetch('/api/cancel', { method: 'POST' });
+                addLog('Cancellation requested - stopping current process...', 'error');
+            } catch (err) {
+                console.error(err);
+            }
+        }
+        
+        function resetUI() {
+            document.getElementById('runBtn').disabled = false;
+            document.getElementById('cancelBtn').style.display = 'none';
+            document.getElementById('cancelBtn').disabled = false;
+            document.getElementById('cancelBtn').innerText = 'Cancel';
+            if (eventSource) {
+                eventSource.close();
+                eventSource = null;
+            }
+        }
+    </script>
+</body>
+</html>

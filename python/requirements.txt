@@ -1,23 +1,13 @@
-#    uv pip compile -o requirements.txt requirements.txt
-certifi==2024.12.14
-    # via requests
-charset-normalizer==3.4.1
-    # via requests
-idna==3.10
-    # via requests
-numpy==1.26.4
-    # via pandas
-pandas==2.2.0
-    # via -r requirements.txt
-python-dateutil==2.9.0.post0
-    # via pandas
-pytz==2024.2
-    # via pandas
-requests==2.31.0
-    # via -r requirements.txt
-six==1.17.0
-    # via python-dateutil
-tzdata==2024.2
-    # via pandas
-urllib3==2.3.0
-    # via requests
+# Core dependencies
+requests>=2.31.0
+pandas>=2.2.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+tqdm>=4.66.0
+
+# FastAPI web UI
+fastapi>=0.109.0
+uvicorn>=0.27.0
+jinja2>=3.1.0
+python-multipart>=0.0.6
+sse-starlette>=2.0.0
