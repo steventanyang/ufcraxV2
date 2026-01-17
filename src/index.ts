@@ -1,12 +1,32 @@
 import { processFighterData } from './utils/processFighters';
-import { writeFileSync } from 'fs';
-
+import { writeFileSync, copyFileSync, existsSync } from 'fs';
 
 // 
-// first update the data file by copying the final_values from python/results into the root level data, and then copying the 
-// fight_history from python/results into the root level data file called fights.csv
+// Automatically copies required files from python/results before processing
 // 
-// npx ts-node src/index.ts
+// Run from project root: npm run process
+// Or: npx ts-node src/index.ts (from project root)
+
+// Copy files from python/results to data directory
+const sourceFinalValues = './python/results/final_values.csv';
+const sourceFightHistory = './python/results/fight_history.csv';
+const destFinalValues = './data/final_values.csv';
+const destFightHistory = './data/fights.csv';
+
+console.log('Copying files from python/results...');
+
+if (!existsSync(sourceFinalValues)) {
+    throw new Error(`Source file not found: ${sourceFinalValues}`);
+}
+if (!existsSync(sourceFightHistory)) {
+    throw new Error(`Source file not found: ${sourceFightHistory}`);
+}
+
+copyFileSync(sourceFinalValues, destFinalValues);
+console.log(`✓ Copied ${sourceFinalValues} → ${destFinalValues}`);
+
+copyFileSync(sourceFightHistory, destFightHistory);
+console.log(`✓ Copied ${sourceFightHistory} → ${destFightHistory}`);
 
 const valueFilePath = './data/final_values.csv';
 const historyFilePath = './data/fights.csv';

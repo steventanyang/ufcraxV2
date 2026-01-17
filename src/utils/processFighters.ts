@@ -39,6 +39,22 @@ const activeOverrides: ActiveOverride[] = [
   { name: "Matt Brown", active: false },
   { name: "Stipe Miocic", active: false },
   { name: "Andrei Arlovski", active: false },
+  // Retirements from past year (2024-2025)
+  { name: "Dominick Cruz", active: false },
+  { name: "Bill Algeo", active: false },
+  { name: "Julia Avila", active: false },
+  { name: "Joe Solecki", active: false },
+  { name: "Jalin Turner", active: false },
+  { name: "Molly McCann", active: false },
+  { name: "Antonina Shevchenko", active: false },
+  { name: "Diana Belbita", active: false },
+  { name: "Jose Aldo", active: false },
+  { name: "Vinc Pichel", active: false },
+  // Additional 2025 retirements
+  { name: "Anthony Smith", active: false },
+  { name: "Paul Craig", active: false },
+  { name: "Henry Cejudo", active: false },
+  { name: "Jon Jones", active: false },
 ];
 
 export function processFighterData(
