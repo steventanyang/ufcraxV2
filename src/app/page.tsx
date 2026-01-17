@@ -266,21 +266,21 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#111111] text-gray-100">
       <div className="container mx-auto px-4 max-w-7xl h-screen flex flex-col">
-        <div className="pt-6 md:pt-8 pb-4">
-          <div className="flex items-center justify-center gap-3 mb-1">
-            <Image
-              src="/rax_logo.svg"
-              alt="UFC Rax Logo"
-              width={36}
-              height={36}
-              className="w-7 h-7 md:w-9 md:h-9"
-            />
-            <h1 className="text-2xl md:text-4xl font-bold text-center">
-              UFC Rax V2
-            </h1>
-          </div>
-          <div className="text-gray-500 text-center text-xs md:text-base mb-5">
-            <p>by @yangsl</p>
+        <div className="pt-4 md:pt-6 pb-4">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Image
+                src="/rax_logo.svg"
+                alt="UFC Rax Logo"
+                width={36}
+                height={36}
+                className="w-6 h-6 md:w-8 md:h-8"
+              />
+              <h1 className="text-xl md:text-2xl font-bold">
+                UFC Rax V2
+              </h1>
+            </div>
+            <span className="text-gray-500 text-xs md:text-sm">by @yangsl</span>
           </div>
 
           <div className="flex justify-center mb-5">
@@ -594,13 +594,11 @@ export default function Home() {
               />
             </div>
           ) : (
-            <div className="bg-[#1a1a1a] rounded-lg shadow p-4 md:p-6">
-              <Recommendations
-                fighters={sortedFighters}
-                multiplierMap={multiplierMap}
-                onMultiplierChange={handleMultiplierChange}
-              />
-            </div>
+            <Recommendations
+              fighters={sortedFighters}
+              multiplierMap={multiplierMap}
+              onMultiplierChange={handleMultiplierChange}
+            />
           )}
         </div>
 

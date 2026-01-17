@@ -43,16 +43,16 @@ const ChangelogModal = ({ isOpen, onClose }: ChangelogModalProps) => {
               <div className="space-y-3 text-gray-300">
                 <ul className="list-disc list-inside space-y-2 text-sm">
                   <li>
-                    New Rax multiplier system with tiered rarities:
-                    <ul className="list-disc list-inside ml-4 mt-1 text-gray-400">
-                      <li>Common (1.2x), Uncommon (1.4x), Rare (1.6x), Epic (2.0x)</li>
-                      <li>Legendary: 5 tiers (5.0x - 6.6x)</li>
-                      <li>Mystic: 10 tiers (10.0x - 11.8x)</li>
-                      <li>Iconic: 20 tiers (20.0x - 25.7x)</li>
-                    </ul>
+                    OTD claims increased from 2 to 3 per day
                   </li>
                   <li>
-                    Increased fighter slots from 10 to 15 in &quot;Who to Buy&quot; recommendations
+                    New multiplier system with tiered rarities and RAX caps
+                  </li>
+                  <li>
+                    Increased fighter slots from 10 to 15
+                  </li>
+                  <li>
+                    UI improvements for mobile
                   </li>
                 </ul>
               </div>

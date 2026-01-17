@@ -62,6 +62,98 @@ type ClaimConflict = {
   lostValue: number;
 };
 
+// Color mapping for multiplier badges
+function getMultiplierBgColor(color: string): string {
+  if (color.includes("blue")) return "bg-blue-500";
+  if (color.includes("green")) return "bg-green-500";
+  if (color.includes("orange")) return "bg-orange-500";
+  if (color.includes("red")) return "bg-red-500";
+  if (color.includes("purple")) return "bg-purple-500";
+  if (color.includes("yellow")) return "bg-yellow-500";
+  if (color.includes("pink")) return "bg-pink-500";
+  return "bg-gray-500";
+}
+
+// Subtle card background based on rarity
+function getCardBgColor(color: string): string {
+  if (color.includes("blue")) return "bg-blue-900/40";
+  if (color.includes("green")) return "bg-green-900/40";
+  if (color.includes("orange")) return "bg-orange-900/50";
+  if (color.includes("red")) return "bg-red-900/40";
+  if (color.includes("purple")) return "bg-purple-900/40";
+  if (color.includes("yellow")) return "bg-yellow-900/40";
+  if (color.includes("pink")) return "bg-pink-900/40";
+  return "bg-[#2a2a2a]";
+}
+
+type MultiplierSelectorProps = {
+  isOpen: boolean;
+  onClose: () => void;
+  currentValue: number;
+  onSelect: (value: number) => void;
+  fighterName: string;
+};
+
+function MultiplierSelector({ isOpen, onClose, currentValue, onSelect, fighterName }: MultiplierSelectorProps) {
+  if (!isOpen) return null;
+
+  const groups = [
+    { label: "Basic", items: multipliers.filter(m => m.value <= 2.0) },
+    { label: "Legendary", items: multipliers.filter(m => m.value >= 5.0 && m.value <= 6.6) },
+    { label: "Mystic", items: multipliers.filter(m => m.value >= 10.0 && m.value <= 11.8) },
+    { label: "Iconic", items: multipliers.filter(m => m.value >= 20.0) },
+  ];
+
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={onClose}>
+      <div 
+        className="bg-[#1a1a1a] rounded-lg w-full max-w-md max-h-[80vh] overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="p-4 border-b border-gray-700">
+          <div className="flex justify-between items-center">
+            <h3 className="text-lg font-bold">Select Rarity</h3>
+            <button onClick={onClose} className="text-gray-400 hover:text-white text-2xl">&times;</button>
+          </div>
+          <p className="text-sm text-gray-400 mt-1">{fighterName}</p>
+        </div>
+        <div className="overflow-y-auto max-h-[60vh] p-2">
+          {groups.map((group) => (
+            <div key={group.label} className="mb-4">
+              <div className="text-xs text-gray-500 uppercase px-2 mb-2">{group.label}</div>
+              <div className="grid grid-cols-2 gap-2">
+                {group.items.map((m) => {
+                  const bgColor = getMultiplierBgColor(m.color);
+                  const isSelected = m.value === currentValue;
+                  return (
+                    <button
+                      key={m.value}
+                      onClick={() => {
+                        onSelect(m.value);
+                        onClose();
+                      }}
+                      className={`flex items-center gap-2 p-3 rounded-lg transition-colors ${
+                        isSelected 
+                          ? "bg-[#333333] ring-2 ring-blue-500" 
+                          : "bg-[#2a2a2a] hover:bg-[#333333]"
+                      }`}
+                    >
+                      <span className={`min-w-[40px] h-8 px-1.5 ${bgColor} rounded flex items-center justify-center text-white text-xs font-bold`}>
+                        {m.value}x
+                      </span>
+                      <span className={`text-sm ${m.color}`}>{m.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function getMonthDay(date: string): string {
   const d = new Date(date);
   return `${(d.getMonth() + 1).toString().padStart(2, "0")}-${d
@@ -107,14 +199,13 @@ function calculateClaimConflicts(
     });
   });
 
-  // Find dates with more than 2 claims and calculate lost value
+  // Find dates with more than 3 claims and calculate lost value
   const conflicts: ClaimConflict[] = [];
 
   claimsByDate.forEach((claims, date) => {
-    if (claims.length > 2) {
+    if (claims.length > 3) {
       const sortedClaims = claims.sort((a, b) => b.value - a.value);
-      //   const topTwoClaims = sortedClaims.slice(0, 2);
-      const lostClaims = sortedClaims.slice(2);
+      const lostClaims = sortedClaims.slice(3);
 
       conflicts.push({
         date,
@@ -127,6 +218,17 @@ function calculateClaimConflicts(
   return conflicts;
 }
 
+// RAX caps per rarity (Team/Fighter column)
+function getRaxCap(multiplier: number): number | null {
+  if (multiplier <= 1.2) return 1500;      // Common
+  if (multiplier <= 1.4) return 2500;      // Uncommon
+  if (multiplier <= 1.6) return 4000;      // Rare
+  if (multiplier <= 2.0) return 6000;      // Epic
+  if (multiplier <= 6.6) return 12000;     // Legendary (5.0-6.6)
+  if (multiplier <= 11.8) return 24000;    // Mystic (10.0-11.8)
+  return null;                              // Iconic - unlimited
+}
+
 function calculateAdjustedValue(
   fighter: Fighter,
   multiplier: number,
@@ -134,6 +236,7 @@ function calculateAdjustedValue(
 ): {
   adjustedValue: number;
   lostValue: number;
+  cappedValue: number;
 } {
   let totalValue = 0;
   let lostValue = 0;
@@ -158,7 +261,7 @@ function calculateAdjustedValue(
       const fighterInConflict = conflict.fighters.findIndex(
         (f) => f.name === fighter.name
       );
-      if (fighterInConflict >= 2) {
+      if (fighterInConflict >= 3) {
         lostValue += scoreValue;
       } else {
         totalValue += scoreValue;
@@ -168,7 +271,11 @@ function calculateAdjustedValue(
     }
   });
 
-  return { adjustedValue: totalValue, lostValue };
+  // Apply RAX cap based on rarity
+  const cap = getRaxCap(multiplier);
+  const cappedValue = cap !== null && totalValue > cap ? cap : totalValue;
+
+  return { adjustedValue: cappedValue, lostValue, cappedValue };
 }
 
 type ClaimConflictsModalProps = {
@@ -196,7 +303,7 @@ function ClaimConflictsModal({ conflicts, onClose }: ClaimConflictsModalProps) {
                 <div className="text-gray-400 mb-1">Date: {conflict.date}</div>
                 <div className="pl-4 space-y-1">
                   {conflict.fighters.map((f, i) => {
-                    const isSignificantLoss = i >= 2 && f.value >= 10;
+                    const isSignificantLoss = i >= 3 && f.value >= 10;
 
                     return (
                       <div
@@ -204,7 +311,7 @@ function ClaimConflictsModal({ conflicts, onClose }: ClaimConflictsModalProps) {
                         className={`${
                           isSignificantLoss
                             ? "text-red-400"
-                            : i >= 2
+                            : i >= 3
                             ? "text-gray-400"
                             : "text-green-400"
                         }`}
@@ -368,7 +475,7 @@ function TotalBreakdownModal({
         const conflict = conflicts.find((c) => c.date === monthDay);
         if (
           conflict &&
-          conflict.fighters.findIndex((f) => f.name === fighter.name) >= 2
+          conflict.fighters.findIndex((f) => f.name === fighter.name) >= 3
         ) {
           return; // Skip conflicted claims
         }
@@ -604,6 +711,7 @@ export default function Recommendations({
   const [showInfo, setShowInfo] = useState(false);
   const [excludedFighters, setExcludedFighters] = useState<string[]>([]);
   const [showTotalBreakdown, setShowTotalBreakdown] = useState(false);
+  const [multiplierSelectorFighter, setMultiplierSelectorFighter] = useState<string | null>(null);
 
   const conflicts = calculateClaimConflicts(selectedFighters, multiplierMap);
 
@@ -658,9 +766,41 @@ export default function Recommendations({
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+    <div>
+      {/* Mobile sticky Total RAX header */}
+      <div className="md:hidden sticky top-0 z-10 bg-[#2a2a2a] rounded-lg p-3 mb-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-baseline gap-2">
+            <span className="text-3xl font-bold text-white">{totalRax}</span>
+            <span className="text-gray-400 text-xs">RAX / Year</span>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setShowTotalBreakdown(true)}
+              className="text-xs text-blue-400 hover:text-blue-300 bg-[#333333] px-3 py-1.5 rounded"
+            >
+              Details
+            </button>
+            {selectedFighters.length > 0 && (
+              <button
+                onClick={() => {
+                  if (confirm("Are you sure you want to clear all selected fighters?")) {
+                    setSelectedFighters([]);
+                    localStorage.removeItem(STORAGE_KEY_FIGHTERS);
+                  }
+                }}
+                className="text-xs text-gray-400 hover:text-gray-300 bg-[#333333] px-3 py-1.5 rounded"
+              >
+                Clear All
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
       {/* Left side - Search and Selected Fighters */}
-      <div className="order-2 md:order-1">
+      <div className="order-1 md:order-1">
         <div className="relative mb-4 md:mb-6">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
@@ -680,7 +820,7 @@ export default function Recommendations({
             placeholder="Add fighter (max 15)"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none"
+            className="w-full bg-[#1a1a1a] text-gray-100 pl-10 pr-4 py-3 rounded-lg focus:outline-none"
           />
           {searchQuery && (
             <div className="absolute z-10 w-full mt-1 bg-[#2a2a2a] border border-gray-700 rounded-lg max-h-48 overflow-auto">
@@ -711,51 +851,58 @@ export default function Recommendations({
               conflicts
             );
 
+            const cap = getRaxCap(multiplier);
+            const isAtCap = cap !== null && adjustedValue >= cap;
+
+            const cardBg = getCardBgColor(multiplierColor);
+            
             return (
               <div
                 key={fighter.name}
-                className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#2a2a2a] rounded-lg space-y-2 sm:space-y-0"
+                className={`p-3 rounded-lg flex items-center gap-3 ${cardBg}`}
               >
-                <div className="flex items-center gap-2">
-                  <OwnedPassesIndicator passes={fighter.ownedPasses} />
-                  <span className="font-medium">{fighter.name}</span>
-                  {fighter.active && (
-                    <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
-                      Active
-                    </span>
-                  )}
-                </div>
-                <div className="flex items-center justify-between sm:justify-end gap-4">
-                  <div className="flex items-center gap-2">
-                    {lostValue > 0 && (
-                      <span className="text-sm text-red-400">
-                        -{Math.round(lostValue)}
+                {/* Left: Name & Dropdown */}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <OwnedPassesIndicator passes={fighter.ownedPasses} />
+                    <span className="font-medium truncate">{fighter.name}</span>
+                    {fighter.active && (
+                      <span className="px-2 py-0.5 text-xs bg-green-900/30 text-green-400 rounded-full shrink-0">
+                        Active
                       </span>
                     )}
-                    <span className={`font-bold ${multiplierColor}`}>
+                  </div>
+                  <button
+                    onClick={() => setMultiplierSelectorFighter(fighter.name)}
+                    className={`flex items-center gap-1 px-2 py-1 rounded text-xs bg-black/40 ml-5 ${multiplierColor}`}
+                  >
+                    {multipliers.find((m) => m.value === multiplier)?.label}
+                    <svg className={`w-3 h-3 ${multiplierColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
+                {/* Middle: RAX value */}
+                <div className="text-center">
+                  <div className="flex items-center gap-1">
+                    {lostValue > 0 && (
+                      <span className="text-xs text-red-400">-{Math.round(lostValue)}</span>
+                    )}
+                    <span className={`text-2xl font-bold ${multiplierColor}`}>
                       {Math.round(adjustedValue)}
                     </span>
                   </div>
-                  <select
-                    value={multiplier}
-                    onChange={(e) =>
-                      onMultiplierChange(fighter.name, Number(e.target.value))
-                    }
-                    className="bg-[#333333] text-gray-300 rounded px-2 py-1 text-sm border border-gray-700"
-                  >
-                    {multipliers.map((m) => (
-                      <option key={m.value} value={m.value}>
-                        {m.label}
-                      </option>
-                    ))}
-                  </select>
-                  <button
-                    onClick={() => handleRemoveFighter(fighter.name)}
-                    className="text-gray-500 hover:text-gray-300"
-                  >
-                    ×
-                  </button>
+                  {isAtCap && (
+                    <span className="text-[10px] text-yellow-500">Hit RAX Cap</span>
+                  )}
                 </div>
+                {/* Right: X button */}
+                <button
+                  onClick={() => handleRemoveFighter(fighter.name)}
+                  className="text-gray-500 hover:text-gray-300 text-xl px-1"
+                >
+                  ×
+                </button>
               </div>
             );
           })}
@@ -772,42 +919,37 @@ export default function Recommendations({
       </div>
 
       {/* Right side - Total and Recommendations */}
-      <div className="order-1 md:order-2">
-        <div className="mb-4 md:mb-8 p-4 md:p-6 bg-[#2a2a2a] rounded-lg">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-2 text-gray-400 mb-2">
-              <span>Total RAX / Year</span>
+      <div className="order-2 md:order-2">
+        <div className="p-4 md:p-6 bg-[#2a2a2a] rounded-lg">
+          {/* Desktop Total RAX - hidden on mobile */}
+          <div className="hidden md:flex items-center justify-between mb-6">
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl font-bold text-white">{totalRax}</span>
+              <span className="text-gray-400 text-sm">RAX / Year</span>
+            </div>
+            <div className="flex gap-2">
               <button
                 onClick={() => setShowTotalBreakdown(true)}
-                className="text-sm text-blue-400 hover:text-blue-300"
+                className="text-sm text-blue-400 hover:text-blue-300 bg-[#333333] px-3 py-1.5 rounded"
               >
-                Detail View
+                Details
               </button>
+              {selectedFighters.length > 0 && (
+                <button
+                  onClick={() => {
+                    if (confirm("Are you sure you want to clear all selected fighters?")) {
+                      setSelectedFighters([]);
+                      localStorage.removeItem(STORAGE_KEY_FIGHTERS);
+                    }
+                  }}
+                  className="text-sm text-gray-400 hover:text-gray-300 bg-[#333333] px-3 py-1.5 rounded"
+                >
+                  Clear All
+                </button>
+              )}
             </div>
-            <div className="text-3xl md:text-4xl font-bold text-white">
-              {totalRax}
-            </div>
-            {selectedFighters.length > 0 && (
-              <button
-                onClick={() => {
-                  if (
-                    confirm(
-                      "Are you sure you want to clear all selected fighters?"
-                    )
-                  ) {
-                    setSelectedFighters([]);
-                    localStorage.removeItem(STORAGE_KEY_FIGHTERS);
-                  }
-                }}
-                className="mt-2 text-xs text-gray-400 hover:text-gray-300"
-              >
-                Clear All Fighters
-              </button>
-            )}
           </div>
-        </div>
 
-        <div className="bg-[#2a2a2a] rounded-lg p-4 md:p-6">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <h3 className="text-lg md:text-xl font-bold">
@@ -886,6 +1028,7 @@ export default function Recommendations({
           </div>
         </div>
       </div>
+      </div>
 
       {showConflicts && (
         <ClaimConflictsModal
@@ -902,6 +1045,16 @@ export default function Recommendations({
           multiplierMap={multiplierMap}
           conflicts={conflicts}
           onClose={() => setShowTotalBreakdown(false)}
+        />
+      )}
+
+      {multiplierSelectorFighter && (
+        <MultiplierSelector
+          isOpen={true}
+          onClose={() => setMultiplierSelectorFighter(null)}
+          currentValue={multiplierMap[multiplierSelectorFighter] || 1.2}
+          onSelect={(value) => onMultiplierChange(multiplierSelectorFighter, value)}
+          fighterName={multiplierSelectorFighter}
         />
       )}
     </div>

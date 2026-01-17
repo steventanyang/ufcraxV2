@@ -182,7 +182,7 @@ export default function FighterComparison({
             placeholder="Search fighters"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
-            className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none text-sm"
+            className="w-full bg-[#1a1a1a] text-gray-100 pl-10 pr-4 py-3 rounded-lg focus:outline-none text-sm"
           />
           {searchValue && filteredFighters.length > 0 && (
             <div className="absolute z-10 w-full mt-1 bg-[#2a2a2a] border border-gray-700 rounded-lg max-h-48 overflow-auto">
