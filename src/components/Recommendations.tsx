@@ -218,17 +218,6 @@ function calculateClaimConflicts(
   return conflicts;
 }
 
-// RAX caps per rarity (Team/Fighter column)
-function getRaxCap(multiplier: number): number | null {
-  if (multiplier <= 1.2) return 1500;      // Common
-  if (multiplier <= 1.4) return 2500;      // Uncommon
-  if (multiplier <= 1.6) return 4000;      // Rare
-  if (multiplier <= 2.0) return 6000;      // Epic
-  if (multiplier <= 6.6) return 12000;     // Legendary (5.0-6.6)
-  if (multiplier <= 11.8) return 24000;    // Mystic (10.0-11.8)
-  return null;                              // Iconic - unlimited
-}
-
 function calculateAdjustedValue(
   fighter: Fighter,
   multiplier: number,
@@ -236,7 +225,6 @@ function calculateAdjustedValue(
 ): {
   adjustedValue: number;
   lostValue: number;
-  cappedValue: number;
 } {
   let totalValue = 0;
   let lostValue = 0;
@@ -271,11 +259,7 @@ function calculateAdjustedValue(
     }
   });
 
-  // Apply RAX cap based on rarity
-  const cap = getRaxCap(multiplier);
-  const cappedValue = cap !== null && totalValue > cap ? cap : totalValue;
-
-  return { adjustedValue: cappedValue, lostValue, cappedValue };
+  return { adjustedValue: totalValue, lostValue };
 }
 
 type ClaimConflictsModalProps = {
@@ -851,9 +835,6 @@ export default function Recommendations({
               conflicts
             );
 
-            const cap = getRaxCap(multiplier);
-            const isAtCap = cap !== null && adjustedValue >= cap;
-
             const cardBg = getCardBgColor(multiplierColor);
             
             return (
@@ -892,9 +873,6 @@ export default function Recommendations({
                       {Math.round(adjustedValue)}
                     </span>
                   </div>
-                  {isAtCap && (
-                    <span className="text-[10px] text-yellow-500">Hit RAX Cap</span>
-                  )}
                 </div>
                 {/* Right: X button */}
                 <button
