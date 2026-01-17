@@ -1,4 +1,4 @@
-Encountered 337 errors:
+Encountered 331 errors:
 http://ufcstats.com/fight-details/fff219fac94884d8
 http://ufcstats.com/fight-details/ffe9356d2fe656f3
 http://ufcstats.com/fight-details/fe7c434ced7759e5
@@ -11,14 +11,13 @@ http://ufcstats.com/fight-details/f77022dfc627e121
 http://ufcstats.com/fight-details/f74f1e8602cf18d6
 http://ufcstats.com/fight-details/f6b66c307423061c
 http://ufcstats.com/fight-details/f59b1215176636f6
-http://ufcstats.com/fight-details/f3e8d68765b2a75d
 http://ufcstats.com/fight-details/f3e7ac4055e7a453
+http://ufcstats.com/fight-details/f3e8d68765b2a75d
 http://ufcstats.com/fight-details/f385d0fc49095e55
 http://ufcstats.com/fight-details/f3000eff02664be4
 http://ufcstats.com/fight-details/f2e14ec18f3b6672
 http://ufcstats.com/fight-details/f2a79c82c850a474
 http://ufcstats.com/fight-details/f26a29dd55c5a5cd
-http://ufcstats.com/fight-details/f206143bb9347444
 http://ufcstats.com/fight-details/f1b2f55ee43e3b8b
 http://ufcstats.com/fight-details/f161d511b7a973fb
 http://ufcstats.com/fight-details/f15c1bd6bbaf2be2
@@ -52,8 +51,9 @@ http://ufcstats.com/fight-details/da7d61dfe3989093
 http://ufcstats.com/fight-details/d9f0851db39067ec
 http://ufcstats.com/fight-details/d93c8c77e1091a16
 http://ufcstats.com/fight-details/d781ee8ef1a4bb65
-http://ufcstats.com/fight-details/d69249b26102b292
 http://ufcstats.com/fight-details/d68458d7ceeae267
+http://ufcstats.com/fight-details/d69249b26102b292
+http://ufcstats.com/fight-details/d5cb8093a2f17548
 http://ufcstats.com/fight-details/d580cffa15744c99
 http://ufcstats.com/fight-details/d4ce05bd60e091d7
 http://ufcstats.com/fight-details/d3fbdc3cb3efc7aa
@@ -165,12 +165,11 @@ http://ufcstats.com/fight-details/8375ef15cf838b76
 http://ufcstats.com/fight-details/8192d10021f932f9
 http://ufcstats.com/fight-details/815604a4d1b68cb6
 http://ufcstats.com/fight-details/81354e750dd248fd
-http://ufcstats.com/fight-details/80ce8f7d988d5e57
 http://ufcstats.com/fight-details/80baa3ae3092693d
 http://ufcstats.com/fight-details/802c28015de08bd3
 http://ufcstats.com/fight-details/7ffcc3a72e082ace
-http://ufcstats.com/fight-details/7f4fb0609c41af8b
 http://ufcstats.com/fight-details/7f60017ac91f762b
+http://ufcstats.com/fight-details/7f4fb0609c41af8b
 http://ufcstats.com/fight-details/7d7e4e72d08fb331
 http://ufcstats.com/fight-details/7d3927d916d95917
 http://ufcstats.com/fight-details/7d19db5befd8ddde
@@ -239,8 +238,8 @@ http://ufcstats.com/fight-details/526b3c44a3955726
 http://ufcstats.com/fight-details/5216d14d649ed5db
 http://ufcstats.com/fight-details/5116d22da5be2ffa
 http://ufcstats.com/fight-details/509a6dfd520dcb15
-http://ufcstats.com/fight-details/4fb8347a5c424198
 http://ufcstats.com/fight-details/4fac31dde3f19b17
+http://ufcstats.com/fight-details/4fb8347a5c424198
 http://ufcstats.com/fight-details/4e0b7cd687a2eaf7
 http://ufcstats.com/fight-details/4dfc2840c97ffa71
 http://ufcstats.com/fight-details/4d8c89f5dde017da
@@ -273,11 +272,11 @@ http://ufcstats.com/fight-details/3963c77bd1628165
 http://ufcstats.com/fight-details/39376c02e064944e
 http://ufcstats.com/fight-details/381cee4b3af63ade
 http://ufcstats.com/fight-details/3766208fdbc20d32
-http://ufcstats.com/fight-details/36cc34108a238ba3
 http://ufcstats.com/fight-details/36cf2a8849a4a6ff
+http://ufcstats.com/fight-details/36cc34108a238ba3
 http://ufcstats.com/fight-details/3618566df6c6a26e
-http://ufcstats.com/fight-details/34cd2d9b5eddf14f
 http://ufcstats.com/fight-details/34ce39dcc45787c6
+http://ufcstats.com/fight-details/34cd2d9b5eddf14f
 http://ufcstats.com/fight-details/3459dd26c5ceb7d5
 http://ufcstats.com/fight-details/339b8d0fe27e1603
 http://ufcstats.com/fight-details/3286db65cf6fa265
@@ -310,8 +309,8 @@ http://ufcstats.com/fight-details/1ac0a44f1627f05d
 http://ufcstats.com/fight-details/16ba84ab35415c54
 http://ufcstats.com/fight-details/167ef9b08acba0a7
 http://ufcstats.com/fight-details/142123c2446b2582
-http://ufcstats.com/fight-details/12053410a45e4311
 http://ufcstats.com/fight-details/1206dc7d5228f5bd
+http://ufcstats.com/fight-details/12053410a45e4311
 http://ufcstats.com/fight-details/10e689c81935dd40
 http://ufcstats.com/fight-details/109cdaeb21549bcc
 http://ufcstats.com/fight-details/0eadf39171bd7e3e
@@ -319,17 +318,12 @@ http://ufcstats.com/fight-details/0e97df01e0df1a7f
 http://ufcstats.com/fight-details/0da3374a61e7d102
 http://ufcstats.com/fight-details/0c760ef7447f3252
 http://ufcstats.com/fight-details/0c04a9b641f4a3c3
-http://ufcstats.com/fight-details/0c5640433ba44a1b
 http://ufcstats.com/fight-details/0953c5573290719a
 http://ufcstats.com/fight-details/07005006dce71011
 http://ufcstats.com/fight-details/05dab1fe544f0030
 http://ufcstats.com/fight-details/04eb7c9749f08f5b
 http://ufcstats.com/fight-details/04ab1542925032ea
 http://ufcstats.com/fight-details/042ea219e5e46f84
-http://ufcstats.com/fight-details/03df471ba3a9b2e2
-http://ufcstats.com/fight-details/03de7404decde12f
-http://ufcstats.com/fight-details/03d30a534dee8ac5
-http://ufcstats.com/fight-details/03d1758f52e9bb42
 http://ufcstats.com/fight-details/0349606b5b992dec
 http://ufcstats.com/fight-details/0313e2800683dd9d
 http://ufcstats.com/fight-details/024817f9b28943ab
