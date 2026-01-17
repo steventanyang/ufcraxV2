@@ -602,7 +602,7 @@ export default function Recommendations({
   }, 0);
 
   const handleAddFighter = (fighter: Fighter) => {
-    if (selectedFighters.length < 10) {
+    if (selectedFighters.length < 15) {
       setSelectedFighters([...selectedFighters, fighter]);
       setSearchQuery("");
     }
@@ -641,7 +641,7 @@ export default function Recommendations({
           </div>
           <input
             type="text"
-            placeholder="Add fighter (max 10)"
+            placeholder="Add fighter (max 15)"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-[#2a2a2a] text-gray-100 pl-10 pr-4 py-2 rounded-lg border border-gray-700 focus:outline-none"
@@ -653,7 +653,7 @@ export default function Recommendations({
                   key={fighter.name}
                   onClick={() => handleAddFighter(fighter)}
                   className="w-full px-4 py-2 text-left hover:bg-[#333333] text-gray-100"
-                  disabled={selectedFighters.length >= 10}
+                  disabled={selectedFighters.length >= 15}
                 >
                   {fighter.name}
                 </button>
@@ -839,7 +839,7 @@ export default function Recommendations({
                     <button
                       onClick={() => handleAddFighter(fighter)}
                       className="text-gray-100 hover:text-gray-300 text-sm"
-                      disabled={selectedFighters.length >= 10}
+                      disabled={selectedFighters.length >= 15}
                     >
                       Add
                     </button>
