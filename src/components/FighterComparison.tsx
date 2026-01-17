@@ -160,8 +160,8 @@ export default function FighterComparison({
       side === "left" ? filteredFighters1 : filteredFighters2;
 
     return (
-      <div className="p-4">
-        <div className="relative mb-4">
+      <div className={fighter ? "p-2" : ""}>
+        <div className={`relative ${fighter ? "mb-2" : ""}`}>
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
               className="h-5 w-5 text-gray-400"

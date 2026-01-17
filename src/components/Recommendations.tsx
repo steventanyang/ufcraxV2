@@ -366,22 +366,22 @@ function InfoModal({ onClose }: InfoModalProps) {
   );
 }
 
-const calculateValueScore = (fighter: Fighter, multiplier: number = 1.2) => {
-  const raxScore = fighter.value * multiplier;
-  const ownershipPenalty = Math.log10(fighter.ownedPasses + 1);
+// const calculateValueScore = (fighter: Fighter, multiplier: number = 1.2) => {
+//   const raxScore = fighter.value * multiplier;
+//   const ownershipPenalty = Math.log10(fighter.ownedPasses + 1);
 
-  // More aggressive ownership penalty + active bonus
-  const valueScore =
-    (raxScore / Math.pow(ownershipPenalty, 2)) * (fighter.active ? 1.2 : 1);
+//   // More aggressive ownership penalty + active bonus
+//   const valueScore =
+//     (raxScore / Math.pow(ownershipPenalty, 2)) * (fighter.active ? 1.2 : 1);
 
-  return {
-    fighter,
-    valueScore: Math.round(valueScore),
-    raxPerYear: raxScore,
-    ownedPasses: fighter.ownedPasses,
-    multiplier,
-  };
-};
+//   return {
+//     fighter,
+//     valueScore: Math.round(valueScore),
+//     raxPerYear: raxScore,
+//     ownedPasses: fighter.ownedPasses,
+//     multiplier,
+//   };
+// };
 
 // const getTopRecommendations = (
 //   fighters: Fighter[],
@@ -696,6 +696,8 @@ export default function Recommendations({
   const [excludedFighters, setExcludedFighters] = useState<string[]>([]);
   const [showTotalBreakdown, setShowTotalBreakdown] = useState(false);
   const [multiplierSelectorFighter, setMultiplierSelectorFighter] = useState<string | null>(null);
+  const [recommendedMultiplierMap, setRecommendedMultiplierMap] = useState<Record<string, number>>({});
+  const [recommendedMultiplierSelectorFighter, setRecommendedMultiplierSelectorFighter] = useState<string | null>(null);
 
   const conflicts = calculateClaimConflicts(selectedFighters, multiplierMap);
 
@@ -706,11 +708,14 @@ export default function Recommendations({
         !selectedFighters.some((sf) => sf.name === f.name) &&
         !excludedFighters.includes(f.name)
     )
-    .map((fighter) => ({
-      ...fighter,
-      adjustedValue: calculateAdjustedValue(fighter, 1.2, conflicts)
-        .adjustedValue,
-    }))
+    .map((fighter) => {
+      const mult = recommendedMultiplierMap[fighter.name] || 1.2;
+      return {
+        ...fighter,
+        adjustedValue: calculateAdjustedValue(fighter, mult, conflicts).adjustedValue,
+        multiplier: mult,
+      };
+    })
     .sort((a, b) => b.adjustedValue - a.adjustedValue)
     .slice(0, 5);
 
@@ -961,48 +966,55 @@ export default function Recommendations({
             </button>
           </div>
           <div className="space-y-3">
-            {recommendedFighters.map((fighter) => (
+            {recommendedFighters.map((fighter) => {
+              const multiplierInfo = multipliers.find((m) => m.value === fighter.multiplier) || multipliers[0];
+              return (
               <div
                 key={fighter.name}
                 className="flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-[#222222] rounded-lg space-y-2 sm:space-y-0"
               >
-                <div className="flex items-center gap-2">
-                  <OwnedPassesIndicator passes={fighter.ownedPasses} />
-                  <span className="font-medium">{fighter.name}</span>
-                  {fighter.active && (
-                    <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
-                      Active
-                    </span>
-                  )}
-                </div>
-                <div className="flex items-center justify-between sm:justify-end gap-4">
-                  <div className="text-right">
-                    <span className="font-bold text-white">
-                      {Math.round(fighter.adjustedValue)}
-                    </span>
-                    <span className="text-sm text-gray-400 ml-2">
-                      Score: {calculateValueScore(fighter).valueScore}
-                    </span>
-                  </div>
+                <div className="flex flex-col gap-1">
                   <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => handleRefreshRecommendation(fighter.name)}
-                      className="text-gray-400 hover:text-gray-300 p-1"
-                      title="Refresh recommendation"
-                    >
-                      <RefreshIcon />
-                    </button>
-                    <button
-                      onClick={() => handleAddFighter(fighter)}
-                      className="text-gray-100 hover:text-gray-300 text-sm"
-                      disabled={selectedFighters.length >= 15}
-                    >
-                      Add
-                    </button>
+                    <OwnedPassesIndicator passes={fighter.ownedPasses} />
+                    <span className="font-medium">{fighter.name}</span>
+                    {fighter.active && (
+                      <span className="px-2 py-1 text-xs bg-green-900/30 text-green-400 rounded-full">
+                        Active
+                      </span>
+                    )}
                   </div>
+                  <button
+                    onClick={() => setRecommendedMultiplierSelectorFighter(fighter.name)}
+                    className={`flex items-center gap-1 px-2 py-1 rounded text-xs bg-black/40 ml-5 w-fit ${multiplierInfo.color}`}
+                  >
+                    {multiplierInfo.label}
+                    <svg className={`w-3 h-3 ${multiplierInfo.color}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
+                <div className="flex items-center justify-between sm:justify-end gap-3">
+                  <span className={`text-2xl font-bold ${multiplierInfo.color}`}>
+                    {Math.round(fighter.adjustedValue)}
+                  </span>
+                  <button
+                    onClick={() => handleRefreshRecommendation(fighter.name)}
+                    className="px-3 py-1.5 bg-[#333333] hover:bg-[#444444] rounded text-gray-300 text-sm"
+                    title="Refresh recommendation"
+                  >
+                    <RefreshIcon />
+                  </button>
+                  <button
+                    onClick={() => handleAddFighter(fighter)}
+                    className="px-3 py-1.5 bg-[#333333] hover:bg-[#444444] rounded text-gray-300 text-sm font-medium disabled:opacity-50"
+                    disabled={selectedFighters.length >= 15}
+                  >
+                    Add
+                  </button>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
@@ -1033,6 +1045,16 @@ export default function Recommendations({
           currentValue={multiplierMap[multiplierSelectorFighter] || 1.2}
           onSelect={(value) => onMultiplierChange(multiplierSelectorFighter, value)}
           fighterName={multiplierSelectorFighter}
+        />
+      )}
+
+      {recommendedMultiplierSelectorFighter && (
+        <MultiplierSelector
+          isOpen={true}
+          onClose={() => setRecommendedMultiplierSelectorFighter(null)}
+          currentValue={recommendedMultiplierMap[recommendedMultiplierSelectorFighter] || 1.2}
+          onSelect={(value) => setRecommendedMultiplierMap(prev => ({ ...prev, [recommendedMultiplierSelectorFighter]: value }))}
+          fighterName={recommendedMultiplierSelectorFighter}
         />
       )}
     </div>
