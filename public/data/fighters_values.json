@@ -1,18 +1,16 @@
 {
     "AJ Dobson": {
-        "age": 34,
         "id": 3655,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
         "value": "1"
     },
     "AJ Fletcher": {
-        "age": 28,
         "id": 3668,
         "pass_distribution": {
             "3": 0,
@@ -23,8 +21,19 @@
         },
         "value": "1"
     },
+    "Aaron Pico": {
+        "age": 29,
+        "id": 4351,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
     "Aaron Riley": {
-        "age": 45,
         "id": 431,
         "pass_distribution": {
             "3": 0,
@@ -43,9 +52,21 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
-        "value": "1"
+        "value": "3"
+    },
+    "Abdul Rakhman Yakhyaev": {
+        "age": 25,
+        "id": 4372,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
     },
     "Abdul Razak Alhassan": {
         "age": 40,
@@ -57,7 +78,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Abdul-Kareem Al-Selwady": {
         "age": 30,
@@ -83,18 +104,6 @@
         },
         "value": "1"
     },
-    "Abus Magomedov": {
-        "age": 35,
-        "id": 3741,
-        "pass_distribution": {
-            "3": 1,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0
-        },
-        "value": "7"
-    },
     "Adam Fugitt": {
         "age": 37,
         "id": 3921,
@@ -108,7 +117,6 @@
         "value": "2"
     },
     "Adlan Amagov": {
-        "age": 39,
         "id": 1826,
         "pass_distribution": {
             "3": 0,
@@ -129,7 +137,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Adriano Martins": {
         "age": 43,
@@ -141,7 +149,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Aiemann Zahabi": {
         "age": 38,
@@ -153,7 +161,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "12"
     },
     "Ailin Perez": {
         "age": 31,
@@ -165,7 +173,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "30"
+        "value": "39"
     },
     "Akihiro Gono": {
         "age": 51,
@@ -189,7 +197,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "Al Iaquinta": {
         "age": 38,
@@ -201,10 +209,9 @@
             "6": 2,
             "7": 0
         },
-        "value": "4"
+        "value": "11"
     },
     "Alan Baudot": {
-        "age": 37,
         "id": 3604,
         "pass_distribution": {
             "3": 0,
@@ -225,7 +232,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Alan Jouban": {
         "age": 44,
@@ -237,7 +244,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "10"
     },
     "Alan Patrick": {
         "age": 42,
@@ -251,6 +258,18 @@
         },
         "value": "1"
     },
+    "Alden Coria": {
+        "age": 27,
+        "id": 4428,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
+    },
     "Alejandro Perez": {
         "age": 36,
         "id": 2354,
@@ -261,7 +280,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
+    },
+    "Aleksandar Rakic": {
+        "age": 33,
+        "id": 2924,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 2,
+            "7": 0
+        },
+        "value": "9"
     },
     "Aleksander Emelianenko": {
         "age": 44,
@@ -273,7 +304,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
+    },
+    "Aleksandra Albu": {
+        "age": 35,
+        "id": 2120,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Aleksandre Topuria": {
         "age": 29,
@@ -285,7 +328,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "13"
+        "value": "30"
     },
     "Aleksei Oleinik": {
         "age": 48,
@@ -297,10 +340,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "18"
+        "value": "24"
     },
     "Alessandro Costa": {
-        "age": 29,
         "id": 3831,
         "pass_distribution": {
             "3": 0,
@@ -312,7 +354,6 @@
         "value": "1"
     },
     "Alessio Sakara": {
-        "age": 44,
         "id": 448,
         "pass_distribution": {
             "3": 0,
@@ -333,7 +374,7 @@
             "6": 6,
             "7": 6
         },
-        "value": "119"
+        "value": "157"
     },
     "Alex Morono": {
         "age": 35,
@@ -345,7 +386,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "34"
+        "value": "50"
     },
     "Alex Oliveira": {
         "age": 37,
@@ -357,7 +398,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "15"
+        "value": "26"
     },
     "Alex Pereira": {
         "age": 38,
@@ -369,7 +410,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "1866"
+        "value": "2182"
     },
     "Alex Perez": {
         "age": 33,
@@ -381,7 +422,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "7"
     },
     "Alexa Grasso": {
         "age": 32,
@@ -393,7 +434,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "86"
+        "value": "104"
     },
     "Alexander Gustafsson": {
         "age": 39,
@@ -405,19 +446,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "36"
-    },
-    "Alexander Hernandez": {
-        "age": 33,
-        "id": 3058,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 1,
-            "6": 2,
-            "7": 0
-        },
-        "value": "2"
+        "value": "50"
     },
     "Alexander Shlemenko": {
         "age": 41,
@@ -441,7 +470,7 @@
             "6": 6,
             "7": 3
         },
-        "value": "784"
+        "value": "923"
     },
     "Alexander Volkov": {
         "age": 37,
@@ -453,7 +482,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "86"
+        "value": "132"
     },
     "Alexandr Romanov": {
         "age": 35,
@@ -465,7 +494,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "2"
+        "value": "4"
     },
     "Alexandre Pantoja": {
         "age": 35,
@@ -477,7 +506,7 @@
             "6": 5,
             "7": 3
         },
-        "value": "236"
+        "value": "322"
     },
     "Alexia Thainara": {
         "age": 30,
@@ -489,7 +518,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "Alexis Davis": {
         "age": 41,
@@ -501,7 +530,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "6"
+        "value": "10"
     },
     "Alfred Khashakyan": {
         "age": 37,
@@ -516,7 +545,6 @@
         "value": "1"
     },
     "Aliaskhab Khizriev": {
-        "age": 35,
         "id": 3547,
         "pass_distribution": {
             "3": 0,
@@ -526,6 +554,18 @@
             "7": 0
         },
         "value": "1"
+    },
+    "Alibi Idiris": {
+        "age": 31,
+        "id": 4453,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
     },
     "Alice Ardelean": {
         "age": 33,
@@ -539,6 +579,18 @@
         },
         "value": "2"
     },
+    "Alice Pereira": {
+        "age": 20,
+        "id": 4313,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "15"
+    },
     "Alistair Overeem": {
         "age": 45,
         "id": 808,
@@ -549,7 +601,7 @@
             "6": 6,
             "7": 5
         },
-        "value": "1210"
+        "value": "1376"
     },
     "Aljamain Sterling": {
         "age": 36,
@@ -561,7 +613,7 @@
             "6": 4,
             "7": 3
         },
-        "value": "227"
+        "value": "272"
     },
     "Allan Nascimento": {
         "age": 34,
@@ -573,7 +625,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "1"
+        "value": "4"
+    },
+    "Allen Frye Jr.": {
+        "age": 27,
+        "id": 4490,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Alonzo Menifield": {
         "age": 38,
@@ -585,7 +649,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "10"
+        "value": "15"
     },
     "Alvin Hines": {
         "age": 34,
@@ -609,7 +673,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "6"
     },
     "Amanda Nunes": {
         "age": 37,
@@ -621,26 +685,25 @@
             "6": 4,
             "7": 3
         },
-        "value": "140"
+        "value": "181"
     },
-    "Amir Albazi": {
+    "Amanda Ribas": {
         "age": 32,
-        "id": 3478,
+        "id": 2898,
         "pass_distribution": {
-            "3": 1,
-            "4": 0,
-            "5": 1,
+            "3": 0,
+            "4": 2,
+            "5": 2,
             "6": 1,
             "7": 0
         },
-        "value": "10"
+        "value": "14"
     },
     "Amir Sadollah": {
-        "age": 45,
         "id": 416,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
@@ -657,7 +720,7 @@
             "6": 8,
             "7": 4
         },
-        "value": "1505"
+        "value": "1803"
     },
     "Andre Fialho": {
         "age": 31,
@@ -669,7 +732,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Andre Fili": {
         "age": 35,
@@ -681,7 +744,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "33"
+        "value": "56"
     },
     "Andre Lima": {
         "age": 26,
@@ -693,7 +756,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "19"
+        "value": "25"
     },
     "Andre Muniz": {
         "age": 35,
@@ -701,11 +764,11 @@
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Andre Petroski": {
         "age": 34,
@@ -717,7 +780,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "7"
     },
     "Andrea Lee": {
         "age": 36,
@@ -729,7 +792,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Andreas Gustafsson": {
         "age": 34,
@@ -753,13 +816,12 @@
             "6": 9,
             "7": 5
         },
-        "value": "408"
+        "value": "487"
     },
     "Andrew Holbrook": {
-        "age": 39,
         "id": 2585,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -789,7 +851,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "9"
     },
     "Andy Ogle": {
         "age": 36,
@@ -803,6 +865,18 @@
         },
         "value": "1"
     },
+    "Andy Wang": {
+        "age": 48,
+        "id": 334,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
     "Angela Hill": {
         "age": 41,
         "id": 2352,
@@ -813,19 +887,7 @@
             "6": 5,
             "7": 5
         },
-        "value": "55"
-    },
-    "Angga": {
-        "age": 37,
-        "id": 3821,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 0,
-            "6": 0,
-            "7": 0
-        },
-        "value": "6"
+        "value": "86"
     },
     "Anshul Jubli": {
         "age": 31,
@@ -837,7 +899,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
+    },
+    "Ante Delija": {
+        "age": 35,
+        "id": 3602,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "6"
     },
     "Anthony Hernandez": {
         "age": 32,
@@ -849,7 +923,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "31"
+        "value": "66"
     },
     "Anthony Johnson": {
         "age": 41,
@@ -861,19 +935,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "37"
-    },
-    "Anthony Njokuani": {
-        "age": 45,
-        "id": 1080,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 0,
-            "6": 1,
-            "7": 1
-        },
-        "value": "4"
+        "value": "57"
     },
     "Anthony Pettis": {
         "age": 39,
@@ -885,7 +947,7 @@
             "6": 9,
             "7": 2
         },
-        "value": "89"
+        "value": "128"
     },
     "Anthony Rocco Martin": {
         "age": 36,
@@ -897,7 +959,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "7"
+        "value": "10"
     },
     "Anthony Smith": {
         "age": 37,
@@ -909,10 +971,32 @@
             "6": 1,
             "7": 3
         },
-        "value": "82"
+        "value": "105"
+    },
+    "Anton Turkalj": {
+        "id": 3696,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Antoni Hardonk": {
+        "age": 49,
+        "id": 261,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Antonina Shevchenko": {
-        "age": 41,
         "id": 3100,
         "pass_distribution": {
             "3": 0,
@@ -933,7 +1017,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Antonio Rodrigo Nogueira": {
         "age": 49,
@@ -945,7 +1029,7 @@
             "6": 7,
             "7": 4
         },
-        "value": "176"
+        "value": "209"
     },
     "Antonio Schembri": {
         "age": 51,
@@ -969,7 +1053,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "11"
+        "value": "19"
+    },
+    "Antonio Trocoli": {
+        "age": 35,
+        "id": 3321,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Aoriqileng": {
         "age": 32,
@@ -981,7 +1077,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
+    },
+    "Ariane Carnelossi": {
+        "age": 33,
+        "id": 3369,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Ariane Lipski": {
         "age": 31,
@@ -993,10 +1101,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "20"
+        "value": "26"
     },
     "Arjan Bhullar": {
-        "age": 39,
         "id": 2962,
         "pass_distribution": {
             "3": 0,
@@ -1017,7 +1124,7 @@
             "6": 4,
             "7": 0
         },
-        "value": "86"
+        "value": "158"
     },
     "Armen Petrosyan": {
         "age": 35,
@@ -1029,7 +1136,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Arnold Allen": {
         "age": 32,
@@ -1041,7 +1148,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "18"
+        "value": "40"
     },
     "Art Jimmerson": {
         "age": 62,
@@ -1053,7 +1160,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Artem Lobov": {
         "age": 39,
@@ -1091,7 +1198,7 @@
         },
         "value": "5"
     },
-    "Assu Almabayev": {
+    "Asu Almabayev": {
         "age": 32,
         "id": 4008,
         "pass_distribution": {
@@ -1101,7 +1208,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "16"
+        "value": "34"
     },
     "Ateba Gautier": {
         "age": 23,
@@ -1113,7 +1220,18 @@
             "6": 0,
             "7": 0
         },
-        "value": "68"
+        "value": "184"
+    },
+    "Augusto Sakai": {
+        "id": 2554,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Austen Lane": {
         "age": 38,
@@ -1137,7 +1255,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "15"
+        "value": "20"
     },
     "Austin Hubbard": {
         "age": 34,
@@ -1163,6 +1281,30 @@
         },
         "value": "2"
     },
+    "Axel Sola": {
+        "age": 28,
+        "id": 4476,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
+    },
+    "Azamat Bekoev": {
+        "age": 30,
+        "id": 4315,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "8"
+    },
     "Azamat Gashimov": {
         "age": 35,
         "id": 1967,
@@ -1185,7 +1327,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "12"
+        "value": "22"
     },
     "Azat Maksum": {
         "age": 30,
@@ -1197,7 +1339,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "BJ Penn": {
         "age": 47,
@@ -1209,7 +1351,19 @@
             "6": 7,
             "7": 2
         },
-        "value": "133"
+        "value": "168"
+    },
+    "Baisangur Susurkaev": {
+        "age": 25,
+        "id": 4449,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "78"
     },
     "Bas Rutten": {
         "id": 53,
@@ -1220,7 +1374,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Bassil Hafez": {
         "age": 33,
@@ -1235,7 +1389,6 @@
         "value": "1"
     },
     "Batgerel Danaa": {
-        "age": 36,
         "id": 3419,
         "pass_distribution": {
             "3": 0,
@@ -1256,7 +1409,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Belal Muhammad": {
         "age": 37,
@@ -1268,7 +1421,7 @@
             "6": 3,
             "7": 4
         },
-        "value": "175"
+        "value": "212"
     },
     "Ben Askren": {
         "age": 41,
@@ -1280,7 +1433,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "1"
+        "value": "2"
     },
     "Ben Rothwell": {
         "age": 44,
@@ -1292,7 +1445,7 @@
             "6": 5,
             "7": 1
         },
-        "value": "43"
+        "value": "68"
     },
     "Ben Saunders": {
         "age": 42,
@@ -1304,7 +1457,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "7"
     },
     "Benardo Sopaj": {
         "age": 25,
@@ -1316,7 +1469,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Beneil Dariush": {
         "age": 36,
@@ -1328,7 +1481,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "63"
+        "value": "89"
     },
     "Benoit Saint Denis": {
         "age": 30,
@@ -1340,7 +1493,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "65"
+        "value": "96"
     },
     "Benson Henderson": {
         "age": 42,
@@ -1352,7 +1505,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "72"
+        "value": "108"
     },
     "Bethe Correia": {
         "age": 42,
@@ -1364,7 +1517,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
+    },
+    "Bia Mesquita": {
+        "age": 34,
+        "id": 4448,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "5"
     },
     "Bill Algeo": {
         "age": 36,
@@ -1376,7 +1541,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "3"
+        "value": "4"
     },
     "Billy Elekana": {
         "age": 30,
@@ -1388,7 +1553,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Billy Evangelista": {
         "age": 45,
@@ -1424,7 +1589,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "8"
+        "value": "10"
     },
     "Blood Diamond": {
         "age": 37,
@@ -1436,7 +1601,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "4"
     },
     "Bo Nickal": {
         "age": 30,
@@ -1448,7 +1613,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "286"
+        "value": "304"
     },
     "Bob Sapp": {
         "age": 51,
@@ -1472,7 +1637,7 @@
             "6": 4,
             "7": 6
         },
-        "value": "182"
+        "value": "227"
     },
     "Bobby Lashley": {
         "age": 49,
@@ -1484,7 +1649,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Bogdan Grad": {
         "age": 30,
@@ -1508,19 +1673,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
-    },
-    "Bolaji Oki": {
-        "age": 30,
-        "id": 4062,
-        "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 1,
-            "6": 0,
-            "7": 0
-        },
-        "value": "3"
+        "value": "6"
     },
     "Boston Salmon": {
         "age": 35,
@@ -1535,7 +1688,6 @@
         "value": "1"
     },
     "Brad Katona": {
-        "age": 34,
         "id": 3128,
         "pass_distribution": {
             "3": 0,
@@ -1556,10 +1708,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "10"
     },
     "Brad Riddell": {
-        "age": 34,
         "id": 3429,
         "pass_distribution": {
             "3": 0,
@@ -1574,13 +1725,13 @@
         "age": 38,
         "id": 1546,
         "pass_distribution": {
-            "3": 4,
-            "4": 9,
-            "5": 13,
-            "6": 8,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
             "7": 0
         },
-        "value": "60"
+        "value": "87"
     },
     "Brady Hiestand": {
         "age": 26,
@@ -1592,7 +1743,31 @@
             "6": 1,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
+    },
+    "Brando Pericic": {
+        "age": 31,
+        "id": 4374,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
+    },
+    "Brandon Davis": {
+        "age": 35,
+        "id": 2944,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "2"
     },
     "Brandon Moreno": {
         "age": 32,
@@ -1604,7 +1779,7 @@
             "6": 6,
             "7": 4
         },
-        "value": "103"
+        "value": "130"
     },
     "Brandon Royval": {
         "age": 33,
@@ -1616,7 +1791,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "24"
+        "value": "48"
     },
     "Brandon Vera": {
         "age": 48,
@@ -1628,7 +1803,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "5"
+        "value": "11"
+    },
+    "Brendan Allen": {
+        "age": 30,
+        "id": 3333,
+        "pass_distribution": {
+            "3": 3,
+            "4": 7,
+            "5": 7,
+            "6": 5,
+            "7": 2
+        },
+        "value": "61"
     },
     "Brendan Schaub": {
         "age": 42,
@@ -1645,6 +1832,18 @@
     "Brendon Marotte": {
         "age": 30,
         "id": 4157,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Brendson Ribeiro": {
+        "age": 29,
+        "id": 4033,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -1688,7 +1887,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Brian Ortega": {
         "age": 34,
@@ -1700,7 +1899,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "24"
+        "value": "38"
     },
     "Brian Stann": {
         "age": 45,
@@ -1712,7 +1911,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "8"
+        "value": "11"
+    },
+    "Brock Larson": {
+        "age": 48,
+        "id": 311,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Brock Lesnar": {
         "age": 48,
@@ -1724,7 +1935,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "56"
+        "value": "70"
     },
     "Bruna Brasil": {
         "age": 32,
@@ -1748,7 +1959,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "9"
     },
     "Bruno Lopes": {
         "age": 32,
@@ -1767,12 +1978,12 @@
         "id": 3283,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Bryan Barberena": {
         "age": 36,
@@ -1784,7 +1995,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "11"
+        "value": "24"
     },
     "Bryan Battle": {
         "age": 31,
@@ -1796,7 +2007,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "40"
+        "value": "46"
     },
     "Bryan Caraway": {
         "age": 41,
@@ -1808,7 +2019,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Bryce Mitchell": {
         "age": 31,
@@ -1820,7 +2031,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "53"
+        "value": "68"
     },
     "Buddy Roberts": {
         "age": 43,
@@ -1844,7 +2055,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "7"
+        "value": "12"
     },
     "CM Punk": {
         "age": 47,
@@ -1856,7 +2067,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "51"
+        "value": "61"
     },
     "Cain Velasquez": {
         "age": 43,
@@ -1868,7 +2079,7 @@
             "6": 6,
             "7": 2
         },
-        "value": "65"
+        "value": "96"
     },
     "Caio Borralho": {
         "age": 33,
@@ -1880,10 +2091,9 @@
             "6": 3,
             "7": 1
         },
-        "value": "103"
+        "value": "137"
     },
     "Caio Machado": {
-        "age": 31,
         "id": 3834,
         "pass_distribution": {
             "3": 0,
@@ -1894,17 +2104,29 @@
         },
         "value": "1"
     },
-    "Cameron Saaiman": {
-        "age": 25,
-        "id": 3900,
+    "Calvin Kattar": {
+        "age": 37,
+        "id": 2959,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0
+        },
+        "value": "19"
+    },
+    "Cam Rowston": {
+        "age": 31,
+        "id": 4035,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
-            "7": 2
+            "7": 0
         },
-        "value": "8"
+        "value": "1"
     },
     "Cameron Smotherman": {
         "age": 28,
@@ -1940,7 +2162,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "5"
+        "value": "10"
     },
     "Carli Judice": {
         "age": 26,
@@ -1951,6 +2173,18 @@
             "5": 1,
             "6": 0,
             "7": 1
+        },
+        "value": "4"
+    },
+    "Carlo Prater": {
+        "age": 44,
+        "id": 1099,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
         "value": "1"
     },
@@ -1964,7 +2198,18 @@
             "6": 4,
             "7": 1
         },
-        "value": "92"
+        "value": "131"
+    },
+    "Carlos Hernandez": {
+        "id": 3675,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Carlos Leal": {
         "age": 31,
@@ -1988,7 +2233,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "Carlos Prates": {
         "age": 32,
@@ -2000,7 +2245,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "131"
+        "value": "292"
     },
     "Carlos Ulberg": {
         "age": 35,
@@ -2012,7 +2257,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "27"
+        "value": "36"
     },
     "Carlos Vera": {
         "age": 38,
@@ -2029,6 +2274,18 @@
     "Casey Kenney": {
         "age": 34,
         "id": 2922,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cat Zingano": {
+        "age": 43,
+        "id": 2017,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -2060,7 +2317,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
+    },
+    "Cezary Oleksiejczuk": {
+        "age": 26,
+        "id": 4375,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
     },
     "Chad Anheliger": {
         "age": 39,
@@ -2096,7 +2365,7 @@
             "6": 3,
             "7": 2
         },
-        "value": "21"
+        "value": "33"
     },
     "Chael Sonnen": {
         "age": 48,
@@ -2108,7 +2377,7 @@
             "6": 1,
             "7": 4
         },
-        "value": "74"
+        "value": "89"
     },
     "Chan Sung Jung": {
         "age": 38,
@@ -2120,7 +2389,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "55"
+        "value": "63"
     },
     "Chan-Mi Jeon": {
         "age": 28,
@@ -2132,7 +2401,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "ChangHo Lee": {
         "age": 31,
@@ -2144,7 +2413,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "9"
     },
     "Charalampos Grigoriou": {
         "age": 33,
@@ -2159,12 +2428,11 @@
         "value": "1"
     },
     "Charles Bennett": {
-        "age": 46,
         "id": 686,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -2180,7 +2448,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "20"
+        "value": "38"
     },
     "Charles Oliveira": {
         "age": 36,
@@ -2192,7 +2460,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "1664"
+        "value": "1976"
     },
     "Charles Radtke": {
         "age": 35,
@@ -2204,7 +2472,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Charles Rosa": {
         "age": 39,
@@ -2216,10 +2484,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Charlie Campbell": {
-        "age": 30,
         "id": 3835,
         "pass_distribution": {
             "3": 0,
@@ -2240,7 +2507,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Chase Hooper": {
         "age": 26,
@@ -2252,7 +2519,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "99"
+        "value": "144"
     },
     "Cheick Kongo": {
         "age": 50,
@@ -2264,7 +2531,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "22"
+        "value": "29"
     },
     "Chepe Mariscal": {
         "age": 33,
@@ -2276,7 +2543,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Cheyanne Vlismas": {
         "age": 30,
@@ -2300,7 +2567,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "6"
+    },
+    "Chris Barnett": {
+        "age": 39,
+        "id": 3678,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "12"
     },
     "Chris Brown": {
         "id": 1924,
@@ -2323,7 +2602,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "10"
     },
     "Chris Cariaso": {
         "age": 44,
@@ -2335,7 +2614,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "14"
     },
     "Chris Curtis": {
         "age": 38,
@@ -2347,7 +2626,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "12"
+        "value": "16"
     },
     "Chris Duncan": {
         "age": 32,
@@ -2359,7 +2638,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "13"
     },
     "Chris Gutierrez": {
         "age": 34,
@@ -2371,7 +2650,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "11"
+        "value": "17"
     },
     "Chris Leben": {
         "age": 45,
@@ -2383,7 +2662,7 @@
             "6": 0,
             "7": 3
         },
-        "value": "36"
+        "value": "55"
     },
     "Chris Lytle": {
         "age": 51,
@@ -2395,10 +2674,21 @@
             "6": 4,
             "7": 3
         },
-        "value": "19"
+        "value": "33"
+    },
+    "Chris Padilla": {
+        "age": 30,
+        "id": 4192,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "17"
     },
     "Chris Price": {
-        "age": 43,
         "id": 495,
         "pass_distribution": {
             "3": 0,
@@ -2443,7 +2733,7 @@
             "6": 3,
             "7": 2
         },
-        "value": "24"
+        "value": "43"
     },
     "Christian Leroy Duncan": {
         "age": 30,
@@ -2455,7 +2745,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "10"
     },
     "Christian Rodriguez": {
         "age": 28,
@@ -2467,7 +2757,30 @@
             "6": 1,
             "7": 2
         },
-        "value": "5"
+        "value": "11"
+    },
+    "Christian Uflacker": {
+        "id": 1423,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Christos Giagos": {
+        "age": 36,
+        "id": 2322,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "1"
     },
     "Chuck Liddell": {
         "age": 56,
@@ -2479,7 +2792,7 @@
             "6": 7,
             "7": 2
         },
-        "value": "104"
+        "value": "132"
     },
     "Ciryl Gane": {
         "age": 35,
@@ -2491,7 +2804,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "44"
+        "value": "77"
     },
     "Claudia Gadelha": {
         "age": 37,
@@ -2503,7 +2816,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Claudio Puelles": {
         "age": 29,
@@ -2527,7 +2840,7 @@
             "6": 16,
             "7": 3
         },
-        "value": "205"
+        "value": "265"
     },
     "Clayton Carpenter": {
         "age": 29,
@@ -2539,11 +2852,22 @@
             "6": 0,
             "7": 1
         },
-        "value": "2"
+        "value": "3"
     },
     "Clint Hester": {
         "age": 39,
         "id": 2061,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cody Brundage": {
+        "id": 3523,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -2575,7 +2899,7 @@
             "6": 2,
             "7": 4
         },
-        "value": "44"
+        "value": "57"
     },
     "Cody Gibson": {
         "age": 38,
@@ -2587,7 +2911,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Cody Haddon": {
         "age": 27,
@@ -2599,10 +2923,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Cody Stamann": {
-        "age": 36,
         "id": 2930,
         "pass_distribution": {
             "3": 0,
@@ -2623,7 +2946,7 @@
             "6": 4,
             "7": 4
         },
-        "value": "68"
+        "value": "79"
     },
     "Colby Thicknesse": {
         "age": 26,
@@ -2635,7 +2958,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "8"
     },
     "Cole Miller": {
         "age": 41,
@@ -2647,7 +2970,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "14"
     },
     "Connor Matthews": {
         "age": 33,
@@ -2671,7 +2994,18 @@
             "6": 0,
             "7": 0
         },
-        "value": "763"
+        "value": "849"
+    },
+    "Constantinos Philippou": {
+        "id": 1781,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Corey Anderson": {
         "age": 36,
@@ -2683,7 +3017,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "11"
+        "value": "14"
     },
     "Cortavious Romious": {
         "age": 32,
@@ -2707,7 +3041,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "5"
     },
     "Cory McKenna": {
         "age": 26,
@@ -2719,7 +3053,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Cory Sandhagen": {
         "age": 33,
@@ -2731,7 +3065,7 @@
             "6": 3,
             "7": 3
         },
-        "value": "62"
+        "value": "105"
     },
     "Court McGee": {
         "age": 41,
@@ -2743,7 +3077,31 @@
             "6": 3,
             "7": 3
         },
-        "value": "30"
+        "value": "42"
+    },
+    "Crafton Wallace": {
+        "age": 50,
+        "id": 176,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Cristian Quinonez": {
+        "age": 29,
+        "id": 3728,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
     },
     "Cristiane Justino": {
         "age": 40,
@@ -2755,7 +3113,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "47"
+        "value": "74"
     },
     "Cub Swanson": {
         "age": 42,
@@ -2767,7 +3125,7 @@
             "6": 5,
             "7": 1
         },
-        "value": "260"
+        "value": "324"
     },
     "Cung Le": {
         "age": 53,
@@ -2779,7 +3137,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "6"
     },
     "Curtis Blaydes": {
         "age": 34,
@@ -2791,7 +3149,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "96"
+        "value": "113"
     },
     "Curtis Millender": {
         "age": 38,
@@ -2815,7 +3173,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Da'Mon Blackshear": {
         "age": 31,
@@ -2827,7 +3185,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "8"
+        "value": "9"
     },
     "DaMarques Johnson": {
         "age": 43,
@@ -2875,10 +3233,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Dan Hardy": {
-        "age": 43,
         "id": 492,
         "pass_distribution": {
             "3": 0,
@@ -2899,7 +3256,7 @@
             "6": 10,
             "7": 7
         },
-        "value": "310"
+        "value": "380"
     },
     "Dan Hooker": {
         "age": 35,
@@ -2911,7 +3268,7 @@
             "6": 6,
             "7": 3
         },
-        "value": "116"
+        "value": "154"
     },
     "Dan Ige": {
         "age": 34,
@@ -2923,17 +3280,16 @@
             "6": 8,
             "7": 1
         },
-        "value": "48"
+        "value": "65"
     },
     "Dan Miller": {
-        "age": 44,
         "id": 445,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
         "value": "1"
     },
@@ -2947,7 +3303,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "21"
+        "value": "22"
     },
     "Daniel Cormier": {
         "age": 46,
@@ -2959,11 +3315,10 @@
             "6": 8,
             "7": 1
         },
-        "value": "311"
+        "value": "381"
     },
-    "Daniel Marcos": {
-        "age": 32,
-        "id": 3935,
+    "Daniel Lacerda": {
+        "id": 3736,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -2971,7 +3326,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "1"
     },
     "Daniel Pineda": {
         "age": 40,
@@ -2995,7 +3350,7 @@
             "6": 4,
             "7": 0
         },
-        "value": "9"
+        "value": "24"
     },
     "Daniel Santos": {
         "age": 30,
@@ -3007,7 +3362,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Daniel Zellhuber": {
         "age": 26,
@@ -3019,7 +3374,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "16"
+        "value": "21"
     },
     "Danielle Taylor": {
         "age": 36,
@@ -3033,17 +3388,17 @@
         },
         "value": "2"
     },
-    "Danny Barlow": {
-        "age": 30,
-        "id": 4121,
+    "Daniil Donchenko": {
+        "age": 24,
+        "id": 4458,
         "pass_distribution": {
-            "3": 3,
-            "4": 0,
+            "3": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "4"
     },
     "Danny Castillo": {
         "age": 46,
@@ -3055,7 +3410,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "17"
+        "value": "23"
     },
     "Danny Roberts": {
         "age": 38,
@@ -3067,7 +3422,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Danny Silva": {
         "age": 28,
@@ -3079,7 +3434,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Daria Zhelezniakova": {
         "age": 30,
@@ -3103,7 +3458,7 @@
             "6": 5,
             "7": 7
         },
-        "value": "95"
+        "value": "135"
     },
     "Darren Stewart": {
         "age": 35,
@@ -3115,7 +3470,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
+    },
+    "Darren Till": {
+        "age": 33,
+        "id": 2544,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "12"
     },
     "Dave Beneteau": {
         "id": 82,
@@ -3138,7 +3505,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Davey Grant": {
         "age": 40,
@@ -3150,7 +3517,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "5"
+        "value": "19"
     },
     "David Abbott": {
         "id": 54,
@@ -3161,19 +3528,42 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "David Loiseau": {
-        "age": 46,
         "id": 393,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
         "value": "1"
+    },
+    "David Martinez": {
+        "age": 27,
+        "id": 4295,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "13"
+    },
+    "David Onama": {
+        "age": 31,
+        "id": 3773,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "18"
     },
     "David Teymur": {
         "age": 36,
@@ -3197,7 +3587,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "60"
+        "value": "87"
     },
     "Demetrious Johnson": {
         "age": 39,
@@ -3209,7 +3599,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "391"
+        "value": "493"
     },
     "Demian Maia": {
         "age": 48,
@@ -3221,7 +3611,7 @@
             "6": 4,
             "7": 4
         },
-        "value": "158"
+        "value": "190"
     },
     "Denis Kang": {
         "age": 48,
@@ -3233,7 +3623,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "1"
+        "value": "2"
     },
     "Denise Gomes": {
         "age": 26,
@@ -3245,7 +3635,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "Dennis Bermudez": {
         "age": 39,
@@ -3257,15 +3647,26 @@
             "6": 1,
             "7": 2
         },
-        "value": "9"
+        "value": "15"
     },
     "Dennis Buzukja": {
-        "age": 28,
         "id": 3526,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Dennis Hallman": {
+        "age": 50,
+        "id": 250,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -3281,7 +3682,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "17"
+        "value": "31"
+    },
+    "Denzel Freeman": {
+        "age": 34,
+        "id": 4493,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
     },
     "Derek Bohi": {
         "id": 2564,
@@ -3304,7 +3717,7 @@
             "6": 6,
             "7": 0
         },
-        "value": "58"
+        "value": "76"
     },
     "Derrick Lewis": {
         "age": 40,
@@ -3316,7 +3729,7 @@
             "6": 6,
             "7": 6
         },
-        "value": "462"
+        "value": "561"
     },
     "Desmond Green": {
         "age": 36,
@@ -3340,7 +3753,18 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "11"
+    },
+    "Devonte Smith": {
+        "id": 3153,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Dhiego Lima": {
         "age": 36,
@@ -3364,7 +3788,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "7"
+        "value": "13"
     },
     "Diego Brandao": {
         "age": 38,
@@ -3376,7 +3800,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Diego Ferreira": {
         "age": 41,
@@ -3388,7 +3812,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "6"
+        "value": "14"
     },
     "Diego Lopes": {
         "age": 31,
@@ -3400,7 +3824,7 @@
             "6": 3,
             "7": 2
         },
-        "value": "223"
+        "value": "325"
     },
     "Diego Sanchez": {
         "age": 44,
@@ -3412,7 +3836,7 @@
             "6": 7,
             "7": 6
         },
-        "value": "139"
+        "value": "164"
     },
     "Din Thomas": {
         "age": 49,
@@ -3472,17 +3896,29 @@
             "6": 7,
             "7": 2
         },
-        "value": "60"
+        "value": "89"
+    },
+    "Dominick Reyes": {
+        "age": 36,
+        "id": 2907,
+        "pass_distribution": {
+            "3": 2,
+            "4": 2,
+            "5": 4,
+            "6": 0,
+            "7": 3
+        },
+        "value": "25"
     },
     "Dominique Steele": {
         "age": 38,
         "id": 1875,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
         "value": "2"
     },
@@ -3496,7 +3932,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "22"
+        "value": "28"
     },
     "Don Shainis": {
         "age": 35,
@@ -3510,6 +3946,18 @@
         },
         "value": "1"
     },
+    "Don'Tale Mayes": {
+        "age": 34,
+        "id": 2997,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
+    },
     "Donald Cerrone": {
         "age": 42,
         "id": 1076,
@@ -3520,7 +3968,7 @@
             "6": 10,
             "7": 2
         },
-        "value": "661"
+        "value": "775"
     },
     "Dong Hyun Kim": {
         "age": 44,
@@ -3532,7 +3980,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "17"
+        "value": "20"
+    },
+    "DongHun Choi": {
+        "age": 27,
+        "id": 4166,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Dongi Yang": {
         "age": 41,
@@ -3541,10 +4001,45 @@
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
         "value": "2"
+    },
+    "Donte Johnson": {
+        "age": 26,
+        "id": 4474,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "8"
+    },
+    "Dooho Choi": {
+        "age": 34,
+        "id": 2198,
+        "pass_distribution": {
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "26"
+    },
+    "Dos Caras Jr.": {
+        "id": 692,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Douglas Silva de Andrade": {
         "age": 40,
@@ -3556,7 +4051,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Drakkar Klose": {
         "age": 37,
@@ -3568,7 +4063,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "1"
+        "value": "5"
     },
     "Drew Dober": {
         "age": 37,
@@ -3580,7 +4075,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "35"
+        "value": "61"
     },
     "Dricus Du Plessis": {
         "age": 32,
@@ -3592,7 +4087,7 @@
             "6": 6,
             "7": 0
         },
-        "value": "289"
+        "value": "391"
     },
     "Duane Ludwig": {
         "age": 47,
@@ -3604,7 +4099,18 @@
             "6": 2,
             "7": 0
         },
-        "value": "7"
+        "value": "12"
+    },
+    "Dusko Todorovic": {
+        "id": 3406,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Dustin Jacoby": {
         "age": 37,
@@ -3616,7 +4122,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "8"
+        "value": "23"
     },
     "Dustin Ortiz": {
         "age": 37,
@@ -3628,7 +4134,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "8"
     },
     "Dustin Poirier": {
         "age": 37,
@@ -3640,15 +4146,14 @@
             "6": 5,
             "7": 1
         },
-        "value": "838"
+        "value": "909"
     },
     "Dustin Stoltzfus": {
-        "age": 34,
         "id": 3504,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -3676,7 +4181,7 @@
             "6": 5,
             "7": 4
         },
-        "value": "45"
+        "value": "63"
     },
     "Eddie Alvarez": {
         "age": 42,
@@ -3688,7 +4193,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "19"
+        "value": "29"
     },
     "Eddie Wineland": {
         "age": 41,
@@ -3700,7 +4205,19 @@
             "6": 1,
             "7": 3
         },
-        "value": "27"
+        "value": "37"
+    },
+    "Edgar Chairez": {
+        "age": 29,
+        "id": 3906,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
     },
     "Edmen Shahbazyan": {
         "age": 28,
@@ -3712,7 +4229,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "10"
+        "value": "19"
     },
     "Edson Barboza": {
         "age": 40,
@@ -3724,7 +4241,7 @@
             "6": 5,
             "7": 6
         },
-        "value": "160"
+        "value": "195"
     },
     "Eduarda Moura": {
         "age": 31,
@@ -3739,7 +4256,6 @@
         "value": "1"
     },
     "Eduardo Neves": {
-        "age": 25,
         "id": 3842,
         "pass_distribution": {
             "3": 0,
@@ -3751,7 +4267,6 @@
         "value": "1"
     },
     "Eldo Xavier Dias": {
-        "age": 61,
         "id": 40,
         "pass_distribution": {
             "3": 0,
@@ -3772,19 +4287,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "6"
     },
-    "Elijah Smith": {
-        "age": 23,
-        "id": 4291,
+    "Elizeu Zaleski dos Santos": {
+        "age": 39,
+        "id": 2508,
         "pass_distribution": {
-            "3": 3,
-            "4": 3,
-            "5": 2,
+            "3": 4,
+            "4": 2,
+            "5": 4,
             "6": 0,
-            "7": 0
+            "7": 1
         },
-        "value": "19"
+        "value": "32"
     },
     "Elves Brener": {
         "age": 28,
@@ -3808,7 +4323,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Emmanuel Yarborough": {
         "age": 65,
@@ -3835,16 +4350,38 @@
         "value": "2"
     },
     "Eric Esch": {
-        "age": 57,
         "id": 708,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
         "value": "1"
+    },
+    "Eric McConico": {
+        "id": 4321,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Eric Nolan": {
+        "age": 28,
+        "id": 4461,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
     },
     "Erick Silva": {
         "age": 41,
@@ -3868,7 +4405,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "6"
     },
     "Erin Blanchfield": {
         "age": 26,
@@ -3880,7 +4417,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "42"
+        "value": "53"
     },
     "Ernesta Kareckaite": {
         "age": 27,
@@ -3894,18 +4431,6 @@
         },
         "value": "3"
     },
-    "Eryk Anders": {
-        "age": 38,
-        "id": 2954,
-        "pass_distribution": {
-            "3": 0,
-            "4": 3,
-            "5": 2,
-            "6": 0,
-            "7": 1
-        },
-        "value": "12"
-    },
     "Esteban Ribovics": {
         "age": 29,
         "id": 3845,
@@ -3916,7 +4441,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "18"
+        "value": "26"
     },
     "Evan Dunham": {
         "age": 44,
@@ -3928,17 +4453,16 @@
             "6": 1,
             "7": 1
         },
-        "value": "10"
+        "value": "19"
     },
     "Evan Elder": {
-        "age": 28,
         "id": 3787,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
         "value": "1"
     },
@@ -3952,10 +4476,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "8"
+        "value": "13"
     },
     "Evangelista Santos": {
-        "age": 48,
         "id": 824,
         "pass_distribution": {
             "3": 0,
@@ -3967,12 +4490,11 @@
         "value": "1"
     },
     "Fabio Maldonado": {
-        "age": 45,
         "id": 1663,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -3988,7 +4510,7 @@
             "6": 15,
             "7": 2
         },
-        "value": "276"
+        "value": "326"
     },
     "Fares Ziam": {
         "age": 28,
@@ -4000,7 +4522,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "8"
+        "value": "18"
     },
     "Farid Basharat": {
         "age": 28,
@@ -4012,19 +4534,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "3"
-    },
-    "Fatima Kline": {
-        "age": 25,
-        "id": 4249,
-        "pass_distribution": {
-            "3": 1,
-            "4": 1,
-            "5": 1,
-            "6": 1,
-            "7": 0
-        },
-        "value": "4"
+        "value": "12"
     },
     "Fedor Emelianenko": {
         "age": 49,
@@ -4036,7 +4546,7 @@
             "6": 9,
             "7": 0
         },
-        "value": "104"
+        "value": "119"
     },
     "Felice Herrig": {
         "age": 41,
@@ -4054,13 +4564,13 @@
         "age": 27,
         "id": 4241,
         "pass_distribution": {
-            "3": 0,
+            "3": 2,
             "4": 0,
-            "5": 0,
+            "5": 2,
             "6": 0,
-            "7": 0
+            "7": 1
         },
-        "value": "22"
+        "value": "23"
     },
     "Felipe dos Santos": {
         "age": 25,
@@ -4072,7 +4582,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "6"
+        "value": "9"
     },
     "Fernando Padilla": {
         "age": 29,
@@ -4096,10 +4606,20 @@
             "6": 3,
             "7": 0
         },
-        "value": "24"
+        "value": "34"
+    },
+    "Francis Carmont": {
+        "id": 1883,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Francis Marshall": {
-        "age": 26,
         "id": 3847,
         "pass_distribution": {
             "3": 0,
@@ -4120,19 +4640,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "75"
-    },
-    "Francisco Prado": {
-        "age": 23,
-        "id": 3965,
-        "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 2,
-            "6": 1,
-            "7": 0
-        },
-        "value": "9"
+        "value": "96"
     },
     "Francisco Trinaldo": {
         "age": 47,
@@ -4144,7 +4652,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "58"
+        "value": "83"
     },
     "Frank Mir": {
         "age": 46,
@@ -4156,7 +4664,7 @@
             "6": 6,
             "7": 4
         },
-        "value": "62"
+        "value": "85"
     },
     "Frank Shamrock": {
         "age": 53,
@@ -4168,7 +4676,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "6"
+        "value": "7"
     },
     "Frank Trigg": {
         "age": 53,
@@ -4192,7 +4700,7 @@
             "6": 14,
             "7": 6
         },
-        "value": "245"
+        "value": "297"
     },
     "Gabriel Benitez": {
         "age": 37,
@@ -4204,19 +4712,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
-    },
-    "Gabriel Bonfim": {
-        "age": 28,
-        "id": 3908,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 1,
-            "6": 0,
-            "7": 1
-        },
-        "value": "3"
+        "value": "8"
     },
     "Gabriel Gonzaga": {
         "age": 46,
@@ -4228,7 +4724,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "23"
+        "value": "40"
     },
     "Gabriel Santos": {
         "age": 29,
@@ -4252,7 +4748,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Gary Goodridge": {
         "age": 60,
@@ -4264,7 +4760,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "25"
+        "value": "36"
     },
     "Gaston Bolanos": {
         "age": 33,
@@ -4294,13 +4790,13 @@
         "age": 40,
         "id": 786,
         "pass_distribution": {
-            "3": 64,
+            "3": 65,
             "4": 51,
             "5": 43,
             "6": 10,
             "7": 3
         },
-        "value": "477"
+        "value": "563"
     },
     "Geoff Neal": {
         "age": 35,
@@ -4312,7 +4808,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "10"
+        "value": "18"
     },
     "George Bush": {
         "id": 1491,
@@ -4323,19 +4819,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "18"
+        "value": "28"
     },
     "George Roop": {
         "age": 44,
         "id": 454,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
-            "5": 1,
+            "4": 0,
+            "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "George Sotiropoulos": {
         "age": 48,
@@ -4359,7 +4855,19 @@
             "6": 3,
             "7": 2
         },
-        "value": "869"
+        "value": "979"
+    },
+    "Gerald Meerschaert": {
+        "age": 38,
+        "id": 2844,
+        "pass_distribution": {
+            "3": 1,
+            "4": 6,
+            "5": 8,
+            "6": 4,
+            "7": 2
+        },
+        "value": "46"
     },
     "Gerard Gordeau": {
         "age": 66,
@@ -4383,7 +4891,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "6"
     },
     "Gian Villante": {
         "age": 40,
@@ -4395,7 +4903,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "7"
+        "value": "14"
     },
     "Giga Chikadze": {
         "age": 37,
@@ -4407,7 +4915,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "7"
+        "value": "11"
     },
     "Gilbert Burns": {
         "age": 39,
@@ -4419,7 +4927,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "73"
+        "value": "96"
     },
     "Gilbert Melendez": {
         "age": 43,
@@ -4431,7 +4939,18 @@
             "6": 9,
             "7": 3
         },
-        "value": "149"
+        "value": "174"
+    },
+    "Gilbert Urbina": {
+        "id": 3750,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Gillian Robertson": {
         "age": 30,
@@ -4443,7 +4962,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "28"
+        "value": "43"
     },
     "Gina Carano": {
         "age": 43,
@@ -4455,7 +4974,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Gleison Tibau": {
         "age": 42,
@@ -4467,10 +4986,9 @@
             "6": 3,
             "7": 2
         },
-        "value": "43"
+        "value": "62"
     },
     "Gloria de Paula": {
-        "age": 30,
         "id": 3557,
         "pass_distribution": {
             "3": 0,
@@ -4491,7 +5009,19 @@
             "6": 6,
             "7": 6
         },
-        "value": "127"
+        "value": "152"
+    },
+    "Grant Dawson": {
+        "age": 31,
+        "id": 2981,
+        "pass_distribution": {
+            "3": 2,
+            "4": 3,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "33"
     },
     "Gray Maynard": {
         "age": 46,
@@ -4503,7 +5033,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "5"
+        "value": "14"
     },
     "Greg Hardy": {
         "age": 37,
@@ -4515,7 +5045,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Gregor Gillespie": {
         "age": 39,
@@ -4539,7 +5069,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "16"
+        "value": "30"
+    },
+    "Guilherme Pat": {
+        "age": 31,
+        "id": 4391,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Gunnar Nelson": {
         "age": 37,
@@ -4575,7 +5117,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "5"
+        "value": "6"
     },
     "Hakeem Dawodu": {
         "age": 34,
@@ -4587,7 +5129,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Hamdy Abdelwahab": {
         "age": 33,
@@ -4599,14 +5141,14 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Hannah Cifers": {
         "age": 33,
         "id": 3208,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
@@ -4623,7 +5165,30 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
+    },
+    "Harry Hardwick": {
+        "age": 31,
+        "id": 4481,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Harry Hunsucker": {
+        "id": 3619,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Hayato Sakurai": {
         "age": 50,
@@ -4635,7 +5200,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "15"
+        "value": "23"
     },
     "Heath Herring": {
         "age": 47,
@@ -4647,7 +5212,7 @@
             "6": 1,
             "7": 4
         },
-        "value": "25"
+        "value": "35"
     },
     "Hector Lombard": {
         "age": 47,
@@ -4671,7 +5236,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "35"
+        "value": "59"
     },
     "Hermes Franca": {
         "age": 51,
@@ -4695,7 +5260,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Hidehiko Yoshida": {
         "age": 56,
@@ -4707,7 +5272,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Hideo Tokoro": {
         "age": 48,
@@ -4731,7 +5296,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "9"
     },
     "Holly Holm": {
         "age": 44,
@@ -4743,7 +5308,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "14"
+        "value": "28"
     },
     "Hyder Amil": {
         "age": 35,
@@ -4755,7 +5320,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "12"
+        "value": "16"
     },
     "HyunSung Park": {
         "age": 30,
@@ -4767,7 +5332,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "19"
+        "value": "23"
     },
     "Ian Garry": {
         "age": 28,
@@ -4779,7 +5344,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "136"
+        "value": "188"
     },
     "Iasmin Lucindo": {
         "age": 24,
@@ -4791,7 +5356,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "8"
+        "value": "19"
     },
     "Ibo Aslan": {
         "age": 29,
@@ -4803,7 +5368,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "16"
+        "value": "19"
     },
     "Ignacio Bahamondes": {
         "age": 28,
@@ -4815,7 +5380,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "45"
+        "value": "56"
     },
     "Igor Da Silva": {
         "age": 22,
@@ -4851,7 +5416,7 @@
             "6": 2,
             "7": 5
         },
-        "value": "52"
+        "value": "70"
     },
     "Ikram Aliskerov": {
         "age": 33,
@@ -4875,7 +5440,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "39"
+        "value": "52"
     },
     "Ildemar Alcantara": {
         "age": 43,
@@ -4899,7 +5464,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "1613"
+        "value": "1914"
     },
     "Ilir Latifi": {
         "age": 43,
@@ -4911,10 +5476,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "5"
+        "value": "6"
     },
     "Impa Kasanganay": {
-        "age": 32,
         "id": 3409,
         "pass_distribution": {
             "3": 0,
@@ -4925,17 +5489,41 @@
         },
         "value": "1"
     },
-    "Irene Aldana": {
-        "age": 37,
-        "id": 2843,
+    "Ion Cutelaba": {
+        "age": 32,
+        "id": 2765,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
+            "4": 3,
+            "5": 1,
+            "6": 1,
+            "7": 1
+        },
+        "value": "16"
+    },
+    "Isaac Dulgarian": {
+        "age": 29,
+        "id": 3958,
+        "pass_distribution": {
+            "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "1"
+    },
+    "Isaac Thomson": {
+        "age": 23,
+        "id": 4500,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
     },
     "Islam Dulatov": {
         "age": 27,
@@ -4947,7 +5535,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "34"
+        "value": "43"
     },
     "Islam Makhachev": {
         "age": 34,
@@ -4959,7 +5547,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "1649"
+        "value": "2164"
     },
     "Ismael Bonfim": {
         "age": 30,
@@ -4973,6 +5561,18 @@
         },
         "value": "2"
     },
+    "Ismail Naurdiev": {
+        "age": 29,
+        "id": 3253,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Israel Adesanya": {
         "age": 36,
         "id": 3051,
@@ -4983,7 +5583,7 @@
             "6": 7,
             "7": 1
         },
-        "value": "1336"
+        "value": "1425"
     },
     "Iuri Alcantara": {
         "age": 45,
@@ -4995,7 +5595,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "17"
+        "value": "23"
     },
     "Ivan Salaverry": {
         "age": 55,
@@ -5021,6 +5621,18 @@
         },
         "value": "2"
     },
+    "Iwo Baraniewski": {
+        "age": 27,
+        "id": 4394,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
     "JJ Aldrich": {
         "age": 33,
         "id": 2848,
@@ -5031,7 +5643,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "6"
+        "value": "11"
     },
     "Jacare Souza": {
         "age": 46,
@@ -5043,7 +5655,7 @@
             "6": 4,
             "7": 3
         },
-        "value": "101"
+        "value": "123"
     },
     "Jack Della Maddalena": {
         "age": 29,
@@ -5055,7 +5667,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "144"
+        "value": "231"
     },
     "Jack Hermansson": {
         "age": 37,
@@ -5067,7 +5679,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "31"
+        "value": "46"
+    },
+    "Jack Jenkins": {
+        "age": 32,
+        "id": 3928,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 4,
+            "6": 1,
+            "7": 0
+        },
+        "value": "20"
     },
     "Jack Shore": {
         "age": 30,
@@ -5079,7 +5703,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Jackson McVey": {
         "age": 26,
@@ -5103,7 +5727,31 @@
             "6": 0,
             "7": 0
         },
-        "value": "37"
+        "value": "43"
+    },
+    "Jacqueline Cavalcanti": {
+        "age": 28,
+        "id": 4090,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 2
+        },
+        "value": "10"
+    },
+    "Jae Hyun Park": {
+        "age": 24,
+        "id": 4132,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Jafel Filho": {
         "age": 32,
@@ -5115,7 +5763,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Jai Herbert": {
         "age": 37,
@@ -5139,7 +5787,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "32"
+        "value": "37"
     },
     "Jairzinho Rozenstruik": {
         "age": 37,
@@ -5151,7 +5799,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "20"
+        "value": "32"
     },
     "Jake Ellenberger": {
         "age": 40,
@@ -5163,7 +5811,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "6"
+        "value": "12"
     },
     "Jake Matthews": {
         "age": 31,
@@ -5175,7 +5823,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "47"
+        "value": "77"
     },
     "Jake Shields": {
         "age": 47,
@@ -5187,7 +5835,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "47"
+        "value": "62"
     },
     "Jalin Turner": {
         "age": 30,
@@ -5199,7 +5847,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "25"
+        "value": "34"
     },
     "Jamahal Hill": {
         "age": 34,
@@ -5211,7 +5859,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "65"
+        "value": "73"
     },
     "Jamal Pogues": {
         "age": 30,
@@ -5225,13 +5873,35 @@
         },
         "value": "1"
     },
+    "Jamall Emmers": {
+        "id": 3105,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "James Head": {
-        "age": 41,
         "id": 1801,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "James Irvin": {
+        "age": 47,
+        "id": 355,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -5241,13 +5911,13 @@
         "age": 39,
         "id": 1096,
         "pass_distribution": {
-            "3": 1,
-            "4": 1,
-            "5": 1,
-            "6": 2,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "13"
     },
     "James Thompson": {
         "age": 47,
@@ -5271,7 +5941,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "James Wade": {
         "id": 1389,
@@ -5284,6 +5954,29 @@
         },
         "value": "1"
     },
+    "Jamey-Lyn Horth": {
+        "id": 3562,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Jamie Mullarkey": {
+        "age": 31,
+        "id": 3431,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
     "Jamie Varner": {
         "age": 41,
         "id": 530,
@@ -5294,7 +5987,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "12"
+        "value": "16"
     },
     "Jan Blachowicz": {
         "age": 42,
@@ -5306,7 +5999,7 @@
             "6": 10,
             "7": 3
         },
-        "value": "52"
+        "value": "70"
     },
     "Jaqueline Amorim": {
         "age": 30,
@@ -5318,7 +6011,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "11"
+        "value": "20"
     },
     "Jared Cannonier": {
         "age": 41,
@@ -5330,7 +6023,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "62"
+        "value": "92"
     },
     "Jared Gordon": {
         "age": 37,
@@ -5342,7 +6035,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "11"
+        "value": "20"
     },
     "Jarno Errens": {
         "age": 31,
@@ -5378,19 +6071,19 @@
             "6": 2,
             "7": 0
         },
-        "value": "12"
+        "value": "18"
     },
-    "Jason Miller": {
-        "age": 45,
-        "id": 421,
+    "Jason Brilz": {
+        "age": 50,
+        "id": 227,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
-            "7": 2
+            "6": 0,
+            "7": 0
         },
-        "value": "6"
+        "value": "1"
     },
     "Javid Basharat": {
         "age": 30,
@@ -5402,7 +6095,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Jean Matsumoto": {
         "age": 26,
@@ -5414,7 +6107,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "10"
+        "value": "16"
     },
     "Jean Silva": {
         "age": 48,
@@ -5426,7 +6119,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "14"
     },
     "Jeff Monson": {
         "age": 55,
@@ -5450,7 +6143,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Jennifer Maia": {
         "age": 37,
@@ -5463,6 +6156,18 @@
             "7": 0
         },
         "value": "5"
+    },
+    "Jens Pulver": {
+        "age": 51,
+        "id": 225,
+        "pass_distribution": {
+            "3": 1,
+            "4": 3,
+            "5": 0,
+            "6": 1,
+            "7": 1
+        },
+        "value": "27"
     },
     "JeongYeong Lee": {
         "age": 30,
@@ -5486,7 +6191,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "7"
+        "value": "9"
     },
     "Jeremy Stephens": {
         "age": 39,
@@ -5498,7 +6203,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "95"
+        "value": "134"
     },
     "Jessica Andrade": {
         "age": 34,
@@ -5510,7 +6215,7 @@
             "6": 11,
             "7": 4
         },
-        "value": "208"
+        "value": "245"
     },
     "Jessica Eye": {
         "age": 39,
@@ -5522,7 +6227,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Jessica Penne": {
         "age": 42,
@@ -5546,6 +6251,18 @@
             "6": 0,
             "7": 0
         },
+        "value": "3"
+    },
+    "Jesus Aguilar": {
+        "age": 29,
+        "id": 3851,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
         "value": "2"
     },
     "Jhonata Diniz": {
@@ -5558,7 +6275,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "7"
     },
     "Ji Yeon Kim": {
         "age": 36,
@@ -5582,7 +6299,7 @@
             "6": 7,
             "7": 2
         },
-        "value": "670"
+        "value": "755"
     },
     "Jimmy Crute": {
         "age": 29,
@@ -5594,7 +6311,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "4"
+        "value": "9"
     },
     "Jimmy Flick": {
         "age": 35,
@@ -5608,6 +6325,17 @@
         },
         "value": "2"
     },
+    "Jinh Yu Frey": {
+        "id": 3470,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Jiri Prochazka": {
         "age": 33,
         "id": 3438,
@@ -5618,7 +6346,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "145"
+        "value": "216"
     },
     "Joachim Hansen": {
         "age": 46,
@@ -5630,7 +6358,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
+    },
+    "Joanderson Brito": {
+        "age": 30,
+        "id": 3669,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "18"
     },
     "Joanna Jedrzejczyk": {
         "age": 38,
@@ -5642,7 +6382,7 @@
             "6": 6,
             "7": 4
         },
-        "value": "100"
+        "value": "119"
     },
     "Joanne Wood": {
         "age": 40,
@@ -5654,10 +6394,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "14"
+        "value": "22"
     },
     "Joaquim Silva": {
-        "age": 36,
         "id": 2573,
         "pass_distribution": {
             "3": 0,
@@ -5678,11 +6417,22 @@
             "6": 6,
             "7": 1
         },
-        "value": "177"
+        "value": "194"
     },
     "Joby Sanchez": {
-        "age": 34,
         "id": 2311,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Joe Doerksen": {
+        "age": 48,
+        "id": 322,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -5698,11 +6448,11 @@
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Joe Jordan": {
         "age": 47,
@@ -5726,19 +6476,18 @@
             "6": 5,
             "7": 1
         },
-        "value": "40"
+        "value": "58"
     },
-    "Joe Pyfer": {
-        "age": 29,
-        "id": 3505,
+    "Joe Pearson": {
+        "id": 812,
         "pass_distribution": {
-            "3": 5,
-            "4": 2,
-            "5": 2,
-            "6": 3,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
             "7": 0
         },
-        "value": "21"
+        "value": "1"
     },
     "Joe Riggs": {
         "age": 43,
@@ -5750,7 +6499,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "6"
     },
     "Joe Son": {
         "age": 55,
@@ -5774,7 +6523,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "12"
+        "value": "20"
     },
     "Joel Alvarez": {
         "age": 32,
@@ -5786,7 +6535,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "28"
+        "value": "44"
     },
     "John Castaneda": {
         "age": 34,
@@ -5810,7 +6559,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "10"
+        "value": "17"
     },
     "John Hathaway": {
         "age": 38,
@@ -5834,7 +6583,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "John Kolosci": {
         "age": 51,
@@ -5858,10 +6607,9 @@
             "6": 1,
             "7": 1
         },
-        "value": "18"
+        "value": "25"
     },
     "John Maguire": {
-        "age": 42,
         "id": 1893,
         "pass_distribution": {
             "3": 0,
@@ -5882,7 +6630,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "18"
+        "value": "35"
     },
     "John Moraga": {
         "age": 41,
@@ -5894,7 +6642,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "John Yoo": {
         "id": 2524,
@@ -5917,7 +6665,7 @@
             "6": 3,
             "7": 3
         },
-        "value": "36"
+        "value": "52"
     },
     "Johny Hendricks": {
         "age": 42,
@@ -5929,7 +6677,7 @@
             "6": 3,
             "7": 3
         },
-        "value": "35"
+        "value": "60"
     },
     "Jon Fitch": {
         "age": 47,
@@ -5941,7 +6689,7 @@
             "6": 6,
             "7": 2
         },
-        "value": "23"
+        "value": "35"
     },
     "Jon Jones": {
         "age": 38,
@@ -5953,7 +6701,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "2342"
+        "value": "2474"
     },
     "Jonathan Martinez": {
         "age": 31,
@@ -5965,7 +6713,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "16"
+        "value": "24"
     },
     "Jonathan Micallef": {
         "age": 26,
@@ -5977,7 +6725,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
+    },
+    "Jonathan Pearce": {
+        "age": 33,
+        "id": 3324,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "10"
     },
     "JooSang Yoo": {
         "age": 32,
@@ -5989,7 +6749,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "46"
+        "value": "52"
     },
     "Jordan Espinosa": {
         "age": 36,
@@ -6001,7 +6761,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Jordan Leavitt": {
         "age": 30,
@@ -6009,6 +6769,18 @@
         "pass_distribution": {
             "3": 0,
             "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
+    "Jordan Mein": {
+        "age": 36,
+        "id": 1867,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
@@ -6027,6 +6799,18 @@
         },
         "value": "2"
     },
+    "Jorge Lopez": {
+        "age": 37,
+        "id": 1869,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
     "Jorge Masvidal": {
         "age": 41,
         "id": 1272,
@@ -6037,7 +6821,7 @@
             "6": 2,
             "7": 5
         },
-        "value": "152"
+        "value": "196"
     },
     "Jorge Rivera": {
         "age": 53,
@@ -6049,7 +6833,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "3"
+        "value": "7"
     },
     "Jose Aldo": {
         "age": 39,
@@ -6061,19 +6845,7 @@
             "6": 10,
             "7": 3
         },
-        "value": "512"
-    },
-    "Jose Delgado": {
-        "age": 27,
-        "id": 4276,
-        "pass_distribution": {
-            "3": 3,
-            "4": 0,
-            "5": 2,
-            "6": 0,
-            "7": 0
-        },
-        "value": "14"
+        "value": "601"
     },
     "Jose Ochoa": {
         "age": 25,
@@ -6085,10 +6857,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "14"
+        "value": "16"
     },
     "Josefine Knutsson": {
-        "age": 30,
         "id": 3808,
         "pass_distribution": {
             "3": 0,
@@ -6109,7 +6880,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Joseph Benavidez": {
         "age": 41,
@@ -6121,7 +6892,7 @@
             "6": 7,
             "7": 6
         },
-        "value": "144"
+        "value": "176"
     },
     "Joseph Morales": {
         "age": 31,
@@ -6133,7 +6904,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "8"
     },
     "Josh Barnett": {
         "age": 48,
@@ -6145,19 +6916,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "92"
-    },
-    "Josh Emmett": {
-        "age": 40,
-        "id": 2773,
-        "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 3,
-            "6": 0,
-            "7": 1
-        },
-        "value": "16"
+        "value": "146"
     },
     "Josh Koscheck": {
         "age": 48,
@@ -6169,10 +6928,9 @@
             "6": 4,
             "7": 1
         },
-        "value": "39"
+        "value": "53"
     },
     "Josh Neer": {
-        "age": 42,
         "id": 500,
         "pass_distribution": {
             "3": 0,
@@ -6205,7 +6963,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "68"
+        "value": "95"
     },
     "Joshua Burkman": {
         "age": 45,
@@ -6229,10 +6987,9 @@
             "6": 3,
             "7": 0
         },
-        "value": "454"
+        "value": "727"
     },
     "Josiane Nunes": {
-        "age": 32,
         "id": 3631,
         "pass_distribution": {
             "3": 0,
@@ -6277,7 +7034,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "1"
+        "value": "3"
     },
     "Julian Erosa": {
         "age": 36,
@@ -6289,7 +7046,18 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "17"
+    },
+    "Julian Marquez": {
+        "id": 2947,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Julianna Pena": {
         "age": 36,
@@ -6301,7 +7069,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "19"
+        "value": "26"
+    },
+    "Julija Stoliarenko": {
+        "age": 32,
+        "id": 3224,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Julio Arce": {
         "age": 36,
@@ -6313,19 +7093,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
-    "JunYong Park": {
-        "age": 34,
-        "id": 3276,
+    "Julius Walker": {
+        "age": 26,
+        "id": 4320,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "10"
+        "value": "8"
     },
     "Junior Dos Santos": {
         "age": 41,
@@ -6337,7 +7117,7 @@
             "6": 6,
             "7": 4
         },
-        "value": "130"
+        "value": "154"
     },
     "Junior Tafa": {
         "age": 29,
@@ -6349,7 +7129,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Jussier Formiga": {
         "age": 40,
@@ -6364,13 +7144,12 @@
         "value": "3"
     },
     "Justin Edwards": {
-        "age": 43,
         "id": 1817,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
         "value": "1"
@@ -6385,7 +7164,7 @@
             "6": 5,
             "7": 4
         },
-        "value": "356"
+        "value": "430"
     },
     "Justin Tafa": {
         "age": 32,
@@ -6397,7 +7176,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "KJ Noons": {
         "age": 43,
@@ -6409,7 +7188,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Kaan Ofli": {
         "age": 32,
@@ -6433,7 +7212,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "96"
+        "value": "112"
     },
     "Kai Kara-France": {
         "age": 32,
@@ -6445,7 +7224,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "43"
+        "value": "49"
+    },
+    "Kailin Curran": {
+        "age": 34,
+        "id": 2306,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Kalib Starnes": {
         "age": 51,
@@ -6469,7 +7260,7 @@
             "6": 3,
             "7": 4
         },
-        "value": "254"
+        "value": "311"
     },
     "Karine Silva": {
         "age": 32,
@@ -6481,7 +7272,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Karl Williams": {
         "age": 36,
@@ -6505,7 +7296,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Karol Rosa": {
         "age": 31,
@@ -6513,11 +7304,11 @@
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "6"
     },
     "Karolina Kowalkiewicz": {
         "age": 40,
@@ -6529,7 +7320,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "12"
+        "value": "17"
     },
     "Katlyn Cerminara": {
         "age": 37,
@@ -6541,7 +7332,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "7"
+        "value": "19"
     },
     "Katsuyori Shibata": {
         "age": 46,
@@ -6553,7 +7344,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
+    },
+    "Kaue Fernandes": {
+        "age": 30,
+        "id": 4156,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
     },
     "Kay Hansen": {
         "age": 26,
@@ -6565,7 +7368,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Kayla Harrison": {
         "age": 35,
@@ -6577,7 +7380,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "34"
+        "value": "43"
     },
     "Kazuhiro Nakamura": {
         "age": 46,
@@ -6589,7 +7392,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "14"
+        "value": "19"
     },
     "Kazuo Misaki": {
         "age": 49,
@@ -6601,29 +7404,40 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Kazushi Sakuraba": {
         "age": 56,
         "id": 110,
         "pass_distribution": {
-            "3": 38,
-            "4": 25,
-            "5": 32,
-            "6": 10,
-            "7": 6
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
-        "value": "230"
+        "value": "261"
     },
     "Kazuyuki Fujita": {
-        "age": 55,
         "id": 716,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Keiichiro Yamamiya": {
+        "age": 53,
+        "id": 165,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
         "value": "1"
     },
@@ -6637,10 +7451,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Keith Berish": {
-        "age": 40,
         "id": 2272,
         "pass_distribution": {
             "3": 0,
@@ -6661,7 +7474,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "10"
+        "value": "16"
     },
     "Kelvin Gastelum": {
         "age": 34,
@@ -6673,10 +7486,9 @@
             "6": 5,
             "7": 1
         },
-        "value": "55"
+        "value": "85"
     },
     "Ken Cross": {
-        "age": 31,
         "id": 3483,
         "pass_distribution": {
             "3": 0,
@@ -6697,7 +7509,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "27"
+        "value": "37"
     },
     "Kendall Grove": {
         "age": 43,
@@ -6721,19 +7533,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "25"
-    },
-    "Kenny Florian": {
-        "age": 49,
-        "id": 270,
-        "pass_distribution": {
-            "3": 2,
-            "4": 1,
-            "5": 3,
-            "6": 2,
-            "7": 1
-        },
-        "value": "15"
+        "value": "33"
     },
     "Ketlen Souza": {
         "age": 31,
@@ -6757,7 +7557,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
+    },
+    "Kevin Christian": {
+        "age": 31,
+        "id": 4251,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Kevin Ferguson": {
         "age": 51,
@@ -6769,7 +7581,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "5"
+        "value": "8"
     },
     "Kevin Holland": {
         "age": 33,
@@ -6781,7 +7593,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "676"
+        "value": "773"
     },
     "Kevin Jousset": {
         "age": 32,
@@ -6805,7 +7617,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "20"
+        "value": "30"
     },
     "Kevin Randleman": {
         "age": 54,
@@ -6817,19 +7629,19 @@
             "6": 0,
             "7": 2
         },
-        "value": "14"
+        "value": "27"
     },
     "Kevin Vallejos": {
         "age": 24,
         "id": 4066,
         "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 0,
+            "3": 1,
+            "4": 3,
+            "5": 4,
             "6": 0,
-            "7": 0
+            "7": 1
         },
-        "value": "31"
+        "value": "60"
     },
     "Khabib Nurmagomedov": {
         "age": 37,
@@ -6841,7 +7653,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "465"
+        "value": "545"
     },
     "Khalil Rountree Jr.": {
         "age": 35,
@@ -6853,7 +7665,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "82"
+        "value": "134"
     },
     "Khamzat Chimaev": {
         "age": 31,
@@ -6865,7 +7677,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "349"
+        "value": "699"
     },
     "Khaos Williams": {
         "age": 31,
@@ -6877,7 +7689,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "13"
     },
     "Kimo Leopoldo": {
         "age": 58,
@@ -6913,22 +7725,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "3"
-    },
-    "Kody Steele": {
-        "age": 30,
-        "id": 4237,
-        "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 1,
-            "7": 0
-        },
-        "value": "6"
+        "value": "5"
     },
     "Kris Moutinho": {
-        "age": 33,
         "id": 3715,
         "pass_distribution": {
             "3": 0,
@@ -6961,7 +7760,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "15"
+        "value": "24"
     },
     "Kurt Pellegrino": {
         "age": 46,
@@ -6975,6 +7774,18 @@
         },
         "value": "1"
     },
+    "Kyle Daukaus": {
+        "age": 32,
+        "id": 3311,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
     "Kyle Nelson": {
         "age": 34,
         "id": 3228,
@@ -6985,7 +7796,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
+    },
+    "Kyler Phillips": {
+        "age": 30,
+        "id": 2948,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
     },
     "Kyoji Horiguchi": {
         "age": 35,
@@ -6997,7 +7820,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "8"
+        "value": "25"
     },
     "Kyung Ho Kang": {
         "age": 38,
@@ -7009,7 +7832,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
+    },
+    "Lance Gibson Jr.": {
+        "age": 30,
+        "id": 4499,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "4"
     },
     "Lando Vannata": {
         "age": 33,
@@ -7021,7 +7856,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Lauren Murphy": {
         "age": 42,
@@ -7063,20 +7898,19 @@
         "age": 34,
         "id": 2329,
         "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 0,
+            "3": 53,
+            "4": 35,
+            "5": 25,
             "6": 3,
             "7": 3
         },
-        "value": "429"
+        "value": "470"
     },
     "Leonard Garcia": {
-        "age": 46,
         "id": 384,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
@@ -7105,7 +7939,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "28"
+        "value": "81"
     },
     "Leslie Smith": {
         "age": 43,
@@ -7129,19 +7963,19 @@
             "6": 2,
             "7": 0
         },
-        "value": "41"
+        "value": "48"
     },
     "Liana Jojua": {
         "age": 30,
         "id": 3263,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Liliya Shakirova": {
         "age": 34,
@@ -7168,12 +8002,11 @@
         "value": "2"
     },
     "Logan Clark": {
-        "age": 40,
         "id": 537,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -7201,7 +8034,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "23"
+        "value": "44"
     },
     "Lorenz Larkin": {
         "age": 39,
@@ -7213,7 +8046,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "3"
+        "value": "5"
+    },
+    "Louie Sutherland": {
+        "age": 31,
+        "id": 4478,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Louis Smolka": {
         "age": 34,
@@ -7225,10 +8070,9 @@
             "6": 0,
             "7": 1
         },
-        "value": "4"
+        "value": "10"
     },
     "Lu Kai": {
-        "age": 31,
         "id": 3820,
         "pass_distribution": {
             "3": 0,
@@ -7263,18 +8107,6 @@
         },
         "value": "6"
     },
-    "Luana Santos": {
-        "age": 25,
-        "id": 4080,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 2,
-            "6": 2,
-            "7": 0
-        },
-        "value": "15"
-    },
     "Lucas Alexander": {
         "age": 30,
         "id": 3953,
@@ -7285,7 +8117,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Lucas Rocha": {
         "age": 25,
@@ -7297,7 +8129,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "4"
     },
     "Ludovit Klein": {
         "age": 30,
@@ -7309,7 +8141,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "5"
+        "value": "7"
     },
     "Luigi Fioravanti": {
         "age": 45,
@@ -7324,7 +8156,6 @@
         "value": "2"
     },
     "Luis Gurule": {
-        "age": 32,
         "id": 4305,
         "pass_distribution": {
             "3": 0,
@@ -7368,7 +8199,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
+    },
+    "Luke Riley": {
+        "age": 26,
+        "id": 4266,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "31"
     },
     "Luke Rockhold": {
         "age": 41,
@@ -7380,19 +8223,19 @@
             "6": 4,
             "7": 3
         },
-        "value": "49"
+        "value": "68"
     },
     "Luke Sanders": {
         "age": 40,
         "id": 1737,
         "pass_distribution": {
             "3": 1,
-            "4": 1,
-            "5": 0,
+            "4": 0,
+            "5": 1,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Lyoto Machida": {
         "age": 47,
@@ -7404,15 +8247,14 @@
             "6": 8,
             "7": 7
         },
-        "value": "253"
+        "value": "306"
     },
     "Mac Danzig": {
-        "age": 46,
         "id": 395,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -7428,7 +8270,7 @@
             "6": 6,
             "7": 1
         },
-        "value": "48"
+        "value": "95"
     },
     "Macy Chiasson": {
         "age": 34,
@@ -7440,7 +8282,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Magomed Ankalaev": {
         "age": 33,
@@ -7452,7 +8294,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "115"
+        "value": "165"
     },
     "Magomed Gadzhiyasulov": {
         "age": 32,
@@ -7467,7 +8309,6 @@
         "value": "3"
     },
     "Maheshate": {
-        "age": 26,
         "id": 3731,
         "pass_distribution": {
             "3": 0,
@@ -7488,7 +8329,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "9"
+        "value": "18"
     },
     "Makwan Amirkhani": {
         "age": 37,
@@ -7512,10 +8353,9 @@
             "6": 0,
             "7": 1
         },
-        "value": "77"
+        "value": "118"
     },
     "Mandy Bohm": {
-        "age": 36,
         "id": 3677,
         "pass_distribution": {
             "3": 0,
@@ -7536,19 +8376,19 @@
             "6": 4,
             "7": 2
         },
-        "value": "52"
+        "value": "76"
     },
     "Manon Fiorot": {
         "age": 35,
         "id": 3628,
         "pass_distribution": {
             "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
+            "4": 1,
+            "5": 1,
+            "6": 1,
             "7": 0
         },
-        "value": "9"
+        "value": "21"
     },
     "Mansur Abdul-Malik": {
         "age": 28,
@@ -7560,7 +8400,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "23"
+        "value": "39"
     },
     "Manuel Torres": {
         "age": 30,
@@ -7572,7 +8412,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "13"
     },
     "Manvel Gamburyan": {
         "age": 44,
@@ -7584,7 +8424,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "6"
     },
     "MarQuel Mederos": {
         "age": 29,
@@ -7596,7 +8436,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "7"
     },
     "Marc Diakiese": {
         "age": 32,
@@ -7608,10 +8448,21 @@
             "6": 1,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
+    },
+    "Marc-Andre Barriault": {
+        "age": 35,
+        "id": 3233,
+        "pass_distribution": {
+            "3": 0,
+            "4": 4,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
     },
     "Marcin Prachnio": {
-        "age": 37,
         "id": 3045,
         "pass_distribution": {
             "3": 0,
@@ -7621,6 +8472,18 @@
             "7": 0
         },
         "value": "1"
+    },
+    "Marcin Tybura": {
+        "age": 40,
+        "id": 2753,
+        "pass_distribution": {
+            "3": 0,
+            "4": 4,
+            "5": 8,
+            "6": 2,
+            "7": 5
+        },
+        "value": "41"
     },
     "Marco Tulio": {
         "age": 31,
@@ -7632,7 +8495,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "16"
+        "value": "18"
     },
     "Marcos Rogerio de Lima": {
         "age": 40,
@@ -7644,7 +8507,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "12"
+        "value": "18"
     },
     "Marcus Buchecha": {
         "age": 36,
@@ -7656,7 +8519,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Marcus Davis": {
         "age": 52,
@@ -7668,7 +8531,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Marcus Kowal": {
         "id": 1554,
@@ -7691,7 +8554,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "12"
+        "value": "14"
     },
     "Maria Oliveira": {
         "age": 29,
@@ -7715,7 +8578,19 @@
             "6": 0,
             "7": 2
         },
-        "value": "6"
+        "value": "14"
+    },
+    "Mario Bautista": {
+        "age": 32,
+        "id": 3239,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 2
+        },
+        "value": "22"
     },
     "Mario Pinto": {
         "age": 27,
@@ -7727,7 +8602,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "10"
+        "value": "22"
     },
     "Mario Sperry": {
         "age": 59,
@@ -7766,13 +8641,12 @@
         "value": "1"
     },
     "Mark Bocek": {
-        "age": 44,
         "id": 452,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
         "value": "1"
@@ -7787,10 +8661,9 @@
             "6": 2,
             "7": 0
         },
-        "value": "28"
+        "value": "41"
     },
     "Mark Hominick": {
-        "age": 43,
         "id": 578,
         "pass_distribution": {
             "3": 0,
@@ -7811,7 +8684,7 @@
             "6": 4,
             "7": 3
         },
-        "value": "53"
+        "value": "84"
     },
     "Mark Kerr": {
         "age": 57,
@@ -7823,7 +8696,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "8"
     },
     "Mark Munoz": {
         "age": 47,
@@ -7835,7 +8708,18 @@
             "6": 1,
             "7": 0
         },
-        "value": "14"
+        "value": "20"
+    },
+    "Mark Weir": {
+        "id": 81,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Marlon Moraes": {
         "age": 37,
@@ -7859,10 +8743,9 @@
             "6": 8,
             "7": 4
         },
-        "value": "172"
+        "value": "206"
     },
     "Marnic Mann": {
-        "age": 32,
         "id": 3894,
         "pass_distribution": {
             "3": 0,
@@ -7883,7 +8766,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Martin Kampmann": {
         "age": 43,
@@ -7895,10 +8778,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "15"
     },
     "Martin Sano": {
-        "age": 34,
         "id": 3739,
         "pass_distribution": {
             "3": 0,
@@ -7919,7 +8801,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "34"
+        "value": "39"
     },
     "Maryna Moroz": {
         "age": 34,
@@ -7931,7 +8813,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Masakatsu Funaki": {
         "age": 56,
@@ -7952,10 +8834,10 @@
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 1,
+            "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Mateusz Gamrot": {
         "age": 35,
@@ -7967,7 +8849,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "25"
+        "value": "32"
     },
     "Mateusz Rebecki": {
         "age": 33,
@@ -7979,7 +8861,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "3"
+        "value": "9"
     },
     "Matheus Camilo": {
         "age": 25,
@@ -8003,7 +8885,7 @@
             "6": 9,
             "7": 5
         },
-        "value": "125"
+        "value": "160"
     },
     "Matt Frevola": {
         "age": 35,
@@ -8027,7 +8909,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "11"
     },
     "Matt Hughes": {
         "age": 52,
@@ -8039,7 +8921,7 @@
             "6": 4,
             "7": 3
         },
-        "value": "101"
+        "value": "128"
     },
     "Matt Lindland": {
         "age": 55,
@@ -8051,7 +8933,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "7"
+        "value": "17"
     },
     "Matt Mitrione": {
         "age": 47,
@@ -8063,7 +8945,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "7"
+        "value": "12"
     },
     "Matt Schnell": {
         "age": 36,
@@ -8099,7 +8981,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "7"
+        "value": "18"
     },
     "Matthew Riddle": {
         "age": 40,
@@ -8111,11 +8993,22 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "10"
     },
     "Matthew Semelsberger": {
-        "age": 33,
         "id": 3539,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Maurice Smith": {
+        "age": 64,
+        "id": 19,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -8135,7 +9028,7 @@
             "6": 14,
             "7": 2
         },
-        "value": "487"
+        "value": "602"
     },
     "Mauricio Ruffy": {
         "age": 29,
@@ -8147,7 +9040,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "125"
+        "value": "140"
+    },
+    "Max Gimenis": {
+        "age": 32,
+        "id": 4496,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Max Griffin": {
         "age": 40,
@@ -8159,7 +9064,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "12"
+        "value": "20"
     },
     "Max Holloway": {
         "age": 34,
@@ -8171,7 +9076,7 @@
             "6": 4,
             "7": 2
         },
-        "value": "1716"
+        "value": "2053"
     },
     "Maycee Barber": {
         "age": 27,
@@ -8183,11 +9088,47 @@
             "6": 3,
             "7": 2
         },
-        "value": "63"
+        "value": "85"
+    },
+    "Mayra Bueno Silva": {
+        "age": 34,
+        "id": 3176,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Megan Anderson": {
         "age": 35,
         "id": 2906,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Melissa Croden": {
+        "age": 34,
+        "id": 4487,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Melissa Gatto": {
+        "age": 29,
+        "id": 3279,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -8207,10 +9148,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "14"
+        "value": "35"
     },
     "Melsik Baghdasaryan": {
-        "age": 33,
         "id": 3527,
         "pass_distribution": {
             "3": 0,
@@ -8231,7 +9171,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "13"
+        "value": "22"
     },
     "Melvin Manhoef": {
         "age": 49,
@@ -8243,7 +9183,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Merab Dvalishvili": {
         "age": 35,
@@ -8255,7 +9195,7 @@
             "6": 8,
             "7": 2
         },
-        "value": "506"
+        "value": "935"
     },
     "Michael Aswell": {
         "age": 25,
@@ -8267,7 +9207,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Michael Bisping": {
         "age": 46,
@@ -8279,7 +9219,7 @@
             "6": 10,
             "7": 6
         },
-        "value": "468"
+        "value": "563"
     },
     "Michael Chandler": {
         "age": 39,
@@ -8291,7 +9231,7 @@
             "6": 1,
             "7": 2
         },
-        "value": "44"
+        "value": "58"
     },
     "Michael Chiesa": {
         "age": 38,
@@ -8303,7 +9243,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "16"
+        "value": "34"
     },
     "Michael Johnson": {
         "age": 39,
@@ -8315,10 +9255,9 @@
             "6": 11,
             "7": 4
         },
-        "value": "126"
+        "value": "164"
     },
     "Michael McDonald": {
-        "age": 35,
         "id": 1650,
         "pass_distribution": {
             "3": 0,
@@ -8339,7 +9278,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "122"
+        "value": "222"
     },
     "Michael Page": {
         "age": 38,
@@ -8351,7 +9290,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "85"
+        "value": "118"
+    },
+    "Michal Oleksiejczuk": {
+        "age": 30,
+        "id": 3016,
+        "pass_distribution": {
+            "3": 2,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 0
+        },
+        "value": "24"
     },
     "Michel Pereira": {
         "age": 32,
@@ -8363,7 +9314,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "29"
+        "value": "31"
     },
     "Michel Prazeres": {
         "age": 44,
@@ -8375,7 +9326,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "6"
+    },
+    "Michelle Montague": {
+        "age": 32,
+        "id": 4427,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Michelle Waterson-Gomez": {
         "age": 40,
@@ -8387,7 +9350,7 @@
             "6": 3,
             "7": 0
         },
-        "value": "11"
+        "value": "24"
     },
     "Mick Parkin": {
         "age": 30,
@@ -8399,7 +9362,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "9"
     },
     "Miesha Tate": {
         "age": 39,
@@ -8411,7 +9374,7 @@
             "6": 4,
             "7": 2
         },
-        "value": "35"
+        "value": "50"
     },
     "Miguel Torres": {
         "age": 45,
@@ -8423,7 +9386,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Mike Brown": {
         "age": 50,
@@ -8435,7 +9398,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "7"
     },
     "Mike Davis": {
         "age": 33,
@@ -8459,7 +9422,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "14"
+        "value": "23"
     },
     "Mike Perry": {
         "age": 34,
@@ -8471,7 +9434,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "6"
     },
     "Mike Pierce": {
         "age": 45,
@@ -8483,7 +9446,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Mike Pyle": {
         "age": 50,
@@ -8495,10 +9458,9 @@
             "6": 4,
             "7": 0
         },
-        "value": "24"
+        "value": "31"
     },
     "Mike Stumpf": {
-        "age": 39,
         "id": 1884,
         "pass_distribution": {
             "3": 0,
@@ -8519,7 +9481,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "12"
     },
     "Miles Johns": {
         "age": 31,
@@ -8531,7 +9493,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "8"
     },
     "Miranda Maverick": {
         "age": 28,
@@ -8543,7 +9505,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "6"
     },
     "Mirko Filipovic": {
         "age": 51,
@@ -8555,7 +9517,7 @@
             "6": 9,
             "7": 3
         },
-        "value": "188"
+        "value": "229"
     },
     "Mitch Raposo": {
         "age": 27,
@@ -8567,7 +9529,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "50"
+        "value": "63"
     },
     "Mitsuhiro Ishida": {
         "age": 47,
@@ -8591,7 +9553,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "2"
+        "value": "5"
     },
     "Modestas Bukauskas": {
         "age": 31,
@@ -8603,7 +9565,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "7"
     },
     "Mohammed Usman": {
         "age": 36,
@@ -8617,18 +9579,6 @@
         },
         "value": "2"
     },
-    "Molly McCann": {
-        "age": 35,
-        "id": 3064,
-        "pass_distribution": {
-            "3": 0,
-            "4": 2,
-            "5": 1,
-            "6": 0,
-            "7": 1
-        },
-        "value": "8"
-    },
     "Montana De La Rosa": {
         "age": 30,
         "id": 3037,
@@ -8639,7 +9589,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "6"
+        "value": "8"
     },
     "Montel Jackson": {
         "age": 33,
@@ -8651,7 +9601,7 @@
             "6": 3,
             "7": 2
         },
-        "value": "15"
+        "value": "22"
     },
     "Morgan Charriere": {
         "age": 30,
@@ -8675,7 +9625,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "28"
+        "value": "44"
     },
     "Muhammad Mokaev": {
         "age": 25,
@@ -8687,10 +9637,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "42"
+        "value": "52"
     },
     "Muhammad Naimov": {
-        "age": 31,
         "id": 3591,
         "pass_distribution": {
             "3": 0,
@@ -8711,7 +9660,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "6"
     },
     "Murilo Rua": {
         "age": 45,
@@ -8723,7 +9672,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "10"
+        "value": "15"
     },
     "Muslim Salikhov": {
         "age": 41,
@@ -8735,7 +9684,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "3"
+        "value": "7"
     },
     "Myktybek Orolbai": {
         "age": 27,
@@ -8747,7 +9696,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "30"
+        "value": "54"
     },
     "Myles Jury": {
         "age": 37,
@@ -8759,7 +9708,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Naoki Inoue": {
         "age": 28,
@@ -8774,7 +9723,6 @@
         "value": "1"
     },
     "Naoyuki Kotani": {
-        "age": 44,
         "id": 460,
         "pass_distribution": {
             "3": 0,
@@ -8795,7 +9743,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "14"
+        "value": "23"
     },
     "Nassourdine Imavov": {
         "age": 30,
@@ -8807,7 +9755,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "32"
+        "value": "55"
     },
     "Natalia Silva": {
         "age": 28,
@@ -8819,7 +9767,19 @@
             "6": 3,
             "7": 0
         },
-        "value": "24"
+        "value": "41"
+    },
+    "Natan Levy": {
+        "age": 34,
+        "id": 3622,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1
+        },
+        "value": "10"
     },
     "Nate Diaz": {
         "age": 40,
@@ -8831,7 +9791,7 @@
             "6": 8,
             "7": 6
         },
-        "value": "447"
+        "value": "526"
     },
     "Nate Landwehr": {
         "age": 37,
@@ -8843,10 +9803,9 @@
             "6": 0,
             "7": 2
         },
-        "value": "4"
+        "value": "8"
     },
     "Nate Maness": {
-        "age": 34,
         "id": 3482,
         "pass_distribution": {
             "3": 0,
@@ -8867,7 +9826,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "70"
+        "value": "92"
     },
     "Nate Quarry": {
         "age": 53,
@@ -8879,7 +9838,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Nathan Fletcher": {
         "age": 28,
@@ -8903,7 +9862,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "10"
+        "value": "16"
     },
     "Navajo Stirling": {
         "age": 28,
@@ -8915,7 +9874,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "17"
+        "value": "24"
     },
     "Nazim Sadykhov": {
         "age": 31,
@@ -8927,7 +9886,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "11"
+        "value": "15"
     },
     "Neil Magny": {
         "age": 38,
@@ -8939,7 +9898,7 @@
             "6": 10,
             "7": 6
         },
-        "value": "248"
+        "value": "313"
     },
     "Nick Barnes": {
         "id": 2711,
@@ -8952,17 +9911,6 @@
         },
         "value": "1"
     },
-    "Nick Bustamante": {
-        "id": 2431,
-        "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0
-        },
-        "value": "7"
-    },
     "Nick Diaz": {
         "age": 42,
         "id": 506,
@@ -8973,7 +9921,7 @@
             "6": 8,
             "7": 7
         },
-        "value": "393"
+        "value": "476"
     },
     "Nick Hein": {
         "age": 41,
@@ -8999,6 +9947,18 @@
         },
         "value": "1"
     },
+    "Nicolas Dalby": {
+        "age": 41,
+        "id": 2509,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "9"
+    },
     "Nicolle Caliari": {
         "age": 29,
         "id": 4209,
@@ -9021,7 +9981,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "38"
+        "value": "56"
     },
     "Nikita Krylov": {
         "age": 33,
@@ -9033,7 +9993,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "23"
+        "value": "30"
     },
     "Niko Price": {
         "age": 36,
@@ -9045,7 +10005,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "10"
+        "value": "17"
     },
     "Nikolas Motta": {
         "age": 32,
@@ -9057,10 +10017,9 @@
             "6": 1,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Nikolay Veretennikov": {
-        "age": 36,
         "id": 3701,
         "pass_distribution": {
             "3": 0,
@@ -9105,7 +10064,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "2"
+        "value": "4"
     },
     "Norma Dumont": {
         "age": 35,
@@ -9117,7 +10076,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "10"
+        "value": "14"
     },
     "Nursulton Ruziboev": {
         "age": 32,
@@ -9131,6 +10090,18 @@
         },
         "value": "11"
     },
+    "Nurullo Aliev": {
+        "age": 25,
+        "id": 3941,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
+    },
     "Nyamjargal Tumendemberel": {
         "age": 27,
         "id": 4003,
@@ -9141,19 +10112,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
-    },
-    "Oban Elliott": {
-        "age": 28,
-        "id": 4069,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 0,
-            "6": 0,
-            "7": 0
-        },
-        "value": "4"
+        "value": "7"
     },
     "Ode Osbourne": {
         "age": 34,
@@ -9165,15 +10124,14 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Oleg Taktarov": {
-        "age": 58,
         "id": 80,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -9203,6 +10161,18 @@
         },
         "value": "2"
     },
+    "Omar Morales": {
+        "age": 40,
+        "id": 3378,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Omari Akhmedov": {
         "age": 38,
         "id": 2104,
@@ -9213,7 +10183,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "6"
     },
     "Oumar Sy": {
         "age": 30,
@@ -9225,7 +10195,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "9"
     },
     "Ovince Saint Preux": {
         "age": 42,
@@ -9237,7 +10207,19 @@
             "6": 4,
             "7": 10
         },
-        "value": "184"
+        "value": "226"
+    },
+    "Paddy Holohan": {
+        "age": 37,
+        "id": 2274,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
     },
     "Paddy Pimblett": {
         "age": 31,
@@ -9249,7 +10231,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "528"
+        "value": "660"
     },
     "Paige VanZant": {
         "age": 31,
@@ -9261,7 +10243,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "14"
+        "value": "32"
     },
     "Pannie Kianzad": {
         "age": 34,
@@ -9276,7 +10258,6 @@
         "value": "1"
     },
     "Pat Barry": {
-        "age": 46,
         "id": 382,
         "pass_distribution": {
             "3": 0,
@@ -9297,7 +10278,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "8"
+        "value": "11"
     },
     "Pat Healy": {
         "age": 42,
@@ -9309,7 +10290,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Pat Miletich": {
         "age": 57,
@@ -9333,7 +10314,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "5"
+        "value": "6"
     },
     "Patchy Mix": {
         "age": 32,
@@ -9345,7 +10326,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "18"
+        "value": "20"
+    },
+    "Patricio Freire": {
+        "age": 38,
+        "id": 2393,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "7"
     },
     "Patrick Cote": {
         "age": 45,
@@ -9357,10 +10350,20 @@
             "6": 0,
             "7": 1
         },
-        "value": "23"
+        "value": "30"
+    },
+    "Patrick Cummins": {
+        "id": 1694,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Patrick Smith": {
-        "age": 62,
         "id": 48,
         "pass_distribution": {
             "3": 0,
@@ -9393,7 +10396,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "7"
+        "value": "14"
     },
     "Paul Daley": {
         "age": 42,
@@ -9405,7 +10408,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "11"
     },
     "Paul Felder": {
         "age": 41,
@@ -9417,7 +10420,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "9"
+        "value": "16"
     },
     "Paulo Costa": {
         "age": 34,
@@ -9429,7 +10432,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "29"
+        "value": "36"
     },
     "Paulo Filho": {
         "age": 47,
@@ -9441,7 +10444,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Payton Talbott": {
         "age": 27,
@@ -9453,7 +10456,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "544"
+        "value": "706"
     },
     "Pearl Gonzalez": {
         "age": 39,
@@ -9468,7 +10471,6 @@
         "value": "1"
     },
     "Pedro Falcao": {
-        "age": 33,
         "id": 3723,
         "pass_distribution": {
             "3": 0,
@@ -9489,7 +10491,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "14"
+        "value": "22"
     },
     "Pedro Rizzo": {
         "age": 51,
@@ -9501,7 +10503,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "7"
+        "value": "8"
     },
     "Petr Yan": {
         "age": 32,
@@ -9513,7 +10515,7 @@
             "6": 5,
             "7": 4
         },
-        "value": "128"
+        "value": "218"
     },
     "Phil Baroni": {
         "age": 49,
@@ -9525,7 +10527,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "9"
     },
     "Phil Davis": {
         "age": 41,
@@ -9537,7 +10539,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "12"
     },
     "Phil Hawes": {
         "age": 37,
@@ -9575,6 +10577,17 @@
         },
         "value": "3"
     },
+    "Piera Rodriguez": {
+        "id": 3692,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Polyana Viana": {
         "age": 33,
         "id": 3049,
@@ -9585,10 +10598,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "11"
+        "value": "14"
     },
     "Preston Parsons": {
-        "age": 30,
         "id": 3716,
         "pass_distribution": {
             "3": 0,
@@ -9600,7 +10612,6 @@
         "value": "1"
     },
     "Priscila Cachoeira": {
-        "age": 37,
         "id": 3047,
         "pass_distribution": {
             "3": 0,
@@ -9621,7 +10632,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Punahele Soriano": {
         "age": 33,
@@ -9633,19 +10644,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
-    "Quillan Salkilld": {
-        "age": 26,
-        "id": 4133,
+    "Quang Le": {
+        "age": 34,
+        "id": 4190,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
-            "5": 1,
-            "6": 0,
+            "5": 0,
+            "6": 1,
             "7": 0
         },
-        "value": "26"
+        "value": "3"
     },
     "Quinton Jackson": {
         "age": 47,
@@ -9657,7 +10668,7 @@
             "6": 9,
             "7": 4
         },
-        "value": "271"
+        "value": "323"
     },
     "Rachael Ostovich": {
         "age": 34,
@@ -9669,7 +10680,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "8"
+    },
+    "Rafa Garcia": {
+        "age": 31,
+        "id": 3640,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1
+        },
+        "value": "2"
     },
     "Rafael  Del Real": {
         "id": 3452,
@@ -9694,7 +10717,6 @@
         "value": "1"
     },
     "Rafael Cavalcante": {
-        "age": 45,
         "id": 1390,
         "pass_distribution": {
             "3": 0,
@@ -9715,7 +10737,7 @@
             "6": 8,
             "7": 8
         },
-        "value": "436"
+        "value": "528"
     },
     "Rafael Estevam": {
         "age": 29,
@@ -9727,7 +10749,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Rafael Fiziev": {
         "age": 32,
@@ -9739,7 +10761,7 @@
             "6": 3,
             "7": 3
         },
-        "value": "32"
+        "value": "43"
     },
     "Rafael Natal": {
         "age": 43,
@@ -9751,10 +10773,21 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "16"
+    },
+    "Ramazan Temirov": {
+        "age": 28,
+        "id": 4282,
+        "pass_distribution": {
+            "3": 2,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "11"
     },
     "Rameau Thierry Sokoudjou": {
-        "age": 41,
         "id": 518,
         "pass_distribution": {
             "3": 0,
@@ -9775,7 +10808,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Ramon Taveras": {
         "age": 32,
@@ -9799,7 +10832,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Randa Markos": {
         "age": 40,
@@ -9811,10 +10844,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "6"
     },
     "Randall Wallace": {
-        "age": 36,
         "id": 2993,
         "pass_distribution": {
             "3": 0,
@@ -9835,7 +10867,7 @@
             "6": 4,
             "7": 3
         },
-        "value": "33"
+        "value": "56"
     },
     "Randy Couture": {
         "age": 62,
@@ -9847,7 +10879,7 @@
             "6": 10,
             "7": 5
         },
-        "value": "104"
+        "value": "137"
     },
     "Rani Yahya": {
         "age": 41,
@@ -9859,7 +10891,7 @@
             "6": 7,
             "7": 2
         },
-        "value": "52"
+        "value": "70"
     },
     "Raoni Barcelos": {
         "age": 38,
@@ -9871,7 +10903,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "12"
     },
     "Raphael Assuncao": {
         "age": 43,
@@ -9883,7 +10915,7 @@
             "6": 3,
             "7": 1
         },
-        "value": "41"
+        "value": "51"
     },
     "Raquel Pennington": {
         "age": 37,
@@ -9895,7 +10927,7 @@
             "6": 1,
             "7": 3
         },
-        "value": "27"
+        "value": "45"
     },
     "Rashad Evans": {
         "age": 46,
@@ -9907,7 +10939,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "44"
+        "value": "69"
     },
     "Rashid Magomedov": {
         "age": 41,
@@ -9919,7 +10951,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Raul Rosas Jr.": {
         "age": 21,
@@ -9931,7 +10963,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "195"
+        "value": "221"
     },
     "Ray Borg": {
         "age": 32,
@@ -9957,10 +10989,9 @@
         "value": "1"
     },
     "Rayanne Amanda": {
-        "age": 30,
         "id": 3863,
         "pass_distribution": {
-            "3": 1,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -9978,7 +11009,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "22"
+        "value": "29"
     },
     "Reinier de Ridder": {
         "age": 35,
@@ -9990,7 +11021,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "31"
+        "value": "52"
     },
     "Renan Barao": {
         "age": 38,
@@ -10002,7 +11033,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "20"
+        "value": "37"
     },
     "Renato Moicano": {
         "age": 36,
@@ -10014,7 +11045,7 @@
             "6": 2,
             "7": 4
         },
-        "value": "57"
+        "value": "74"
     },
     "Renato Sobral": {
         "age": 50,
@@ -10026,7 +11057,18 @@
             "6": 0,
             "7": 1
         },
-        "value": "4"
+        "value": "10"
+    },
+    "Rhys McKee": {
+        "id": 3481,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Ricardo Almeida": {
         "age": 49,
@@ -10050,7 +11092,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "42"
+        "value": "57"
     },
     "Ricardo Ramos": {
         "age": 30,
@@ -10062,7 +11104,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Ricco Rodriguez": {
         "age": 48,
@@ -10074,7 +11116,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "10"
     },
     "Rich Clementi": {
         "age": 49,
@@ -10098,7 +11140,7 @@
             "6": 7,
             "7": 4
         },
-        "value": "179"
+        "value": "229"
     },
     "Rick Story": {
         "age": 41,
@@ -10110,7 +11152,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "29"
+        "value": "40"
     },
     "Ricky Glenn": {
         "age": 36,
@@ -10134,7 +11176,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "9"
+        "value": "13"
+    },
+    "Riki Fukuda": {
+        "age": 45,
+        "id": 932,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Rinat Fakhretdinov": {
         "age": 34,
@@ -10146,7 +11200,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "7"
+        "value": "8"
     },
     "Rinya Nakamura": {
         "age": 30,
@@ -10158,10 +11212,9 @@
             "6": 0,
             "7": 1
         },
-        "value": "15"
+        "value": "23"
     },
     "Rizvan Kuniev": {
-        "age": 33,
         "id": 3667,
         "pass_distribution": {
             "3": 0,
@@ -10182,7 +11235,7 @@
             "6": 4,
             "7": 5
         },
-        "value": "60"
+        "value": "83"
     },
     "Robbie Lawler": {
         "age": 43,
@@ -10194,7 +11247,7 @@
             "6": 11,
             "7": 8
         },
-        "value": "279"
+        "value": "338"
     },
     "Robelis Despaigne": {
         "age": 37,
@@ -10206,7 +11259,31 @@
             "6": 2,
             "7": 0
         },
-        "value": "74"
+        "value": "79"
+    },
+    "Robert Bryczek": {
+        "age": 35,
+        "id": 4146,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Robert Ruchala": {
+        "age": 27,
+        "id": 4422,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "10"
     },
     "Robert Valentin": {
         "age": 30,
@@ -10230,7 +11307,7 @@
             "6": 7,
             "7": 3
         },
-        "value": "285"
+        "value": "312"
     },
     "Roberto Traven": {
         "age": 57,
@@ -10256,9 +11333,33 @@
         },
         "value": "2"
     },
+    "Rodolfo Vieira": {
+        "age": 36,
+        "id": 3364,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Rodrigo Nascimento": {
         "age": 33,
         "id": 3361,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Rodrigo Sezinando": {
+        "age": 28,
+        "id": 4457,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -10278,7 +11379,43 @@
             "6": 2,
             "7": 3
         },
-        "value": "80"
+        "value": "110"
+    },
+    "Rolando Bedoya": {
+        "age": 29,
+        "id": 3971,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Roman Dolidze": {
+        "age": 37,
+        "id": 3238,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "16"
+    },
+    "Roman Kopylov": {
+        "age": 34,
+        "id": 3256,
+        "pass_distribution": {
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+        },
+        "value": "20"
     },
     "Ronaldo Rodriguez": {
         "age": 26,
@@ -10290,7 +11427,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "15"
+        "value": "16"
     },
     "Ronda Rousey": {
         "age": 38,
@@ -10302,7 +11439,19 @@
             "6": 2,
             "7": 2
         },
-        "value": "27"
+        "value": "44"
+    },
+    "Rongzhu": {
+        "age": 25,
+        "id": 3643,
+        "pass_distribution": {
+            "3": 2,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "14"
     },
     "Rony Jason": {
         "age": 41,
@@ -10326,7 +11475,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "8"
+        "value": "13"
     },
     "Rose Namajunas": {
         "age": 33,
@@ -10338,7 +11487,7 @@
             "6": 5,
             "7": 4
         },
-        "value": "95"
+        "value": "116"
     },
     "Ross Pearson": {
         "age": 41,
@@ -10350,7 +11499,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "26"
+        "value": "47"
     },
     "Rousimar Palhares": {
         "age": 45,
@@ -10362,7 +11511,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "7"
+        "value": "11"
     },
     "Roxanne Modafferi": {
         "age": 43,
@@ -10386,7 +11535,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "9"
+        "value": "20"
     },
     "Royce Gracie": {
         "age": 59,
@@ -10398,10 +11547,9 @@
             "6": 0,
             "7": 2
         },
-        "value": "16"
+        "value": "22"
     },
     "Rulon Gardner": {
-        "age": 54,
         "id": 719,
         "pass_distribution": {
             "3": 0,
@@ -10422,7 +11570,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "4"
     },
     "Ryan Bader": {
         "age": 42,
@@ -10434,7 +11582,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "34"
+        "value": "54"
     },
     "Ryan Hall": {
         "age": 40,
@@ -10446,15 +11594,14 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Ryan Jimmo": {
-        "age": 44,
         "id": 1922,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -10482,7 +11629,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "5"
+        "value": "8"
+    },
+    "Ryo Chonan": {
+        "age": 49,
+        "id": 285,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Sabina Mazo": {
         "age": 28,
@@ -10506,7 +11665,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "10"
+        "value": "12"
     },
     "Said Nurmagomedov": {
         "age": 33,
@@ -10518,27 +11677,26 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "7"
     },
     "Sam Alvey": {
         "age": 39,
         "id": 2264,
         "pass_distribution": {
             "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1
         },
-        "value": "14"
+        "value": "24"
     },
     "Sam Hughes": {
-        "age": 33,
         "id": 3625,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -10554,7 +11712,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "5"
     },
     "Sam Sicilia": {
         "age": 39,
@@ -10566,7 +11724,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Sam Stout": {
         "age": 41,
@@ -10578,7 +11736,19 @@
             "6": 2,
             "7": 1
         },
-        "value": "9"
+        "value": "17"
+    },
+    "Sangwook Kim": {
+        "age": 32,
+        "id": 3995,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Santiago Ponzinibbio": {
         "age": 39,
@@ -10590,7 +11760,7 @@
             "6": 3,
             "7": 2
         },
-        "value": "25"
+        "value": "29"
     },
     "Sara McMann": {
         "age": 45,
@@ -10602,7 +11772,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "6"
+        "value": "10"
     },
     "Sarah Kaufman": {
         "age": 40,
@@ -10614,7 +11784,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "5"
+        "value": "12"
+    },
+    "Saygid Izagakhmaev": {
+        "age": 31,
+        "id": 4267,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Scott Holtzman": {
         "age": 42,
@@ -10626,7 +11808,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Scott Jorgensen": {
         "age": 43,
@@ -10638,7 +11820,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "16"
+        "value": "25"
     },
     "Sean Brady": {
         "age": 33,
@@ -10650,11 +11832,22 @@
             "6": 2,
             "7": 2
         },
-        "value": "57"
+        "value": "73"
     },
     "Sean O'Connell": {
         "age": 42,
         "id": 2205,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
+    "Sean O'Haire": {
+        "id": 803,
         "pass_distribution": {
             "3": 0,
             "4": 0,
@@ -10674,7 +11867,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "4051"
+        "value": "4252"
     },
     "Sean Sharaf": {
         "age": 32,
@@ -10686,7 +11879,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Sean Sherk": {
         "age": 52,
@@ -10698,7 +11891,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "5"
     },
     "Sean Spencer": {
         "age": 38,
@@ -10722,7 +11915,7 @@
             "6": 9,
             "7": 8
         },
-        "value": "815"
+        "value": "901"
     },
     "Sean Woodson": {
         "age": 33,
@@ -10734,31 +11927,30 @@
             "6": 0,
             "7": 1
         },
-        "value": "17"
+        "value": "24"
     },
-    "Sedriques Dumas": {
-        "age": 30,
-        "id": 3867,
+    "Seo Hee Ham": {
+        "id": 2372,
         "pass_distribution": {
-            "3": 3,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "1"
     },
-    "Seo Hee Ham": {
-        "age": 38,
-        "id": 2372,
+    "Seokhyeon Ko": {
+        "age": 32,
+        "id": 4239,
         "pass_distribution": {
             "3": 0,
-            "4": 1,
+            "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "10"
     },
     "SeongChan Hong": {
         "age": 36,
@@ -10782,19 +11974,19 @@
             "6": 1,
             "7": 2
         },
-        "value": "11"
+        "value": "14"
     },
-    "Serghei Spivac": {
-        "age": 31,
-        "id": 3285,
+    "Sergei Pavlovich": {
+        "age": 33,
+        "id": 3212,
         "pass_distribution": {
             "3": 1,
             "4": 0,
-            "5": 0,
+            "5": 1,
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "22"
     },
     "Sergio Pettis": {
         "age": 32,
@@ -10806,7 +11998,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "3"
+        "value": "11"
     },
     "Serhiy Sidey": {
         "age": 29,
@@ -10818,7 +12010,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "SeungWoo Choi": {
         "age": 33,
@@ -10842,7 +12034,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "19"
+        "value": "25"
     },
     "Shane Burgos": {
         "age": 34,
@@ -10854,7 +12046,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "5"
     },
     "Shane Roller": {
         "age": 46,
@@ -10868,8 +12060,18 @@
         },
         "value": "1"
     },
+    "Shane Young": {
+        "id": 3028,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Shang Zhifa": {
-        "age": 39,
         "id": 3711,
         "pass_distribution": {
             "3": 0,
@@ -10881,7 +12083,6 @@
         "value": "1"
     },
     "Shannon Ritch": {
-        "age": 55,
         "id": 819,
         "pass_distribution": {
             "3": 0,
@@ -10893,7 +12094,6 @@
         "value": "1"
     },
     "Shannon Ross": {
-        "age": 36,
         "id": 3868,
         "pass_distribution": {
             "3": 0,
@@ -10914,7 +12114,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "182"
+        "value": "196"
     },
     "Shauna Bannon": {
         "age": 32,
@@ -10926,7 +12126,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "8"
     },
     "Shavkat Rakhmonov": {
         "age": 31,
@@ -10938,7 +12138,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "428"
+        "value": "467"
     },
     "Shawn Jordan": {
         "age": 41,
@@ -10953,7 +12153,6 @@
         "value": "9"
     },
     "Shayilan Nuerdanbieke": {
-        "age": 31,
         "id": 3645,
         "pass_distribution": {
             "3": 0,
@@ -10976,6 +12175,18 @@
         },
         "value": "2"
     },
+    "Shem Rock": {
+        "age": 32,
+        "id": 4423,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
+    },
     "Shi Ming": {
         "age": 31,
         "id": 4176,
@@ -10986,7 +12197,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "13"
+        "value": "18"
     },
     "Shinya Aoki": {
         "age": 42,
@@ -10998,7 +12209,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "77"
+        "value": "96"
     },
     "Shohei Nose": {
         "age": 28,
@@ -11058,7 +12269,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "10"
     },
     "Song Kenan": {
         "age": 35,
@@ -11070,7 +12281,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "4"
+        "value": "6"
     },
     "Song Yadong": {
         "age": 28,
@@ -11082,7 +12293,7 @@
             "6": 5,
             "7": 3
         },
-        "value": "100"
+        "value": "123"
     },
     "Spencer Fisher": {
         "age": 49,
@@ -11094,7 +12305,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Stefan Struve": {
         "age": 37,
@@ -11106,7 +12317,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "27"
+        "value": "44"
     },
     "Stephan Bonnar": {
         "age": 48,
@@ -11118,7 +12329,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "4"
+        "value": "8"
     },
     "Stephanie Luciano": {
         "age": 26,
@@ -11130,7 +12341,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "1"
+        "value": "4"
     },
     "Stephen Thompson": {
         "age": 42,
@@ -11142,7 +12353,7 @@
             "6": 6,
             "7": 2
         },
-        "value": "82"
+        "value": "108"
     },
     "Steve Cantwell": {
         "age": 39,
@@ -11166,7 +12377,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "51"
+        "value": "64"
     },
     "Steve Garcia": {
         "age": 33,
@@ -11178,7 +12389,19 @@
             "6": 1,
             "7": 1
         },
-        "value": "14"
+        "value": "19"
+    },
+    "Steven Asplund": {
+        "age": 27,
+        "id": 4480,
+        "pass_distribution": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "22"
     },
     "Steven Koslow": {
         "age": 29,
@@ -11202,7 +12425,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Stipe Miocic": {
         "age": 43,
@@ -11214,7 +12437,7 @@
             "6": 9,
             "7": 4
         },
-        "value": "124"
+        "value": "157"
     },
     "SuYoung You": {
         "age": 30,
@@ -11226,7 +12449,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "5"
     },
     "Sumudaerji": {
         "age": 30,
@@ -11238,7 +12461,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Syuri Kondo": {
         "age": 36,
@@ -11250,19 +12473,19 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "TJ Dillashaw": {
         "age": 39,
         "id": 1905,
         "pass_distribution": {
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0
+            "3": 13,
+            "4": 16,
+            "5": 16,
+            "6": 4,
+            "7": 3
         },
-        "value": "98"
+        "value": "132"
     },
     "TJ Grant": {
         "age": 41,
@@ -11286,7 +12509,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "21"
+        "value": "32"
     },
     "Tae Hyun Bang": {
         "age": 42,
@@ -11310,7 +12533,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "12"
     },
     "Tai Tuivasa": {
         "age": 32,
@@ -11322,7 +12545,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "35"
+        "value": "38"
+    },
+    "Taiyilake Nueraji": {
+        "age": 25,
+        "id": 4001,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 0
+        },
+        "value": "6"
     },
     "Takanori Gomi": {
         "age": 47,
@@ -11334,7 +12569,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "62"
+        "value": "79"
     },
     "Takeya Mizugaki": {
         "age": 42,
@@ -11346,7 +12581,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "9"
+        "value": "18"
     },
     "Talita Alencar": {
         "age": 35,
@@ -11358,7 +12593,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Tallison Teixeira": {
         "age": 26,
@@ -11370,7 +12605,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "39"
+        "value": "42"
     },
     "Tanner Boser": {
         "age": 34,
@@ -11382,7 +12617,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Tarec Saffiedine": {
         "age": 39,
@@ -11394,7 +12629,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "6"
+        "value": "13"
     },
     "Tatiana Suarez": {
         "age": 35,
@@ -11406,7 +12641,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "20"
+        "value": "29"
     },
     "Tatsuro Taira": {
         "age": 25,
@@ -11418,7 +12653,7 @@
             "6": 2,
             "7": 0
         },
-        "value": "150"
+        "value": "224"
     },
     "Tatsuya Kawajiri": {
         "age": 47,
@@ -11430,7 +12665,7 @@
             "6": 3,
             "7": 3
         },
-        "value": "55"
+        "value": "75"
     },
     "Taylor Lapilus": {
         "age": 33,
@@ -11454,7 +12689,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "11"
+        "value": "16"
+    },
+    "Teemu Packalen": {
+        "age": 38,
+        "id": 2604,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Teila Tuli": {
         "age": 56,
@@ -11466,7 +12713,18 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "12"
+    },
+    "Tereza Bleda": {
+        "id": 3870,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Terrance McKinney": {
         "age": 31,
@@ -11478,10 +12736,9 @@
             "6": 2,
             "7": 0
         },
-        "value": "39"
+        "value": "69"
     },
     "Terry Martin": {
-        "age": 45,
         "id": 418,
         "pass_distribution": {
             "3": 0,
@@ -11502,7 +12759,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "14"
+        "value": "25"
     },
     "Themba Gorimbo": {
         "age": 35,
@@ -11512,9 +12769,9 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
-        "value": "3"
+        "value": "4"
     },
     "Thiago Alves": {
         "age": 42,
@@ -11526,7 +12783,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "66"
+        "value": "92"
     },
     "Thiago Moises": {
         "age": 30,
@@ -11538,7 +12795,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "9"
     },
     "Thiago Santos": {
         "age": 42,
@@ -11550,7 +12807,7 @@
             "6": 6,
             "7": 3
         },
-        "value": "117"
+        "value": "134"
     },
     "Thiago Silva": {
         "age": 43,
@@ -11562,7 +12819,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "13"
+        "value": "18"
     },
     "Thiago Tavares": {
         "age": 41,
@@ -11574,7 +12831,19 @@
             "6": 0,
             "7": 1
         },
-        "value": "8"
+        "value": "9"
+    },
+    "Thomas Almeida": {
+        "age": 34,
+        "id": 2325,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Thomas Petersen": {
         "age": 30,
@@ -11582,11 +12851,11 @@
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Tim Boetsch": {
         "age": 45,
@@ -11598,7 +12867,7 @@
             "6": 2,
             "7": 2
         },
-        "value": "24"
+        "value": "37"
     },
     "Tim Elliott": {
         "age": 39,
@@ -11610,7 +12879,7 @@
             "6": 0,
             "7": 2
         },
-        "value": "19"
+        "value": "35"
     },
     "Tim Kennedy": {
         "age": 46,
@@ -11622,7 +12891,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "10"
+        "value": "12"
     },
     "Tim Means": {
         "age": 41,
@@ -11634,7 +12903,7 @@
             "6": 10,
             "7": 2
         },
-        "value": "105"
+        "value": "141"
     },
     "Tim Sylvia": {
         "age": 49,
@@ -11646,10 +12915,21 @@
             "6": 2,
             "7": 0
         },
-        "value": "13"
+        "value": "21"
+    },
+    "Timothy Cuamba": {
+        "age": 26,
+        "id": 4070,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Tito Jones": {
-        "age": 44,
         "id": 1376,
         "pass_distribution": {
             "3": 0,
@@ -11670,7 +12950,19 @@
             "6": 6,
             "7": 0
         },
-        "value": "79"
+        "value": "112"
+    },
+    "Todd Duffee": {
+        "age": 40,
+        "id": 970,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Tofiq Musayev": {
         "age": 36,
@@ -11694,7 +12986,7 @@
             "6": 2,
             "7": 1
         },
-        "value": "418"
+        "value": "604"
     },
     "Tom Egan": {
         "id": 636,
@@ -11707,18 +12999,6 @@
         },
         "value": "1"
     },
-    "Tom Nolan": {
-        "age": 25,
-        "id": 4024,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 0,
-            "6": 0,
-            "7": 0
-        },
-        "value": "10"
-    },
     "Tony Ferguson": {
         "age": 41,
         "id": 1815,
@@ -11729,7 +13009,7 @@
             "6": 7,
             "7": 4
         },
-        "value": "138"
+        "value": "163"
     },
     "Tony Gravely": {
         "age": 34,
@@ -11741,7 +13021,42 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
+    },
+    "Tony Halme": {
+        "age": 63,
+        "id": 25,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Torrez Finney": {
+        "age": 27,
+        "id": 4141,
+        "pass_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 0,
+            "7": 0
+        },
+        "value": "17"
+    },
+    "Toshiomi Kazama": {
+        "id": 3794,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
     },
     "Tracy Cortez": {
         "age": 32,
@@ -11753,7 +13068,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "231"
+        "value": "317"
     },
     "Travis Browne": {
         "age": 43,
@@ -11765,7 +13080,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "8"
+        "value": "19"
     },
     "Travis Fulton": {
         "age": 48,
@@ -11791,6 +13106,18 @@
         },
         "value": "3"
     },
+    "Tre'ston Vines": {
+        "age": 29,
+        "id": 4494,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
+    },
     "Trent Jenkins": {
         "id": 83,
         "pass_distribution": {
@@ -11803,7 +13130,6 @@
         "value": "1"
     },
     "Tresean Gore": {
-        "age": 31,
         "id": 3759,
         "pass_distribution": {
             "3": 0,
@@ -11824,7 +13150,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Trevor Peek": {
         "age": 31,
@@ -11836,7 +13162,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Trevor Smith": {
         "age": 45,
@@ -11848,15 +13174,14 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Trey Ogden": {
-        "age": 36,
         "id": 3782,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -11874,8 +13199,18 @@
         },
         "value": "1"
     },
+    "Troy Mandaloniz": {
+        "id": 429,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
     "Tucker Lutz": {
-        "age": 31,
         "id": 3521,
         "pass_distribution": {
             "3": 0,
@@ -11887,7 +13222,6 @@
         "value": "1"
     },
     "Ty Flores": {
-        "age": 32,
         "id": 3488,
         "pass_distribution": {
             "3": 0,
@@ -11904,11 +13238,11 @@
         "pass_distribution": {
             "3": 7,
             "4": 16,
-            "5": 18,
+            "5": 17,
             "6": 4,
             "7": 1
         },
-        "value": "90"
+        "value": "125"
     },
     "Tyson Griffin": {
         "age": 41,
@@ -11920,7 +13254,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "Tyson Pedro": {
         "age": 34,
@@ -11944,7 +13278,19 @@
             "6": 1,
             "7": 2
         },
-        "value": "146"
+        "value": "184"
+    },
+    "Uran Satybaldiev": {
+        "age": 31,
+        "id": 4211,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 0
+        },
+        "value": "3"
     },
     "Uriah Hall": {
         "age": 41,
@@ -11956,7 +13302,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "15"
+        "value": "27"
     },
     "Urijah Faber": {
         "age": 46,
@@ -11968,22 +13314,9 @@
             "6": 10,
             "7": 7
         },
-        "value": "193"
-    },
-    "Uros Medic": {
-        "age": 32,
-        "id": 3486,
-        "pass_distribution": {
-            "3": 0,
-            "4": 1,
-            "5": 1,
-            "6": 0,
-            "7": 0
-        },
-        "value": "2"
+        "value": "248"
     },
     "Valentijn Overeem": {
-        "age": 49,
         "id": 809,
         "pass_distribution": {
             "3": 0,
@@ -11998,13 +13331,25 @@
         "age": 37,
         "id": 2731,
         "pass_distribution": {
-            "3": 25,
-            "4": 26,
+            "3": 24,
+            "4": 27,
             "5": 30,
             "6": 5,
             "7": 1
         },
-        "value": "150"
+        "value": "204"
+    },
+    "Valter Walker": {
+        "age": 28,
+        "id": 4093,
+        "pass_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 2,
+            "7": 0
+        },
+        "value": "19"
     },
     "Vanessa Demopoulos": {
         "age": 37,
@@ -12016,7 +13361,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Veronica Hardy": {
         "age": 30,
@@ -12028,7 +13373,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "7"
+        "value": "12"
     },
     "Viacheslav Borshchev": {
         "age": 34,
@@ -12052,7 +13397,7 @@
             "6": 6,
             "7": 4
         },
-        "value": "65"
+        "value": "94"
     },
     "Victor Henry": {
         "age": 38,
@@ -12064,7 +13409,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Viktoriia Dudakova": {
         "age": 26,
@@ -12088,7 +13433,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Vinicius Oliveira": {
         "age": 30,
@@ -12100,17 +13445,16 @@
             "6": 0,
             "7": 1
         },
-        "value": "43"
+        "value": "51"
     },
     "Vinicius Salvador": {
-        "age": 29,
         "id": 3654,
         "pass_distribution": {
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1
+            "7": 0
         },
         "value": "1"
     },
@@ -12124,7 +13468,7 @@
             "6": 1,
             "7": 1
         },
-        "value": "13"
+        "value": "21"
     },
     "Vitor Belfort": {
         "age": 48,
@@ -12136,7 +13480,7 @@
             "6": 9,
             "7": 0
         },
-        "value": "236"
+        "value": "282"
     },
     "Vitor Petrino": {
         "age": 28,
@@ -12148,7 +13492,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "12"
+        "value": "15"
     },
     "Viviane Araujo": {
         "age": 39,
@@ -12160,7 +13504,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "3"
     },
     "Viviane Pereira": {
         "age": 32,
@@ -12184,6 +13528,29 @@
             "6": 0,
             "7": 0
         },
+        "value": "2"
+    },
+    "Volkan Oezdemir": {
+        "age": 36,
+        "id": 2863,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 2,
+            "6": 0,
+            "7": 1
+        },
+        "value": "14"
+    },
+    "Wagner da Conceicao Martins": {
+        "id": 775,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
         "value": "1"
     },
     "Waldo Cortes-Acosta": {
@@ -12196,7 +13563,7 @@
             "6": 2,
             "7": 3
         },
-        "value": "12"
+        "value": "41"
     },
     "Walt Harris": {
         "age": 42,
@@ -12208,7 +13575,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "3"
+        "value": "7"
     },
     "Wanderlei Silva": {
         "age": 49,
@@ -12220,7 +13587,7 @@
             "6": 10,
             "7": 4
         },
-        "value": "381"
+        "value": "447"
     },
     "Wang Cong": {
         "age": 33,
@@ -12232,7 +13599,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "10"
+        "value": "11"
     },
     "War Machine": {
         "age": 44,
@@ -12244,15 +13611,26 @@
             "6": 0,
             "7": 0
         },
-        "value": "7"
+        "value": "8"
     },
     "Warlley Alves": {
-        "age": 35,
         "id": 2247,
         "pass_distribution": {
             "3": 0,
             "4": 0,
-            "5": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "1"
+    },
+    "Wes Combs": {
+        "age": 52,
+        "id": 194,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -12280,7 +13658,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "4"
+        "value": "7"
     },
     "William Knight": {
         "age": 37,
@@ -12304,7 +13682,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Wu Yanan": {
         "age": 29,
@@ -12316,10 +13694,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "1"
+        "value": "2"
     },
     "Wulijiburen": {
-        "age": 36,
         "id": 3027,
         "pass_distribution": {
             "3": 0,
@@ -12352,7 +13729,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "2"
+        "value": "5"
     },
     "Yair Rodriguez": {
         "age": 33,
@@ -12364,7 +13741,7 @@
             "6": 7,
             "7": 3
         },
-        "value": "54"
+        "value": "70"
     },
     "Yan Xiaonan": {
         "age": 36,
@@ -12376,10 +13753,9 @@
             "6": 2,
             "7": 1
         },
-        "value": "15"
+        "value": "22"
     },
     "Yana Santos": {
-        "age": 36,
         "id": 3053,
         "pass_distribution": {
             "3": 0,
@@ -12412,7 +13788,7 @@
             "6": 0,
             "7": 1
         },
-        "value": "2"
+        "value": "10"
     },
     "Yazmin Jauregui": {
         "age": 26,
@@ -12423,18 +13799,6 @@
             "5": 0,
             "6": 1,
             "7": 0
-        },
-        "value": "3"
-    },
-    "Yizha": {
-        "age": 29,
-        "id": 3797,
-        "pass_distribution": {
-            "3": 0,
-            "4": 2,
-            "5": 0,
-            "6": 1,
-            "7": 1
         },
         "value": "5"
     },
@@ -12448,10 +13812,9 @@
             "6": 2,
             "7": 0
         },
-        "value": "36"
+        "value": "45"
     },
     "Yohan Lainesse": {
-        "age": 33,
         "id": 3738,
         "pass_distribution": {
             "3": 0,
@@ -12472,7 +13835,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "15"
+        "value": "25"
     },
     "Yoshihiro Takayama": {
         "age": 57,
@@ -12487,7 +13850,6 @@
         "value": "3"
     },
     "Yosuke Nishijima": {
-        "age": 52,
         "id": 796,
         "pass_distribution": {
             "3": 0,
@@ -12497,6 +13859,18 @@
             "7": 0
         },
         "value": "1"
+    },
+    "Yousri Belgaroui": {
+        "age": 38,
+        "id": 4112,
+        "pass_distribution": {
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Youssef Zalal": {
         "age": 29,
@@ -12508,7 +13882,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "9"
+        "value": "20"
     },
     "Yuki Kondo": {
         "age": 50,
@@ -12523,7 +13897,6 @@
         "value": "2"
     },
     "Yuma Horiuchi": {
-        "age": 28,
         "id": 3813,
         "pass_distribution": {
             "3": 0,
@@ -12568,7 +13941,7 @@
             "6": 4,
             "7": 1
         },
-        "value": "43"
+        "value": "62"
     },
     "Yuta Sasaki": {
         "age": 36,
@@ -12592,7 +13965,7 @@
             "6": 5,
             "7": 2
         },
-        "value": "48"
+        "value": "74"
     },
     "Zabit Magomedsharipov": {
         "age": 34,
@@ -12604,7 +13977,19 @@
             "6": 2,
             "7": 1
         },
-        "value": "15"
+        "value": "18"
+    },
+    "Zach Makovsky": {
+        "age": 42,
+        "id": 2152,
+        "pass_distribution": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+        },
+        "value": "2"
     },
     "Zach Reese": {
         "age": 31,
@@ -12616,10 +14001,9 @@
             "6": 0,
             "7": 0
         },
-        "value": "5"
+        "value": "6"
     },
     "Zachary Scroggin": {
-        "age": 29,
         "id": 4310,
         "pass_distribution": {
             "3": 0,
@@ -12640,7 +14024,7 @@
             "6": 0,
             "7": 0
         },
-        "value": "6"
+        "value": "11"
     },
     "Zane Frazier": {
         "id": 64,
@@ -12651,7 +14035,7 @@
             "6": 1,
             "7": 0
         },
-        "value": "2"
+        "value": "3"
     },
     "Zhang Mingyang": {
         "age": 27,
@@ -12663,19 +14047,19 @@
             "6": 0,
             "7": 0
         },
-        "value": "40"
+        "value": "59"
     },
     "Zhang Weili": {
         "age": 36,
         "id": 3099,
         "pass_distribution": {
-            "3": 0,
-            "4": 5,
+            "3": 5,
+            "4": 14,
             "5": 20,
             "6": 3,
             "7": 0
         },
-        "value": "156"
+        "value": "191"
     },
     "Zubaira Tukhugov": {
         "age": 35,

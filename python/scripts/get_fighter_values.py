@@ -187,31 +187,41 @@ async def main():
     batch_size = 5
     
     async with aiohttp.ClientSession() as session:
-        # First get all fighters and their IDs if we don't have them
-        if not all_fighters:
-            current_before = start_before
-            
-            with tqdm(total=max_before) as pbar:
-                while current_before <= max_before:
-                    fighters_dict, should_continue = await process_batch(session, current_before, batch_size)
-                    all_fighters.update(fighters_dict)
-                    
-                    if not should_continue:
-                        print("\nNo more data found, stopping...")
-                        break
-                    
-                    current_before += batch_size * 20
-                    pbar.update(batch_size * 20)
-                    await asyncio.sleep(0.2)  # Reduced delay
-            
-            # Save progress after getting all fighters
-            save_progress(all_fighters)
+        # Always refresh fighter values from API (values change over time)
+        print("\nFetching current fighter values from API...")
+        current_before = start_before
+        fresh_values = {}
         
-        # Now get pass distribution for each fighter
+        with tqdm(total=max_before) as pbar:
+            while current_before <= max_before:
+                fighters_dict, should_continue = await process_batch(session, current_before, batch_size)
+                fresh_values.update(fighters_dict)
+                
+                if not should_continue:
+                    print("\nNo more data found, stopping...")
+                    break
+                
+                current_before += batch_size * 20
+                pbar.update(batch_size * 20)
+                await asyncio.sleep(0.2)  # Reduced delay
+        
+        # Update all fighters with fresh values, preserving existing pass_distribution and age
+        for name, fresh_data in fresh_values.items():
+            if name in all_fighters:
+                # Update value and id, but preserve pass_distribution and age if they exist
+                all_fighters[name]['value'] = fresh_data['value']
+                all_fighters[name]['id'] = fresh_data['id']
+            else:
+                # New fighter, add them
+                all_fighters[name] = fresh_data
+        
+        # Save progress after updating values
+        save_progress(all_fighters)
+        
+        # Now get pass distribution for each fighter (refresh all, not just missing ones)
         print("\nGetting pass distribution for each fighter...")
         batch_size = 10  # Increased batch size
-        fighters_items = [(name, data) for name, data in all_fighters.items() 
-                         if 'pass_distribution' not in data]  # Only process fighters without pass distribution
+        fighters_items = list(all_fighters.items())  # Process all fighters to refresh pass distribution
         
         with tqdm(total=len(fighters_items)) as pbar:
             for i in range(0, len(fighters_items), batch_size):

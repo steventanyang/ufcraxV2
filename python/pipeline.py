@@ -6,8 +6,8 @@
 # process_matches.py
 # aggregate_values.py
 # get_fighter_values.py # we need to get api key from real 
-
-# load files into root data folder and then run index.ts in our fe
+# if distribution is off, run update_pass_distribution.py this has better error handling, only for pass distributions though
+# run npx ts-node src/index.ts in our fe
 
 import subprocess
 import os

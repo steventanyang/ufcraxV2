@@ -4,13 +4,49 @@ import { useState } from "react";
 import FighterCalendar from "./FighterCalendar";
 
 const multipliers = [
-  { value: 1.2, color: "text-blue-400" },
-  { value: 1.4, color: "text-green-400" },
-  { value: 1.6, color: "text-orange-400" },
-  { value: 2.0, color: "text-red-400" },
-  { value: 2.5, color: "text-purple-400" },
-  { value: 4.0, color: "text-yellow-400" },
-  { value: 6.0, color: "text-pink-400" },
+  // Single tier rarities
+  { value: 1.2, label: "Common", color: "text-blue-400" },
+  { value: 1.4, label: "Uncommon", color: "text-green-400" },
+  { value: 1.6, label: "Rare", color: "text-orange-400" },
+  { value: 2.0, label: "Epic", color: "text-red-400" },
+  // Legendary: 5 tiers, base 5.0x, +0.4x per tier
+  { value: 5.0, label: "Leg 1", color: "text-purple-400" },
+  { value: 5.4, label: "Leg 2", color: "text-purple-400" },
+  { value: 5.8, label: "Leg 3", color: "text-purple-400" },
+  { value: 6.2, label: "Leg 4", color: "text-purple-400" },
+  { value: 6.6, label: "Leg 5", color: "text-purple-400" },
+  // Mystic: 10 tiers, base 10.0x, +0.2x per tier
+  { value: 10.0, label: "Mystic 1", color: "text-yellow-400" },
+  { value: 10.2, label: "Mystic 2", color: "text-yellow-400" },
+  { value: 10.4, label: "Mystic 3", color: "text-yellow-400" },
+  { value: 10.6, label: "Mystic 4", color: "text-yellow-400" },
+  { value: 10.8, label: "Mystic 5", color: "text-yellow-400" },
+  { value: 11.0, label: "Mystic 6", color: "text-yellow-400" },
+  { value: 11.2, label: "Mystic 7", color: "text-yellow-400" },
+  { value: 11.4, label: "Mystic 8", color: "text-yellow-400" },
+  { value: 11.6, label: "Mystic 9", color: "text-yellow-400" },
+  { value: 11.8, label: "Mystic 10", color: "text-yellow-400" },
+  // Iconic: 20 tiers, base 20.0x, +0.3x per tier
+  { value: 20.0, label: "Iconic 1", color: "text-pink-400" },
+  { value: 20.3, label: "Iconic 2", color: "text-pink-400" },
+  { value: 20.6, label: "Iconic 3", color: "text-pink-400" },
+  { value: 20.9, label: "Iconic 4", color: "text-pink-400" },
+  { value: 21.2, label: "Iconic 5", color: "text-pink-400" },
+  { value: 21.5, label: "Iconic 6", color: "text-pink-400" },
+  { value: 21.8, label: "Iconic 7", color: "text-pink-400" },
+  { value: 22.1, label: "Iconic 8", color: "text-pink-400" },
+  { value: 22.4, label: "Iconic 9", color: "text-pink-400" },
+  { value: 22.7, label: "Iconic 10", color: "text-pink-400" },
+  { value: 23.0, label: "Iconic 11", color: "text-pink-400" },
+  { value: 23.3, label: "Iconic 12", color: "text-pink-400" },
+  { value: 23.6, label: "Iconic 13", color: "text-pink-400" },
+  { value: 23.9, label: "Iconic 14", color: "text-pink-400" },
+  { value: 24.2, label: "Iconic 15", color: "text-pink-400" },
+  { value: 24.5, label: "Iconic 16", color: "text-pink-400" },
+  { value: 24.8, label: "Iconic 17", color: "text-pink-400" },
+  { value: 25.1, label: "Iconic 18", color: "text-pink-400" },
+  { value: 25.4, label: "Iconic 19", color: "text-pink-400" },
+  { value: 25.7, label: "Iconic 20", color: "text-pink-400" },
 ];
 
 type FighterModalProps = {
@@ -109,7 +145,7 @@ export default function FighterModal({
                 >
                   {multipliers.map((m) => (
                     <option key={m.value} value={m.value}>
-                      {m.value}x
+                      {m.label}
                     </option>
                   ))}
                 </select>
